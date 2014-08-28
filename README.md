@@ -26,11 +26,12 @@ Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][
 
 ##Links##
 
+* [__Original Heralds of Ruin Kill Team page__][]
 * [BattleScribe homepage][]
 * [BattleScribe Data on Appspot][]
 * [Getting Started wiki][]
 
-
+[__Original Heralds of Ruin Kill Team page__]: http://heralds-of-ruin.blogspot.com/p/kill-team-rules.html
 [BattleScribe homepage]: http://www.battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/bsdata/wiki/Home#getting-started
