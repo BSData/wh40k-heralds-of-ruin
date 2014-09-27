@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<dataIndex battleScribeVersion="1.14b" name="Kill Team HOR" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+<dataIndex battleScribeVersion="1.14b" name="Kill Team HOR" indexUrl="https://github.com/Chronoid/wh40k-heralds-of-ruin-killteam/blob/master/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <repositoryUrls/>
   <dataIndexEntries>
     <dataIndexEntry filePath="Warhammer_40,000_Kill_team.gstz" dataType="gamesystem" dataId="08dde4af-b689-8a94-de69-4b8986544677" dataName="Warhammer 40k Kill team (Heralds of Ruin version)" dataBattleScribeVersion="1.14b" dataRevision="32"/>
