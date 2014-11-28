@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9f28ea6c-6846-8317-4700-ab1ab360a3cb" revision="3" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="23" battleScribeVersion="1.14b" name="Adepta Sororitas" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="9f28ea6c-6846-8317-4700-ab1ab360a3cb" revision="3" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="23" battleScribeVersion="1.15" name="Adepta Sororitas">
   <entries>
     <entry id="328b5938-be15-536d-1130-ec298c3b68c2" name="Battle Sister" points="12.0" categoryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="1" maxInRoster="25" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List - Adepta Sororitas v2.0 (pdf)" page="3">
       <entries>
