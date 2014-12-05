@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="ee55996d-ef47-1409-40a1-09bb8a55733a" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Orks: HoRT" books="Kill Team List: Orks v3.0" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries/>
+  <rules/>
+  <links>
+    <link id="b87924c9-5b6c-038b-1c4f-a2dc21cf57b4" targetId="555d9753-3888-e278-1eae-a4c0f8f3872b" linkType="entry" categoryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+      <modifiers/>
+    </link>
+  </links>
+  <sharedEntries>
+    <entry id="555d9753-3888-e278-1eae-a4c0f8f3872b" name="Boss Nob" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="1">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="a3ae4e2c-6d10-ffc8-8b3e-1d3b7cbcf857" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Boss Nob" hidden="false" book="Kill Team List: Orks v3.0" page="1">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry (Character)"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="2"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="3"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="3"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="7"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="464f34d8-6b46-22c9-b584-a3a9ce9dbc4f" targetId="54833953-3ac0-2aa7-a5eb-93427dee7016" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e6cafcb4-b91d-5e2b-937d-03c7063d5107" targetId="88a99ad5-2d90-685e-7ac2-9b9f09e1a9bc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="31d2cff3-b2c0-b630-3217-d0840e5149c5" targetId="f2bd5070-0ba9-d7aa-1f92-63c3220aae52" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b7e2e04d-3483-9552-f4dc-ae81511816cc" targetId="b073db63-1925-55a1-88e2-bc1cfd4f6c5d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a7d83b50-a491-1725-10b1-014d7c100fb6" targetId="a67e89cf-c290-9811-371c-51f247d2d380" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c3e38c2f-95d2-8461-3200-6dda6aaabeab" targetId="3ae6906d-8592-09de-e56b-9f36c4139770" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="e26ce15a-467d-de34-c7b5-ee72f0928f02" targetId="29a523b5-6c17-effc-c1ab-86bb5e066e6c" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="39c2e780-f759-c13b-7b5c-aaca18f4311b" targetId="cb148158-8386-1473-1876-0adaf4baa6c2" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5415add9-d862-1815-1ca5-8754de0a6796" targetId="cf08391c-53b9-94cb-e052-922ef9fe123d" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a5dd6676-201c-3292-605c-4e84f57cee5e" name="Choppa" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="273e90b7-f280-eb80-28f3-14cc98fd6467" targetId="9e693763-1b34-f93f-c437-2ed864d9065b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3c34ac24-2b77-5714-474c-935e6078440c" name="Slugga" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e4a62a98-1f38-d1a7-c3e8-f26f71602d60" targetId="be3da3d2-a794-ca81-8f0f-9e9725c5c7ca" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b073db63-1925-55a1-88e2-bc1cfd4f6c5d" name="Stikkbomb" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="052a3e7d-4a36-30a6-9223-443deecb9b43" targetId="a0eb51a5-44de-d32b-088a-75786a577b3b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="c9cc0ed9-a414-f1b0-5099-72d4ab585113" targetId="f4612062-c00a-1932-bdbe-f4acbe9ddb63" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups>
+    <entryGroup id="a67e89cf-c290-9811-371c-51f247d2d380" name="Melee Weapons" defaultEntryId="4b20b7da-ec57-c345-a095-c48062fac4fc" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="4b20b7da-ec57-c345-a095-c48062fac4fc" name="Choppa" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f1f592e2-94b1-b516-e14d-e655927d63cf" targetId="9e693763-1b34-f93f-c437-2ed864d9065b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7a242b0d-4e35-d54a-fa59-195a5b704b89" name="Big Choppa" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a023d360-b005-7ed6-35cd-b7a8cb73f72c" targetId="7b1e11fe-6692-4f99-09ff-52bc7305de18" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a6610271-1228-8b15-c9a3-239f4ce84580" name="Power klaw" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c4cc9465-dec4-a5e1-5c72-9f32af423424" targetId="f62cc11c-095b-e642-477e-a88fedf50d1b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="3ae6906d-8592-09de-e56b-9f36c4139770" name="Ranged Weapons" defaultEntryId="ecad557b-aceb-7eeb-eb6d-6fee44d14d4d" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ecad557b-aceb-7eeb-eb6d-6fee44d14d4d" name="Slugga" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="19b0e5a5-92b6-ae93-992e-1848ba0bebc6" targetId="be3da3d2-a794-ca81-8f0f-9e9725c5c7ca" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e0ad988d-fe8d-1cfb-df43-c819e4ecbff1" name="Shoota" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="0b294dec-fecd-af9f-7f9f-c5a75764637c" targetId="4e3d9f68-9c2f-470a-e601-e3131ff08b90" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="2d001e07-1661-e015-fd5b-28b0fb23b37c" name="Twin-linked shoota" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c9d26401-1d52-466d-0e70-274b0ff2a00a" targetId="cf7ba33f-2db6-dc80-99da-50bd8463ca59" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6d6d2905-e7f4-464c-d128-69fcad37074e" name="Kombi-weapon with rokkit launcha" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="54facdfc-39b6-9370-08a9-fbaf4bd89f4a" targetId="4ccd0d9c-dc41-613c-da14-4cce82b9260d" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="4e098c66-12b8-2a41-d940-00afc5b2011f" targetId="78674f71-667c-38fb-650f-600d474f2b33" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="bc3e9470-6b70-012e-17eb-ab772b6cd301" targetId="4e3d9f68-9c2f-470a-e601-e3131ff08b90" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="23401afc-405d-0be5-cf07-44adb7ec5915" name="Kombi-weapon with skorcha" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9db6e105-5ec1-6b59-345c-cc4d66a74aca" targetId="ffa11e04-caaf-d173-dc4f-3d87c2f1c225" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="f3832891-2b09-5e49-bef5-8b129e7396cd" targetId="4ccd0d9c-dc41-613c-da14-4cce82b9260d" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="74ff0c8a-978f-f62e-2b67-c26fe30a041a" targetId="4e3d9f68-9c2f-470a-e601-e3131ff08b90" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="cf08391c-53b9-94cb-e052-922ef9fe123d" name="Orks Armoury" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="d6cbd9d9-a39b-0403-5afd-aa95704c32c0" name="Tool Kit" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5fed1b6a-d302-30b1-bbbf-27d6d07b1e34" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Tool Kit" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="During their shooting phase, a model with a Tool Kit may try and repair a single friendly vehicle they are touching or are embarked upon instead of making a shooting attack. Roll a D6. On a 6 you may either restore a Hull Point or repair an Immobilised result suffered earlier in the battle, this is effective immediately."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="327c6682-11c8-9337-898d-a67aba03cd63" name="Waaagh! Banner" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="74920bee-9f96-514b-4f4f-678e3cee9b54" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Waaagh! Banner" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A warband’s banner is decorated with glyphs and trophies to show how dangerous the owner is. Once per game, the bearer may ‘reveal’ the banner. During the turn it was revealed, any friendly Ork model within 12” of the banner will gain +1 to their Weapon Skill and Attacks."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="cc24b790-e333-4739-b53b-2fbc02d1fe84" name="More Powa!" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c6156fcf-456b-274f-ef94-92a07c7ce3e3" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="More Powa!" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Choose a single ranged weapon the model has to be overcharged. This gains +1 Strength and the Gets Hot rule. Weapons that already have the Gets Hot rule may be overcharged but will Get Hot on a To Hit roll of a 1 or 2 instead of just a 1."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="acfeced5-c046-a620-aca4-f8203ad453c9" name="Thundbomb" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f32b4e5b-032d-bb20-cc98-ade41cfbe167" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Thundbomb" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Thudbombs count as a Krak Grenade. A model may take more than one Thudbomb, in contradiction with the Kill Team armoury rules."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="529d631f-2950-872f-0bdd-99009539189d" name="‘Uge Choppa" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2c0898f9-1b57-21f8-490e-d8b93dad4b32" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="‘Uge Choppa" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Must replace a choppa.
+In the phase a model charges, it gains +1 Strength."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="eddf2091-f550-cf41-4f57-eb7035bd5e72" name="Buzzer Squig Stikkbomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="9c9d630c-a69b-a166-0230-7f78e8a042bc" name="Buzzing" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+              <description>Any model that is hit by this weapon must immediately take a pinning test with a -2 modifier.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="8c5f7fc3-09e4-5d18-4e64-26b7014d7a2e" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Buzzer Squig Stikkbomb" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="8&quot;"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="2"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, One Shot, Blast, Buzzing"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="2e634915-4fa6-0784-b55e-5481284a5a4d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Buzzer Squig Stikkbomb" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="These are made of clay and hold a whole swarm of ferocious Buzzer Squigs. A Buzzer Squig Stikkbomb is a grenade."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="29a523b5-6c17-effc-c1ab-86bb5e066e6c" name="Ork Leaders Armoury" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="a1432292-4dfd-2a48-383a-2b804f4e0cce" name="Sniffer Squig" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b21bb9f0-6379-0ba6-401b-315098787343" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Sniffer Squig" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Any enemy models may not set up infiltrators within 24&quot; of a Sniffer Squig model. Also, &apos;hidden&apos; models are automatically revealed if they come within 12&quot; of a Sniffer Squig. The Sniffer Squig model must always be placed within 2” of its owner, but otherwise has no effect on the game."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9c10470f-f067-2c9c-f91f-3ab4a05c5d57" name="Bosspole" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="bb182e5f-5c6b-c3d7-b9a5-752057433abb" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Bosspole" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Rule Amendment: Any Squad/model within the Inspiring Presence radius of the model with the bosspole may re-roll results of 1-3 when rolling for Mob Rule (see pg 1). In addition, a bosspole counts as a ‘banner’ when determining combat results."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="88d31b00-53e8-e1c0-3c8d-e0a7a85b8426" name="Rok Solid" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d29800bb-185c-2684-c4c6-bba9d893e139" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Rok Solid" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model is immune to the effects of the Strikedown and Concussive special rules."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8467d419-2a59-2570-430d-9bb79c9bc503" name="Trophy Rak" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f9ad19ce-ffa9-a78f-9f22-8a6c32f31f9c" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Trophy Rak" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model gains the Fear special rule."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="b752df02-5a8f-b789-4bff-0247bf23edc8" targetId="bc414c80-2c55-9bb2-2597-4f7412490a01" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="cb148158-8386-1473-1876-0adaf4baa6c2" name="Boss Nobs Armoury" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="13a917f5-772d-5485-5aa9-399f19d9d647" name="Metal Skull" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9537341a-3c60-a096-f488-18507d8bc5c4" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Metal Skull" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Adds +1 to Toughness, and also allows the model to deliver a truly awesome head butt! The Boss Nob may head butt an enemy in base contact instead of making his normal Attacks during the Assault phase: Make a single Attack against the target, if it hits, the target has to pass a Toughness test or suffer a wound with no armour saves allowed."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="8f5c9449-57d7-3f69-3274-6d1fd857d156" name="‘Ard Case" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="13f8ffc6-7074-0216-e598-78ab27489719" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="‘Ard Case" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Boss Nob is a particularly tough nut to crack. Grants the model the Feel No Pain special rule."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="f4adbe23-831c-3ea1-8ad5-31f6f3016701" targetId="c548b06a-77a7-e4f4-d8d1-6223f8392e5b" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="427b9d0f-b3b1-07f2-05e2-0f9d546eda43" name="Spikey Bitz" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="07c39f3d-02ad-3dc8-3df0-d39453ffedd4" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Spikey Bitz" hidden="false" book="Kill Team List: Orks v3.0" page="7">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model’s armour is covered in razors and horns that damage the enemy when he charges into combat. The model gains the Hammer of Wrath special rule."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="81c59762-3e44-3ee9-b04e-6615c6b186a3" targetId="132cab15-0e41-9dc6-9e64-3e6ead612a68" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="bce7de01-da39-c70b-0220-2a272c86876b" name="Meaner an’ Greener" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e60e962e-e997-3e47-b9f7-c07b5cba569a" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Meaner an’ Greener" hidden="false" book="Kill Team List: Orks v3.0" page="8">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Boss Nob is louder and larger than any of ‘dem orva orksies’! Increases the Nob’s inspiration radius from 6” to 12”."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+  </sharedEntryGroups>
+  <sharedRules>
+    <rule id="54833953-3ac0-2aa7-a5eb-93427dee7016" name="Furious Charge" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="f2bd5070-0ba9-d7aa-1f92-63c3220aae52" name="Inspiring Presence" hidden="false" book="HoR: Kill Team Rules v3.1" page="7">
+      <description>Any friendly model within 6&quot; of this model may use its Leadership for all Leadership tests.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b0320b70-c3bf-c41d-8ec5-e4be80f92f9f" name="Mob Rule" hidden="false" book="Kill Team List: Orks v3.0" page="1">
+      <description>If a Squad/model with the Mob Rule special rule fails a Morale check or Pinning test (after any re-rolls), and there is a friendly Ork Team Leader, Nob, Meganob or Flash Git within 6” roll a D6: On a 1-3 the Squad/model fails as normal, on a 4+ the Squad/model suffers a single Strength 4 AP- hit as it is clobbered by ‘da big ‘un’ and is then treated as passing the Morale check or Pinning test.</description>
+      <modifiers/>
+    </rule>
+    <rule id="88a99ad5-2d90-685e-7ac2-9b9f09e1a9bc" name="‘Ere We Go!" hidden="false" book="Codex: Orks">
+      <description>If every model in a unit has this special rule, the unit can re-roll a single dice when
+determining its charge range.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bc414c80-2c55-9bb2-2597-4f7412490a01" name="Fear" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="c548b06a-77a7-e4f4-d8d1-6223f8392e5b" name="Feel No Pain" hidden="false">
+      <description></description>
+      <modifiers/>
+    </rule>
+    <rule id="132cab15-0e41-9dc6-9e64-3e6ead612a68" name="Hammer of Wrath" hidden="false">
+      <description></description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="9e693763-1b34-f93f-c437-2ed864d9065b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Choppa" hidden="false" book="Codex: Orks">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="be3da3d2-a794-ca81-8f0f-9e9725c5c7ca" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Slugga" hidden="false" book="Codex: Orks">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a0eb51a5-44de-d32b-088a-75786a577b3b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Stikkbomb" hidden="false" book="Wh40k: The Rules">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="8&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f4612062-c00a-1932-bdbe-f4acbe9ddb63" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Stikkbomb (melee)" hidden="false" book="Wh40k: The Rules">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Fight at normal Initiative, despite charging through difficult terrain."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7b1e11fe-6692-4f99-09ff-52bc7305de18" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Big Choppa" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Two-handed"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f62cc11c-095b-e642-477e-a88fedf50d1b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power klaw" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Unwieldy, Specialist Weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ffa11e04-caaf-d173-dc4f-3d87c2f1c225" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Skorcha" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4ccd0d9c-dc41-613c-da14-4cce82b9260d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Kombi-weapons" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model armed with a kombi-weapon can choose to fire either the primary shoota or the secondary weapon, which will be either a rokkit launcha or a skorcha. The shoota can be fired every turn, but the secondary weapon can only be fired once per battle. You cannot fire both weapons in the same turn. Each kombi-weapon has only one secondary weapon."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="78674f71-667c-38fb-650f-600d474f2b33" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Rokkit Launcha" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4e3d9f68-9c2f-470a-e601-e3131ff08b90" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Shoota" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="cf7ba33f-2db6-dc80-99da-50bd8463ca59" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked shoota" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2, Twin-linked"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>
