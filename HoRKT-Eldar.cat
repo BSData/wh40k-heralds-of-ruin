@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="940f5055-c82a-ec4a-7729-3c23d640ee93" revision="4" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="23" battleScribeVersion="1.15" name="Eldar Herald of Ruins Kill Team" authorName="Peter Lyberth">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="940f5055-c82a-ec4a-7729-3c23d640ee93" revision="4" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="23" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v3.0a" authorName="Peter Lyberth" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="6b187dc2-332d-36c3-d952-a33e1d9ed231" name="Dark Reaper" points="22.0" categoryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
@@ -425,7 +426,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="ee2b2cfa-5db2-f493-6d10-824ba700e85d" name="Scorpion's Claw and Scorpion Chainsword" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                    <entry id="ee2b2cfa-5db2-f493-6d10-824ba700e85d" name="Scorpion&apos;s Claw and Scorpion Chainsword" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -528,7 +529,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="25669aef-945a-3293-4bb7-11bc80d6d970" name="Dragon's Breath Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                    <entry id="25669aef-945a-3293-4bb7-11bc80d6d970" name="Dragon&apos;s Breath Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -774,7 +775,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="8f9268f7-a501-2b05-51c7-85d1c1a7717e" name="Marksman's Eye" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                    <entry id="8f9268f7-a501-2b05-51c7-85d1c1a7717e" name="Marksman&apos;s Eye" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -841,7 +842,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="c1735d8c-a85b-95aa-4ac6-e8fbcc83b4ce" name="Marksman's Eye" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                    <entry id="c1735d8c-a85b-95aa-4ac6-e8fbcc83b4ce" name="Marksman&apos;s Eye" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -872,7 +873,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="ef8289b9-0c58-e40e-e053-59602f726b0e" name="Hawk's Talon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                    <entry id="ef8289b9-0c58-e40e-e053-59602f726b0e" name="Hawk&apos;s Talon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -925,7 +926,7 @@
                       <profiles/>
                       <links/>
                     </entry>
-                    <entry id="82b96fc5-eef4-ab35-a231-b6b39cb13d95" name="Marksman's Eye" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+                    <entry id="82b96fc5-eef4-ab35-a231-b6b39cb13d95" name="Marksman&apos;s Eye" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>

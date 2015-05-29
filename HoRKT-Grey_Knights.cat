@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="47ba3eb8-f6c0-80f4-0948-7e3808e29bc4" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Grey Knights: HoRT" books="Kill Team List: Grey Knights v3.2b" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="47ba3eb8-f6c0-80f4-0948-7e3808e29bc4" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Grey Knights: HoR" books="Kill Team List: Grey Knights v3.2b" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -2677,6 +2677,13 @@
     <rule id="ea48191f-6117-55d3-9561-b43fe2993ba4" name="Feel No Pain" hidden="false">
       <modifiers/>
     </rule>
+    <rule id="469035ae-8cf4-a6b3-fe9c-162f02839ff6" name="Flamer" hidden="false" book="HoR: Kill Team Rules v3.1" page="5">
+      <description>Flamer weapons may cause their targets to catch on fire even if they survive the initial damage. Any model that is hit by a Flamer weapon must pass an Initiative test or be set on fire! This test must be taken after any Wounds have been resolved. If a model fails the Imitative test it gains a Burning counter. Models may only ever have one Burning counter.
+A model with a Burning counter must take an Initiative test at the start of his turn. If passed, remove the Burning counter. If failed, the fire continues to burn: the model suffers an automatic Strength 3 AP – hit and the counter remains. Any model that starts their turn in base contact with a model with a Burning counter must pass an Initiative test or gain a Burning counter themselves – they may not try and remove the counter during the same phase.
+During the Shooting phase any friendly model within 1” may help a Burning model put out the flames instead of shooting or running. The friendly model rolls a D6: on a 2+ it has succeeded and may remove the Burning counter. If you roll a 1 however, you have aggravated the flames and the helping model gains a Burning counter too!
+A model with the Non-flammable special rule passes all Initiative tests caused by the Flamer rule, and may never gain a Burning counter for any reason.</description>
+      <modifiers/>
+    </rule>
     <rule id="6b23dd39-c3be-4894-535a-8f71d99a371d" name="Force" hidden="false">
       <modifiers/>
     </rule>
@@ -2723,13 +2730,6 @@
       <modifiers/>
     </rule>
     <rule id="96745f27-bfb9-7eb8-f9f3-59d5a9262268" name="The Aegis" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="469035ae-8cf4-a6b3-fe9c-162f02839ff6" name="Flamer" hidden="false" book="HoR: Kill Team Rules v3.1" page="5">
-      <description>Flamer weapons may cause their targets to catch on fire even if they survive the initial damage. Any model that is hit by a Flamer weapon must pass an Initiative test or be set on fire! This test must be taken after any Wounds have been resolved. If a model fails the Imitative test it gains a Burning counter. Models may only ever have one Burning counter.
-A model with a Burning counter must take an Initiative test at the start of his turn. If passed, remove the Burning counter. If failed, the fire continues to burn: the model suffers an automatic Strength 3 AP – hit and the counter remains. Any model that starts their turn in base contact with a model with a Burning counter must pass an Initiative test or gain a Burning counter themselves – they may not try and remove the counter during the same phase.
-During the Shooting phase any friendly model within 1” may help a Burning model put out the flames instead of shooting or running. The friendly model rolls a D6: on a 2+ it has succeeded and may remove the Burning counter. If you roll a 1 however, you have aggravated the flames and the helping model gains a Burning counter too!
-A model with the Non-flammable special rule passes all Initiative tests caused by the Flamer rule, and may never gain a Burning counter for any reason.</description>
       <modifiers/>
     </rule>
   </sharedRules>
