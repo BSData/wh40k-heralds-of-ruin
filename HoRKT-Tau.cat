@@ -89,6 +89,18 @@
     </link>
   </links>
   <sharedEntries>
+    <entry id="b9ae-7abf-a05e-323b" name="Advanced Targeting System" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6c4d-34d8-663b-f749" targetId="b4b2-d4ab-bc9e-e612" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="2ac1-fe27-8cfd-123f" name="Airbursting Fragmentation Projector" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -97,6 +109,18 @@
       <profiles/>
       <links>
         <link id="dcbb-b1e2-7622-4e8b" targetId="9df3-4508-16d7-a95a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8732-25db-b048-1c99" name="Automated Repair System" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ec63-592d-e5e2-3e86" targetId="0724-d812-c7e8-5497" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -205,7 +229,7 @@
               <rules/>
               <profiles/>
               <links>
-                <link id="524e-4191-e737-d4cd" targetId="5276-5d52-0fd2-353d" linkType="profile">
+                <link id="524e-4191-e737-d4cd" targetId="32b8-331f-cdbd-9185" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -301,7 +325,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="6e1c-eb9d-bbec-2f8b" targetId="b1b6-1d11-d6e8-5393" linkType="profile">
+                    <link id="6e1c-eb9d-bbec-2f8b" targetId="c5b2-6272-690c-e541" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -313,7 +337,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="b7e8-07ee-d24f-e167" targetId="860c-ab14-61e2-e408" linkType="profile">
+                    <link id="b7e8-07ee-d24f-e167" targetId="ecd0-0560-88b9-ab1d" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -325,7 +349,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="9030-6911-fe8a-1eb7" targetId="b0ce-7f52-60e1-fb63" linkType="profile">
+                    <link id="9030-6911-fe8a-1eb7" targetId="c4ea-d08e-3cf6-33cf" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -337,7 +361,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="0907-b6ab-8d8e-bb91" targetId="db9e-0fb1-e87d-6d7e" linkType="profile">
+                    <link id="0907-b6ab-8d8e-bb91" targetId="4269-b799-f241-13bd" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -349,7 +373,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="d99e-1a3a-e097-a825" targetId="5276-5d52-0fd2-353d" linkType="profile">
+                    <link id="d99e-1a3a-e097-a825" targetId="32b8-331f-cdbd-9185" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -505,7 +529,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="9a8a-0b54-af39-3613" targetId="b1b6-1d11-d6e8-5393" linkType="profile">
+                    <link id="9a8a-0b54-af39-3613" targetId="c5b2-6272-690c-e541" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -517,7 +541,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="e15a-6d96-9d92-9f23" targetId="860c-ab14-61e2-e408" linkType="profile">
+                    <link id="e15a-6d96-9d92-9f23" targetId="ecd0-0560-88b9-ab1d" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -529,7 +553,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="1279-b786-6f11-6e61" targetId="b0ce-7f52-60e1-fb63" linkType="profile">
+                    <link id="1279-b786-6f11-6e61" targetId="c4ea-d08e-3cf6-33cf" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -541,7 +565,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="d566-815c-16e2-17e8" targetId="db9e-0fb1-e87d-6d7e" linkType="profile">
+                    <link id="d566-815c-16e2-17e8" targetId="4269-b799-f241-13bd" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -553,7 +577,7 @@
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="4d07-ed97-dd05-fcad" targetId="5276-5d52-0fd2-353d" linkType="profile">
+                    <link id="4d07-ed97-dd05-fcad" targetId="32b8-331f-cdbd-9185" linkType="profile">
                       <modifiers/>
                     </link>
                   </links>
@@ -764,6 +788,105 @@
           <modifiers/>
         </link>
         <link id="14d9-7b6e-4080-ee2c" targetId="50a4-7b0f-62ae-91ed" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a5a6-b8fe-9543-212d" name="Decoy Launcher" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="38b0-c57e-e102-b9c2" targetId="e1ce-5910-967c-3ca3" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="904a-cb7e-f619-5e97" name="Devilfish" points="80.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="6d74-f6e6-2800-45c3" name="Burst Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="19e3-cb0a-84b3-980b" targetId="860c-ab14-61e2-e408" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="4b45-d5de-c36b-4d60" name="Secondary Weapon Selection" defaultEntryId="18d1-3253-4689-a8e4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="b66b-3085-6115-d431" name="Twin-linked Smart Missile System" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="8dea-c2b4-ba3d-56aa" targetId="d9b7-5e3e-675f-274b" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="18d1-3253-4689-a8e4" name="Two Gun Drones" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c045-593c-5987-220f" targetId="0861-7b93-72e3-bc22" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="8aea-e350-ed09-4f09" targetId="3113-fed4-cd8e-5820" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d032-8f41-66a8-f80e" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Devilfish" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle( Tank, Skimmer, Transport)"/>
+            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="3"/>
+            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="12"/>
+            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
+            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
+            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
+            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Twelve models. A Devilfish may transport Drones, but may not transport models with the Bulky, Very Bulky, or Extremely Bulky special rules."/>
+            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points"/>
+            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7d55-6617-1ecc-eec2" targetId="b329-802a-1221-a4e4" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ba31-896b-9b73-ac64" name="Disruption Pods" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="411c-3f26-5bd5-14f0" targetId="0d30-00e7-1ddb-1ea8" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1039,6 +1162,18 @@
         </link>
       </links>
     </entry>
+    <entry id="8680-51ae-01b5-6992" name="Flechette Discharger" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Tau Empire" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2e91-9c04-945e-fe93" targetId="382a-a8c0-58bd-3e9f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="51b0-610c-16c7-bad5" name="Fusion Blaster" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1060,7 +1195,7 @@
           <rules/>
           <profiles/>
           <links>
-            <link id="f6d4-68f9-f9a3-9916" targetId="3113-fed4-cd8e-5820" linkType="profile">
+            <link id="f6d4-68f9-f9a3-9916" targetId="8bdf-ca8a-aed3-aa94" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1799,6 +1934,30 @@
         </link>
       </links>
     </entry>
+    <entry id="f9e2-770a-9b0c-78fa" name="Point Defense Targeting Relay" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Tau Empire" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6877-9287-207c-652d" targetId="1c8e-7016-c019-1a53" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b13e-562f-7569-c545" name="Sensor Spines" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Tau Empire" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="aec4-a2d4-cd20-7f50" targetId="1c4c-1171-3d33-f330" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="cb14-4ae8-4d8c-8d72" name="Shield Drone" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="7e0a-cba4-ad25-da5d" name="Shield Generator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2217,7 +2376,7 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="f170-c54c-b4fe-1c0a" targetId="860c-ab14-61e2-e408" linkType="profile">
+        <link id="f170-c54c-b4fe-1c0a" targetId="ecd0-0560-88b9-ab1d" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2229,7 +2388,7 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="8c23-aac4-9032-ee67" targetId="b1b6-1d11-d6e8-5393" linkType="profile">
+        <link id="8c23-aac4-9032-ee67" targetId="c5b2-6272-690c-e541" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2241,7 +2400,7 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="4e57-bb76-408d-85c7" targetId="b0ce-7f52-60e1-fb63" linkType="profile">
+        <link id="4e57-bb76-408d-85c7" targetId="c4ea-d08e-3cf6-33cf" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2253,7 +2412,7 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="e6b3-1d52-1bc6-7596" targetId="db9e-0fb1-e87d-6d7e" linkType="profile">
+        <link id="e6b3-1d52-1bc6-7596" targetId="4269-b799-f241-13bd" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2265,7 +2424,7 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="3787-0e9a-7314-962f" targetId="5276-5d52-0fd2-353d" linkType="profile">
+        <link id="3787-0e9a-7314-962f" targetId="32b8-331f-cdbd-9185" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2388,165 +2547,6 @@
       <profiles/>
       <links>
         <link id="8e2b-fd36-a6e2-1671" targetId="c694-b23c-be25-ed9d" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="904a-cb7e-f619-5e97" name="Devilfish" points="80.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="6d74-f6e6-2800-45c3" name="Burst Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="19e3-cb0a-84b3-980b" targetId="860c-ab14-61e2-e408" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="4b45-d5de-c36b-4d60" name="Secondary Weapon Selection" defaultEntryId="18d1-3253-4689-a8e4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="b66b-3085-6115-d431" name="Twin-linked Smart Missile System" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="8dea-c2b4-ba3d-56aa" targetId="d9b7-5e3e-675f-274b" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="18d1-3253-4689-a8e4" name="Two Gun Drones" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c045-593c-5987-220f" targetId="0861-7b93-72e3-bc22" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="8aea-e350-ed09-4f09" targetId="3113-fed4-cd8e-5820" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="d032-8f41-66a8-f80e" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Devilfish" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle( Tank, Skimmer, Transport)"/>
-            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="3"/>
-            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="12"/>
-            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
-            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
-            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
-            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Twelve models. A Devilfish may transport Drones, but may not transport models with the Bulky, Very Bulky, or Extremely Bulky special rules."/>
-            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points"/>
-            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="7d55-6617-1ecc-eec2" targetId="b329-802a-1221-a4e4" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8732-25db-b048-1c99" name="Automated Repair System" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="ec63-592d-e5e2-3e86" targetId="0724-d812-c7e8-5497" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b9ae-7abf-a05e-323b" name="Advanced Targeting System" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="6c4d-34d8-663b-f749" targetId="b4b2-d4ab-bc9e-e612" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a5a6-b8fe-9543-212d" name="Decoy Launcher" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="38b0-c57e-e102-b9c2" targetId="e1ce-5910-967c-3ca3" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ba31-896b-9b73-ac64" name="Disruption Pods" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="411c-3f26-5bd5-14f0" targetId="0d30-00e7-1ddb-1ea8" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8680-51ae-01b5-6992" name="Flechette Discharger" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Tau Empire" page="72">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="2e91-9c04-945e-fe93" targetId="382a-a8c0-58bd-3e9f" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b13e-562f-7569-c545" name="Sensor Spines" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Tau Empire" page="72">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="aec4-a2d4-cd20-7f50" targetId="1c4c-1171-3d33-f330" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="f9e2-770a-9b0c-78fa" name="Point Defense Targeting Relay" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Tau Empire" page="72">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="6877-9287-207c-652d" targetId="1c8e-7016-c019-1a53" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2823,25 +2823,6 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="9734-9f2f-b668-3aa3" name="Vespid Only" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="b5e3-8212-2080-a0ed" name="Vicious Strain" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f1b0-367a-d38e-10b2" targetId="76ef-2247-48d8-2dff" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
     <entryGroup id="b329-802a-1221-a4e4" name="Vehicle Battle Systems" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2872,6 +2853,25 @@
           <modifiers/>
         </link>
       </links>
+    </entryGroup>
+    <entryGroup id="9734-9f2f-b668-3aa3" name="Vespid Only" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="b5e3-8212-2080-a0ed" name="Vicious Strain" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f1b0-367a-d38e-10b2" targetId="76ef-2247-48d8-2dff" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
@@ -3109,6 +3109,12 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="0724-d812-c7e8-5497" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Automated Repair System" hidden="false" book="Codex: Tau" page="72">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="At the end of each friendly turn, roll a D6 for each vehicle with an automated repair system that has suffered an Immobilised or Weapon Destroyed result.  On a 6, one such result is repaired.  Doesn&apos;t repair Hull Points."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="f4ec-7f2b-ccea-993e" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Blacksun Filter" hidden="false" book="Codex: Tau Empire" page="68">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model with a blacksun filter has the Night Vision special rule and is immune to the effects of the Blind special rule."/>
@@ -3202,6 +3208,18 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="e1ce-5910-967c-3ca3" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Decoy Launcher" hidden="false" book="Codex: Tau Empire" page="72">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="4+ invulnerable save against glancing and penetrating hits caused by weapons with Interceptor."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0d30-00e7-1ddb-1ea8" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Disruption Pods" hidden="false" book="Codex: Tau Empire" page="72">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Stealth."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="579a-5360-4241-0b74" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="DNA Samples" hidden="false" book="HoR: Kill Team - Tau">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Kroot physiology is able to consume DNA in order to absorb its genetic traits. At the start of every battle, roll a D6. Consult the chart below to find out what trait the Shaper gains for the duration of that battle:    1. Dud DNA – No effect. 2. Human – +1 Leadership. 3. Eldar – +1 Initiate. 4. Tyranid – 3+ armour save. 5. Space Marine – +1 Strength.  6. Ork – +1 Toughness."/>
@@ -3256,6 +3274,12 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="382a-a8c0-58bd-3e9f" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Flechette Discharger" hidden="false" book="Codex: Tau Empire" page="72">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="At Initiative 1- step of the Fight sub-phase, enemy units with any models in base contact with the vehicle suffers a number of Strength 4 AP - hits equal to the number of models it has in base contact with the vehicle."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="b0ce-7f52-60e1-fb63" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Fusion Blaster" hidden="false" book="Codex: Tau Empire" page="65">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
@@ -3265,13 +3289,28 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="0861-7b93-72e3-bc22" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Gun Drone" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Jet Pack Infantry"/>
+        <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="2"/>
+        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="2"/>
+        <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
+        <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
+        <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+        <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="4"/>
+        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+        <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="7"/>
+        <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="89aa-696b-5b24-f868" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Hard-wired Light Shield" hidden="false">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Grants the Shas&apos;ui a 5+ invulnerable save."/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e645-6ae8-0720-f216" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Heavy Rail Rifle" hidden="false" book="Codex: Tau Empire" page="66">
+    <profile id="e645-6ae8-0720-f216" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Heavy Rail Rifle" hidden="false" book="Codex: Tau Empire" page="66">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="60&quot;"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
@@ -3280,7 +3319,7 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e967-86e3-1667-9f37" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="High-yield Missile Pod" hidden="false" book="Codex: Tau Empire" page="66">
+    <profile id="e967-86e3-1667-9f37" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked High-yield Missile Pod" hidden="false" book="Codex: Tau Empire" page="66">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
@@ -3448,6 +3487,12 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="1c8e-7016-c019-1a53" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Point Defense Targeting Relay" hidden="false" book="Codex: Tau Empire" page="72">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Supporting Fire and can fire Overwatch with weapons of Strength 5 or less.  Attached drones may also fire Overwatch with weapons of Strength 5 or less."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="9a7c-6c2b-d0cd-013c" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Positional Relay" hidden="false" book="Codex: Tau Empire" page="69">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Whilst the bearer is within 6&quot; of a board edge, any Outflanking friendly Tau Empire unit can choose to move on from that board edge (even if it is your, or your opponent&apos;s board edge)."/>
@@ -3496,13 +3541,19 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="1c4c-1171-3d33-f330" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Sensor Spines" hidden="false" book="Codex: Tau Empire" page="72">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Moves Through Cover."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="3fc3-ab00-9bba-7cc4" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Shield Generator" hidden="false" book="Codex: Tau Empire" page="69">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="4+ invulnerable save."/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d9b7-5e3e-675f-274b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Smart Missile System" hidden="false" book="Codex: Tau Empire" page="66">
+    <profile id="d9b7-5e3e-675f-274b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Smart Missile System" hidden="false" book="Codex: Tau Empire" page="66">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="30&quot;"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
@@ -3547,54 +3598,66 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0724-d812-c7e8-5497" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Automated Repair System" hidden="false" book="Codex: Tau" page="72">
+    <profile id="156a-3a03-3a5b-862b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Pulse Rifle" hidden="false" book="Codex: Tau Empire" page="66">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="At the end of each friendly turn, roll a D6 for each vehicle with an automated repair system that has suffered an Immobilised or Weapon Destroyed result.  On a 6, one such result is repaired.  Doesn&apos;t repair Hull Points."/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="30&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e1ce-5910-967c-3ca3" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Decoy Launcher" hidden="false" book="Codex: Tau Empire" page="72">
+    <profile id="32b8-331f-cdbd-9185" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Plasma Rifle" hidden="false" book="Codex: Tau Empire" page="66">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="4+ invulnerable save against glancing and penetrating hits caused by weapons with Interceptor."/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0d30-00e7-1ddb-1ea8" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Disruption Pods" hidden="false" book="Codex: Tau Empire" page="72">
+    <profile id="c5b2-6272-690c-e541" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Flamer" hidden="false" book="Warhammer 40,000 Rulebook" page="56">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Stealth."/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="382a-a8c0-58bd-3e9f" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Flechette Discharger" hidden="false" book="Codex: Tau Empire" page="72">
+    <profile id="ecd0-0560-88b9-ab1d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Burst Cannon" hidden="false" book="Codex: Tau Empire" page="65">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="At Initiative 1- step of the Fight sub-phase, enemy units with any models in base contact with the vehicle suffers a number of Strength 4 AP - hits equal to the number of models it has in base contact with the vehicle."/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 4"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1c4c-1171-3d33-f330" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Sensor Spines" hidden="false" book="Codex: Tau Empire" page="72">
+    <profile id="c4ea-d08e-3cf6-33cf" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Fusion Blaster" hidden="false" book="Codex: Tau Empire" page="65">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Moves Through Cover."/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Melta"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1c8e-7016-c019-1a53" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Point Defense Targeting Relay" hidden="false" book="Codex: Tau Empire" page="72">
+    <profile id="4269-b799-f241-13bd" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Missile Pod" hidden="false" book="Codex: Tau Empire" page="66">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Supporting Fire and can fire Overwatch with weapons of Strength 5 or less.  Attached drones may also fire Overwatch with weapons of Strength 5 or less."/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0861-7b93-72e3-bc22" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Gun Drone" hidden="false">
+    <profile id="8bdf-ca8a-aed3-aa94" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Pulse Carbine" hidden="false" book="Codex: Tau Empire" page="66">
       <characteristics>
-        <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Jet Pack Infantry"/>
-        <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="2"/>
-        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="2"/>
-        <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
-        <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
-        <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-        <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="4"/>
-        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-        <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="7"/>
-        <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2, Pinning"/>
       </characteristics>
       <modifiers/>
     </profile>
