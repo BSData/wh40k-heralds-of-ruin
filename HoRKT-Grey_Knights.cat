@@ -2743,7 +2743,6 @@ A model with the Non-flammable special rule passes all Initiative tests caused b
     <rule id="96745f27-bfb9-7eb8-f9f3-59d5a9262268" name="The Aegis" hidden="false" book="">
       <modifiers/>
     </rule>
-<<<<<<< HEAD
     <rule id="5487-27ad-ed6a-c3f8" name="Melta" hidden="false" book="Wh40k: The Rules">
       <description>Ranged weapons with this special rule roll an additional D6 when rolling to penetrate a vehicle’s armour at half range or less.
 If a weapon has both the Melta and Blast special rules, measure the distance to the centre of the blast marker after it has scattered.
@@ -2761,8 +2760,6 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
       <description>Add +1 to assault results, regardless of how many models with this rule in this combat.</description>
       <modifiers/>
     </rule>
-=======
->>>>>>> upstream/master
   </sharedRules>
   <sharedProfiles>
     <profile id="2791fcb5-05dc-c7af-26bd-73cfbfd39a7b" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Artificer Armour" hidden="false">
