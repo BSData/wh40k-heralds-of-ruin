@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="47ba3eb8-f6c0-80f4-0948-7e3808e29bc4" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Grey Knights: HoR" books="Kill Team List: Grey Knights v3.2b" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="47ba3eb8-f6c0-80f4-0948-7e3808e29bc4" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Grey Knights: HoR" books="Kill Team List: Grey Knights v3.2b" authorName="new-neon" authorContact="" authorUrl="https://github.com/new-neon" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -2662,11 +2662,19 @@
       <description>Daemonology (Sanctic) Psychic Power</description>
       <modifiers/>
     </rule>
+    <rule id="8c04-aaf0-c892-6892" name="Banner" hidden="false" book="HoR: Kill Team Rules v3.1" page="7">
+      <description>Add +1 to assault results, regardless of how many models with this rule in this combat.</description>
+      <modifiers/>
+    </rule>
     <rule id="6503b282-ef0c-5061-fa20-4f1c84040571" name="Bulky" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
     <rule id="ed810348-615a-31df-6704-443c1d17ce20" name="Cleansing Flame" hidden="false" book="Wh40k: The Rules">
       <description>Daemonology (Sanctic) Psychic Power</description>
+      <modifiers/>
+    </rule>
+    <rule id="903b-72ba-d823-4d21" name="Concussive" hidden="false" book="Wh40k: The Rules">
+      <description>A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</description>
       <modifiers/>
     </rule>
     <rule id="1d28c091-6462-e015-a18c-2ef155f16113" name="Daemonbane" hidden="false">
@@ -2685,6 +2693,9 @@
       <modifiers/>
     </rule>
     <rule id="ea48191f-6117-55d3-9561-b43fe2993ba4" name="Feel No Pain" hidden="false" book="Wh40k: The Rules">
+      <modifiers/>
+    </rule>
+    <rule id="299c-d4ee-da6b-37cb" name="Feel No Pain (6+)" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
     <rule id="469035ae-8cf4-a6b3-fe9c-162f02839ff6" name="Flamer" hidden="false" book="HoR: Kill Team Rules v3.1" page="5">
@@ -2708,6 +2719,12 @@ A model with the Non-flammable special rule passes all Initiative tests caused b
     </rule>
     <rule id="664875a3-9ec4-4462-7d1f-30bd89e19103" name="Inspiring Presence" hidden="false" book="HoR: Kill Team Rules v3.1" page="7">
       <description>Any friendly model within 6&quot; of this model may use its Leadership for all Leadership tests.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5487-27ad-ed6a-c3f8" name="Melta" hidden="false" book="Wh40k: The Rules">
+      <description>Ranged weapons with this special rule roll an additional D6 when rolling to penetrate a vehicle’s armour at half range or less.
+If a weapon has both the Melta and Blast special rules, measure the distance to the centre of the blast marker after it has scattered.
+</description>
       <modifiers/>
     </rule>
     <rule id="a7395930-552a-b7d7-a313-a2f2f8ca2c34" name="Preferred Enemy (Daemons)" hidden="false" book="Wh40k: The Rules">
@@ -2741,23 +2758,6 @@ A model with the Non-flammable special rule passes all Initiative tests caused b
       <modifiers/>
     </rule>
     <rule id="96745f27-bfb9-7eb8-f9f3-59d5a9262268" name="The Aegis" hidden="false" book="">
-      <modifiers/>
-    </rule>
-    <rule id="5487-27ad-ed6a-c3f8" name="Melta" hidden="false" book="Wh40k: The Rules">
-      <description>Ranged weapons with this special rule roll an additional D6 when rolling to penetrate a vehicle’s armour at half range or less.
-If a weapon has both the Melta and Blast special rules, measure the distance to the centre of the blast marker after it has scattered.
-</description>
-      <modifiers/>
-    </rule>
-    <rule id="903b-72ba-d823-4d21" name="Concussive" hidden="false" book="Wh40k: The Rules">
-      <description>A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</description>
-      <modifiers/>
-    </rule>
-    <rule id="299c-d4ee-da6b-37cb" name="Feel No Pain (6+)" hidden="false" book="Wh40k: The Rules">
-      <modifiers/>
-    </rule>
-    <rule id="8c04-aaf0-c892-6892" name="Banner" hidden="false" book="HoR: Kill Team Rules v3.1" page="7">
-      <description>Add +1 to assault results, regardless of how many models with this rule in this combat.</description>
       <modifiers/>
     </rule>
   </sharedRules>
