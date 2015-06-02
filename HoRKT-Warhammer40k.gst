@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" revision="1" battleScribeVersion="1.15" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" revision="3" battleScribeVersion="1.15" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="4d1a55bf-df49-cfcc-d4f3-46eb08268691" name="Grey Knights Kill Team list" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -57,12 +57,34 @@
           <modifiers/>
         </category>
         <category id="cb2cd0fc-5911-38e6-9296-dcbaa3aaad0d" name="Transport" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+		<modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementField="total selections" incrementValue="10.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </category>
+      </categories>
+      <forceTypes/>
+    </forceType>
+	<forceType id="37f3-c0b5-c7ad-d9f6" name="Tau Kill Team List" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+      <categories>
+        <category id="f799-ffb3-8173-664c" name="Team Leader" minSelections="1" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="1017-8233-41f4-6189" name="Transport" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementField="total selections" incrementValue="10.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </category>
+        <category id="d708-7708-0dcc-6410" name="Core" minSelections="1" maxSelections="25" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
+        </category>
+        <category id="dab1-0de0-3f1a-2979" name="Special" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
+          <modifiers/>
         </category>
       </categories>
       <forceTypes/>
