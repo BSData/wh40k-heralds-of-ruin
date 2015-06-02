@@ -174,7 +174,7 @@
         </link>
       </links>
     </entry>
-    <entry id="0c5ccb2f-c43a-cc25-b5b6-a3fbdd922e8c" name="Frag grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+    <entry id="0c5ccb2f-c43a-cc25-b5b6-a3fbdd922e8c" name="Frag grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Warhammer 40k rulebook">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -733,7 +733,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c0b1a3b4-3960-986d-0f79-579bada44250" name="Krak grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+    <entry id="c0b1a3b4-3960-986d-0f79-579bada44250" name="Krak grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Warhammer 40k rulebook">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1109,7 +1109,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="8bc44fdf-37c5-f92b-6fd0-71f2581b29bf" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+    <entry id="8bc44fdf-37c5-f92b-6fd0-71f2581b29bf" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Warhammer 40k rulebook">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2003,6 +2003,9 @@
             <link id="0e9aaf98-8e7c-dc6a-fadd-1492fb2b5d89" targetId="7cb98058-85c0-8760-d062-dae51d95d059" linkType="profile">
               <modifiers/>
             </link>
+            <link id="3355-f1f6-9b22-2130" targetId="5487-27ad-ed6a-c3f8" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="36c9f26d-2e8b-a00e-5a2e-59078a003e6c" name="Combi-plasma" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2176,7 +2179,11 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
+          <links>
+            <link id="0cfe-2394-74a6-4c37" targetId="299c-d4ee-da6b-37cb" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
         <entry id="bdabd050-ae6d-d627-5a3d-3ee774201378" name="Targeter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Grey Knights v3.2b" page="5">
           <entries/>
@@ -2420,6 +2427,9 @@
             <link id="fa4cdb97-3c35-7fc0-76ee-0a09f13efb98" targetId="080100f9-e3ee-088f-f8f4-ceb1639fff32" linkType="profile">
               <modifiers/>
             </link>
+            <link id="fb57-0de9-084e-e98b" targetId="903b-72ba-d823-4d21" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="bacc0f2f-fe1f-8044-15bb-1b1eddce6168" name="Nemesis warding stave" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2642,45 +2652,53 @@
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
-    <rule id="5e77fe06-fcb2-eed9-8563-faaa22ae9545" name="And They Shall Know No Fear" hidden="false">
+    <rule id="5e77fe06-fcb2-eed9-8563-faaa22ae9545" name="And They Shall Know No Fear" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="3d09b716-4b26-6a43-a7be-411485e5e6fe" name="Assault Vehicle" hidden="false">
+    <rule id="3d09b716-4b26-6a43-a7be-411485e5e6fe" name="Assault Vehicle" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="9aa6fff8-7bee-d2c3-aa53-29c60ec70fa9" name="Banishment" hidden="false">
+    <rule id="9aa6fff8-7bee-d2c3-aa53-29c60ec70fa9" name="Banishment" hidden="false" book="Wh40k: The Rules">
       <description>Daemonology (Sanctic) Psychic Power</description>
       <modifiers/>
     </rule>
-    <rule id="6503b282-ef0c-5061-fa20-4f1c84040571" name="Bulky" hidden="false">
+    <rule id="6503b282-ef0c-5061-fa20-4f1c84040571" name="Bulky" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="ed810348-615a-31df-6704-443c1d17ce20" name="Cleansing Flame" hidden="false">
+    <rule id="ed810348-615a-31df-6704-443c1d17ce20" name="Cleansing Flame" hidden="false" book="Wh40k: The Rules">
       <description>Daemonology (Sanctic) Psychic Power</description>
       <modifiers/>
     </rule>
     <rule id="1d28c091-6462-e015-a18c-2ef155f16113" name="Daemonbane" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="7bc5b687-669e-8351-71a0-f199aa4308f7" name="Deep Strike" hidden="false">
+    <rule id="7bc5b687-669e-8351-71a0-f199aa4308f7" name="Deep Strike" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="461d0b74-5328-39d7-7028-d6cd9c198d82" name="Eternal Warrior" hidden="false">
+    <rule id="461d0b74-5328-39d7-7028-d6cd9c198d82" name="Eternal Warrior" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="b93856b7-0e96-132d-01b3-11d04f46b45b" name="Fear" hidden="false" book="Warhammer 40k rulebook">
+    <rule id="b93856b7-0e96-132d-01b3-11d04f46b45b" name="Fear" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="166b0b6e-e024-00d6-46d0-af040f04d681" name="Fearless" hidden="false">
+    <rule id="166b0b6e-e024-00d6-46d0-af040f04d681" name="Fearless" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="ea48191f-6117-55d3-9561-b43fe2993ba4" name="Feel No Pain" hidden="false">
+    <rule id="ea48191f-6117-55d3-9561-b43fe2993ba4" name="Feel No Pain" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="6b23dd39-c3be-4894-535a-8f71d99a371d" name="Force" hidden="false">
+    <rule id="469035ae-8cf4-a6b3-fe9c-162f02839ff6" name="Flamer" hidden="false" book="HoR: Kill Team Rules v3.1" page="5">
+      <description>Flamer weapons may cause their targets to catch on fire even if they survive the initial damage. Any model that is hit by a Flamer weapon must pass an Initiative test or be set on fire! This test must be taken after any Wounds have been resolved. If a model fails the Imitative test it gains a Burning counter. Models may only ever have one Burning counter.
+A model with a Burning counter must take an Initiative test at the start of his turn. If passed, remove the Burning counter. If failed, the fire continues to burn: the model suffers an automatic Strength 3 AP – hit and the counter remains. Any model that starts their turn in base contact with a model with a Burning counter must pass an Initiative test or gain a Burning counter themselves – they may not try and remove the counter during the same phase.
+During the Shooting phase any friendly model within 1” may help a Burning model put out the flames instead of shooting or running. The friendly model rolls a D6: on a 2+ it has succeeded and may remove the Burning counter. If you roll a 1 however, you have aggravated the flames and the helping model gains a Burning counter too!
+A model with the Non-flammable special rule passes all Initiative tests caused by the Flamer rule, and may never gain a Burning counter for any reason.</description>
       <modifiers/>
     </rule>
-    <rule id="9b28b70d-6872-ab1b-bed1-3e8f266ba190" name="Hammerhand" hidden="false">
+    <rule id="6b23dd39-c3be-4894-535a-8f71d99a371d" name="Force" hidden="false" book="Wh40k: The Rules">
+      <description>Psychic Power</description>
+      <modifiers/>
+    </rule>
+    <rule id="9b28b70d-6872-ab1b-bed1-3e8f266ba190" name="Hammerhand" hidden="false" book="Wh40k: The Rules">
       <description>Daemonology (Sanctic) Psychic Power</description>
       <modifiers/>
     </rule>
@@ -2692,17 +2710,17 @@
       <description>Any friendly model within 6&quot; of this model may use its Leadership for all Leadership tests.</description>
       <modifiers/>
     </rule>
-    <rule id="a7395930-552a-b7d7-a313-a2f2f8ca2c34" name="Preferred Enemy (Daemons)" hidden="false">
+    <rule id="a7395930-552a-b7d7-a313-a2f2f8ca2c34" name="Preferred Enemy (Daemons)" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="0982873b-7e85-c6d8-1552-f785ee021de7" name="Psi-shock" hidden="false" book="" page="57">
+    <rule id="0982873b-7e85-c6d8-1552-f785ee021de7" name="Psi-shock" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
     <rule id="bfa67297-6a2b-4185-16d7-3835de09819a" name="Psychic Conduit" hidden="false" book="Kill Team  List: Grey Knights v3.2b" page="1">
       <description>As soon as the Team Leader is removed as a casualty, choose one model with the Psychic Conduit special rule to gain a ‘conduit’ token. A model with a conduit token gains the Psyker (Mastery Level 1) special rule, and knows the Banishment and Hammerhand powers from the Daemonology (Sanctic) discipline. If the model is a Purifier it also knows the Cleansing Flame power and is Mastery Level 2 instead. If the model with the conduit token is removed as a casualty, choose another applicable model to gain the token. A model may not use psychic powers on the turn it gained the conduit token.</description>
       <modifiers/>
     </rule>
-    <rule id="c266edcc-9366-0966-28bf-d426e0522468" name="Psyker" hidden="false">
+    <rule id="c266edcc-9366-0966-28bf-d426e0522468" name="Psyker" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
     <rule id="f1b93b85-ac4e-e1e1-6562-c4526efc338f" name="Purifying Flame" hidden="false" book="Codex: Grey Knights" page="68">
@@ -2712,24 +2730,34 @@
     <rule id="189904a6-7edf-a3bf-ee98-47ac41072988" name="Purity of Spirit" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="a49fdf7e-e873-b9df-aea8-335c813c1be3" name="Relentless" hidden="false" book="Warhammer 40k rulebook">
+    <rule id="a49fdf7e-e873-b9df-aea8-335c813c1be3" name="Relentless" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="173da385-90d9-e7fc-c7fb-c43c0c809308" name="Soul Blaze" hidden="false">
+    <rule id="173da385-90d9-e7fc-c7fb-c43c0c809308" name="Soul Blaze" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="a84301e8-21e9-0350-911a-5f60389937c0" name="Terminator Armour" hidden="false">
+    <rule id="a84301e8-21e9-0350-911a-5f60389937c0" name="Terminator Armour" hidden="false" book="Wh40k: The Rules">
       <description>May not make Sweeping Advances</description>
       <modifiers/>
     </rule>
-    <rule id="96745f27-bfb9-7eb8-f9f3-59d5a9262268" name="The Aegis" hidden="false">
+    <rule id="96745f27-bfb9-7eb8-f9f3-59d5a9262268" name="The Aegis" hidden="false" book="">
       <modifiers/>
     </rule>
-    <rule id="469035ae-8cf4-a6b3-fe9c-162f02839ff6" name="Flamer" hidden="false" book="HoR: Kill Team Rules v3.1" page="5">
-      <description>Flamer weapons may cause their targets to catch on fire even if they survive the initial damage. Any model that is hit by a Flamer weapon must pass an Initiative test or be set on fire! This test must be taken after any Wounds have been resolved. If a model fails the Imitative test it gains a Burning counter. Models may only ever have one Burning counter.
-A model with a Burning counter must take an Initiative test at the start of his turn. If passed, remove the Burning counter. If failed, the fire continues to burn: the model suffers an automatic Strength 3 AP – hit and the counter remains. Any model that starts their turn in base contact with a model with a Burning counter must pass an Initiative test or gain a Burning counter themselves – they may not try and remove the counter during the same phase.
-During the Shooting phase any friendly model within 1” may help a Burning model put out the flames instead of shooting or running. The friendly model rolls a D6: on a 2+ it has succeeded and may remove the Burning counter. If you roll a 1 however, you have aggravated the flames and the helping model gains a Burning counter too!
-A model with the Non-flammable special rule passes all Initiative tests caused by the Flamer rule, and may never gain a Burning counter for any reason.</description>
+    <rule id="5487-27ad-ed6a-c3f8" name="Melta" hidden="false" book="Wh40k: The Rules">
+      <description>Ranged weapons with this special rule roll an additional D6 when rolling to penetrate a vehicle’s armour at half range or less.
+If a weapon has both the Melta and Blast special rules, measure the distance to the centre of the blast marker after it has scattered.
+</description>
+      <modifiers/>
+    </rule>
+    <rule id="903b-72ba-d823-4d21" name="Concussive" hidden="false" book="Wh40k: The Rules">
+      <description>A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="299c-d4ee-da6b-37cb" name="Feel No Pain (6+)" hidden="false" book="Wh40k: The Rules">
+      <modifiers/>
+    </rule>
+    <rule id="8c04-aaf0-c892-6892" name="Banner" hidden="false" book="HoR: Kill Team Rules v3.1" page="7">
+      <description>Add +1 to assault results, regardless of how many models with this rule in this combat.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -2947,7 +2975,7 @@ A model with the Non-flammable special rule passes all Initiative tests caused b
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="0c085a96-e82a-570d-20d6-6d2a71011307" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Power Armour" hidden="false">
+    <profile id="0c085a96-e82a-570d-20d6-6d2a71011307" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Power Armour" hidden="false" book="Warhammer 40k rulebook">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Power armour confers a 3+ Armour Save."/>
       </characteristics>
@@ -3010,7 +3038,7 @@ A model with the Non-flammable special rule passes all Initiative tests caused b
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="1280cf75-467a-2140-e2f3-df16198be773" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Storm bolter" hidden="false" book="Wh40k: The Rules" page="176">
+    <profile id="1280cf75-467a-2140-e2f3-df16198be773" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Storm bolter" hidden="false" book="Wh40k: The Rules">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
