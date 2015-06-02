@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f5d4-8fef-6aa4-f14c" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="2" battleScribeVersion="1.15" name="Tau: HoR" books="Kill Team: Tau Empire v2.3" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f5d4-8fef-6aa4-f14c" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="2" battleScribeVersion="1.15" name="Tau: HoR" books="Kill Team: Tau Empire v2.3" authorName="bitfury" authorContact="@BSData" authorUrl="http://github.com/bitfury" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
