@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" revision="3" battleScribeVersion="1.15" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" revision="4" battleScribeVersion="1.15" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <forceTypes>
     <forceType id="4d1a55bf-df49-cfcc-d4f3-46eb08268691" name="Grey Knights Kill Team list" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minPercentage="0" maxPercentage="-1" countTowardsParentMinSelections="false" countTowardsParentMaxSelections="false" countTowardsParentMinPoints="false" countTowardsParentMaxPoints="false" countTowardsParentMinPercentage="false" countTowardsParentMaxPercentage="false">
       <categories>
@@ -144,9 +144,15 @@
     </profileType>
     <profileType id="d30e79be-d614-7268-12d9-2b021f048764" name="Transport">
       <characteristics>
-        <characteristic id="9b3a0598-329b-847a-56a7-7408539267d1" name="Transport Capacity"/>
-        <characteristic id="7963335e-27ed-783e-b22f-d3426014ab4c" name="Access Point"/>
-        <characteristic id="9f0d652c-7236-5ee1-dc53-5612b8c69b5e" name="Fire Points"/>
+        <characteristic id="760f-2ac8-56cc-9509" name="Unit Type"/>
+        <characteristic id="b81e-503e-7d2e-1bd2" name="BS"/>
+        <characteristic id="e4a8-9f80-a7bb-4937" name="F"/>
+        <characteristic id="fc46-97a8-00ac-1f0b" name="S"/>
+        <characteristic id="1306-1865-0155-ed8c" name="R"/>
+        <characteristic id="0053-bc31-16c0-31f6" name="HP"/>
+        <characteristic id="b90d-8d9b-4979-4fe9" name="Transport Capacity"/>
+        <characteristic id="64d4-b230-3c57-4d86" name="Access Points"/>
+        <characteristic id="28d5-39e2-1cd7-3fb4" name="Fire Points"/>
       </characteristics>
     </profileType>
   </profileTypes>
