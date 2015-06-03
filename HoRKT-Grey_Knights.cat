@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="47ba3eb8-f6c0-80f4-0948-7e3808e29bc4" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Grey Knights: HoR" books="Kill Team List: Grey Knights v3.2b" authorName="new-neon" authorContact="" authorUrl="https://github.com/new-neon" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="47ba3eb8-f6c0-80f4-0948-7e3808e29bc4" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Grey Knights: HoR" books="Kill Team List: Grey Knights v3.2b" authorName="new-neon" authorContact="" authorUrl="https://github.com/new-neon" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -1261,6 +1261,9 @@
                 <link id="c5218510-efb5-d9ca-3b8c-a67cf05fe014" targetId="3ef24bbc-0bd0-04a3-7263-0f423cbcd5db" linkType="profile">
                   <modifiers/>
                 </link>
+                <link id="529b-9472-edb7-a8f5" targetId="469035ae-8cf4-a6b3-fe9c-162f02839ff6" linkType="rule">
+                  <modifiers/>
+                </link>
               </links>
             </entry>
             <entry id="ec03cb49-7f1a-cc3c-e845-06ea2a6379fb" name="Twin-linked asault cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1311,22 +1314,17 @@
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="b36c5651-99ed-a2ba-36d5-8aaf2d11aa88" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Razorback" hidden="false">
+        <profile id="fc8a-7a9d-7393-afb1" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Razorback" hidden="false">
           <characteristics>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
-            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="11"/>
-            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="11"/>
-            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
-            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
-            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Tank, Transport)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="449a5bfa-9f28-6cbd-75e9-4b64775b204a" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Razorback" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="9b3a0598-329b-847a-56a7-7408539267d1" name="Transport Capacity" value="Six models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
-            <characteristic characteristicId="7963335e-27ed-783e-b22f-d3426014ab4c" name="Access Point" value="One Access Point on each side of the hull and one at the rear."/>
-            <characteristic characteristicId="9f0d652c-7236-5ee1-dc53-5612b8c69b5e" name="Fire Points" value="-"/>
+            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Transport)"/>
+            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
+            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="11"/>
+            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
+            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
+            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
+            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Six models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
+            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="One Access Point on each side of the hull and one at the rear."/>
+            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="-"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1350,24 +1348,24 @@
       <entries/>
       <entryGroups/>
       <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="d5e0c82e-c733-6eef-3818-84d843aa01bf" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Rhino" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
-            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="11"/>
-            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="11"/>
-            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
-            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
-            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Tank, Transport)"/>
-          </characteristics>
+      <rules>
+        <rule id="b549-5be7-7d01-05c3" name="Repair" hidden="false">
+          <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
           <modifiers/>
-        </profile>
-        <profile id="115274fe-e1bb-0f28-54dd-037f171a242f" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Rhino" hidden="false">
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="af52-0235-d525-4931" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Rhino" hidden="false">
           <characteristics>
-            <characteristic characteristicId="9b3a0598-329b-847a-56a7-7408539267d1" name="Transport Capacity" value="Ten models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
-            <characteristic characteristicId="7963335e-27ed-783e-b22f-d3426014ab4c" name="Access Point" value="One Access Point on each side of the hull and one at the rear."/>
-            <characteristic characteristicId="9f0d652c-7236-5ee1-dc53-5612b8c69b5e" name="Fire Points" value="Two models can fire from the Rhino’s top hatch."/>
+            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Transport)"/>
+            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
+            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="11"/>
+            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
+            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
+            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
+            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Ten models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
+            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="One Access Point on each side of the hull and one at the rear."/>
+            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="Two models can fire from the Rhino’s top hatch."/>
           </characteristics>
           <modifiers/>
         </profile>
