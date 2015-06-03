@@ -1191,6 +1191,93 @@
         </link>
       </links>
     </entry>
+    <entry id="b3e1-9aa4-7161-ce7d" name="Drop Pod" points="35.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+      <entries>
+        <entry id="9cae-ffb5-60ae-58e4" name="Locator Beacon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b529-a55c-da46-0971" targetId="d780-0355-af35-b284" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="2093-e1f3-c819-57cb" name="Weapon" defaultEntryId="82b7-142e-514c-eefa" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="82b7-142e-514c-eefa" name="Storm Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4b09-4810-bb18-4668" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8ef3-9db0-077d-1913" name="Deathwind Launcher" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="3b06-2c40-555c-b5c5" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Deathwind Launcher" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
+                    <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+                    <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+                    <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Large Blast"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="7655-f11b-4cf6-1184" name="Drop Pod Assault" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+          <description>Drop Pods and units embarked upon them must be held in Deep Strike Reserves. At the beginning of your first turn, half your Drop Pods (rounding up) automatically arrive from Reserve. The arrival of remaining Drop Pods is rolled for normally.</description>
+          <modifiers/>
+        </rule>
+        <rule id="206b-21a3-11e3-5f29" name="Immobile" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+          <description>A Drop Pod cannot move once it has entered play, and counts in all respects as a vehicle that has suffered an Immobilised result that cannot be repaired in any way. This does not cause it to lose a Hull Point.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3810-f42e-8949-8742" name="Inertial Guidance System" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+          <description>If a Drop Pod scatters on top of impassable terrain or another model (friend or foe), reduce the scatter distance by the minimum required in order to avoid the obstacle. If a Drop Pod scatters off the edge of the board, it suffers a Deep Strike Mishap.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="00e5-0d72-878f-4afc" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Drop Pod" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+          <characteristics>
+            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Fast, Transport)"/>
+            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
+            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="12"/>
+            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="12"/>
+            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="12"/>
+            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
+            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Ten models or one Dreadnought of any type. Once a Drop Pod lands, all passengers must disembark and no models can embark for the rest of the game."/>
+            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="-"/>
+            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="0c5ccb2f-c43a-cc25-b5b6-a3fbdd922e8c" name="Frag grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Wh40k: The Rules">
       <entries/>
       <entryGroups/>
@@ -1425,6 +1512,18 @@
         </link>
       </links>
     </entry>
+    <entry id="4c73-d94c-7de2-6d43" name="Overcharged engines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3915-b460-62c1-8738" targetId="246f-5222-be43-f7ac" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8bc44fdf-37c5-f92b-6fd0-71f2581b29bf" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Wh40k: The Rules">
       <entries/>
       <entryGroups/>
@@ -1487,6 +1586,170 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="a7bb-a51a-6892-f63a" name="Razorback" points="65.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="75b9-0e85-3856-a85b" name="Weapon" defaultEntryId="043e-5bcd-3a53-d01b" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="abb4-359c-ee09-1920" name="Lascannon and twin-linked plasma gun" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="7b62-9dc0-6304-8a03" targetId="7d22-cbc6-0a1c-ebba" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="e5bf-9253-b6ea-4a66" targetId="4c60-fac4-7b7f-a030" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="9a16-bd0c-93fc-8be1" name="Twin-linked asault cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b5f0-27a7-2dc8-e4de" targetId="3467-32d4-0a5a-6d4c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="043e-5bcd-3a53-d01b" name="Twin-linked heavy bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="548a-f1ca-c10c-1a96" targetId="0f78-4d91-c023-6261" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="c584-3a1d-eadb-0aac" name="Twin-linked heavy Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="fc51-ac53-46a3-870e" targetId="213c-090a-a9b9-bc09" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="c63d-cfab-bef6-21f8" targetId="f51b-afbc-b718-8026" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="d3ef-d141-188a-57fb" name="Twin-linked lascannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="8591-ad26-51c1-a941" targetId="35e7-7bcc-4cee-bba2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="83cc-51c0-5ba7-e5e6" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Razorback" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+          <characteristics>
+            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Fast, Transport)"/>
+            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
+            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="11"/>
+            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
+            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
+            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
+            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Six models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
+            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="The Razorback has one Access Point on each side of the hull and one at the rear."/>
+            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="265f-f34c-0416-0426" targetId="4c73-d94c-7de2-6d43" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e256-80cd-e922-4e10" targetId="790f-e37a-4b98-89f2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b38d-0172-d0b8-ae18" targetId="78db-7168-988f-3390" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="baf3-43ac-0aa4-0801" targetId="dbef-deae-2657-6495" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f8d3-487c-afee-25d7" name="Rhino" points="45.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+      <entries>
+        <entry id="d5e3-b38d-07b3-fbb1" name="Storm Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3f3b-387f-5571-e7ba" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="12c6-7bfd-5493-00cd" name="Repair" hidden="false">
+          <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="4dc6-5705-79e6-cd15" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Rhino" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+          <characteristics>
+            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Fast, Transport)"/>
+            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
+            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="11"/>
+            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
+            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
+            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
+            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Ten models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
+            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="The Rhino has one Access Point on each side of the hull and one at the rear."/>
+            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="Two models can fire from the Rhino’s top hatch."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="03ad-e4af-f75c-4d24" targetId="4c73-d94c-7de2-6d43" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c3c1-f727-b1a9-eef1" targetId="790f-e37a-4b98-89f2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7674-23af-2c63-5a9d" targetId="78db-7168-988f-3390" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a57d-e5be-2b1a-d1df" targetId="dbef-deae-2657-6495" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="6363-7cb0-ba29-a991" name="Sanguinary Guard" points="33.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Blood Angels v3.0" page="6">
       <entries>
@@ -1633,6 +1896,9 @@
           <modifiers/>
         </link>
         <link id="9ea3-062c-5e76-b2c5" targetId="b42a-77e5-3aad-1fb0" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="62d5-802b-d773-757c" targetId="3764-e296-eb8d-12ae" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2436,7 +2702,19 @@
         </link>
       </links>
     </entry>
-    <entry id="84a7-bc84-bb0c-4345" name="Sergeant" points="14.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Blood Angels v3.0" page="1">
+    <entry id="790f-e37a-4b98-89f2" name="Searchlight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="1e6e-daeb-86a5-f8f9" targetId="4912-2c4c-7a83-fe84" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="84a7-bc84-bb0c-4345" name="Sergeant" points="14.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Blood Angels v3.0" page="1">
       <entries/>
       <entryGroups>
         <entryGroup id="2bb6-cc11-276e-7585" name="First Weapon" defaultEntryId="13ae-0570-a1f5-1466" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2849,6 +3127,18 @@
         </link>
       </links>
     </entry>
+    <entry id="78db-7168-988f-3390" name="Smoke launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d8a4-8635-ea3e-6bf9" targetId="3688-b513-0cc4-7344" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="78f0-7e74-4a79-4fe1" name="Space Marine Bike" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
       <entries/>
       <entryGroups/>
@@ -3222,6 +3512,9 @@
         <link id="4aef-6f22-d5f9-4bc8" targetId="b42a-77e5-3aad-1fb0" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="332d-cf72-298e-2e96" targetId="3764-e296-eb8d-12ae" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c1cc-f0df-5114-867f" name="Storm Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
@@ -3355,18 +3648,6 @@
             </profile>
           </profiles>
           <links/>
-        </entry>
-        <entry id="a872-a4b0-83f7-082e" name="Auspex" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="de97-60be-8629-dd27" targetId="3657-fd5e-0b06-ae3c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
         </entry>
       </entries>
       <entryGroups>
@@ -3926,6 +4207,9 @@
         <link id="f1c9-3d4b-2d23-525e" targetId="39a8-05c4-360f-e727" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="2902-bf8b-4c26-0adf" targetId="3764-e296-eb8d-12ae" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="94c6-fc5c-65cc-b398" name="Terminator Chaplain" points="85.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Blood Angels v3.0" page="2">
@@ -4337,6 +4621,9 @@
         <link id="1574-3194-05ed-ef3e" targetId="ed02-2271-0dcb-8189" linkType="entry">
           <modifiers/>
         </link>
+        <link id="1347-5219-9fcd-b010" targetId="3764-e296-eb8d-12ae" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="de2e-f177-b38f-748d" name="Vermillion Axe" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Blood Angels v3.0" page="8">
@@ -4542,292 +4829,24 @@
         </link>
       </links>
     </entry>
-    <entry id="f8d3-487c-afee-25d7" name="Rhino" points="45.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-      <entries>
-        <entry id="d5e3-b38d-07b3-fbb1" name="Storm Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3f3b-387f-5571-e7ba" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entry id="3764-e296-eb8d-12ae" name="Team Standard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <rules>
-        <rule id="12c6-7bfd-5493-00cd" name="Repair" hidden="false">
-          <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <profiles>
-        <profile id="4dc6-5705-79e6-cd15" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Rhino" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+        <profile id="9a2a-fb48-98ec-5807" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Team Standard" hidden="false">
           <characteristics>
-            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Fast, Transport)"/>
-            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
-            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="11"/>
-            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
-            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
-            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
-            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Ten models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
-            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="The Rhino has one Access Point on each side of the hull and one at the rear."/>
-            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="Two models can fire from the Rhino’s top hatch."/>
+            <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Friendly models within 12&quot; of a model with the Team Standard may re-roll failed Morale checks and Pinning tests. In addition, the Team Standard counts as a ‘banner’ when working out combat results."/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="03ad-e4af-f75c-4d24" targetId="4c73-d94c-7de2-6d43" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c3c1-f727-b1a9-eef1" targetId="790f-e37a-4b98-89f2" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="7674-23af-2c63-5a9d" targetId="78db-7168-988f-3390" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a57d-e5be-2b1a-d1df" targetId="dbef-deae-2657-6495" linkType="entry group">
+        <link id="85cb-9af7-ef16-1584" targetId="0c5c-4e54-88c5-1555" linkType="rule">
           <modifiers/>
         </link>
       </links>
-    </entry>
-    <entry id="4c73-d94c-7de2-6d43" name="Overcharged engines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="3915-b460-62c1-8738" targetId="246f-5222-be43-f7ac" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="790f-e37a-4b98-89f2" name="Searchlight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="1e6e-daeb-86a5-f8f9" targetId="4912-2c4c-7a83-fe84" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="78db-7168-988f-3390" name="Smoke launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="d8a4-8635-ea3e-6bf9" targetId="3688-b513-0cc4-7344" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a7bb-a51a-6892-f63a" name="Razorback" points="65.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="75b9-0e85-3856-a85b" name="Weapon" defaultEntryId="043e-5bcd-3a53-d01b" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="abb4-359c-ee09-1920" name="Lascannon and twin-linked plasma gun" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="7b62-9dc0-6304-8a03" targetId="7d22-cbc6-0a1c-ebba" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="e5bf-9253-b6ea-4a66" targetId="4c60-fac4-7b7f-a030" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="9a16-bd0c-93fc-8be1" name="Twin-linked asault cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="b5f0-27a7-2dc8-e4de" targetId="3467-32d4-0a5a-6d4c" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="043e-5bcd-3a53-d01b" name="Twin-linked heavy bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="548a-f1ca-c10c-1a96" targetId="0f78-4d91-c023-6261" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="c584-3a1d-eadb-0aac" name="Twin-linked heavy Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="fc51-ac53-46a3-870e" targetId="213c-090a-a9b9-bc09" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="c63d-cfab-bef6-21f8" targetId="f51b-afbc-b718-8026" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="d3ef-d141-188a-57fb" name="Twin-linked lascannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="8591-ad26-51c1-a941" targetId="35e7-7bcc-4cee-bba2" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="83cc-51c0-5ba7-e5e6" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Razorback" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-          <characteristics>
-            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Fast, Transport)"/>
-            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
-            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="11"/>
-            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
-            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
-            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
-            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Six models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
-            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="The Razorback has one Access Point on each side of the hull and one at the rear."/>
-            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="265f-f34c-0416-0426" targetId="4c73-d94c-7de2-6d43" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="e256-80cd-e922-4e10" targetId="790f-e37a-4b98-89f2" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b38d-0172-d0b8-ae18" targetId="78db-7168-988f-3390" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="baf3-43ac-0aa4-0801" targetId="dbef-deae-2657-6495" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b3e1-9aa4-7161-ce7d" name="Drop Pod" points="35.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-      <entries>
-        <entry id="9cae-ffb5-60ae-58e4" name="Locator Beacon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="b529-a55c-da46-0971" targetId="d780-0355-af35-b284" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="2093-e1f3-c819-57cb" name="Weapon" defaultEntryId="82b7-142e-514c-eefa" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="82b7-142e-514c-eefa" name="Storm Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="4b09-4810-bb18-4668" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="8ef3-9db0-077d-1913" name="Deathwind Launcher" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="3b06-2c40-555c-b5c5" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Deathwind Launcher" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
-                    <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
-                    <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-                    <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Large Blast"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="7655-f11b-4cf6-1184" name="Drop Pod Assault" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-          <description>Drop Pods and units embarked upon them must be held in Deep Strike Reserves. At the beginning of your first turn, half your Drop Pods (rounding up) automatically arrive from Reserve. The arrival of remaining Drop Pods is rolled for normally.</description>
-          <modifiers/>
-        </rule>
-        <rule id="206b-21a3-11e3-5f29" name="Immobile" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-          <description>A Drop Pod cannot move once it has entered play, and counts in all respects as a vehicle that has suffered an Immobilised result that cannot be repaired in any way. This does not cause it to lose a Hull Point.</description>
-          <modifiers/>
-        </rule>
-        <rule id="3810-f42e-8949-8742" name="Inertial Guidance System" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-          <description>If a Drop Pod scatters on top of impassable terrain or another model (friend or foe), reduce the scatter distance by the minimum required in order to avoid the obstacle. If a Drop Pod scatters off the edge of the board, it suffers a Deep Strike Mishap.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="00e5-0d72-878f-4afc" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Drop Pod" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-          <characteristics>
-            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Fast, Transport)"/>
-            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
-            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="12"/>
-            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="12"/>
-            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="12"/>
-            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
-            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Ten models or one Dreadnought of any type. Once a Drop Pod lands, all passengers must disembark and no models can embark for the rest of the game."/>
-            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="-"/>
-            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -4937,15 +4956,12 @@
           <entryGroups/>
           <modifiers/>
           <rules/>
-          <profiles>
-            <profile id="fdde-c8db-9725-77d3" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Auspex" hidden="false" book="Kill Team List: Blood Angels v3.0" page="9">
-              <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model with an auspex can use it in place of making a shooting attack. If he does so, target an enemy unit within 12&quot; (this does not count as choosing a target for his unit to shoot at). A unit that is targeted by one or more auspexes has its cover saves reduced by 1 until the end of the phase."/>
-              </characteristics>
+          <profiles/>
+          <links>
+            <link id="2e9e-d91b-e5e3-56b4" targetId="3657-fd5e-0b06-ae3c" linkType="profile">
               <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
+            </link>
+          </links>
         </entry>
         <entry id="b054-e37d-3ff3-4d1c" name="Targeter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Blood Angels v3.0" page="9">
           <entries/>
@@ -4988,6 +5004,73 @@
               <modifiers/>
             </link>
             <link id="d5f5-d8c6-0f5b-6b55" targetId="5a8b9d7d-7c03-7678-96f1-c61099021e98" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="dbef-deae-2657-6495" name="Blood Angels Vechicle Equipment" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="26cf-1070-0f39-5b32" name="Dozer blade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="00b6-70db-46af-de93" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Dozer blade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Vehicles equipped with dozer blades treat their front armour as one higher than normal when ramming. Furthermore the vehicle can re-roll failed Dangerous Terrain tests."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="e167-f8fe-d638-1e7a" name="Hunter-killer missile" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9276-1546-969a-2993" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Hunter-killer missile" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Infinite"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, One Use Only"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="91fc-a619-959b-1b1e" name="Extra Armor" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f6a3-059b-db99-8ef9" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Extra Armor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7869-9f8a-c2be-0a36" name="Storm bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ae7e-17d3-ddba-5231" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -5982,73 +6065,6 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="dbef-deae-2657-6495" name="Blood Angels Vechicle Equipment" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="26cf-1070-0f39-5b32" name="Dozer blade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="00b6-70db-46af-de93" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Dozer blade" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Vehicles equipped with dozer blades treat their front armour as one higher than normal when ramming. Furthermore the vehicle can re-roll failed Dangerous Terrain tests."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="e167-f8fe-d638-1e7a" name="Hunter-killer missile" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="9276-1546-969a-2993" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Hunter-killer missile" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Infinite"/>
-                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
-                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
-                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, One Use Only"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="91fc-a619-959b-1b1e" name="Extra Armor" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="f6a3-059b-db99-8ef9" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Extra Armor" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="7869-9f8a-c2be-0a36" name="Storm bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ae7e-17d3-ddba-5231" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
     <rule id="5105-7c74-cf86-fb8b" name="And They Shall Know No Fear" hidden="false" book="Wh40k: The Rules">
@@ -6550,6 +6566,12 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="d780-0355-af35-b284" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Locator Beacon" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Friendly units do not scatter when arriving from Deep Strike Reserve, so long as the first model is placed within 6&quot; of a model with a locator beacon. For this to work, the bearer must have been on the battlefield at the start of the turn."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="d194-4df3-84ed-8d5c" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Melta Bomb" hidden="false" book="Wh40k: The Rules">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Unless used in assaults against vehicles, gun emplacements or Monstrous Creatures, melta bombs have no effect."/>
@@ -6580,6 +6602,12 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Melta"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="246f-5222-be43-f7ac" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Overcharged engines" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A vehicle with overcharged engines gains the Fast unit type."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6697,6 +6725,12 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="4912-2c4c-7a83-fe84" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Searrchlight" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Searchlights are used when the Night Fighting rules are in effect. If a vehicle has a searchlight, it can, after firing all of its weapons, choose to illuminate its target with the searchlight. If it does so, it also illuminates itself. You may find it helpful to place coins, or other suitable counters, next to the units as reminders, and next to a vehicle to show it has used its searchlights this turn. Illumination lasts until the end of the following turn. Illuminated units gain no benefit from the Night Fighting rule."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="facc-a900-d87f-665b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Servo-arm" hidden="false">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
@@ -6712,6 +6746,12 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3688-b513-0cc4-7344" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Smoke launchers" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Once per game, instead of shooting or moving Flat Out (or Running in the case of Walkers), a vehicle with smoke launchers can trigger them. Place some cotton wool or some other appropriate counter next to the vehicle to show it is obscured. The vehicle may not fire any of its weapons in the same turn as it used smoke launchers, but counts as obscured in the next enemy Shooting phase, receiving a 5+ cover save. After the enemy’s Shooting phase, the smoke disperses with no further effect. Note that a vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stunned result or it does not have any shooting weapons."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6766,48 +6806,21 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="71c3-6dbd-f915-e6e6" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Boltgun" hidden="false" book="Wh40k: The Rules">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire, Twin-Linked"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="f391-3b4c-7513-6651" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Vengeance round" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire, Gets Hot"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="246f-5222-be43-f7ac" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Overcharged engines" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A vehicle with overcharged engines gains the Fast unit type."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="4912-2c4c-7a83-fe84" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Searrchlight" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Searchlights are used when the Night Fighting rules are in effect. If a vehicle has a searchlight, it can, after firing all of its weapons, choose to illuminate its target with the searchlight. If it does so, it also illuminates itself. You may find it helpful to place coins, or other suitable counters, next to the units as reminders, and next to a vehicle to show it has used its searchlights this turn. Illumination lasts until the end of the following turn. Illuminated units gain no benefit from the Night Fighting rule."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="3688-b513-0cc4-7344" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Smoke launchers" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Once per game, instead of shooting or moving Flat Out (or Running in the case of Walkers), a vehicle with smoke launchers can trigger them. Place some cotton wool or some other appropriate counter next to the vehicle to show it is obscured. The vehicle may not fire any of its weapons in the same turn as it used smoke launchers, but counts as obscured in the next enemy Shooting phase, receiving a 5+ cover save. After the enemy’s Shooting phase, the smoke disperses with no further effect. Note that a vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stunned result or it does not have any shooting weapons."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="3467-32d4-0a5a-6d4c" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked assault cannon" hidden="false" book="Wh40k: The Rules">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 4, Rending, Twin-linked"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="71c3-6dbd-f915-e6e6" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Boltgun" hidden="false" book="Wh40k: The Rules">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire, Twin-Linked"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -6847,9 +6860,12 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d780-0355-af35-b284" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Locator Beacon" hidden="false">
+    <profile id="f391-3b4c-7513-6651" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Vengeance round" hidden="false" book="Wh40k: Cobex - Blood Angels 2014">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Friendly units do not scatter when arriving from Deep Strike Reserve, so long as the first model is placed within 6&quot; of a model with a locator beacon. For this to work, the bearer must have been on the battlefield at the start of the turn."/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire, Gets Hot"/>
       </characteristics>
       <modifiers/>
     </profile>
