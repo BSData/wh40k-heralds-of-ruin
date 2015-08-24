@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a29e-b803-84d6-892f" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a29e-b803-84d6-892f" revision="3" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -56,7 +56,7 @@
     </link>
   </links>
   <sharedEntries>
-    <entry id="1aa1-c29c-5ff4-1a85" name="Arco-flagellant" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1aa1-c29c-5ff4-1a85" name="Arco-flagellant" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="4">
       <entries>
         <entry id="a2ac-78da-778c-9568" name="Arco-flails" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -103,7 +103,578 @@
         </link>
       </links>
     </entry>
-    <entry id="137b-d71b-7e35-68f8" name="Inquisitorial Servitor" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="47b3-414e-d45d-e2f9" name="Banisher" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="4">
+      <entries>
+        <entry id="ee28-949f-9594-45a6" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="28aa-667f-2ffd-a32b" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e2c7-3da4-73a1-880c" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9dbc-5ce1-540c-5f10" targetId="a32b-6b20-3812-a017" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="21fd-8f0d-8bec-cb1a" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="58a5-2e86-3035-75f9" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="226e-e640-c2dd-42a9" name="Chainsword, or" defaultEntryId="c3d2-d202-3945-51d4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c3d2-d202-3945-51d4" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0783-573a-0004-62ef" targetId="8345-6f0f-2cad-eff9" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="5b85-db16-51cf-c71c" name="Eviscerator" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="bf31-8beb-8473-25c8" targetId="e649-c2a3-4c23-214b" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="2a03-4ab1-1788-4583" name="Preferred Enemy (Daemon)" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="a106-ce30-933f-e883" name="Aura of Faith" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5e86-e584-3f3e-32e6" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Banisher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3059-b635-4eec-541e" name="Crusader" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="5">
+      <entries>
+        <entry id="83a5-2ede-bdcc-23ab" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="818d-e1a5-ae72-522d" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="564b-aa5b-596f-b757" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e546-dd88-3cae-c0f2" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="de85-8940-685c-2954" name="Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="20e1-ea31-9ee5-80d8" targetId="6755-1c93-fc37-3ec7" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8864-1bd6-a088-6997" name="Storm Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="77ab-3473-f87c-495f" targetId="908c-2188-d00f-d577" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="06e2-056f-7519-3373" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Crusader" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="52d3-d15d-70c7-2e09" name="Daemonhost" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="5">
+      <entries>
+        <entry id="9b14-a783-1386-278d" name="Close Combat Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2e93-9a86-85ea-1046" targetId="b6c5-4e6b-7862-3a45" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="2e47-5476-f510-cd27" name="Daemonic Power" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="0f2f-c7b1-5985-636f" name="Daemonic Power" hidden="false">
+              <description>Roll a D6 at the start of each friendly turn for each unit that contains one or
+more Daemonhosts to determine which ability all the Daemonhosts in that unit
+manifest this turn. Unless otherwise stated, each manifestation lasts until the
+start of your next turn.
+D6 - Result
+1 - The Daemonhost have the Feel No Pain special rule.
+2 - In the Assault phase, Daemonhost can attack using Warp Grasp.
+3 - The Daemonhost gain the Fleet special rule, and their Initiative increases to 10.
+4 - The Daemonhosts’ Strength characteristic increases to 6.
+5 - In the Shooting phase, Daemonhost can make a shooting attack with the Energy Torent.
+6 - In the Shooting phase, each Daemonhost can make a shooting attack with the Unholy Gaze.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="3d2c-fbd7-2d9a-438c" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Daemonic Power - Warp Grasp" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="8031-986d-fd55-8164" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Daemonic Power - Energy Torrent" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&apos;&apos;"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="7bf4-88a3-20ba-9bf6" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Daemonic Power - Unholy Gaze" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&apos;&apos;"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="9f76-b702-f564-7e11" name="Warp Shield" hidden="false">
+          <description>A Daemonhost has a 5+ invulnerable save.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d928-6fcd-ef9a-9fd2" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Daemonhost" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="dcd9-e673-4f78-bc4f" name="Death Cult Assasin" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="5">
+      <entries>
+        <entry id="6439-b78f-0d70-0643" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a42d-ffa3-ff8f-2945" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d6c5-aea3-a08c-48e2" name="Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6e23-8075-a8e1-b0e9" targetId="6755-1c93-fc37-3ec7" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="985c-6901-4f15-efca" name="Uncanny Reflexes" hidden="false">
+          <description>A Death Cult Assassin has a 5+ invulnerable save</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="05e2-4761-997d-8470" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Death Cult Assasin" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="5"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="6"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="9a41-1e17-f3a6-5a50" name="Inquisitorial Medic" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="5">
+      <entries>
+        <entry id="10c7-7b40-db0c-49f9" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="59e6-bfa1-0a69-68b9" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e7ce-eb2d-9405-bedf" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="663e-5c8f-b34d-2b96" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e376-469f-0a22-06e1" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a0e6-b057-b88f-5c7a" targetId="d194-4df3-84ed-8d5c" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="eae4-8617-f1ad-617e" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="fc7e-9a65-8a05-5954" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="db5a-d5bf-d20c-abda" name="Medi-pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="448c-d0b4-7858-769a" targetId="1a55-50f4-f80a-bd7b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="de34-ec03-2896-4ad0" name="Armour Options" defaultEntryId="6080-b87e-0313-c87a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="239a-4a62-e36d-72a0" name="Power Armour" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="944b-06d4-edac-7dbe" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="6080-b87e-0313-c87a" name="Carapace Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b7b8-e48f-36ff-9727" targetId="0012-73e3-6260-96ff" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="ee65-6e36-9577-3898" name="Chainsword, or" defaultEntryId="40d8-9241-c34d-21f0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="40d8-9241-c34d-21f0" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="fbf4-3295-f8d8-5239" targetId="8345-6f0f-2cad-eff9" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8e48-3f97-38d9-1a66" name="Lasgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="36a3-40d7-ffe6-b0f9" targetId="c80f-8aff-241a-0cce" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="259b-bb64-47fa-cd60" name="Boltgun" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="5db1-6657-19d5-5a27" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="5cd1-a29a-ac75-0242" name="Storm Bolter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b945-cb89-a823-751f" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="f745-2156-844b-3f06" name="Hot-shot Lasgun" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3abf-9711-7787-8b38" targetId="1ffd-5972-7000-7a7d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="a665-f0b8-06f0-1e74" name="Laspistol, or" defaultEntryId="2d03-1a9d-7f9a-801c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="2d03-1a9d-7f9a-801c" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="bb86-128b-7899-1b6a" targetId="a32b-6b20-3812-a017" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="dc68-495c-5870-8adc" name="Lasgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="208a-8299-b30f-4958" targetId="c80f-8aff-241a-0cce" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="2e07-bab7-1d96-5492" name="Boltgun" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="fd1a-9b13-97b6-7b4b" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="ec70-c096-fc39-31e0" name="Storm Bolter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="941d-6509-cda0-ddb6" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="6505-248a-0958-7555" name="Hot-shot Lasgun" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="6c00-4763-be62-d675" targetId="1ffd-5972-7000-7a7d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="ecbc-b7d7-82e6-dae4" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Inquisitorial Medic" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="137b-d71b-7e35-68f8" name="Inquisitorial Servitor" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
       <entries>
         <entry id="368c-3731-2563-33ed" name="Carapace Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -189,7 +760,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       </profiles>
       <links/>
     </entry>
-    <entry id="0174-ba71-0978-7d4d" name="Inquisitorial Storm Trooper" points="16.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="4">
+    <entry id="0174-ba71-0978-7d4d" name="Inquisitorial Storm Trooper" points="16.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="4">
       <entries>
         <entry id="0edb-ac0f-f8a1-b7e0" name="Carapace Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -351,6 +922,192 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="9b13-cdbb-3837-e8e2" name="Inquisitorial Techpriest" points="45.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="6">
+      <entries>
+        <entry id="50cb-410e-3ce1-5972" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c668-c553-f2a0-e0c6" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="cfef-7b8e-6320-a056" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1b55-ccd2-2e2c-9d37" targetId="a32b-6b20-3812-a017" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f698-eb1a-1a4d-48a5" name="Power Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="97bd-112c-a4ec-dd5c" targetId="ad1c-10db-9d07-c9f0" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7bb8-14b6-7985-a7df" name="Servo-arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c2c3-1942-eb94-dcf5" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Servo-arm" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Specialist Weapon, Unwieldy"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2492-0fda-fd48-e7a3" name="Frag &amp; Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6c07-80f8-6b4d-dc8b" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="ce64-5582-5c59-f6d7" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f839-35d7-ada3-920f" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4848-fbd8-e489-179e" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="80b7-4ca6-d56a-5db7" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b78f-f890-58a8-42cc" targetId="d194-4df3-84ed-8d5c" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a2a2-51c8-7cdb-1c64" name="Blessings of the Omnissiah" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="66aa-58bd-a73b-62b2" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Inquisitorial Techpriest" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="3+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3422-b20e-f84c-1d16" name="Jokaero Weaponsmith" points="35.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="6">
+      <entries>
+        <entry id="b7ed-7643-d886-daa1" name="Defence Orbs" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3d61-45ba-fd70-6936" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Defence Orbs" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Defence orbs confer a 5+ invulnerable save."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7237-a70d-da8f-ef28" name="Digital Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7be2-27bf-dfec-50ec" targetId="d63b-9cd3-86dd-8504" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5c9d-13d1-c11e-cde3" name="Inconcievable Customisation" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="7196-03c1-29de-c645" name="Jokaero Ingenuity" hidden="false">
+          <description>A Jokaero can have his digital weapons fire as one of the following weapons: lascannon, multi-melta or heavy flamer. Choose which when the weapon is fired. All Jokaero in the same unit must choose the same weapon.</description>
+          <modifiers/>
+        </rule>
+        <rule id="8284-23b8-3682-117d" name="Area of Effect" hidden="false">
+          <description>Any effects of the Jokaero’s Inconceivable Customisation abilities that affect his unit also affect every friendly model within 3” of the Jokaero.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3c66-a95d-34fc-ba41" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Jokaero Weaponsmith" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="1"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="2"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
     </entry>
     <entry id="41a2-d95d-209b-194e" name="Ministorum Priest" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="4">
       <entries>
@@ -752,7 +1509,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         </link>
       </links>
     </entry>
-    <entry id="1d89-f02f-dbe6-5aac" name="Ordo Hereticus Inquisitor" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
+    <entry id="1d89-f02f-dbe6-5aac" name="Ordo Hereticus Inquisitor" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
       <entries>
         <entry id="a7f9-e953-e648-f58d" name="Frag &amp; Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -957,7 +1714,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         </link>
       </links>
     </entry>
-    <entry id="f55d-f035-2aea-6751" name="Ordo Malleus Inquisitor" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="1">
+    <entry id="f55d-f035-2aea-6751" name="Ordo Malleus Inquisitor" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="1">
       <entries>
         <entry id="1192-bc7c-8b30-179c" name="Psyker (Mastery Level 1)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1293,7 +2050,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         </link>
       </links>
     </entry>
-    <entry id="a4a5-ab42-e244-f575" name="Ordo Xenos Inquisitor" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
+    <entry id="a4a5-ab42-e244-f575" name="Ordo Xenos Inquisitor" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
       <entries>
         <entry id="c667-e7e0-5041-4844" name="Psyker (Mastery Level 1)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1498,7 +2255,83 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         </link>
       </links>
     </entry>
-    <entry id="ae01-22d5-c498-4557" name="Veteran Acolyte" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="05d7-9dfe-7773-50cb" name="Psyker" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="5">
+      <entries>
+        <entry id="9056-68b4-a4e0-dc94" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="933e-caf8-7181-dbff" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a7c2-b5ac-4603-6743" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="487d-a4e5-295e-a9c3" targetId="a32b-6b20-3812-a017" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4527-b564-d730-d752" name="Psychic Barrage" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="73f7-88c6-bc3e-d5fc" name="Augment" hidden="false">
+              <description>Once the Psychic Test has been passed, If there are any friendly models with the Psyker special rule within 6” of the firing model they can choose to spend a Warp Charge in order to augment this Psychic Barrage. For each Warp Charge spent to augment it, the Strength and AP of the Psychic Barrage is improved by 1.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="9a6e-d239-a829-65cc" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Psychic Barrage" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&apos;&apos;"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3*"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6*"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Large Blast, Augment*"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="da6f-43c0-961a-c938" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Psyker" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="de3d-711c-59bb-95f4" targetId="753e-d0ea-a186-aaf9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ae01-22d5-c498-4557" name="Veteran Acolyte" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
       <entries>
         <entry id="060c-910b-3528-9405" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1740,12 +2573,12 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       </profiles>
       <links/>
     </entry>
-    <entry id="1cdf-eacb-bcb6-5958" name="Warrior Acolyte Squad" points="20.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1cdf-eacb-bcb6-5958" name="Warrior Acolyte Squad" points="20.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
       <entries/>
       <entryGroups>
         <entryGroup id="f7a6-ff6e-ed8c-cee9" name="Squad" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="dd44-afb3-548d-e151" name="Warrior Acolyte" points="0.0" categoryId="(No Category)" type="unit" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
+            <entry id="dd44-afb3-548d-e151" name="Warrior Acolyte" points="0.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
               <entries/>
               <entryGroups/>
               <modifiers>
@@ -1781,7 +2614,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
               </profiles>
               <links/>
             </entry>
-            <entry id="a102-c8c3-2aa4-af1c" name="Warrior Acolyte with special weapon" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
+            <entry id="a102-c8c3-2aa4-af1c" name="Warrior Acolyte with special weapon" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
               <entries/>
               <entryGroups>
                 <entryGroup id="ee7b-94e2-c48b-8c5b" name="Chainsword, or" defaultEntryId="9610-19c6-cc59-381b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2119,839 +2952,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       <profiles/>
       <links/>
     </entry>
-    <entry id="47b3-414e-d45d-e2f9" name="Banisher" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="ee28-949f-9594-45a6" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="28aa-667f-2ffd-a32b" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e2c7-3da4-73a1-880c" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9dbc-5ce1-540c-5f10" targetId="a32b-6b20-3812-a017" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="21fd-8f0d-8bec-cb1a" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="58a5-2e86-3035-75f9" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="226e-e640-c2dd-42a9" name="Chainsword, or" defaultEntryId="c3d2-d202-3945-51d4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="c3d2-d202-3945-51d4" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="0783-573a-0004-62ef" targetId="8345-6f0f-2cad-eff9" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="5b85-db16-51cf-c71c" name="Eviscerator" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="bf31-8beb-8473-25c8" targetId="e649-c2a3-4c23-214b" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="2a03-4ab1-1788-4583" name="Preferred Enemy (Daemon)" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="a106-ce30-933f-e883" name="Aura of Faith" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="5e86-e584-3f3e-32e6" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Banisher" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
-            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="9a41-1e17-f3a6-5a50" name="Inquisitorial Medic" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="10c7-7b40-db0c-49f9" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="59e6-bfa1-0a69-68b9" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e7ce-eb2d-9405-bedf" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="663e-5c8f-b34d-2b96" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e376-469f-0a22-06e1" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a0e6-b057-b88f-5c7a" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="eae4-8617-f1ad-617e" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="fc7e-9a65-8a05-5954" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="db5a-d5bf-d20c-abda" name="Medi-pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="448c-d0b4-7858-769a" targetId="1a55-50f4-f80a-bd7b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="de34-ec03-2896-4ad0" name="Armour Options" defaultEntryId="6080-b87e-0313-c87a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="239a-4a62-e36d-72a0" name="Power Armour" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="944b-06d4-edac-7dbe" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="6080-b87e-0313-c87a" name="Carapace Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="b7b8-e48f-36ff-9727" targetId="0012-73e3-6260-96ff" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="ee65-6e36-9577-3898" name="Chainsword, or" defaultEntryId="40d8-9241-c34d-21f0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="40d8-9241-c34d-21f0" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="fbf4-3295-f8d8-5239" targetId="8345-6f0f-2cad-eff9" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="8e48-3f97-38d9-1a66" name="Lasgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="36a3-40d7-ffe6-b0f9" targetId="c80f-8aff-241a-0cce" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="259b-bb64-47fa-cd60" name="Boltgun" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="5db1-6657-19d5-5a27" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="5cd1-a29a-ac75-0242" name="Storm Bolter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="b945-cb89-a823-751f" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="f745-2156-844b-3f06" name="Hot-shot Lasgun" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="3abf-9711-7787-8b38" targetId="1ffd-5972-7000-7a7d" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="a665-f0b8-06f0-1e74" name="Laspistol, or" defaultEntryId="2d03-1a9d-7f9a-801c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="2d03-1a9d-7f9a-801c" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="bb86-128b-7899-1b6a" targetId="a32b-6b20-3812-a017" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="dc68-495c-5870-8adc" name="Lasgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="208a-8299-b30f-4958" targetId="c80f-8aff-241a-0cce" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="2e07-bab7-1d96-5492" name="Boltgun" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="fd1a-9b13-97b6-7b4b" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="ec70-c096-fc39-31e0" name="Storm Bolter" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="941d-6509-cda0-ddb6" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="6505-248a-0958-7555" name="Hot-shot Lasgun" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="6c00-4763-be62-d675" targetId="1ffd-5972-7000-7a7d" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="ecbc-b7d7-82e6-dae4" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Inquisitorial Medic" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
-            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
-            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="3059-b635-4eec-541e" name="Crusader" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="83a5-2ede-bdcc-23ab" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="818d-e1a5-ae72-522d" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="564b-aa5b-596f-b757" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e546-dd88-3cae-c0f2" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="de85-8940-685c-2954" name="Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="20e1-ea31-9ee5-80d8" targetId="6755-1c93-fc37-3ec7" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="8864-1bd6-a088-6997" name="Storm Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="77ab-3473-f87c-495f" targetId="908c-2188-d00f-d577" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="06e2-056f-7519-3373" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Crusader" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
-            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="52d3-d15d-70c7-2e09" name="Daemonhost" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9b14-a783-1386-278d" name="Close Combat Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2e93-9a86-85ea-1046" targetId="b6c5-4e6b-7862-3a45" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2e47-5476-f510-cd27" name="Daemonic Power" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="0f2f-c7b1-5985-636f" name="Daemonic Power" hidden="false">
-              <description>Roll a D6 at the start of each friendly turn for each unit that contains one or
-more Daemonhosts to determine which ability all the Daemonhosts in that unit
-manifest this turn. Unless otherwise stated, each manifestation lasts until the
-start of your next turn.
-D6 - Result
-1 - The Daemonhost have the Feel No Pain special rule.
-2 - In the Assault phase, Daemonhost can attack using Warp Grasp.
-3 - The Daemonhost gain the Fleet special rule, and their Initiative increases to 10.
-4 - The Daemonhosts’ Strength characteristic increases to 6.
-5 - In the Shooting phase, Daemonhost can make a shooting attack with the Energy Torent.
-6 - In the Shooting phase, each Daemonhost can make a shooting attack with the Unholy Gaze.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="3d2c-fbd7-2d9a-438c" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Daemonic Power - Warp Grasp" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
-                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
-                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
-                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="8031-986d-fd55-8164" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Daemonic Power - Energy Torrent" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&apos;&apos;"/>
-                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
-                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
-                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="7bf4-88a3-20ba-9bf6" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Daemonic Power - Unholy Gaze" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&apos;&apos;"/>
-                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
-                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
-                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="9f76-b702-f564-7e11" name="Warp Shield" hidden="false">
-          <description>A Daemonhost has a 5+ invulnerable save.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="d928-6fcd-ef9a-9fd2" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Daemonhost" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
-            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="dcd9-e673-4f78-bc4f" name="Death Cult Assasin" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="6439-b78f-0d70-0643" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a42d-ffa3-ff8f-2945" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d6c5-aea3-a08c-48e2" name="Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6e23-8075-a8e1-b0e9" targetId="6755-1c93-fc37-3ec7" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="985c-6901-4f15-efca" name="Uncanny Reflexes" hidden="false">
-          <description>A Death Cult Assassin has a 5+ invulnerable save</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="05e2-4761-997d-8470" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Death Cult Assasin" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="5"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
-            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="6"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="05d7-9dfe-7773-50cb" name="Psyker" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9056-68b4-a4e0-dc94" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="933e-caf8-7181-dbff" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="a7c2-b5ac-4603-6743" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="487d-a4e5-295e-a9c3" targetId="a32b-6b20-3812-a017" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4527-b564-d730-d752" name="Psychic Barrage" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="73f7-88c6-bc3e-d5fc" name="Augment" hidden="false">
-              <description>Once the Psychic Test has been passed, If there are any friendly models with the Psyker special rule within 6” of the firing model they can choose to spend a Warp Charge in order to augment this Psychic Barrage. For each Warp Charge spent to augment it, the Strength and AP of the Psychic Barrage is improved by 1.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="9a6e-d239-a829-65cc" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Psychic Barrage" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&apos;&apos;"/>
-                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3*"/>
-                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6*"/>
-                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Large Blast, Augment*"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="da6f-43c0-961a-c938" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Psyker" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
-            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="de3d-711c-59bb-95f4" targetId="753e-d0ea-a186-aaf9" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3422-b20e-f84c-1d16" name="Jokaero Weaponsmith" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="b7ed-7643-d886-daa1" name="Defence Orbs" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="3d61-45ba-fd70-6936" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Defence Orbs" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Defence orbs confer a 5+ invulnerable save."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="7237-a70d-da8f-ef28" name="Digital Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7be2-27bf-dfec-50ec" targetId="d63b-9cd3-86dd-8504" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="5c9d-13d1-c11e-cde3" name="Inconcievable Customisation" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="7196-03c1-29de-c645" name="Jokaero Ingenuity" hidden="false">
-          <description>A Jokaero can have his digital weapons fire as one of the following weapons: lascannon, multi-melta or heavy flamer. Choose which when the weapon is fired. All Jokaero in the same unit must choose the same weapon.</description>
-          <modifiers/>
-        </rule>
-        <rule id="8284-23b8-3682-117d" name="Area of Effect" hidden="false">
-          <description>Any effects of the Jokaero’s Inconceivable Customisation abilities that affect his unit also affect every friendly model within 3” of the Jokaero.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="3c66-a95d-34fc-ba41" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Jokaero Weaponsmith" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="1"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="2"/>
-            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="9b13-cdbb-3837-e8e2" name="Inquisitorial Techpriest" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="50cb-410e-3ce1-5972" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c668-c553-f2a0-e0c6" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="cfef-7b8e-6320-a056" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1b55-ccd2-2e2c-9d37" targetId="a32b-6b20-3812-a017" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="f698-eb1a-1a4d-48a5" name="Power Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="97bd-112c-a4ec-dd5c" targetId="ad1c-10db-9d07-c9f0" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="7bb8-14b6-7985-a7df" name="Servo-arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="c2c3-1942-eb94-dcf5" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Servo-arm" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
-                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
-                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
-                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Specialist Weapon, Unwieldy"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="2492-0fda-fd48-e7a3" name="Frag &amp; Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6c07-80f8-6b4d-dc8b" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="ce64-5582-5c59-f6d7" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="f839-35d7-ada3-920f" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4848-fbd8-e489-179e" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="80b7-4ca6-d56a-5db7" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="b78f-f890-58a8-42cc" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="a2a2-51c8-7cdb-1c64" name="Blessings of the Omnissiah" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="66aa-58bd-a73b-62b2" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Inquisitorial Techpriest" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
-            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="3+"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="dbba-2630-68cc-d3e7" name="Acolyte Special Weapon Options" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3255,7 +3255,7 @@ D6 - Result
           </profiles>
           <links/>
         </entry>
-        <entry id="ff9e-5876-e2b9-0bdb" name="Unguents of Warding" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ff9e-5876-e2b9-0bdb" name="Unguents of Warding" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4833,6 +4833,20 @@ D6 - Result
       <description>Any model with the Daemon or Psyker special rule that suffers one or more unsaved Wounds from a weapon with this special rule must take a Leadership test at the end of the Assault phase. If the test is passed, nothing happens. If the test is failed, the model is removed as a casualty.</description>
       <modifiers/>
     </rule>
+    <rule id="5023-ffaf-5f4d-b147" name="Daemonic Powers" hidden="false">
+      <description>Every Daemonblade has two daemonic powers randomly generated from the following list before the army is deployed. If the same result is rolled twice, you can choose the Daemonblade’s second daemonic power.
+2D6 - Daemonic Power
+2-3 - Warpflame: Attacks made with the Daemonblade are resolved at +3 Strength.
+4 - Unholy Speed: The wielder has +3 Attacks.
+5 - Etherblade: The Daemonblade has an AP of 2.
+6 - Vampyre: When the Daemonblade inflicts an unsaved wound, its wielder immediately gains +1 Wound (to a maximum of 10).
+7 - Daemonic Feud: Close combat attacks from this sword always wound Daemons on a roll of 2+. Furthermore, Daemons must re-roll any successful invulnerable saves against any wounds caused by this Daemonblade.
+8 - Deathlust: The wielder of the Daemonblade has the Furious Charge and Rage special rules.
+9 - Dark Resurrection: The wielder of the Daemonblade has the Feel No Pain and Eternal Warrior special rules.
+10 - Daemon Venom: The Daemonblade has the Poisoned (2+) special rule.
+11+ - Familiar: The wielder generates one additional Warp Charge point in each of his turns. In addition, the Daemonblade gains the Force special rule.</description>
+      <modifiers/>
+    </rule>
     <rule id="296f-56de-f64a-edd8" name="Feel No Pain" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
@@ -4887,13 +4901,6 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
     <rule id="08c9-828d-654f-e1a0" name="Stubborn" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
-    <rule id="0982-a004-2f67-55c1" name="Witchbane" hidden="false" page="0">
-      <description>Any unsaved wounds caused by a null rod inflict Instant Death on models with the Psyker or Brotherhood of Psykers/Sorcerers special rule. Futhermore, the bearer (and his squad) cannot be targeted by psychic powers (friendly or enemy).</description>
-      <modifiers/>
-    </rule>
-    <rule id="a04f-fcbf-4054-4ccf" name="Zealot" hidden="false" book="Wh40k: The Rules">
-      <modifiers/>
-    </rule>
     <rule id="9643-35ef-465a-8144" name="War Hymns" hidden="false" book="Codex: Adepta Sororitas" page="0">
       <description>A model with this special rule can take a Leadership test at the beginning of each Fight sub-phase in which he is locked in combat. If the test is successful, choose one of the following war hymns to immediately take effect.
 
@@ -4904,18 +4911,11 @@ The Emperor’s Strength: The model has the Smash special rule until the end of 
 The Righteousness of the Emperor: The model and his unit re-roll failed rolls To Wound until the end of the phase.</description>
       <modifiers/>
     </rule>
-    <rule id="5023-ffaf-5f4d-b147" name="Daemonic Powers" hidden="false">
-      <description>Every Daemonblade has two daemonic powers randomly generated from the following list before the army is deployed. If the same result is rolled twice, you can choose the Daemonblade’s second daemonic power.
-2D6 - Daemonic Power
-2-3 - Warpflame: Attacks made with the Daemonblade are resolved at +3 Strength.
-4 - Unholy Speed: The wielder has +3 Attacks.
-5 - Etherblade: The Daemonblade has an AP of 2.
-6 - Vampyre: When the Daemonblade inflicts an unsaved wound, its wielder immediately gains +1 Wound (to a maximum of 10).
-7 - Daemonic Feud: Close combat attacks from this sword always wound Daemons on a roll of 2+. Furthermore, Daemons must re-roll any successful invulnerable saves against any wounds caused by this Daemonblade.
-8 - Deathlust: The wielder of the Daemonblade has the Furious Charge and Rage special rules.
-9 - Dark Resurrection: The wielder of the Daemonblade has the Feel No Pain and Eternal Warrior special rules.
-10 - Daemon Venom: The Daemonblade has the Poisoned (2+) special rule.
-11+ - Familiar: The wielder generates one additional Warp Charge point in each of his turns. In addition, the Daemonblade gains the Force special rule.</description>
+    <rule id="0982-a004-2f67-55c1" name="Witchbane" hidden="false" page="0">
+      <description>Any unsaved wounds caused by a null rod inflict Instant Death on models with the Psyker or Brotherhood of Psykers/Sorcerers special rule. Futhermore, the bearer (and his squad) cannot be targeted by psychic powers (friendly or enemy).</description>
+      <modifiers/>
+    </rule>
+    <rule id="a04f-fcbf-4054-4ccf" name="Zealot" hidden="false" book="Wh40k: The Rules">
       <modifiers/>
     </rule>
   </sharedRules>
@@ -5016,6 +5016,27 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="10"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Blast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="767e-2567-1a39-da3a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Daemonblade" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Two-Handed, Daemonic Powers"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d63b-9cd3-86dd-8504" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Digital Weapons" hidden="false" book="">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Re-roll a single failed to wound roll in the assault phase"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="bbb4-1f72-c36a-ad6e" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Empyrean Brain Mines" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Empyrean brain mines are used at the start of the Fight sub-phase. Nominate one enemy model in base contact with the bearer. That model must pass an Initiative test to avoid the brain mine. If the test is passed, the effects of the brain mine have been resisted. If the test is failed, the victim has been rendered momentarily catatonic and cannot strike any blows during this sub-phase."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5130,6 +5151,15 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="4250-52c3-76cd-cc82" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Hellrifle" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&apos;&apos;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Rending"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="1ffd-5972-7000-7a7d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Hot-shot Lasgun" hidden="false" book="Codex: Astra Militarum" page="0">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18"/>
@@ -5184,12 +5214,27 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="c80f-8aff-241a-0cce" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Lasgun" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="a32b-6b20-3812-a017" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Laspistol" hidden="false" book="BRB 2014" page="177">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1a55-50f4-f80a-bd7b" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Medi-pack" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Medic and all friendly models within 6” gain the Feel No Pain special rule."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5337,9 +5382,36 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="8dd1-de9d-046e-f032" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Psycannon" hidden="false" book="Codex: Grey Knights" page="89">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Salvo 2/4, Rending"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="784a-6b2e-2331-c94d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Psychotroke grenades" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="When a unit equipped with psychotroke grenades launches an assault, or is assaulted, roll a D6 for each enemy unit being assaulted or assaulting to see what the effect is. The effects of psychotroke gas only ever last for the duration of a single Assault phase. Note that the descriptions included below have been based on the recorded responses of human subjects – alien races will, of course, react in the own, inimitable fashion (though the game effect is unchanged). D6 - Effect 1 - The unit has resisted the psychotroke gas – there is no effect. 2 - The enemy unit is hit automatically in this Assault phase. They can still fight, but with a maximum of 1 Attack per model (to represent their maddened flailing). 3 - You re-roll failed To Hit rolls against the enemy unit during this Assault phase. 4 - They’re horrible! Your darkest fears have been given form and are coming to kill you! The enemy unit is reduced to Leadership 2 for the remainder of the Assault phase. 5 - The enemy unit is reduced to Initiative 1 for the remainder of the Assault phase. 6 - Every model in the enemy unit must immediately take an Initiative test. Any models that fail must strike blows against their own unit during this Assault phase, rather than against the enemy, exactly as if they were on your side. Wounds inflicted must be allocated amongst the entire unit, not just amongst unaffected models. Unsaved wounds caused by affected models count towards your close combat total. Units composed of single models re-roll this result."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="481c-1180-bf1a-19cf" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Psyk-out grenades" hidden="false">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="When a unit equipped with psyk-out grenades launches an assault, any models with the Daemon, Psyker, Psychic Pilot or Brotherhood of Psykers special rules in the assaulted unit(s) are reduced to Initiative 1 for the remainder of the phase."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c2ba-039c-7ba1-530f" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Psyocculum" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The bearer of a psyocculum (and his unit) count as being Ballistic Skill 10 if shooting at a unit containing one or more models with the Psyker, Psychic Pilot or Brotherhood of Psykers/Sorcerers special rules."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="99c3-3c16-8cdb-a349" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Rad Grenades" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="During a turn in which a unit equipped with rad grenades launches an assault, or is assaulted, the enemy unit(s) suffer a -1 penalty to their Toughness until the end of the phase (this does affect the victims’ Instant Death threshold)."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5349,12 +5421,27 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="8547-d602-a64e-c901" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Scythian Venom Talon" hidden="false" page="0">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Poisoned (2+)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="facc-a900-d87f-665b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Servo-arm" hidden="false">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Specialist Weapon, Unwieldy"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="bbe3-6439-46ac-5156" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Servo-skull" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Servo-skulls are treated as counters, rather than units, for all intents and purposes. They are placed on the battlefield after deployment areas have been determined, but before any forces are deployed. Each Servo-skull can be placed anywhere on the battlefield outside the enemy’s deployment zone. Once deployed, Servo-skulls do not move. Enemy infiltrators cannot set up within 12&quot; of a Servo-skull. Similarly, enemy scouts cannot use their pre-game move to approach to within 12&quot; of a Servo-skull. A friendly unit arriving by Deep Strike rolls one D6 less for scatter if it aims to arrive within 12&quot; of a Servo-skull. Likewise, friendly blast templates placed within 12&quot; of a Servo-skull roll one D6 less for scatter. Servo-skulls are considered too small and agile to be attacked and cannot be harmed in any way. However, should an enemy unit move within 6&quot; of a Servo-skull, then the Servo-skull will self-destruct or flee the battlefield – remove it from play."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5394,105 +5481,6 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Concussive, Specialist Weapon, Unwieldy"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="8547-d602-a64e-c901" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Scythian Venom Talon" hidden="false" page="0">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Poisoned (2+)"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="8dd1-de9d-046e-f032" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Psycannon" hidden="false" book="Codex: Grey Knights" page="89">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Salvo 2/4, Rending"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="1a55-50f4-f80a-bd7b" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Medi-pack" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Medic and all friendly models within 6” gain the Feel No Pain special rule."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="c80f-8aff-241a-0cce" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Lasgun" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="d63b-9cd3-86dd-8504" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Digital Weapons" hidden="false" book="">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Re-roll a single failed to wound roll in the assault phase"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="bbe3-6439-46ac-5156" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Servo-skull" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Servo-skulls are treated as counters, rather than units, for all intents and purposes. They are placed on the battlefield after deployment areas have been determined, but before any forces are deployed. Each Servo-skull can be placed anywhere on the battlefield outside the enemy’s deployment zone. Once deployed, Servo-skulls do not move.
-Enemy infiltrators cannot set up within 12&quot; of a Servo-skull. Similarly, enemy scouts cannot use their pre-game move to approach to within 12&quot; of a Servo-skull. A friendly unit arriving by Deep Strike rolls one D6 less for scatter if it aims to arrive within 12&quot; of a Servo-skull. Likewise, friendly blast templates placed within 12&quot; of a Servo-skull roll one D6 less for scatter.
-Servo-skulls are considered too small and agile to be attacked and cannot be harmed in any way. However, should an enemy unit move within 6&quot; of a Servo-skull, then the Servo-skull will self-destruct or flee the battlefield – remove it from play."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="99c3-3c16-8cdb-a349" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Rad Grenades" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="During a turn in which a unit equipped with rad grenades launches an assault, or is assaulted, the enemy unit(s) suffer a -1 penalty to their Toughness until the end of the phase (this does affect the victims’ Instant Death threshold)."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="c2ba-039c-7ba1-530f" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Psyocculum" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The bearer of a psyocculum (and his unit) count as being Ballistic Skill 10 if shooting at a unit containing one or more models with the Psyker, Psychic Pilot or Brotherhood of Psykers/Sorcerers special rules."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="784a-6b2e-2331-c94d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Psychotroke grenades" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="When a unit equipped with psychotroke grenades launches an assault, or is assaulted, roll a D6 for each enemy unit being assaulted or assaulting to see what the effect is. The effects of psychotroke gas only ever last for the duration of a single Assault phase.
-Note that the descriptions included below have been based on the recorded responses of human subjects – alien races will, of course, react in the own, inimitable fashion (though the game effect is unchanged).
-D6 - Effect
-1 - The unit has resisted the psychotroke gas – there is no effect.
-2 - The enemy unit is hit automatically in this Assault phase. They can still fight, but with a maximum of 1 Attack per model (to represent their maddened flailing).
-3 - You re-roll failed To Hit rolls against the enemy unit during this Assault phase.
-4 - They’re horrible! Your darkest fears have been given form and are coming
-to kill you!
-The enemy unit is reduced to Leadership 2 for the remainder of the Assault phase.
-5 - The enemy unit is reduced to Initiative 1 for the remainder of the Assault phase.
-6 - Every model in the enemy unit must immediately take an Initiative test. Any models that fail must strike blows against their own unit during this Assault phase, rather than against the enemy, exactly as if they were on your side. Wounds inflicted must be allocated amongst the entire unit, not just amongst unaffected models. Unsaved wounds caused by affected models count towards your close combat total. Units composed of single models re-roll this result."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="bbb4-1f72-c36a-ad6e" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Empyrean Brain Mines" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Empyrean brain mines are used at the start of the Fight sub-phase. Nominate one enemy model in base contact with the bearer. That model must pass an Initiative test to avoid the brain mine. If the test is passed, the effects of the brain mine have been resisted. If the test is failed, the victim has been rendered momentarily catatonic and cannot strike any blows during this sub-phase."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="767e-2567-1a39-da3a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Daemonblade" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Two-Handed, Daemonic Powers"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="4250-52c3-76cd-cc82" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Hellrifle" hidden="false">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&apos;&apos;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Rending"/>
       </characteristics>
       <modifiers/>
     </profile>
