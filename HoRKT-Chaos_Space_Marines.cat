@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3b34-1d18-16d8-faa5" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Chaos Space Marines: HoR" books="Kill Team List: Chaos Space Marines v3.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3b34-1d18-16d8-faa5" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Chaos Space Marines: HoR" books="Kill Team List: Chaos Space Marines v3.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -206,6 +206,9 @@
       <modifiers/>
     </link>
     <link id="4c04-99b9-0b20-0146" targetId="5d99-588a-349a-eb55" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+      <modifiers/>
+    </link>
+    <link id="389c-dca3-3040-a178" targetId="9ba1-ccfc-78b2-455b" linkType="entry" categoryId="cb2cd0fc-5911-38e6-9296-dcbaa3aaad0d">
       <modifiers/>
     </link>
   </links>
@@ -2573,6 +2576,75 @@
           <modifiers/>
         </link>
         <link id="46f4-b8af-379b-aaad" targetId="7190-bfa7-986f-7bca" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9ba1-ccfc-78b2-455b" name="Chaos Rhino" points="35.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="12aa-e311-afe6-2bb3" name="Searchlight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a398-e25d-480b-f40f" targetId="cb25-4c99-275c-cc8d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="92b0-9112-f42f-2227" name="Smoke launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e97a-29e4-2c4b-7963" targetId="770c-a3d6-575f-4826" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="593d-a6db-82f0-7ccc" name="Combi-bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b116-c648-922f-3e49" targetId="7a2d-d4da-80fb-093e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0140-64e7-1a26-7e1d" name="Repair" hidden="false">
+          <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c185-7760-d9fa-6967" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Chaos Rhino" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Transport)"/>
+            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
+            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="11"/>
+            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
+            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
+            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
+            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Ten models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
+            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="The Chaos Rhino has one Access Point on each side of the hull and one at the rear."/>
+            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="Two models can fire from the Chaos Rhino’s top hatch."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="63dd-2f91-7193-b8d0" targetId="b3b5-9ce7-a061-278e" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -8009,6 +8081,109 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="b3b5-9ce7-a061-278e" name="Chaos Vehicle Equipment" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9910-5758-cc3c-854c" name="Havoc Launcher" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="19e5-326f-83a8-7f88" targetId="ff3d-99f0-87e4-8dfa" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1e70-b333-d78a-81eb" name="Daemonic Possession" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8991-0e64-7be1-0351" targetId="1053-dfc8-a41b-1fb7" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fdc4-701c-08ef-364b" name="Dozer Blade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1318-a79a-faa9-2ce4" targetId="4004-fd8e-94fa-8bea" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="af7b-62d2-f90a-20b0" name="Combi-bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5a59-35ac-d5ef-d0f7" targetId="7a2d-d4da-80fb-093e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4d8f-f9d4-8d80-d001" name="Dirge caster" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b885-0328-f2c0-2f2b" targetId="cc37-13c2-d9f6-a64a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7801-d39a-39dc-f117" name="Warpflame gargoyles" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e157-29ca-6333-abf1" targetId="abba-907d-658c-96bd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3b89-469b-a624-ec81" name="Destroyer blades" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b91b-4f8d-5d70-067f" targetId="b176-a527-9752-942d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fd4b-c4fc-8982-98b9" name="Combi-Weapon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5082-491e-4f39-6437" targetId="c5f3-5541-40e8-50fd" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="c5f3-5541-40e8-50fd" name="Combi Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="2a08-5329-9718-b708" name="Combi-flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9290,9 +9465,33 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="1053-dfc8-a41b-1fb7" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Daemonic Possession" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Reduces BS to 3. Ignores Crew shaken and stunned results on a 2+.  Roll a D6 each embark/disembark. On a 1, the vehicle eats a random model in the unit (remove from play, no saves allowed) and reagins a lost hull point."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b176-a527-9752-942d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Destroyer Blades" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Any unit that is Tank Shocked from destroyer blades takes D6 Str 5 AP - hits. If they perform Death or Glory, it is 2D6 instead."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="cc37-13c2-d9f6-a64a" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Dirge Caster" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Enemies within 6&quot; of the Dirge Caster equipped vehicle cannot fire Overwatch."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="d646-e19a-bb04-1a2c" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Disc of Tzeentch" hidden="false">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="+1 Attack and unit type changes to Jetbike."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4004-fd8e-94fa-8bea" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Dozer Blade" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Can re-roll dangerous terrain tests. Treat the vehicles front armour as +1 higher when ramming."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -9383,6 +9582,15 @@ In addition, units containing one or more models with the Zealot special rule re
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ff3d-99f0-87e4-8dfa" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Havoc Launcher" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Blast, Twin-linked"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -9650,6 +9858,12 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="cb25-4c99-275c-cc8d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Searchlight" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Searchlights are used when the Night Fighting rules are in effect. If a vehicle has a searchlight, it can, after firing all of its weapons, choose to illuminate its target with the searchlight. If it does so, it also illuminates itself. You may find it helpful to place coins, or other suitable counters, next to the units as reminders, and next to a vehicle to show it has used its searchlights this turn. Illumination lasts until the end of the following turn. Illuminated units gain no benefit from the Night Fighting rule."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="facc-a900-d87f-665b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Servo-arm" hidden="false">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
@@ -9665,6 +9879,12 @@ In addition, units containing one or more models with the Zealot special rule re
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="770c-a3d6-575f-4826" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Smoke launchers" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Once per game, instead of shooting or moving Flat Out (or Running in the case of Walkers), a vehicle with smoke launchers can trigger them. Place some cotton wool or some other appropriate counter next to the vehicle to show it is obscured. The vehicle may not fire any of its weapons in the same turn as it used smoke launchers, but counts as obscured in the next enemy Shooting phase, receiving a 5+ cover save. After the enemy’s Shooting phase, the smoke disperses with no further effect. Note that a vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stunned result or it does not have any shooting weapons."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -9695,6 +9915,12 @@ In addition, units containing one or more models with the Zealot special rule re
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire, Twin-Linked"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="abba-907d-658c-96bd" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Warpflame Gargoyles" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="All weapons on the Vehicle have Soul Blaze"/>
       </characteristics>
       <modifiers/>
     </profile>
