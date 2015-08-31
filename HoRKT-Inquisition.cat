@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a29e-b803-84d6-892f" revision="5" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a29e-b803-84d6-892f" revision="6" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -886,7 +886,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       </profiles>
       <links/>
     </entry>
-    <entry id="0174-ba71-0978-7d4d" name="Inquisitorial Storm Trooper" points="16.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="4">
+    <entry id="0174-ba71-0978-7d4d" name="Inquisitorial Storm Trooper" points="14.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="4">
       <entries>
         <entry id="0edb-ac0f-f8a1-b7e0" name="Carapace Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -936,17 +936,26 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="9bdd-700f-cf10-cd66" name="Frag &amp; Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ab7a-5e58-591b-946a" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="2981-6e88-e403-6523" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
+            <link id="dd3c-b5f7-30f8-5e8e" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
               <modifiers/>
             </link>
-            <link id="f273-13fe-421d-043e" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
+          </links>
+        </entry>
+        <entry id="7d42-dadc-2920-5cb3" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7bdd-f47e-4cdf-06e0" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1049,7 +1058,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         </link>
       </links>
     </entry>
-    <entry id="9b13-cdbb-3837-e8e2" name="Inquisitorial Techpriest" points="45.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="6">
+    <entry id="9b13-cdbb-3837-e8e2" name="Inquisitorial Techpriest" points="43.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="6">
       <entries>
         <entry id="50cb-410e-3ce1-5972" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1105,21 +1114,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           </profiles>
           <links/>
         </entry>
-        <entry id="2492-0fda-fd48-e7a3" name="Frag &amp; Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6c07-80f8-6b4d-dc8b" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="ce64-5582-5c59-f6d7" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="f839-35d7-ada3-920f" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -1140,6 +1134,30 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="b78f-f890-58a8-42cc" targetId="d194-4df3-84ed-8d5c" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="ab23-e2db-96a6-2fd1" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7593-ac67-cd63-353e" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="faa4-be7d-6336-50c9" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4a8e-cd76-3c39-50f8" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1635,23 +1653,8 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         </link>
       </links>
     </entry>
-    <entry id="1d89-f02f-dbe6-5aac" name="Ordo Hereticus Inquisitor" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
+    <entry id="1d89-f02f-dbe6-5aac" name="Ordo Hereticus Inquisitor" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
       <entries>
-        <entry id="a7f9-e953-e648-f58d" name="Frag &amp; Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a75a-c515-48dd-f31e" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="768d-f648-afec-63f6" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="3eff-8fef-7bb6-9842" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -1696,6 +1699,30 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="d790-1066-79cf-78d9" targetId="481c-1180-bf1a-19cf" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4612-7ed3-196e-a25f" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9edf-2617-9720-9d28" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="310f-a1db-c87d-729b" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3973-dcb0-58c3-8d85" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1840,7 +1867,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         </link>
       </links>
     </entry>
-    <entry id="f55d-f035-2aea-6751" name="Ordo Malleus Inquisitor" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="1">
+    <entry id="f55d-f035-2aea-6751" name="Ordo Malleus Inquisitor" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="1">
       <entries>
         <entry id="1192-bc7c-8b30-179c" name="Psyker (Mastery Level 1)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1878,21 +1905,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="2cd8-5beb-c70d-c1a5" name="Frag &amp; Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="207b-67c1-a9d3-466c" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="c03e-0d6b-ae1d-003c" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="5b75-8c84-d629-9fe2" name="Psyk-Out Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -1901,6 +1913,30 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="6b0c-8cd2-333c-bfdb" targetId="481c-1180-bf1a-19cf" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="05d5-0b00-2e99-77c2" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="97aa-8628-1d61-5a90" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="35e9-140f-9350-778e" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="330d-9bbb-17b4-c8fc" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -2176,7 +2212,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         </link>
       </links>
     </entry>
-    <entry id="a4a5-ab42-e244-f575" name="Ordo Xenos Inquisitor" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
+    <entry id="a4a5-ab42-e244-f575" name="Ordo Xenos Inquisitor" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
       <entries>
         <entry id="c667-e7e0-5041-4844" name="Psyker (Mastery Level 1)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2186,21 +2222,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="c94b-8a70-4e18-3698" targetId="753e-d0ea-a186-aaf9" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="1514-16c0-8655-32ae" name="Frag &amp; Krak Grenades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f070-082c-98d9-f0e7" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="44e0-e388-11a8-33cf" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -2237,6 +2258,30 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="ab6a-8406-a745-d55d" targetId="481c-1180-bf1a-19cf" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c855-38dd-13d7-99b7" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="19b8-747e-dfd2-e491" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="76a8-2633-8ca0-b727" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2578-5137-e306-82ef" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
               <modifiers/>
             </link>
           </links>

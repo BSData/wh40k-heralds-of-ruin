@@ -213,7 +213,7 @@
     </link>
   </links>
   <sharedEntries>
-    <entry id="825f-d084-27dd-ba7b" name="Aspiring Champion" points="23.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
+    <entry id="825f-d084-27dd-ba7b" name="Aspiring Champion" points="21.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
       <entries>
         <entry id="dbab-a838-f1f6-a562" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -369,7 +369,7 @@
             </link>
           </links>
         </entry>
-        <entry id="b42f-7a5e-4b35-2928" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b42f-7a5e-4b35-2928" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -381,7 +381,7 @@
             </link>
           </links>
         </entry>
-        <entry id="55e4-40d3-489d-3b7b" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="55e4-40d3-489d-3b7b" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -393,7 +393,7 @@
             </link>
           </links>
         </entry>
-        <entry id="260d-f920-54cc-ba91" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="260d-f920-54cc-ba91" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -417,7 +417,7 @@
             </link>
           </links>
         </entry>
-        <entry id="fd3e-3cf3-e78f-58db" name="Blight Grenade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="fd3e-3cf3-e78f-58db" name="Blight Grenade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -626,7 +626,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8c23-69f6-dc01-ece3" name="Aspiring Sorcerer" points="58.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
+    <entry id="8c23-69f6-dc01-ece3" name="Aspiring Sorcerer" points="56.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
         <entry id="bbdd-a851-3fc7-ea49" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -652,7 +652,7 @@
             </link>
           </links>
         </entry>
-        <entry id="c486-48ea-96a9-e823" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c486-48ea-96a9-e823" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -664,7 +664,7 @@
             </link>
           </links>
         </entry>
-        <entry id="b3fe-3931-6ece-61b5" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b3fe-3931-6ece-61b5" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -688,7 +688,7 @@
             </link>
           </links>
         </entry>
-        <entry id="849c-81aa-40f3-b4c3" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="849c-81aa-40f3-b4c3" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1059,7 +1059,7 @@
         </link>
       </links>
     </entry>
-    <entry id="2530-3700-d2ce-525e" name="Berzerker Champion" points="29.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
+    <entry id="2530-3700-d2ce-525e" name="Berzerker Champion" points="27.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
       <entries>
         <entry id="9f00-4d65-669e-56fd" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1196,7 +1196,7 @@
             </link>
           </links>
         </entry>
-        <entry id="eb7d-ec47-64f8-6a2a" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="eb7d-ec47-64f8-6a2a" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1208,7 +1208,7 @@
             </link>
           </links>
         </entry>
-        <entry id="667d-74c0-93af-b65c" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="667d-74c0-93af-b65c" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1220,7 +1220,7 @@
             </link>
           </links>
         </entry>
-        <entry id="19f7-0a65-8d9f-fe36" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="19f7-0a65-8d9f-fe36" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1380,7 +1380,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d330-0f69-6eef-21ec" name="Chaos Acolyte" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
+    <entry id="d330-0f69-6eef-21ec" name="Chaos Acolyte" points="38.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
         <entry id="8b6c-22ff-5975-6235" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1431,7 +1431,7 @@
             </link>
           </links>
         </entry>
-        <entry id="ad16-4d81-cec2-51a4" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ad16-4d81-cec2-51a4" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1443,7 +1443,7 @@
             </link>
           </links>
         </entry>
-        <entry id="1797-4803-69cd-fdca" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1797-4803-69cd-fdca" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1467,7 +1467,7 @@
             </link>
           </links>
         </entry>
-        <entry id="eaf1-fdaf-4869-fa70" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="eaf1-fdaf-4869-fa70" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1935,9 +1935,9 @@
         </link>
       </links>
     </entry>
-    <entry id="c970-aaa5-95e3-74ff" name="Chaos Biker" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
+    <entry id="c970-aaa5-95e3-74ff" name="Chaos Biker" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
       <entries>
-        <entry id="8720-64fa-9b72-7395" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8720-64fa-9b72-7395" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1949,7 +1949,7 @@
             </link>
           </links>
         </entry>
-        <entry id="aae7-6e61-824a-7da8" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="aae7-6e61-824a-7da8" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2661,7 +2661,7 @@
         </link>
       </links>
     </entry>
-    <entry id="db1a-f58f-16d3-4c46" name="Chaos Space Marine" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="4">
+    <entry id="db1a-f58f-16d3-4c46" name="Chaos Space Marine" points="11.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="4">
       <entries>
         <entry id="f619-9c5e-2aba-2d51" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2711,7 +2711,7 @@
             </link>
           </links>
         </entry>
-        <entry id="a83b-8ff7-828d-d0d2" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a83b-8ff7-828d-d0d2" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2723,7 +2723,7 @@
             </link>
           </links>
         </entry>
-        <entry id="6f98-1713-abd7-3198" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6f98-1713-abd7-3198" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3663,7 +3663,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8cb8-fcac-85a7-6d6c" name="Chosen" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="6">
+    <entry id="8cb8-fcac-85a7-6d6c" name="Chosen" points="16.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="6">
       <entries>
         <entry id="abe7-0a6b-766c-fd86" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -3701,7 +3701,7 @@
             </link>
           </links>
         </entry>
-        <entry id="b7a1-4136-3cba-78d9" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b7a1-4136-3cba-78d9" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3713,7 +3713,7 @@
             </link>
           </links>
         </entry>
-        <entry id="104e-6861-02f3-4707" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="104e-6861-02f3-4707" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4385,7 +4385,7 @@
         </link>
       </links>
     </entry>
-    <entry id="706d-a156-84bb-1f5d" name="Forgesmith" points="50.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="9">
+    <entry id="706d-a156-84bb-1f5d" name="Forgesmith" points="48.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="9">
       <entries>
         <entry id="0529-762c-749c-6151" name="Fleshmetal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -4399,7 +4399,7 @@
             </link>
           </links>
         </entry>
-        <entry id="ccff-0f21-8f29-8d28" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ccff-0f21-8f29-8d28" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4467,6 +4467,30 @@
           <profiles/>
           <links>
             <link id="1a04-a67d-3d30-6648" targetId="39f2-5082-7e7d-1081" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4e09-a145-06c8-7c6b" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ecd2-1b80-5d51-0eea" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8837-50f2-c747-7046" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3ac0-02b0-c4ad-431e" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -4659,7 +4683,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="8cb5-94bd-810b-6708" name="Forgesmith (Leader)" points="50.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="9">
+    <entry id="8cb5-94bd-810b-6708" name="Forgesmith (Leader)" points="48.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="9">
       <entries>
         <entry id="f135-258a-a86c-0c64" name="Fleshmetal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -4673,7 +4697,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="b914-a95b-94e0-9f85" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b914-a95b-94e0-9f85" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4741,6 +4765,30 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="53b1-ae19-03e3-513d" targetId="39f2-5082-7e7d-1081" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6404-2ed6-dd70-4031" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5b14-fc1d-5fc7-57bc" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="70b7-85e0-d69a-5224" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f2f3-4e50-cddf-4f1a" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -5032,7 +5080,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="4691-1183-bb12-f31c" name="Khorne Berzerker" points="19.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="7">
+    <entry id="4691-1183-bb12-f31c" name="Khorne Berzerker" points="17.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="7">
       <entries>
         <entry id="3864-bd44-1c69-9cb4" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5046,7 +5094,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="102e-59a1-b21f-a4a0" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="102e-59a1-b21f-a4a0" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5058,7 +5106,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="c010-ab12-500b-0ef1" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c010-ab12-500b-0ef1" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5386,7 +5434,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="fd42-3cde-cf87-37a4" name="Noise Champion" points="27.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
+    <entry id="fd42-3cde-cf87-37a4" name="Noise Champion" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
         <entry id="7efa-adb1-87d9-8c76" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5523,7 +5571,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="8d5e-6437-e4ed-c520" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8d5e-6437-e4ed-c520" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5535,7 +5583,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="cba7-1187-1b5f-20d1" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="cba7-1187-1b5f-20d1" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5547,7 +5595,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="3b65-fb24-d143-abfc" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3b65-fb24-d143-abfc" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5717,7 +5765,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="a416-d4e8-2dbe-9d7d" name="Noise Marine" points="17.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
+    <entry id="a416-d4e8-2dbe-9d7d" name="Noise Marine" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
       <entries>
         <entry id="1430-4513-751a-78aa" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5743,7 +5791,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="e93b-3f49-f89a-7469" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e93b-3f49-f89a-7469" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5755,7 +5803,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="73a6-23bd-54c8-5648" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="73a6-23bd-54c8-5648" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6027,7 +6075,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="6452-bada-51d6-db9c" name="Plague Champion" points="34.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
+    <entry id="6452-bada-51d6-db9c" name="Plague Champion" points="32.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
       <entries>
         <entry id="ffb4-f8be-670b-3ff8" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -6164,7 +6212,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="ac2c-ce04-a8e9-3942" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ac2c-ce04-a8e9-3942" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6176,7 +6224,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="3ea7-4ecb-3e19-415e" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3ea7-4ecb-3e19-415e" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6188,7 +6236,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="c606-e46b-3853-c6fc" name="Blight Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c606-e46b-3853-c6fc" name="Blight Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6410,7 +6458,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="2973-7a44-9b80-499e" name="Plague Marine" points="24.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
+    <entry id="2973-7a44-9b80-499e" name="Plague Marine" points="22.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
       <entries>
         <entry id="7427-d0a2-c0c5-ac97" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -6436,7 +6484,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="aec2-6445-d645-86c2" name="Blight Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="aec2-6445-d645-86c2" name="Blight Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6448,7 +6496,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="99df-ebc2-f8f4-03ab" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="99df-ebc2-f8f4-03ab" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6943,7 +6991,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="b373-2f13-1a31-6ca6" name="Raptor" points="17.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
+    <entry id="b373-2f13-1a31-6ca6" name="Raptor" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
       <entries>
         <entry id="31ed-a298-9cb0-4831" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -7000,7 +7048,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="1da7-ede0-16ea-23e6" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1da7-ede0-16ea-23e6" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -7012,7 +7060,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="fbb1-6bd7-658b-84c5" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="fbb1-6bd7-658b-84c5" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
