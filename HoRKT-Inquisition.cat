@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a29e-b803-84d6-892f" revision="4" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a29e-b803-84d6-892f" revision="5" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -55,6 +55,12 @@
       <modifiers/>
     </link>
     <link id="7eb7-2e3a-50b3-6b20" targetId="1de4-bde0-655b-e221" linkType="entry" categoryId="cb2cd0fc-5911-38e6-9296-dcbaa3aaad0d">
+      <modifiers/>
+    </link>
+    <link id="76c2-59e0-e53d-ea73" targetId="07e9-b85c-9e9f-ed2a" linkType="entry" categoryId="cb2cd0fc-5911-38e6-9296-dcbaa3aaad0d">
+      <modifiers/>
+    </link>
+    <link id="bbf2-a510-58b4-10e5" targetId="d623-5ffc-828c-2d73" linkType="entry" categoryId="cb2cd0fc-5911-38e6-9296-dcbaa3aaad0d">
       <modifiers/>
     </link>
   </links>
@@ -206,9 +212,9 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="d623-5ffc-828c-2d73" name="Chimera" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d623-5ffc-828c-2d73" name="Chimera" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0374-9146-2049-9467" name="Smoke Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0374-9146-2049-9467" name="Smoke Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2453,7 +2459,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
     </entry>
     <entry id="07e9-b85c-9e9f-ed2a" name="Razorback" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="4487-a861-301e-3293" name="Smoke Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="4487-a861-301e-3293" name="Smoke Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2571,7 +2577,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         </link>
       </links>
     </entry>
-    <entry id="1de4-bde0-655b-e221" name="Rhino" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1de4-bde0-655b-e221" name="Rhino" points="35.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="c89d-1301-4c18-2c49" name="Storm Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2585,7 +2591,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="0fc7-dc2f-691a-d75a" name="Smoke Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0fc7-dc2f-691a-d75a" name="Smoke Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>

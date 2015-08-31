@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3b34-1d18-16d8-faa5" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Chaos Space Marines: HoR" books="Kill Team List: Chaos Space Marines v3.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3b34-1d18-16d8-faa5" revision="3" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Chaos Space Marines: HoR" books="Kill Team List: Chaos Space Marines v3.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -231,9 +231,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1050,9 +1077,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1519,109 +1573,40 @@
             </link>
           </links>
         </entry>
-        <entry id="ef19-8df2-f3f3-4e50" name="Traitor Legions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3e03-74c3-9580-f0a8" targetId="7190-bfa7-986f-7bca" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="8503-395d-94fd-0e54" targetId="296f-56de-f64a-edd8" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="f0af-4b49-f9d0-65dc" targetId="76bf-a26d-3008-534d" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="78ea-425e-e237-be7d" targetId="a516-a118-7b50-9ad0" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="aa89-9b6a-2ace-b85b" targetId="d2a0-96d8-422f-19f2" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="56f8-6591-e53b-d5c6" targetId="a476-0855-d1d9-062d" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="ec04-a453-caf0-21a5" targetId="051f-1326-606d-dc6b" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="b3f9-1e09-99aa-624c" targetId="08c9-828d-654f-e1a0" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="f8a0-2b40-f87e-1411" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entry>
         <entry id="441b-c213-b56f-84aa" name="Traitor Legions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2031,9 +2016,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2727,9 +2739,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3178,9 +3217,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3675,9 +3741,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5311,9 +5404,36 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5925,9 +6045,36 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -6964,9 +7111,36 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7189,9 +7363,36 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -9010,7 +9211,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="0e35-e023-7eba-2948" name="Traitor Legions" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="0e35-e023-7eba-2948" name="Traitor Legions" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
