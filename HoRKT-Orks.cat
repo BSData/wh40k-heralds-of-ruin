@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee55996d-ef47-1409-40a1-09bb8a55733a" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Orks: HoR" books="Kill Team List: Orks v3.0" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee55996d-ef47-1409-40a1-09bb8a55733a" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Orks: HoR" books="Kill Team List: Orks v3.0" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -71,6 +71,16 @@
     </link>
     <link id="a72d-c08d-7afb-99ab" targetId="581a-a9d4-413d-d09f" linkType="entry" categoryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
       <modifiers/>
+    </link>
+    <link id="b3e4-1ac8-d9ca-b88b" targetId="cf5a-ecfd-cc63-e1e9" linkType="entry" categoryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="7c01d611-3098-c2a6-579e-c8b170ff14aa" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </link>
   </links>
   <sharedEntries>
@@ -233,6 +243,9 @@
           <modifiers/>
         </link>
         <link id="5e0e52db-3d79-718c-96f9-dedf1b364835" targetId="db5613c0-47c5-aaf4-e1f6-a25ccb1560a1" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="936e-d5ad-1bd7-11ca" targetId="7ead-01e5-936f-d63e" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -515,6 +528,9 @@
         <link id="26d7f9f2-7f41-db6c-c2fd-0b7193eb352e" targetId="8a86d4a4-13f8-ffd4-ae33-416553c75596" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="6ec5-cdb9-156b-e9de" targetId="7ead-01e5-936f-d63e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="bcc0e6e8-cc51-549e-0c37-37cad03bac5d" name="Boss Nob on Warbike" points="33.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="1">
@@ -570,6 +586,9 @@
         <link id="a1d6d207-f21e-d3a0-87d3-d91d05e6f970" targetId="88c214c3-57cf-265a-dbd7-841e3f42d26f" linkType="entry">
           <modifiers/>
         </link>
+        <link id="b093-3073-0a2e-21e8" targetId="7ead-01e5-936f-d63e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="81a4abe2-4878-22c2-d3a7-2bc57c0d0aa0" name="Boss Nob with Rokkit pack" points="28.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Orks v3.0" page="1">
@@ -623,6 +642,9 @@
           <modifiers/>
         </link>
         <link id="acdd297a-6a7e-51ef-6c8d-bd06bb209690" targetId="ce5d079f-8fd3-0282-f0bd-0f786f158811" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fe53-4b40-7527-0c92" targetId="7ead-01e5-936f-d63e" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1347,9 +1369,9 @@
     <entry id="5cd6-f6e7-8868-a9b5" name="Kommandos" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="ee5a-d96e-9cf9-df9b" name="Mob" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="5" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="ee5a-d96e-9cf9-df9b" name="Mob" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="5" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="c774-c9a3-14dd-80e4" name="Kommando" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="c774-c9a3-14dd-80e4" name="Kommando" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="2296-41b1-b1d5-4cac" name="Choppa" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
                   <entries/>
@@ -1406,7 +1428,7 @@
               <profiles/>
               <links/>
             </entry>
-            <entry id="be10-a40a-59b3-92e4" name="Specialist" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="be10-a40a-59b3-92e4" name="Specialist" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="b226-7364-9f15-3ca2" name="Choppa" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
                   <entries/>
@@ -1460,7 +1482,7 @@
                         </link>
                       </links>
                     </entry>
-                    <entry id="3017-c7c3-c402-148d" name="Burna" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="3017-c7c3-c402-148d" name="Burna" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -1475,7 +1497,7 @@
                         </link>
                       </links>
                     </entry>
-                    <entry id="cd44-d5da-7a5d-f88b" name="Rokkit Launcha" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                    <entry id="cd44-d5da-7a5d-f88b" name="Rokkit Launcha" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
                       <entryGroups/>
                       <modifiers/>
@@ -1494,8 +1516,10 @@
                 </entryGroup>
               </entryGroups>
               <modifiers>
-                <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="5cd6-f6e7-8868-a9b5" incrementChildId="c774-c9a3-14dd-80e4" incrementField="selections" incrementValue="4.0">
-                  <conditions/>
+                <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="5cd6-f6e7-8868-a9b5" incrementChildId="c774-c9a3-14dd-80e4" incrementField="selections" incrementValue="4.0">
+                  <conditions>
+                    <condition parentId="ee5a-d96e-9cf9-df9b" childId="ee5a-d96e-9cf9-df9b" field="selections" type="at least" value="5.0"/>
+                  </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
@@ -1505,7 +1529,14 @@
             </entry>
           </entries>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxInRoster" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="2396ceae-202b-a55d-69e7-d2636eceb677" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <links>
             <link id="84a2-7aa4-f3d2-24bd" targetId="7150-53fe-f05d-3e70" linkType="profile">
               <modifiers/>
@@ -2431,7 +2462,14 @@
             </entry>
           </entries>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxInRoster" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="81a4abe2-4878-22c2-d3a7-2bc57c0d0aa0" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <links/>
         </entryGroup>
       </entryGroups>
@@ -2582,7 +2620,7 @@
     <entry id="ab94-7e1e-3c6b-9d9f" name="Warbikers" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="5" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="6abd-33f6-1001-fba3" name="Mob" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="5" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6abd-33f6-1001-fba3" name="Mob" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="41fa-98f6-2065-0b0a" name="Biker" points="18.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
@@ -2635,7 +2673,14 @@
             </entry>
           </entries>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxInRoster" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="bcc0e6e8-cc51-549e-0c37-37cad03bac5d" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <links/>
         </entryGroup>
       </entryGroups>
@@ -3553,9 +3598,6 @@ A model with the Non-flammable special rule passes all Initiative tests caused b
     <rule id="2187-2e69-ef80-e769" name="Move Through Cover" hidden="false" book="Warhammer 40k rulebook" page="40">
       <modifiers/>
     </rule>
-    <rule id="5e88-d2c6-33cd-6b4a" name="New Rule" hidden="false">
-      <modifiers/>
-    </rule>
     <rule id="e627-1bad-ed23-e09d" name="Scout" hidden="false" book="Warhammer 40k rulebook" page="41">
       <modifiers/>
     </rule>
@@ -3574,6 +3616,10 @@ A model with the Non-flammable special rule passes all Initiative tests caused b
     <rule id="88a99ad5-2d90-685e-7ac2-9b9f09e1a9bc" name="‘Ere We Go!" hidden="false" book="Codex: Orks">
       <description>If every model in a unit has this special rule, the unit can re-roll a single dice when
 determining its charge range.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7ead-01e5-936f-d63e" name="Da Boss" hidden="false">
+      <description>In a team lead by a Boss Nob with a Warbike, you may take more than three Warbikers. If the Boss Nob has a Rokkit pack, you may take more than five Stormboyz. In a team led by a Boss Meganob, Meganobz may be taken as Core.</description>
       <modifiers/>
     </rule>
   </sharedRules>
