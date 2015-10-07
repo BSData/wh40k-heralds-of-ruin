@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3b34-1d18-16d8-faa5" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Chaos Space Marines: HoR" books="Kill Team List: Chaos Space Marines v3.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3b34-1d18-16d8-faa5" revision="3" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Chaos Space Marines: HoR" books="Kill Team List: Chaos Space Marines v3.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -208,9 +208,12 @@
     <link id="4c04-99b9-0b20-0146" targetId="5d99-588a-349a-eb55" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
       <modifiers/>
     </link>
+    <link id="389c-dca3-3040-a178" targetId="9ba1-ccfc-78b2-455b" linkType="entry" categoryId="cb2cd0fc-5911-38e6-9296-dcbaa3aaad0d">
+      <modifiers/>
+    </link>
   </links>
   <sharedEntries>
-    <entry id="825f-d084-27dd-ba7b" name="Aspiring Champion" points="23.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
+    <entry id="825f-d084-27dd-ba7b" name="Aspiring Champion" points="21.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
       <entries>
         <entry id="dbab-a838-f1f6-a562" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -228,9 +231,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -339,7 +369,7 @@
             </link>
           </links>
         </entry>
-        <entry id="b42f-7a5e-4b35-2928" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b42f-7a5e-4b35-2928" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -351,7 +381,7 @@
             </link>
           </links>
         </entry>
-        <entry id="55e4-40d3-489d-3b7b" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="55e4-40d3-489d-3b7b" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -363,7 +393,7 @@
             </link>
           </links>
         </entry>
-        <entry id="260d-f920-54cc-ba91" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="260d-f920-54cc-ba91" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -387,7 +417,7 @@
             </link>
           </links>
         </entry>
-        <entry id="fd3e-3cf3-e78f-58db" name="Blight Grenade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="fd3e-3cf3-e78f-58db" name="Blight Grenade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -596,7 +626,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8c23-69f6-dc01-ece3" name="Aspiring Sorcerer" points="58.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
+    <entry id="8c23-69f6-dc01-ece3" name="Aspiring Sorcerer" points="56.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
         <entry id="bbdd-a851-3fc7-ea49" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -622,7 +652,7 @@
             </link>
           </links>
         </entry>
-        <entry id="c486-48ea-96a9-e823" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c486-48ea-96a9-e823" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -634,7 +664,7 @@
             </link>
           </links>
         </entry>
-        <entry id="b3fe-3931-6ece-61b5" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b3fe-3931-6ece-61b5" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -658,7 +688,7 @@
             </link>
           </links>
         </entry>
-        <entry id="849c-81aa-40f3-b4c3" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="849c-81aa-40f3-b4c3" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1029,7 +1059,7 @@
         </link>
       </links>
     </entry>
-    <entry id="2530-3700-d2ce-525e" name="Berzerker Champion" points="29.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
+    <entry id="2530-3700-d2ce-525e" name="Berzerker Champion" points="27.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
       <entries>
         <entry id="9f00-4d65-669e-56fd" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1047,9 +1077,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1139,7 +1196,7 @@
             </link>
           </links>
         </entry>
-        <entry id="eb7d-ec47-64f8-6a2a" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="eb7d-ec47-64f8-6a2a" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1151,7 +1208,7 @@
             </link>
           </links>
         </entry>
-        <entry id="667d-74c0-93af-b65c" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="667d-74c0-93af-b65c" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1163,7 +1220,7 @@
             </link>
           </links>
         </entry>
-        <entry id="19f7-0a65-8d9f-fe36" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="19f7-0a65-8d9f-fe36" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1323,7 +1380,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d330-0f69-6eef-21ec" name="Chaos Acolyte" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
+    <entry id="d330-0f69-6eef-21ec" name="Chaos Acolyte" points="38.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
         <entry id="8b6c-22ff-5975-6235" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1374,7 +1431,7 @@
             </link>
           </links>
         </entry>
-        <entry id="ad16-4d81-cec2-51a4" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ad16-4d81-cec2-51a4" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1386,7 +1443,7 @@
             </link>
           </links>
         </entry>
-        <entry id="1797-4803-69cd-fdca" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1797-4803-69cd-fdca" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1410,7 +1467,7 @@
             </link>
           </links>
         </entry>
-        <entry id="eaf1-fdaf-4869-fa70" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="eaf1-fdaf-4869-fa70" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1516,109 +1573,40 @@
             </link>
           </links>
         </entry>
-        <entry id="ef19-8df2-f3f3-4e50" name="Traitor Legions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3e03-74c3-9580-f0a8" targetId="7190-bfa7-986f-7bca" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="8503-395d-94fd-0e54" targetId="296f-56de-f64a-edd8" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="f0af-4b49-f9d0-65dc" targetId="76bf-a26d-3008-534d" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="78ea-425e-e237-be7d" targetId="a516-a118-7b50-9ad0" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="aa89-9b6a-2ace-b85b" targetId="d2a0-96d8-422f-19f2" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="56f8-6591-e53b-d5c6" targetId="a476-0855-d1d9-062d" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="ec04-a453-caf0-21a5" targetId="051f-1326-606d-dc6b" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="b3f9-1e09-99aa-624c" targetId="08c9-828d-654f-e1a0" linkType="rule">
-              <modifiers>
-                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="f8a0-2b40-f87e-1411" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entry>
         <entry id="441b-c213-b56f-84aa" name="Traitor Legions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1947,9 +1935,9 @@
         </link>
       </links>
     </entry>
-    <entry id="c970-aaa5-95e3-74ff" name="Chaos Biker" points="20.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
+    <entry id="c970-aaa5-95e3-74ff" name="Chaos Biker" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
       <entries>
-        <entry id="8720-64fa-9b72-7395" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8720-64fa-9b72-7395" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1961,7 +1949,7 @@
             </link>
           </links>
         </entry>
-        <entry id="aae7-6e61-824a-7da8" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="aae7-6e61-824a-7da8" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2028,9 +2016,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2577,7 +2592,76 @@
         </link>
       </links>
     </entry>
-    <entry id="db1a-f58f-16d3-4c46" name="Chaos Space Marine" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="4">
+    <entry id="9ba1-ccfc-78b2-455b" name="Chaos Rhino" points="35.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="12aa-e311-afe6-2bb3" name="Searchlight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a398-e25d-480b-f40f" targetId="cb25-4c99-275c-cc8d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="92b0-9112-f42f-2227" name="Smoke launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e97a-29e4-2c4b-7963" targetId="770c-a3d6-575f-4826" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="593d-a6db-82f0-7ccc" name="Combi-bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b116-c648-922f-3e49" targetId="7a2d-d4da-80fb-093e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0140-64e7-1a26-7e1d" name="Repair" hidden="false">
+          <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c185-7760-d9fa-6967" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" name="Chaos Rhino" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="760f-2ac8-56cc-9509" name="Unit Type" value="Vehicle (Tank, Transport)"/>
+            <characteristic characteristicId="b81e-503e-7d2e-1bd2" name="BS" value="4"/>
+            <characteristic characteristicId="e4a8-9f80-a7bb-4937" name="F" value="11"/>
+            <characteristic characteristicId="fc46-97a8-00ac-1f0b" name="S" value="11"/>
+            <characteristic characteristicId="1306-1865-0155-ed8c" name="R" value="10"/>
+            <characteristic characteristicId="0053-bc31-16c0-31f6" name="HP" value="3"/>
+            <characteristic characteristicId="b90d-8d9b-4979-4fe9" name="Transport Capacity" value="Ten models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
+            <characteristic characteristicId="64d4-b230-3c57-4d86" name="Access Points" value="The Chaos Rhino has one Access Point on each side of the hull and one at the rear."/>
+            <characteristic characteristicId="28d5-39e2-1cd7-3fb4" name="Fire Points" value="Two models can fire from the Chaos Rhino’s top hatch."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="63dd-2f91-7193-b8d0" targetId="b3b5-9ce7-a061-278e" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="db1a-f58f-16d3-4c46" name="Chaos Space Marine" points="11.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="4">
       <entries>
         <entry id="f619-9c5e-2aba-2d51" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2627,7 +2711,7 @@
             </link>
           </links>
         </entry>
-        <entry id="a83b-8ff7-828d-d0d2" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="a83b-8ff7-828d-d0d2" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2639,7 +2723,7 @@
             </link>
           </links>
         </entry>
-        <entry id="6f98-1713-abd7-3198" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6f98-1713-abd7-3198" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2655,9 +2739,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3106,9 +3217,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -3525,7 +3663,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8cb8-fcac-85a7-6d6c" name="Chosen" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="6">
+    <entry id="8cb8-fcac-85a7-6d6c" name="Chosen" points="16.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="6">
       <entries>
         <entry id="abe7-0a6b-766c-fd86" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -3563,7 +3701,7 @@
             </link>
           </links>
         </entry>
-        <entry id="b7a1-4136-3cba-78d9" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b7a1-4136-3cba-78d9" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3575,7 +3713,7 @@
             </link>
           </links>
         </entry>
-        <entry id="104e-6861-02f3-4707" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="104e-6861-02f3-4707" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3603,9 +3741,36 @@
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4220,7 +4385,7 @@
         </link>
       </links>
     </entry>
-    <entry id="706d-a156-84bb-1f5d" name="Forgesmith" points="50.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="9">
+    <entry id="706d-a156-84bb-1f5d" name="Forgesmith" points="48.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="9">
       <entries>
         <entry id="0529-762c-749c-6151" name="Fleshmetal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -4234,7 +4399,7 @@
             </link>
           </links>
         </entry>
-        <entry id="ccff-0f21-8f29-8d28" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ccff-0f21-8f29-8d28" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4302,6 +4467,30 @@
           <profiles/>
           <links>
             <link id="1a04-a67d-3d30-6648" targetId="39f2-5082-7e7d-1081" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4e09-a145-06c8-7c6b" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="ecd2-1b80-5d51-0eea" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8837-50f2-c747-7046" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3ac0-02b0-c4ad-431e" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -4494,7 +4683,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="8cb5-94bd-810b-6708" name="Forgesmith (Leader)" points="50.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="9">
+    <entry id="8cb5-94bd-810b-6708" name="Forgesmith (Leader)" points="48.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="9">
       <entries>
         <entry id="f135-258a-a86c-0c64" name="Fleshmetal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -4508,7 +4697,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="b914-a95b-94e0-9f85" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b914-a95b-94e0-9f85" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4576,6 +4765,30 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="53b1-ae19-03e3-513d" targetId="39f2-5082-7e7d-1081" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6404-2ed6-dd70-4031" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5b14-fc1d-5fc7-57bc" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="70b7-85e0-d69a-5224" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f2f3-4e50-cddf-4f1a" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -4867,7 +5080,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="4691-1183-bb12-f31c" name="Khorne Berzerker" points="19.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="7">
+    <entry id="4691-1183-bb12-f31c" name="Khorne Berzerker" points="17.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="7">
       <entries>
         <entry id="3864-bd44-1c69-9cb4" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -4881,7 +5094,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="102e-59a1-b21f-a4a0" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="102e-59a1-b21f-a4a0" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4893,7 +5106,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="c010-ab12-500b-0ef1" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c010-ab12-500b-0ef1" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5221,7 +5434,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="fd42-3cde-cf87-37a4" name="Noise Champion" points="27.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
+    <entry id="fd42-3cde-cf87-37a4" name="Noise Champion" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
         <entry id="7efa-adb1-87d9-8c76" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5239,9 +5452,36 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5331,7 +5571,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="8d5e-6437-e4ed-c520" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8d5e-6437-e4ed-c520" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5343,7 +5583,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="cba7-1187-1b5f-20d1" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="cba7-1187-1b5f-20d1" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5355,7 +5595,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="3b65-fb24-d143-abfc" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3b65-fb24-d143-abfc" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5525,7 +5765,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="a416-d4e8-2dbe-9d7d" name="Noise Marine" points="17.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
+    <entry id="a416-d4e8-2dbe-9d7d" name="Noise Marine" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
       <entries>
         <entry id="1430-4513-751a-78aa" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5551,7 +5791,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="e93b-3f49-f89a-7469" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e93b-3f49-f89a-7469" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5563,7 +5803,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="73a6-23bd-54c8-5648" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="73a6-23bd-54c8-5648" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5835,7 +6075,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="6452-bada-51d6-db9c" name="Plague Champion" points="34.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
+    <entry id="6452-bada-51d6-db9c" name="Plague Champion" points="32.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
       <entries>
         <entry id="ffb4-f8be-670b-3ff8" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5853,9 +6093,36 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -5945,7 +6212,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="ac2c-ce04-a8e9-3942" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ac2c-ce04-a8e9-3942" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5957,7 +6224,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="3ea7-4ecb-3e19-415e" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3ea7-4ecb-3e19-415e" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -5969,7 +6236,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="c606-e46b-3853-c6fc" name="Blight Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c606-e46b-3853-c6fc" name="Blight Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6191,7 +6458,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="2973-7a44-9b80-499e" name="Plague Marine" points="24.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
+    <entry id="2973-7a44-9b80-499e" name="Plague Marine" points="22.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
       <entries>
         <entry id="7427-d0a2-c0c5-ac97" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -6217,7 +6484,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="aec2-6445-d645-86c2" name="Blight Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="aec2-6445-d645-86c2" name="Blight Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6229,7 +6496,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="99df-ebc2-f8f4-03ab" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="99df-ebc2-f8f4-03ab" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6724,7 +6991,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="b373-2f13-1a31-6ca6" name="Raptor" points="17.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
+    <entry id="b373-2f13-1a31-6ca6" name="Raptor" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
       <entries>
         <entry id="31ed-a298-9cb0-4831" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -6781,7 +7048,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="1da7-ede0-16ea-23e6" name="Krak Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1da7-ede0-16ea-23e6" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6793,7 +7060,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="fbb1-6bd7-658b-84c5" name="Frag Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="fbb1-6bd7-658b-84c5" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6892,9 +7159,36 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -7117,9 +7411,36 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="6ad2-5f84-d706-3f0e" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="f8a0-2b40-f87e-1411" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="cace-2d09-9088-5557" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="increment" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="roster" childId="0e35-e023-7eba-2948" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="75da-ac4e-e4c8-f8c7" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="7a62-9aca-b07e-6a7a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="dd66-80b0-df64-c99b" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -8009,6 +8330,109 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="b3b5-9ce7-a061-278e" name="Chaos Vehicle Equipment" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="9910-5758-cc3c-854c" name="Havoc Launcher" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="19e5-326f-83a8-7f88" targetId="ff3d-99f0-87e4-8dfa" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1e70-b333-d78a-81eb" name="Daemonic Possession" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8991-0e64-7be1-0351" targetId="1053-dfc8-a41b-1fb7" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fdc4-701c-08ef-364b" name="Dozer Blade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1318-a79a-faa9-2ce4" targetId="4004-fd8e-94fa-8bea" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="af7b-62d2-f90a-20b0" name="Combi-bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5a59-35ac-d5ef-d0f7" targetId="7a2d-d4da-80fb-093e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4d8f-f9d4-8d80-d001" name="Dirge caster" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b885-0328-f2c0-2f2b" targetId="cc37-13c2-d9f6-a64a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7801-d39a-39dc-f117" name="Warpflame gargoyles" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e157-29ca-6333-abf1" targetId="abba-907d-658c-96bd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3b89-469b-a624-ec81" name="Destroyer blades" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b91b-4f8d-5d70-067f" targetId="b176-a527-9752-942d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fd4b-c4fc-8982-98b9" name="Combi-Weapon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="5082-491e-4f39-6437" targetId="c5f3-5541-40e8-50fd" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="c5f3-5541-40e8-50fd" name="Combi Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="2a08-5329-9718-b708" name="Combi-flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -8835,7 +9259,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="0e35-e023-7eba-2948" name="Traitor Legions" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="0e35-e023-7eba-2948" name="Traitor Legions" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -9290,9 +9714,33 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="1053-dfc8-a41b-1fb7" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Daemonic Possession" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Reduces BS to 3. Ignores Crew shaken and stunned results on a 2+.  Roll a D6 each embark/disembark. On a 1, the vehicle eats a random model in the unit (remove from play, no saves allowed) and reagins a lost hull point."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b176-a527-9752-942d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Destroyer Blades" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Any unit that is Tank Shocked from destroyer blades takes D6 Str 5 AP - hits. If they perform Death or Glory, it is 2D6 instead."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="cc37-13c2-d9f6-a64a" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Dirge Caster" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Enemies within 6&quot; of the Dirge Caster equipped vehicle cannot fire Overwatch."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="d646-e19a-bb04-1a2c" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Disc of Tzeentch" hidden="false">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="+1 Attack and unit type changes to Jetbike."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4004-fd8e-94fa-8bea" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Dozer Blade" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Can re-roll dangerous terrain tests. Treat the vehicles front armour as +1 higher when ramming."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -9383,6 +9831,15 @@ In addition, units containing one or more models with the Zealot special rule re
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ff3d-99f0-87e4-8dfa" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Havoc Launcher" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Blast, Twin-linked"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -9650,6 +10107,12 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="cb25-4c99-275c-cc8d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Searchlight" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Searchlights are used when the Night Fighting rules are in effect. If a vehicle has a searchlight, it can, after firing all of its weapons, choose to illuminate its target with the searchlight. If it does so, it also illuminates itself. You may find it helpful to place coins, or other suitable counters, next to the units as reminders, and next to a vehicle to show it has used its searchlights this turn. Illumination lasts until the end of the following turn. Illuminated units gain no benefit from the Night Fighting rule."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="facc-a900-d87f-665b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Servo-arm" hidden="false">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
@@ -9665,6 +10128,12 @@ In addition, units containing one or more models with the Zealot special rule re
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="770c-a3d6-575f-4826" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Smoke launchers" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Once per game, instead of shooting or moving Flat Out (or Running in the case of Walkers), a vehicle with smoke launchers can trigger them. Place some cotton wool or some other appropriate counter next to the vehicle to show it is obscured. The vehicle may not fire any of its weapons in the same turn as it used smoke launchers, but counts as obscured in the next enemy Shooting phase, receiving a 5+ cover save. After the enemy’s Shooting phase, the smoke disperses with no further effect. Note that a vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stunned result or it does not have any shooting weapons."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -9695,6 +10164,12 @@ In addition, units containing one or more models with the Zealot special rule re
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire, Twin-Linked"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="abba-907d-658c-96bd" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Warpflame Gargoyles" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="All weapons on the Vehicle have Soul Blaze"/>
       </characteristics>
       <modifiers/>
     </profile>
