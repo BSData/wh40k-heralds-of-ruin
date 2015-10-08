@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e2ce-86cd-32dc-693f" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Adeptus Mechanicus: HoR" books="Kill Team List: Adeptus Mechanicus v3.1" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="e2ce-86cd-32dc-693f" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Adeptus Mechanicus: HoR" books="Kill Team List: Adeptus Mechanicus v3.1" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -526,7 +526,7 @@
           <profiles>
             <profile id="565c-c8d7-11a5-7944" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Kataphron breacherplate" hidden="false">
               <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="3+ Armour Save"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -543,7 +543,14 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="b386-b572-f305-de2e" targetId="eb62-cc05-46e8-816d" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="ad38-c9af-126a-c48f" targetId="a88e-40c4-5adc-4ba1" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="d755-fd3d-eaa6-53f3" name="Torsion cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -551,7 +558,14 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="26b1-b6c0-ae7b-5a01" targetId="375b-8037-82cf-7054" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="6e28-c3aa-0592-08f7" targetId="a9f3-41e6-1ec9-8174" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -566,7 +580,14 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="5a6d-e199-d0bc-338e" targetId="60ae-b6e2-297b-a90b" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="8330-722f-ac49-cd53" targetId="a88e-40c4-5adc-4ba1" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="863e-505f-642a-2f82" name="Hydraulic claw" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -574,7 +595,17 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="8120-b43f-8275-c568" targetId="569b-1088-6a14-e940" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="ba36-8601-006d-f6dc" targetId="63d4-6087-706c-90a3" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="dc5b-fb36-2050-1020" targetId="1579-7919-e9fc-6461" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -621,9 +652,9 @@
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="7fdd-a2cd-5f70-98c8" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Kataphron breacherplate" hidden="false">
+            <profile id="7fdd-a2cd-5f70-98c8" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Kataphron demiplate" hidden="false">
               <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description"/>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="4+ Armour Save"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -640,7 +671,14 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="071b-a3fd-c9ed-c186" targetId="f34d-cdd9-95c9-d061" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="1f41-6faa-fdea-fc7e" targetId="7231-eb0c-8385-b7ed" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="864d-53a8-332c-f1f7" name="Heavy grav-cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -648,7 +686,17 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="bb9f-f2b1-ce1a-b8fc" targetId="caa6-4a50-ea14-b30a" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="91b7-d133-cf92-308e" targetId="6808-7fa6-4fb2-b335" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="3bb7-272a-26b4-d06b" targetId="96f6-cae6-e786-ff08" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -663,7 +711,14 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="b28c-5687-bdce-be41" targetId="1d70-6979-0857-60c1" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="2952-ab4b-3d3b-1d91" targetId="8432-bf6f-c19e-9103" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
             <entry id="222b-33ba-86d8-3507" name="Cognis flamer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -671,7 +726,14 @@
               <modifiers/>
               <rules/>
               <profiles/>
-              <links/>
+              <links>
+                <link id="5801-2233-f5e6-cd22" targetId="a044-baa5-6db1-0a01" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="ce63-7639-c470-d0bf" targetId="3705-25d0-ba79-cb96" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
           </entries>
           <entryGroups/>
@@ -2392,6 +2454,22 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       <description>Fearless and Hatred</description>
       <modifiers/>
     </rule>
+    <rule id="1579-7919-e9fc-6461" name="Iron Grasp" hidden="false" book="Codex: Cult Mechanicus" page="76">
+      <description>(Smash Attack) When a model equipped with a hydraulic claw makes its close combat attacks, it can choose instead to make a single Grasp Attack. If it does so, roll To Hit as normal, but resolve the Attack at double the model’s Strength (to a maximum of 10) and AP2.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a9f3-41e6-1ec9-8174" name="Gravitic Contortion" hidden="false" book="Codex: Cult Mechanicus" page="75">
+      <description>Each time a non-vehicle model suffers an unsaved wound from this weapon, it loses D3 Wounds instead of only 1. Each time a vehicle model suffers a penetrating hit from by this weapon, it loses D3 Hull Points instead of only 1.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3705-25d0-ba79-cb96" name="Cognis Flamewall" hidden="false" book="Codex: Cult Mechanicus" page="74">
+      <description>If a Flamer weapon with the Cognis Flamewall special rule fires Overwatch using the Wall of Death rule (BRB 2014, page 173), it automatically inflicts 3 hits rather than D3.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6808-7fa6-4fb2-b335" name="Graviton" hidden="false" book="BRB 2014" page="164">
+      <description>The roll needed To Wound when firing a grav-weapon is always equal to the armour save of the target, to a minimum of 6+. For example, when resolving a hit against a Space Marine in power armour you would need a 3+ To Wound. When resolving a hit against a vehicle, roll a D6 for each hit instead of rolling for armour penetration as normal. On a 1-5 nothing happens, but on a 6, the target suffers an lmmobilised result and loses a single Hull Point. Grav-weapons have no effect on buildings.</description>
+      <modifiers/>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="53e7-f0ea-b778-1df2" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arc Maul" hidden="false" book="Codex: Skitarii" page="75">
@@ -2679,6 +2757,93 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="X"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Sniper, Armourbane"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="60ae-b6e2-297b-a90b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arc Claw" hidden="false" book="Codex: Cult Mechanicus" page="76">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Haywire"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="569b-1088-6a14-e940" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Hydraulic Claw" hidden="false" book="Codex: Cult Mechanicus" page="76">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Unwieldy, Iron Grasp"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="eb62-cc05-46e8-816d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Heavy Arc Rifle" hidden="false" book="Codex: Cult Mechanicus" page="74">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 2, Haywire"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="56e8-f13c-9643-d870" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Mechadendrite Harness" hidden="false" book="Codex: Cult Mechanicus" page="77">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The wearer can fire with all of its ranged weapons in the Shooting Phase. In addition, the model is equipped with a Dataspike."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a503-c35c-a3ae-f048" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Volkite Blaster" hidden="false" book="Codex: Cult Mechanicus" page="75">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 3, Deflagrate"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="375b-8037-82cf-7054" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Torsion Cannon" hidden="false" book="Codex: Cult Mechanicus" page="75">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Gravitic Contortion"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="caa6-4a50-ea14-b30a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Heavy Grav-cannon " hidden="false" book="Codex: Cult Mechanicus" page="74">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="30&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="*"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Salvo 4/6, Concussive, Graviton"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f34d-cdd9-95c9-d061" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Plasma Culverin" hidden="false" book="Codex: Cult Mechanicus" page="75">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 2, Blast, Gets Hot"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a044-baa5-6db1-0a01" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Cognis Flamer" hidden="false" book="Codex: Cult Mechanicus" page="74">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Cognis Flamewall"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1d70-6979-0857-60c1" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Phosphor Blaster" hidden="false" book="Codex: Cult Mechanicus" page="75">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire, Luminagen"/>
       </characteristics>
       <modifiers/>
     </profile>
