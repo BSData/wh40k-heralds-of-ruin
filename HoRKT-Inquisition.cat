@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a29e-b803-84d6-892f" revision="6" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a29e-b803-84d6-892f" revision="7" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -836,7 +836,7 @@ D6 - Result
               </profiles>
               <links/>
             </entry>
-            <entry id="c578-ca23-b338-c087" name="Servitor Heavy Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="c578-ca23-b338-c087" name="Servitor Heavy Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers>
@@ -1679,18 +1679,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="e92b-ab89-0996-342a" name="Psyker (Mastery Level 1)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5eec-ebad-39a9-07ce" targetId="753e-d0ea-a186-aaf9" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="86ae-f8f1-5dab-20fe" name="Psyk-Out Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -1730,57 +1718,12 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       </entries>
       <entryGroups>
         <entryGroup id="49fa-fc7d-0bf2-3bef" name="Melee Weapon options" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="b202-8fad-ae28-5431" name="Force Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="1d89-f02f-dbe6-5aac" childId="e92b-ab89-0996-342a" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="1d89-f02f-dbe6-5aac" childId="e92b-ab89-0996-342a" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="77b4-0bbd-1565-b799" targetId="9eca-d600-0caa-4be5" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+          <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
             <link id="d744-d25f-f9e3-032d" targetId="26aa-946e-f8de-1dbe" linkType="entry group">
-              <modifiers>
-                <modifier type="decrement" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="49fa-fc7d-0bf2-3bef" childId="b202-8fad-ae28-5431" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="49fa-fc7d-0bf2-3bef" childId="b202-8fad-ae28-5431" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="49fa-fc7d-0bf2-3bef" childId="b202-8fad-ae28-5431" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </link>
           </links>
         </entryGroup>
@@ -1865,22 +1808,13 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         <link id="7874-988f-d08c-44c4" targetId="9acd-f152-3c8b-9203" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="a7e5-423d-47e9-0f48" targetId="c6c2-5c4e-cedc-8c4b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f55d-f035-2aea-6751" name="Ordo Malleus Inquisitor" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="1">
       <entries>
-        <entry id="1192-bc7c-8b30-179c" name="Psyker (Mastery Level 1)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9d8d-3735-c257-c029" targetId="753e-d0ea-a186-aaf9" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="beb8-68a9-1133-1834" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -1987,33 +1921,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <links/>
         </entryGroup>
         <entryGroup id="e72b-8b90-3786-73c5" name="Melee Weapon options" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="163e-1723-33aa-ba34" name="Force Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="f55d-f035-2aea-6751" childId="1192-bc7c-8b30-179c" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="f55d-f035-2aea-6751" childId="1192-bc7c-8b30-179c" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="0663-08d1-dd76-c70e" targetId="9eca-d600-0caa-4be5" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+          <entries/>
           <entryGroups/>
           <modifiers>
             <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2031,32 +1939,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           </modifiers>
           <links>
             <link id="8000-fbac-b4ea-fc82" targetId="0060-8f9e-2b77-e977" linkType="entry group">
-              <modifiers>
-                <modifier type="decrement" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="e72b-8b90-3786-73c5" childId="163e-1723-33aa-ba34" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="e72b-8b90-3786-73c5" childId="163e-1723-33aa-ba34" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="e72b-8b90-3786-73c5" childId="163e-1723-33aa-ba34" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="decrement" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="f55d-f035-2aea-6751" childId="87fa-39a7-8e3d-35da" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </link>
           </links>
         </entryGroup>
@@ -2091,33 +1974,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           </links>
         </entryGroup>
         <entryGroup id="cee1-410a-b0a3-5bfc" name="Terminator Weapon options" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="1efb-66f3-7de9-6acc" name="Force Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="f55d-f035-2aea-6751" childId="1192-bc7c-8b30-179c" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="f55d-f035-2aea-6751" childId="1192-bc7c-8b30-179c" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="92c4-43fd-96a6-a4fd" targetId="9eca-d600-0caa-4be5" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+          <entries/>
           <entryGroups/>
           <modifiers>
             <modifier type="decrement" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -2136,24 +1993,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <links>
             <link id="cd5f-0ee8-cfee-a5ad" targetId="efb9-10f9-46a4-4ce9" linkType="entry group">
               <modifiers>
-                <modifier type="decrement" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="cee1-410a-b0a3-5bfc" childId="1efb-66f3-7de9-6acc" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="cee1-410a-b0a3-5bfc" childId="1efb-66f3-7de9-6acc" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="cee1-410a-b0a3-5bfc" childId="1efb-66f3-7de9-6acc" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
                 <modifier type="decrement" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions>
                     <condition parentId="f55d-f035-2aea-6751" childId="87fa-39a7-8e3d-35da" field="selections" type="equal to" value="0.0"/>
@@ -2210,22 +2049,13 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         <link id="48f2-4d54-cf5c-6e2d" targetId="a970-d343-14b0-2f84" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="807b-7f73-b8ec-95ae" targetId="c6c2-5c4e-cedc-8c4b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="a4a5-ab42-e244-f575" name="Ordo Xenos Inquisitor" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
       <entries>
-        <entry id="c667-e7e0-5041-4844" name="Psyker (Mastery Level 1)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c94b-8a70-4e18-3698" targetId="753e-d0ea-a186-aaf9" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="372f-f058-7624-728d" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -2320,57 +2150,12 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <links/>
         </entryGroup>
         <entryGroup id="c81b-fbbe-8bc9-8be8" name="Melee Weapon options" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="f930-3ae6-0ade-f6d5" name="Force Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="a4a5-ab42-e244-f575" childId="c667-e7e0-5041-4844" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="a4a5-ab42-e244-f575" childId="c667-e7e0-5041-4844" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="bfd5-fcdf-5a77-918a" targetId="9eca-d600-0caa-4be5" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+          <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
             <link id="d191-2689-2568-84c0" targetId="4c54-21d9-8e0c-a7a1" linkType="entry group">
-              <modifiers>
-                <modifier type="decrement" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="c81b-fbbe-8bc9-8be8" childId="f930-3ae6-0ade-f6d5" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="c81b-fbbe-8bc9-8be8" childId="f930-3ae6-0ade-f6d5" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="c81b-fbbe-8bc9-8be8" childId="f930-3ae6-0ade-f6d5" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </link>
           </links>
         </entryGroup>
@@ -2422,6 +2207,9 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <modifiers/>
         </link>
         <link id="7ea6-cd3f-0b19-6c33" targetId="b03b-2bfe-a1c1-cf48" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="728a-11cc-fdf4-d3a3" targetId="c6c2-5c4e-cedc-8c4b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2498,6 +2286,18 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       </profiles>
       <links>
         <link id="de3d-711c-59bb-95f4" targetId="753e-d0ea-a186-aaf9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c6c2-5c4e-cedc-8c4b" name="Psyker (Mastery Level 1)" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ddf4-f12e-a0b4-d1fd" targetId="753e-d0ea-a186-aaf9" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4046,7 +3846,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="0c14-8bbb-a4ce-cbd1" name="Inferno Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0c14-8bbb-a4ce-cbd1" name="Inferno Pistol" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4066,6 +3866,31 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="4407-b33f-455d-9023" targetId="8345-6f0f-2cad-eff9" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="bfbd-873e-b3e2-8dfa" name="Force Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c6c2-5c4e-cedc-8c4b" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c6c2-5c4e-cedc-8c4b" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="46f1-af9e-fd56-242d" targetId="9eca-d600-0caa-4be5" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -4448,6 +4273,31 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
+        <entry id="39c2-7986-c889-a8e6" name="Force Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c6c2-5c4e-cedc-8c4b" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c6c2-5c4e-cedc-8c4b" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b520-0a4c-23ab-1d91" targetId="9eca-d600-0caa-4be5" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -4810,6 +4660,31 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="a4bc-8abd-06e5-13e0" targetId="8345-6f0f-2cad-eff9" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f19b-74e8-37d6-4cb7" name="Force Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c6c2-5c4e-cedc-8c4b" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c6c2-5c4e-cedc-8c4b" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="d07d-b27c-e079-76f8" targetId="9eca-d600-0caa-4be5" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -5251,6 +5126,31 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
+        <entry id="c7da-662c-fe6a-c6de" name="Force Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c6c2-5c4e-cedc-8c4b" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="c6c2-5c4e-cedc-8c4b" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="13fc-7b95-c016-acd7" targetId="9eca-d600-0caa-4be5" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -5284,6 +5184,10 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       <modifiers/>
     </rule>
     <rule id="296f-56de-f64a-edd8" name="Feel No Pain" hidden="false" book="Wh40k: The Rules">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
+Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved  Wound is discounted – treat it as having been saved.
+If a unit has the Feel No Pain special rule with a number in brackets afterwards –Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</description>
       <modifiers/>
     </rule>
     <rule id="f51b-afbc-b718-8026" name="Flamer" hidden="false" book="HoR: Kill Team Rules v3.1" page="5">
@@ -5294,13 +5198,15 @@ A model with the Non-flammable special rule passes all Initiative tests caused b
       <modifiers/>
     </rule>
     <rule id="c8bf-eed2-774d-b68d" name="Fleet" hidden="false" book="Wh40k: The Rules">
+      <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
       <modifiers/>
     </rule>
     <rule id="1774-a004-f875-1f02" name="Force" hidden="false" book="Wh40k: The Rules">
-      <description>Psychic Power</description>
+      <description>Psyker also has Force power: Warp Charge 1 Blessing, Psyker&apos;s unit&apos;s weapons with this rule gain Instant Death for a turn.</description>
       <modifiers/>
     </rule>
     <rule id="e0e9-842d-f920-0c16" name="Infiltrate" hidden="false" book="Wh40k: The Rules">
+      <description>Deployed after all other units anywhere &gt; 12&quot; away from enemy and outside their line of sight, or &gt; 18&quot; away within LoS.  Cannot charge in first turn after deploying this way.  Also has Outflank.</description>
       <modifiers/>
     </rule>
     <rule id="664875a3-9ec4-4462-7d1f-30bd89e19103" name="Inspiring Presence" hidden="false" book="HoR: Kill Team Rules v3.1" page="7">
@@ -5324,27 +5230,34 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
     <rule id="4567-9dff-a9f7-fff7" name="Psi-shock" hidden="false" page="0">
       <modifiers/>
     </rule>
-    <rule id="753e-d0ea-a186-aaf9" name="Psyker (Mastery Level1)" hidden="false" book="Kill Team List: Blood Angels v3.0" page="4">
-      <description>At the start of the battle the model generates a single Primaris Power from the either the Biomancy, Divination, Pyromancy or Sanguinary discipline.</description>
+    <rule id="753e-d0ea-a186-aaf9" name="Psyker (Mastery Level1)" hidden="false" book="Kill Team List: Inquisition v2.0" page="1, 2">
+      <description>An Inquisitor Psyker gains the following options:
+• An Inquisitor Psyker may exchange any one weapon with a Force Sword for free.
+• Before the battle the Inquisitor Psyker may choose a single Psychic Power from the following list:
+- Hammerhand (C: Inquisition)
+- Psychic Communion (C: Inquisition)
+- Prescience (Divination)
+- Flame Breath (Pyromancy)
+- Assail (Telekinesis)</description>
       <modifiers/>
     </rule>
     <rule id="065e-c9e6-5dae-f608" name="Relentless" hidden="false" book="Wh40k: The Rules">
+      <description>Relentless models can shoot with Heavy, Salvo or Ordnance weapons, counting as stationary, even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
       <modifiers/>
     </rule>
     <rule id="7412-9a84-4569-a3da" name="Slow and Purposeful" hidden="false" book="Wh40k: The Rules">
+      <description>A unit that contains at least one model with this special rule cannot Run, Turbo-boost, move Flat Out, perform Sweeping Advances or fire Overwatch. However, they can shoot with Heavy, Salvo and Ordnance weapons, counting as stationary even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
       <modifiers/>
     </rule>
     <rule id="08c9-828d-654f-e1a0" name="Stubborn" hidden="false" book="Wh40k: The Rules">
+      <description>When a unit that contains at least one model with this special rule takes Morale checks or Pinning tests, they ignore any negative Leadership modifiers. If a unit is both Fearless and Stubborn, it uses the rules for Fearless instead.</description>
       <modifiers/>
     </rule>
     <rule id="9643-35ef-465a-8144" name="War Hymns" hidden="false" book="Codex: Adepta Sororitas" page="0">
       <description>A model with this special rule can take a Leadership test at the beginning of each Fight sub-phase in which he is locked in combat. If the test is successful, choose one of the following war hymns to immediately take effect.
-
-The Emperor Protects: The model and his unit re-roll all failed armour and invulnerable saves until the end of the phase.
-
-The Emperor’s Strength: The model has the Smash special rule until the end of the phase.
-
-The Righteousness of the Emperor: The model and his unit re-roll failed rolls To Wound until the end of the phase.</description>
+- The Emperor Protects: The model and his unit re-roll all failed armour and invulnerable saves until the end of the phase.
+- The Emperor’s Strength: The model has the Smash special rule until the end of the phase.
+- The Righteousness of the Emperor: The model and his unit re-roll failed rolls To Wound until the end of the phase.</description>
       <modifiers/>
     </rule>
     <rule id="0982-a004-2f67-55c1" name="Witchbane" hidden="false" page="0">
@@ -5352,6 +5265,8 @@ The Righteousness of the Emperor: The model and his unit re-roll failed rolls To
       <modifiers/>
     </rule>
     <rule id="a04f-fcbf-4054-4ccf" name="Zealot" hidden="false" book="Wh40k: The Rules">
+      <description>A unit containing one or more models with the Zealot special rule automatically passes Pinning, Fear and Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit gains the Zealot special rule when it has Gone to Ground, all the effects of Go to Ground are immediately cancelled.
+In addition, units containing one or more models with the Zealot special rule re-roll all failed To Hit rolls during the first round of each close combat – they do not get to re-roll failed To Hit rolls in subsequent rounds.</description>
       <modifiers/>
     </rule>
   </sharedRules>
