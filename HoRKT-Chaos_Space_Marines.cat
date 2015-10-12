@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3b34-1d18-16d8-faa5" revision="4" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Chaos Space Marines: HoR" books="Kill Team List: Chaos Space Marines v3.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3b34-1d18-16d8-faa5" revision="5" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Chaos Space Marines: HoR" books="Kill Team List: Chaos Space Marines v3.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -93,7 +93,14 @@
       </modifiers>
     </link>
     <link id="8a4b-4587-3d16-12bc" targetId="8cb8-fcac-85a7-6d6c" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="7905-6929-4947-04b3" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </link>
     <link id="6525-c637-7d1f-fe2c" targetId="6441-1d50-8d47-d7f0" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
       <modifiers/>
@@ -132,7 +139,14 @@
       </modifiers>
     </link>
     <link id="b744-e6b0-6b9e-428f" targetId="33a4-0292-58b7-6152" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="0e68-461b-5a66-f884" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </link>
     <link id="8560-de53-3624-3bfb" targetId="33a4-0292-58b7-6152" linkType="entry" categoryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
       <modifiers>
@@ -145,7 +159,14 @@
       </modifiers>
     </link>
     <link id="40a6-4310-6067-e265" targetId="a416-d4e8-2dbe-9d7d" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="fd42-3cde-cf87-37a4" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </link>
     <link id="980a-e413-63e2-59a6" targetId="a416-d4e8-2dbe-9d7d" linkType="entry" categoryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
       <modifiers>
@@ -158,7 +179,14 @@
       </modifiers>
     </link>
     <link id="7160-7758-370a-5636" targetId="2973-7a44-9b80-499e" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="6452-bada-51d6-db9c" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </link>
     <link id="8cc2-32e2-79fb-8105" targetId="2973-7a44-9b80-499e" linkType="entry" categoryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
       <modifiers>
@@ -171,7 +199,14 @@
       </modifiers>
     </link>
     <link id="ddad-b928-2bb9-1a9e" targetId="4691-1183-bb12-f31c" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="2530-3700-d2ce-525e" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </link>
     <link id="97de-b922-49c3-5fd7" targetId="4691-1183-bb12-f31c" linkType="entry" categoryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
       <modifiers>
@@ -184,7 +219,14 @@
       </modifiers>
     </link>
     <link id="e758-e31b-201f-690d" targetId="db41-0c4f-032f-6f44" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
-      <modifiers/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="8c23-69f6-dc01-ece3" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </link>
     <link id="a0fb-ab79-28d5-1a43" targetId="db41-0c4f-032f-6f44" linkType="entry" categoryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
       <modifiers>
@@ -215,18 +257,6 @@
   <sharedEntries>
     <entry id="825f-d084-27dd-ba7b" name="Aspiring Champion" points="21.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
       <entries>
-        <entry id="dbab-a838-f1f6-a562" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2405-1d7b-e5c6-36a5" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="1132-ae34-4198-fb25" name="Traitor Legions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -350,98 +380,6 @@
             </link>
           </links>
         </entry>
-        <entry id="361c-b05a-0345-f49f" name="Chaos Bike" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="825f-d084-27dd-ba7b" childId="6e65-fc74-b523-96d3" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8884-8304-f8e9-bee6" targetId="26cb-1438-82f3-7def" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="b42f-7a5e-4b35-2928" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="fb09-dee2-3a0e-f8c1" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="55e4-40d3-489d-3b7b" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1cda-733d-034e-12b6" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="260d-f920-54cc-ba91" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6aaf-fda1-362f-87b2" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c8c3-f671-32b3-12d9" name="Veterans of the Long War" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="cd17-ad4e-4ea5-d0f8" targetId="4234-e5d5-d63b-549b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="fd3e-3cf3-e78f-58db" name="Blight Grenade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="825f-d084-27dd-ba7b" childId="1c7d-693e-9970-2775" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="825f-d084-27dd-ba7b" childId="1c7d-693e-9970-2775" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8568-e4d0-ad3a-5ad1" targetId="e987-8fd4-ad98-c72a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="ad9a-926d-698b-92a9" name="Ichor Blood" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -486,18 +424,6 @@
           <profiles/>
           <links>
             <link id="ee2e-fe76-3ce0-a6df" targetId="4971-1ef5-09dc-0533" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e2a8-21ad-f889-9e70" name="Jump Pack" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5c3c-3bc6-2281-0d35" targetId="6e65-fc74-b523-96d3" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -575,7 +501,7 @@
             </modifier>
             <modifier type="increment" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="1" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="825f-d084-27dd-ba7b" childId="361c-b05a-0345-f49f" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="825f-d084-27dd-ba7b" childId="26cb-1438-82f3-7def" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -624,22 +550,65 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="c689-8613-82fd-0f8f" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="001e-2876-0979-5909" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0d2e-e190-99c1-7386" targetId="cc9c-57a3-379c-d8ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="564a-a40b-b982-0269" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a7ff-aabe-1723-e70e" targetId="dc86-11f7-0fbf-4f1b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5202-25e6-27b4-2a3e" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="c2da-8ee0-deed-6d55" targetId="26cb-1438-82f3-7def" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="6e65-fc74-b523-96d3" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="6e65-fc74-b523-96d3" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="554d-7dec-f207-8689" targetId="6e65-fc74-b523-96d3" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="26cb-1438-82f3-7def" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="26cb-1438-82f3-7def" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="8c23-69f6-dc01-ece3" name="Aspiring Sorcerer" points="56.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
-        <entry id="bbdd-a851-3fc7-ea49" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ac57-e967-a7bd-125a" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="c11b-497f-595f-ace5" name="Psyker (Mastery Level 1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -652,30 +621,6 @@
             </link>
           </links>
         </entry>
-        <entry id="c486-48ea-96a9-e823" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3213-5792-46a9-4f73" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="b3fe-3931-6ece-61b5" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1791-6006-54f0-99fa" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="888e-9585-6dd6-b45d" name="Veterans of the Long War" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -684,18 +629,6 @@
           <profiles/>
           <links>
             <link id="fca0-12be-4d82-099d" targetId="4234-e5d5-d63b-549b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="849c-81aa-40f3-b4c3" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ea6e-ae8d-b2c9-75e6" targetId="d194-4df3-84ed-8d5c" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1057,22 +990,22 @@
         <link id="f3d6-4a08-622c-212c" targetId="7190-bfa7-986f-7bca" linkType="rule">
           <modifiers/>
         </link>
+        <link id="6a08-d005-3ff6-4527" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4028-f655-7453-e010" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ac68-5e69-03b4-343d" targetId="cc9c-57a3-379c-d8ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b521-5aa5-7d95-0b37" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="2530-3700-d2ce-525e" name="Berzerker Champion" points="27.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
       <entries>
-        <entry id="9f00-4d65-669e-56fd" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1774-2074-1c71-cb1d" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="6845-2b9b-7398-5315" name="Traitor Legions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -1193,54 +1126,6 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-            </link>
-          </links>
-        </entry>
-        <entry id="eb7d-ec47-64f8-6a2a" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="70fe-b303-b32f-4325" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="667d-74c0-93af-b65c" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1332-5a00-e16c-7492" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="19f7-0a65-8d9f-fe36" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="02ae-c0d7-6517-e0fd" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="893c-6e05-eca7-c640" name="Veterans of the Long War" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="703f-6b33-d28e-9cb3" targetId="4234-e5d5-d63b-549b" linkType="rule">
-              <modifiers/>
             </link>
           </links>
         </entry>
@@ -1378,47 +1263,55 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="097e-c5cb-cceb-4cdd" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="02a4-eecb-3f93-4be5" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fe79-cf7d-4bae-f884" targetId="cc9c-57a3-379c-d8ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5dce-30c9-5972-2b07" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="125d-f3d0-4ed5-9cd7" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="dc86-11f7-0fbf-4f1b" name="Blight Grenade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="1c7d-693e-9970-2775" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="1c7d-693e-9970-2775" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8009-b9e4-a763-473e" targetId="e987-8fd4-ad98-c72a" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="d330-0f69-6eef-21ec" name="Chaos Acolyte" points="38.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
-        <entry id="8b6c-22ff-5975-6235" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6486-f5ae-d504-5674" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="9a1d-a031-1e2c-3283" name="Blight Grenade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="d330-0f69-6eef-21ec" childId="1c7d-693e-9970-2775" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="d330-0f69-6eef-21ec" childId="1c7d-693e-9970-2775" field="selections" type="equal to" value="0.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8f16-8eb0-b865-0a8c" targetId="e987-8fd4-ad98-c72a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="c5d6-d204-1917-7ee5" name="Psyker (Mastery Level 1)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -1427,54 +1320,6 @@
           <profiles/>
           <links>
             <link id="2c3c-0b38-f4af-1f92" targetId="753e-d0ea-a186-aaf9" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="ad16-4d81-cec2-51a4" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="dedc-a491-3235-7144" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="1797-4803-69cd-fdca" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="963c-591f-3605-f5fb" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="1f86-7bd8-09b2-f152" name="Veterans of the Long War" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="bd0b-0609-1f4b-7619" targetId="4234-e5d5-d63b-549b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="eaf1-fdaf-4869-fa70" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6121-21b8-f350-31ce" targetId="d194-4df3-84ed-8d5c" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1918,9 +1763,32 @@
         <link id="3a16-4170-1857-1450" targetId="56b4-d0ef-0b93-ddff" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="d2a2-4793-f6f5-93ff" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ae3a-6f91-13d8-9c64" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2634-e38d-fbef-531d" targetId="cc9c-57a3-379c-d8ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c33e-0500-d0b1-c5c6" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5fa3-c762-ceb7-5e46" targetId="dc86-11f7-0fbf-4f1b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e906-9704-b80b-ae1c" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
-    <entry id="26cb-1438-82f3-7def" name="Chaos Bike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Chaos Space Marines">
+    <entry id="26cb-1438-82f3-7def" name="Chaos Bike" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Chaos Space Marines">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1937,30 +1805,6 @@
     </entry>
     <entry id="c970-aaa5-95e3-74ff" name="Chaos Biker" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
       <entries>
-        <entry id="8720-64fa-9b72-7395" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="beb0-7649-47a2-abf2" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="aae7-6e61-824a-7da8" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ce36-dbee-a904-c7c6" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="462c-87a6-0f91-0593" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -1969,18 +1813,6 @@
           <profiles/>
           <links>
             <link id="9579-7842-124a-60dd" targetId="587c-0a8a-1be4-c8bf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="f65e-a5d3-0fe0-581e" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="aac5-6efc-cad8-e58d" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1996,18 +1828,6 @@
               <modifiers/>
             </link>
             <link id="0c9f-bfa5-5a4b-40ed" targetId="71c3-6dbd-f915-e6e6" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e628-073b-dbc6-7ce2" name="Veterans of the Long War" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d61d-d043-dd09-22ad" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -2334,7 +2154,25 @@
           </modifiers>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="c8ea-00cc-db0a-2cf9" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8de3-950b-3a6d-9233" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5981-f1cc-c843-7517" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1c76-b878-5e0f-7e84" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="c87f-7867-97aa-7927" name="Chaos Cultist Squad" points="20.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="4">
       <entries>
@@ -2629,18 +2467,6 @@
     </entry>
     <entry id="db1a-f58f-16d3-4c46" name="Chaos Space Marine" points="11.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="4">
       <entries>
-        <entry id="f619-9c5e-2aba-2d51" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="bfd2-3578-dd54-6a38" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="3b4e-7643-88f7-faee" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -2661,42 +2487,6 @@
           <profiles/>
           <links>
             <link id="47f0-93d1-0c8a-0bb2" targetId="b6c5-4e6b-7862-3a45" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="8a48-7a4b-fecd-53d7" name="Veterans of the Long War" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f288-bb05-470d-a176" targetId="4234-e5d5-d63b-549b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="a83b-8ff7-828d-d0d2" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="da10-0cec-c65a-5c9e" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="6f98-1713-abd7-3198" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="67f1-da1a-6f65-dd41" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -3076,7 +2866,25 @@
           </modifiers>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="d863-4751-99a8-b3d9" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="bf2d-12b0-d2e2-bea3" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5dd7-286f-9224-675f" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2fa9-2519-5e0c-66fb" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="938f-2401-56e1-5ad8" name="Chaos Spawn" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
       <entries/>
@@ -3310,18 +3118,6 @@
           <profiles/>
           <links>
             <link id="d383-c1ae-cf3a-6c74" targetId="d978-36ab-9dc7-9c32" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="bbd5-ab24-759c-c16f" name="Veterans of the Long War" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a76c-c667-a52b-91d0" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -3627,6 +3423,14 @@
         <link id="cf54-510d-09df-fad2" targetId="56b4-d0ef-0b93-ddff" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="d924-5868-781b-288e" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="8cb8-fcac-85a7-6d6c" name="Chosen" points="16.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="6">
@@ -3651,54 +3455,6 @@
           <profiles/>
           <links>
             <link id="c53c-6ba1-4606-46ce" targetId="b6c5-4e6b-7862-3a45" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="88b9-9383-bb05-11d1" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5ef9-cd5d-9b25-ffad" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="b7a1-4136-3cba-78d9" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ff16-5dbc-7ac4-bf71" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="104e-6861-02f3-4707" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c62a-1fa8-921b-1ff4" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="1e56-9dcb-20ee-01c5" name="Veterans of the Long War" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="acc5-9d8e-f2fb-4f15" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -4096,6 +3852,23 @@
             </modifier>
           </modifiers>
         </link>
+        <link id="85b9-b554-2991-4c54" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b24b-f9a4-a3ef-0d10" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="45da-377b-cd8f-ef03" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6608-4456-61d9-f9d4" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="f2a6-5c60-5659-e4d3" name="Cultist Champion" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="4">
@@ -4365,18 +4138,6 @@
             </link>
           </links>
         </entry>
-        <entry id="ccff-0f21-8f29-8d28" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7ac3-8049-9d37-05bb" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="ec15-6a0b-bc51-30fd" name="Ichor Blood" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -4385,18 +4146,6 @@
           <profiles/>
           <links>
             <link id="c64b-66d7-e102-ca50" targetId="bce4-57be-48ca-83cd" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="59d2-6b0c-8715-e556" name="Veterans of the Long War" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="85d9-c6c0-71dd-7fd2" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -4433,30 +4182,6 @@
           <profiles/>
           <links>
             <link id="1a04-a67d-3d30-6648" targetId="39f2-5082-7e7d-1081" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4e09-a145-06c8-7c6b" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ecd2-1b80-5d51-0eea" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="8837-50f2-c747-7046" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3ac0-02b0-c4ad-431e" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -4647,6 +4372,23 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         <link id="bf27-75b2-87d5-c755" targetId="56b4-d0ef-0b93-ddff" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="40e0-a245-30a5-a52f" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8191-93ef-3d88-2d5a" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0777-8dbe-fa3f-832f" targetId="cc9c-57a3-379c-d8ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3f2c-88ec-4860-2913" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="8cb5-94bd-810b-6708" name="Forgesmith (Leader)" points="48.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="9">
@@ -4663,18 +4405,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="b914-a95b-94e0-9f85" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9b3b-5c20-b33d-fba3" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="b873-ec63-af75-9ccf" name="Ichor Blood" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -4683,18 +4413,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="8bf1-c602-b881-b89f" targetId="bce4-57be-48ca-83cd" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="9391-b6ef-b754-d014" name="Veterans of the Long War" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f7be-a560-ef48-acac" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -4731,30 +4449,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="53b1-ae19-03e3-513d" targetId="39f2-5082-7e7d-1081" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="6404-2ed6-dd70-4031" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5b14-fc1d-5fc7-57bc" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="70b7-85e0-d69a-5224" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f2f3-4e50-cddf-4f1a" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -4944,6 +4638,35 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         <link id="757b-dbfa-1eb0-2956" targetId="bf3c-519a-9367-6ac4" linkType="rule">
           <modifiers/>
         </link>
+        <link id="f7a4-ebd3-45bd-eab8" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7c99-680a-e75c-fdcc" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b90e-5d7b-aff2-7bb6" targetId="cc9c-57a3-379c-d8ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4fde-6749-2cd5-7351" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="ad97-1e3d-0110-a1ce" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="eae9-dce2-dcdc-d889" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f801-24bf-b125-f9d8" name="Icon of Despair" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Chaos Space Marines">
@@ -5034,7 +4757,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
       </links>
     </entry>
-    <entry id="6e65-fc74-b523-96d3" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6e65-fc74-b523-96d3" name="Jump Pack" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -5048,42 +4771,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
     </entry>
     <entry id="4691-1183-bb12-f31c" name="Khorne Berzerker" points="17.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="7">
       <entries>
-        <entry id="3864-bd44-1c69-9cb4" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="63ad-d696-dd13-2ee7" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="102e-59a1-b21f-a4a0" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6b22-e58f-c209-b640" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c010-ab12-500b-0ef1" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e200-80ad-e05a-0aee" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="bcde-2a0c-1f6d-936e" name="Close Combat Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
           <entries/>
           <entryGroups/>
@@ -5104,18 +4791,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="4328-471d-bbc8-adf6" targetId="be10-b792-7814-525a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="a504-c943-ef42-88a9" name="Veterans of the Long War" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="71ed-5a74-958a-60db" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -5200,6 +4875,35 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         <link id="baf9-6b6e-4408-1ece" targetId="10dd-bb3f-2da5-44d1" linkType="rule">
           <modifiers/>
         </link>
+        <link id="1cf8-ec1a-1b7d-0ded" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a15c-3ab3-ce80-589d" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0559-e9f7-c958-3f04" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2b2c-e7ea-d7c8-7571" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="3940-5ed6-7b66-f020" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="cb32-2102-85cd-3fc0" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="c57e-eafe-d917-c814" name="Mark of Khorne" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Chaos Space Marines">
@@ -5282,6 +4986,18 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       <profiles/>
       <links/>
     </entry>
+    <entry id="cc9c-57a3-379c-d8ed" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="76ca-720d-446a-77e5" targetId="d194-4df3-84ed-8d5c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="274a-6267-d446-59bd" name="Mutilator" points="55.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="7">
       <entries>
         <entry id="c432-a703-a9c0-2b97" name="Fleshmetal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5292,18 +5008,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="7a33-e96a-6930-a030" targetId="f0e2-ed72-3c6d-de94" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="1d36-68d8-8869-b74b" name="Veterans of the Long War" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="db26-4ffa-6858-0da2" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -5398,22 +5102,18 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         <link id="475d-23bb-65f7-142d" targetId="e907-8793-4c59-9b92" linkType="rule">
           <modifiers/>
         </link>
+        <link id="4d6e-0604-5ec4-a875" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="fd42-3cde-cf87-37a4" name="Noise Champion" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
-        <entry id="7efa-adb1-87d9-8c76" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0e1d-c7e5-2cf5-7c23" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="2e5e-45df-f13b-1b9a" name="Traitor Legions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -5534,54 +5234,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-            </link>
-          </links>
-        </entry>
-        <entry id="8d5e-6437-e4ed-c520" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="842e-4863-be20-f2e3" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="cba7-1187-1b5f-20d1" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c6a6-c80f-671a-1b6d" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="3b65-fb24-d143-abfc" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c6e7-f416-9940-a761" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c8c5-d006-14f6-4abf" name="Veterans of the Long War" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2c3d-1888-5939-1062" targetId="4234-e5d5-d63b-549b" linkType="rule">
-              <modifiers/>
             </link>
           </links>
         </entry>
@@ -5729,22 +5381,30 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </modifier>
           </modifiers>
         </link>
+        <link id="aba7-061f-ca62-1080" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ca6b-954f-7bfc-ebe9" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="43a9-b965-7bed-a52c" targetId="cc9c-57a3-379c-d8ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="bacf-d5e9-d6b0-50cf" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="793d-e0e2-59ff-45bf" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="a416-d4e8-2dbe-9d7d" name="Noise Marine" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
       <entries>
-        <entry id="1430-4513-751a-78aa" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ecf3-1a90-3159-4139" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="7454-a22d-fa20-24b7" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -5753,42 +5413,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="528e-7c60-89e9-d427" targetId="587c-0a8a-1be4-c8bf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e93b-3f49-f89a-7469" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="fa07-4f3b-1cc5-4aa8" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="73a6-23bd-54c8-5648" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1b35-6d0a-5c6f-a0a3" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="ab77-70e8-f766-d61b" name="Veterans of the Long War" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="eb60-2810-8d03-74e8" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -5909,6 +5533,23 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </modifier>
           </modifiers>
         </link>
+        <link id="d8b7-ab41-322d-09af" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6420-460d-0afa-0126" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cefd-206d-611b-cc5b" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="30ad-d337-c921-a983" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="0be5-bb50-8648-c85a" name="Obliterator" points="70.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="7">
@@ -5921,18 +5562,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="6f25-62bd-4557-a705" targetId="f0e2-ed72-3c6d-de94" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2b61-540b-9dbd-6b88" name="Veterans of the Long War" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d37b-3d69-1353-46b4" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -6039,22 +5668,18 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         <link id="e48c-80f5-7a26-6726" targetId="8d8f-1353-dbae-2e45" linkType="rule">
           <modifiers/>
         </link>
+        <link id="b6c6-b0ad-ba82-1de2" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
-    <entry id="6452-bada-51d6-db9c" name="Plague Champion" points="32.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
+    <entry id="6452-bada-51d6-db9c" name="Plague Champion" points="28.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
       <entries>
-        <entry id="ffb4-f8be-670b-3ff8" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="31a2-a6ff-aafd-954a" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="369f-32bf-c5c2-990b" name="Traitor Legions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -6178,31 +5803,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="ac2c-ce04-a8e9-3942" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c9ad-9493-279b-9b59" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="3ea7-4ecb-3e19-415e" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="f247-6521-e4ff-3e62" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c606-e46b-3853-c6fc" name="Blight Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="c606-e46b-3853-c6fc" name="Blight Grenade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6210,18 +5811,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="f715-5292-9692-9e7c" targetId="e987-8fd4-ad98-c72a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="7ba5-23bf-4ef5-0522" name="Veterans of the Long War" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4507-5e07-9f1c-9fb7" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -6422,22 +6011,27 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </modifier>
           </modifiers>
         </link>
+        <link id="7a1f-29bf-3e24-923f" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="be87-fa85-7c95-1139" targetId="cc9c-57a3-379c-d8ed" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="68f8-1a18-e286-210e" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b256-2f1f-835f-516d" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="2973-7a44-9b80-499e" name="Plague Marine" points="22.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
       <entries>
-        <entry id="7427-d0a2-c0c5-ac97" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7582-2589-4ea2-3f8e" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="a449-583b-ca2c-914e" name="Plague Knife" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -6458,30 +6052,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="aed7-aa27-3c0d-549c" targetId="e987-8fd4-ad98-c72a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="99df-ebc2-f8f4-03ab" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ef86-7042-97dc-23e2" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4939-7794-125a-0af7" name="Veterans of the Long War" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d545-47fd-b1cc-25fa" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -6630,6 +6200,20 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </modifier>
           </modifiers>
         </link>
+        <link id="0557-7afb-42ee-b8bf" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d88c-9070-3ad0-56d7" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b539-3ead-cb19-410a" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="33a4-0292-58b7-6152" name="Posessed" points="26.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="7">
@@ -6642,30 +6226,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="3260-c9a1-f165-c8f5" targetId="b6c5-4e6b-7862-3a45" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d3a3-b57e-cf80-b182" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6850-17ba-6a8f-879a" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4e9a-a872-e0e6-f667" name="Veterans of the Long War" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="54ee-bd64-50bb-4705" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -6804,22 +6364,21 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         <link id="314a-72a5-812f-d0bd" targetId="1d15-06f7-79c9-33f0" linkType="rule">
           <modifiers/>
         </link>
+        <link id="98f7-0930-b053-d1a6" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ab82-0461-fdfe-4e63" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="a5f6-6092-efce-cd59" name="Posesssed Champion" points="26.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="3">
       <entries>
-        <entry id="8b54-2586-0dae-8c9b" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9e73-07bf-0a4f-a39f" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="0f04-ec44-cf4f-8d26" name="Close Combat Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
           <entries/>
           <entryGroups/>
@@ -6828,18 +6387,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="e4d2-b1ec-4df2-ed25" targetId="b6c5-4e6b-7862-3a45" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="37c9-a5c4-6c86-6e41" name="Veterans of the Long War" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1bfe-b2d5-b784-7345" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -6955,22 +6502,33 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         <link id="4653-ada6-e23a-828d" targetId="f9bb-3ee1-75a8-2fee" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="a973-d553-fc39-f1ba" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6a5e-3725-4ac2-dc1e" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="098b-3017-a11c-02e1" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="bbe7-65c4-739b-5b14" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="b373-2f13-1a31-6ca6" name="Raptor" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="5">
       <entries>
-        <entry id="31ed-a298-9cb0-4831" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6617-382e-f505-8e81" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="8a75-b7b6-4bcd-8d4b" name="Jump pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -7010,30 +6568,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="a8eb-7089-45fd-2490" targetId="b6c5-4e6b-7862-3a45" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="1da7-ede0-16ea-23e6" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="32b6-d957-63a3-2924" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="fbb1-6bd7-658b-84c5" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="dbbe-026b-5d5f-3e2f" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -7108,18 +6642,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <rules/>
           <profiles/>
           <links/>
-        </entry>
-        <entry id="2efa-aeda-a7a3-7e2c" name="Veterans of the Long War" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8442-a474-7200-e2c8" targetId="4234-e5d5-d63b-549b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
         </entry>
         <entry id="c882-aa74-df5e-ac8a" name="Traitor Legions" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -7369,6 +6891,23 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         <link id="4029-9af8-cba9-8d76" targetId="a476-0855-d1d9-062d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="cc16-43a2-049f-1e2a" targetId="ad97-1e3d-0110-a1ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9561-e9d8-ca9d-6f0f" targetId="3940-5ed6-7b66-f020" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="123d-4100-1264-6328" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="497e-ba8f-22ad-a539" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="4c55-9020-f7e1-b0ba" name="Terminator Champion" points="33.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="2">
@@ -7496,18 +7035,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </link>
           </links>
         </entry>
-        <entry id="470a-b9ba-c0f2-a405" name="Veterans of the Long War" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="39f7-beed-79c3-a79c" targetId="4234-e5d5-d63b-549b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="ce42-1ec4-6cbc-6197" name="Termonator Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -7566,22 +7093,18 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         <link id="ed97-5d95-5397-f329" targetId="ba99-1234-e5db-3048" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="3d9e-2fe9-d3b6-adfc" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
     <entry id="db41-0c4f-032f-6f44" name="Thousand Son" points="23.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="6">
       <entries>
-        <entry id="4cab-768a-a7f5-d797" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="487b-f23e-25ea-6cdb" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="bc8f-5b55-cd23-159e" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -7664,6 +7187,9 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           </modifiers>
         </link>
         <link id="3855-5a85-03b8-bde7" targetId="7412-9a84-4569-a3da" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d345-89c9-530d-99c5" targetId="098b-3017-a11c-02e1" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -7785,20 +7311,20 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       <profiles/>
       <links/>
     </entry>
+    <entry id="dc9e-af72-602a-0201" name="Veterans of the Long War" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ee7d-6d4c-3f54-3ca2" targetId="4234-e5d5-d63b-549b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="5d99-588a-349a-eb55" name="Warp Talon" points="30.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Chaos Space Marines v3.0" page="8">
       <entries>
-        <entry id="c778-9749-f700-e176" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5903-22d1-40c0-dd1e" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="2bc4-ae89-0a6c-5566" name="Jump pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -7819,18 +7345,6 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <links>
             <link id="666c-f2cc-5037-ec0c" targetId="e114-6cd8-4885-c589" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="91d2-6655-ba88-ae7b" name="Veterans of the Long War" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8475-a56d-e500-3c85" targetId="4234-e5d5-d63b-549b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -7915,6 +7429,17 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </link>
         <link id="45fc-74a8-082a-3907" targetId="2423-18a8-4a74-3510" linkType="rule">
           <modifiers/>
+        </link>
+        <link id="68c4-66b5-4678-fc64" targetId="098b-3017-a11c-02e1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b74e-7e37-30e7-465e" targetId="dc9e-af72-602a-0201" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>

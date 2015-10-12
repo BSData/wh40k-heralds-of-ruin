@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a29e-b803-84d6-892f" revision="8" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a29e-b803-84d6-892f" revision="9" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -138,18 +138,6 @@
             </link>
           </links>
         </entry>
-        <entry id="21fd-8f0d-8bec-cb1a" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="58a5-2e86-3035-75f9" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
       </entries>
       <entryGroups>
         <entryGroup id="226e-e640-c2dd-42a9" name="Chainsword, or" defaultEntryId="c3d2-d202-3945-51d4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -210,7 +198,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="afbe-532d-f0ca-eac1" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="d623-5ffc-828c-2d73" name="Chimera" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -331,18 +323,6 @@
     </entry>
     <entry id="3059-b635-4eec-541e" name="Crusader" points="15.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="5">
       <entries>
-        <entry id="83a5-2ede-bdcc-23ab" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="818d-e1a5-ae72-522d" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="564b-aa5b-596f-b757" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -400,7 +380,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="0c87-7d3f-a76f-ff1d" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="52d3-d15d-70c7-2e09" name="Daemonhost" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="5">
       <entries>
@@ -551,54 +535,6 @@ D6 - Result
     </entry>
     <entry id="9a41-1e17-f3a6-5a50" name="Inquisitorial Medic" points="25.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="5">
       <entries>
-        <entry id="10c7-7b40-db0c-49f9" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="59e6-bfa1-0a69-68b9" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e7ce-eb2d-9405-bedf" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="663e-5c8f-b34d-2b96" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e376-469f-0a22-06e1" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a0e6-b057-b88f-5c7a" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="eae4-8617-f1ad-617e" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="fc7e-9a65-8a05-5954" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="db5a-d5bf-d20c-abda" name="Medi-pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -798,7 +734,20 @@ D6 - Result
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="03a8-c995-a625-1ff9" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="2b11-98d3-63fc-69ce" targetId="bd18-673c-2002-224c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d736-6c20-8730-a42d" targetId="1bbe-f1b5-31f0-ccf8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4367-d2d9-4b4e-5f3a" targetId="9678-682c-adc1-33b3" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="137b-d71b-7e35-68f8" name="Inquisitorial Servitor" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
       <entries>
@@ -900,18 +849,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="0090-3e70-d607-890c" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="b8fd-679f-92f9-5114" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="1515-ff0e-b50b-2e0a" name="Hot-shot Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -932,30 +869,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="315a-44b6-e204-89ae" targetId="b6c5-4e6b-7862-3a45" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="ab7a-5e58-591b-946a" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="dd3c-b5f7-30f8-5e8e" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="7d42-dadc-2920-5cb3" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7bdd-f47e-4cdf-06e0" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -1056,6 +969,15 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         <link id="2375-403a-e304-e6bb" targetId="e0e9-842d-f920-0c16" linkType="rule">
           <modifiers/>
         </link>
+        <link id="0c24-f3c4-97ca-9a29" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="deae-c35e-1ecd-8a38" targetId="bd18-673c-2002-224c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d9c3-73ee-3238-77b0" targetId="1bbe-f1b5-31f0-ccf8" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9b13-cdbb-3837-e8e2" name="Inquisitorial Techpriest" points="43.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="6">
@@ -1114,54 +1036,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           </profiles>
           <links/>
         </entry>
-        <entry id="f839-35d7-ada3-920f" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4848-fbd8-e489-179e" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="80b7-4ca6-d56a-5db7" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="b78f-f890-58a8-42cc" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="ab23-e2db-96a6-2fd1" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7593-ac67-cd63-353e" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="faa4-be7d-6336-50c9" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4a8e-cd76-3c39-50f8" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -1187,7 +1061,20 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="b698-185a-a6d2-412a" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="a87b-b820-b810-768c" targetId="bd18-673c-2002-224c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="62cc-7af8-9bcb-e175" targetId="1bbe-f1b5-31f0-ccf8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b656-c1ec-4f4d-41b0" targetId="9678-682c-adc1-33b3" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="3422-b20e-f84c-1d16" name="Jokaero Weaponsmith" points="35.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="6">
       <entries>
@@ -1263,30 +1150,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="8081-fad4-9361-e254" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="ad9d-5a1f-3150-f215" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2bbb-84a7-311a-5763" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4879-c72c-5a0b-dfc8" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="49a4-5ad5-e255-fc7a" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
               <modifiers/>
             </link>
           </links>
@@ -1651,71 +1514,16 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         <link id="8291-1861-dac0-1d0d" targetId="9643-35ef-465a-8144" linkType="rule">
           <modifiers/>
         </link>
+        <link id="7f30-7745-1806-082b" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b3e5-51f5-b90c-de54" targetId="9678-682c-adc1-33b3" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="1d89-f02f-dbe6-5aac" name="Ordo Hereticus Inquisitor" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
-      <entries>
-        <entry id="3eff-8fef-7bb6-9842" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d90b-3afd-6551-1391" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="9247-8fb8-b951-7207" name="Leader Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="409a-1175-fe88-68d5" targetId="a229-9601-812f-f680" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="86ae-f8f1-5dab-20fe" name="Psyk-Out Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d790-1066-79cf-78d9" targetId="481c-1180-bf1a-19cf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4612-7ed3-196e-a25f" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9edf-2617-9720-9d28" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="310f-a1db-c87d-729b" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3973-dcb0-58c3-8d85" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entry id="1d89-f02f-dbe6-5aac" name="Ordo Hereticus Inquisitor" points="16.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
+      <entries/>
       <entryGroups>
         <entryGroup id="49fa-fc7d-0bf2-3bef" name="Melee Weapon options" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1811,71 +1619,25 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         <link id="a7e5-423d-47e9-0f48" targetId="c6c2-5c4e-cedc-8c4b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="1db3-0a22-2f8e-ebc2" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="c888-a824-5c10-749d" targetId="a229-9601-812f-f680" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="80f7-28f6-3357-8109" targetId="bd18-673c-2002-224c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fb62-ec32-9e71-fab1" targetId="1bbe-f1b5-31f0-ccf8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="85a3-6464-9260-cdfb" targetId="c8a7-82bc-a879-8c10" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="f55d-f035-2aea-6751" name="Ordo Malleus Inquisitor" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="1">
-      <entries>
-        <entry id="beb8-68a9-1133-1834" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="b2c4-7086-faaa-a299" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="58b8-670f-bc16-52df" name="Leader Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7241-4656-9b62-a4fb" targetId="a229-9601-812f-f680" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="5b75-8c84-d629-9fe2" name="Psyk-Out Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6b0c-8cd2-333c-bfdb" targetId="481c-1180-bf1a-19cf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="05d5-0b00-2e99-77c2" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="97aa-8628-1d61-5a90" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="35e9-140f-9350-778e" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="330d-9bbb-17b4-c8fc" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entry id="f55d-f035-2aea-6751" name="Ordo Malleus Inquisitor" points="16.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="1">
+      <entries/>
       <entryGroups>
         <entryGroup id="39f2-f999-6842-9754" name="Armour options" defaultEntryId="4494-e9bc-dcfb-ae71" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
@@ -2052,71 +1814,25 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
         <link id="807b-7f73-b8ec-95ae" targetId="c6c2-5c4e-cedc-8c4b" linkType="entry">
           <modifiers/>
         </link>
+        <link id="a0de-0bdb-87f7-4e61" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b351-1074-3773-c0d3" targetId="a229-9601-812f-f680" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="6159-cb12-3aa2-1262" targetId="bd18-673c-2002-224c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0359-9244-ad55-e141" targetId="1bbe-f1b5-31f0-ccf8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5706-ef79-8aa0-ea0c" targetId="c8a7-82bc-a879-8c10" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="a4a5-ab42-e244-f575" name="Ordo Xenos Inquisitor" points="18.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
-      <entries>
-        <entry id="372f-f058-7624-728d" name="Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ba3b-e836-7f1a-c082" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="8085-b068-51fd-ef81" name="Leader Armoury items" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="7334-39d9-7c10-5239" targetId="a229-9601-812f-f680" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="58bf-db92-9c8f-3c4e" name="Psyk-Out Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="ab6a-8406-a745-d55d" targetId="481c-1180-bf1a-19cf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c855-38dd-13d7-99b7" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="19b8-747e-dfd2-e491" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="76a8-2633-8ca0-b727" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2578-5137-e306-82ef" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entry id="a4a5-ab42-e244-f575" name="Ordo Xenos Inquisitor" points="16.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="2">
+      <entries/>
       <entryGroups>
         <entryGroup id="dbbc-de47-4765-e4a3" name="Armour options" defaultEntryId="0579-8665-aed3-f124" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
@@ -2210,6 +1926,21 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <modifiers/>
         </link>
         <link id="728a-11cc-fdf4-d3a3" targetId="c6c2-5c4e-cedc-8c4b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="388e-71e3-c32b-d8a9" targetId="b2b8-f182-6f5c-1f0f" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="dc72-72fe-863d-e40d" targetId="a229-9601-812f-f680" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3e74-7439-4cb3-27ae" targetId="bd18-673c-2002-224c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d301-9cbe-5aed-561c" targetId="1bbe-f1b5-31f0-ccf8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5417-838f-2712-3dd2" targetId="c8a7-82bc-a879-8c10" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2477,44 +2208,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       </links>
     </entry>
     <entry id="ae01-22d5-c498-4557" name="Veteran Acolyte" points="10.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
-      <entries>
-        <entry id="060c-910b-3528-9405" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9771-cffe-91f7-2ef2" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="03ce-cd82-de81-3ede" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9385-67ba-fdaf-34ec" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="b83f-dabe-5b4e-b8ad" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4bd0-93b1-b40e-2c03" targetId="d194-4df3-84ed-8d5c" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+      <entries/>
       <entryGroups>
         <entryGroup id="f59d-3784-31ea-40bc" name="Laspistol, or" defaultEntryId="4891-434c-acbb-cee6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
@@ -2716,7 +2410,17 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           </modifiers>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="33d4-4156-de6d-84e6" targetId="bd18-673c-2002-224c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="39f8-b911-a8e3-68d8" targetId="1bbe-f1b5-31f0-ccf8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1da5-6992-2bb7-ef2e" targetId="9678-682c-adc1-33b3" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="1cdf-eacb-bcb6-5958" name="Warrior Acolyte Squad" points="20.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
       <entries>
@@ -2961,6 +2665,66 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       <rules/>
       <profiles/>
       <links/>
+    </entry>
+    <entry id="bd18-673c-2002-224c" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="986b-b3d8-3f5a-b3ef" targetId="3133be3d-d8da-e298-9fd0-235e920bd35b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1bbe-f1b5-31f0-ccf8" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="59d1-c6b5-a770-672d" targetId="008532a4-4f25-b4f0-58c7-a996a79fc770" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9678-682c-adc1-33b3" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6a53-532d-98c7-160b" targetId="d194-4df3-84ed-8d5c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c8a7-82bc-a879-8c10" name="Psyk-Out Grenade" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ec1e-727e-f307-7273" targetId="481c-1180-bf1a-19cf" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0e47-f1c8-6ab8-ae29" name="Servo-skull" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a876-97d1-1578-d3a2" targetId="bbe3-6439-46ac-5156" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -3767,30 +3531,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
     </entryGroup>
     <entryGroup id="9acd-f152-3c8b-9203" name="Ordo Hereticus Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="c3f3-e5cd-43c3-9f92" name="Psyk-out Grenades" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e327-9625-7807-fd91" targetId="481c-1180-bf1a-19cf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="fb79-43b6-1c0e-ff67" name="Servo-skull" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0241-5e01-6d3a-30e3" targetId="bbe3-6439-46ac-5156" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="d3b6-aa40-0fb2-5972" name="Psyocculum" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -3806,7 +3546,11 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       </entries>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="265d-6b36-9641-0a72" targetId="0e47-f1c8-6ab8-ae29" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="a688-1bb8-0917-b867" name="Ordo Hereticus Ranged Weapon Options" defaultEntryId="9e58-5ea0-0962-2102" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -4170,30 +3914,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
     </entryGroup>
     <entryGroup id="a970-d343-14b0-2f84" name="Ordo Malleus Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="10e6-7755-e64e-05cb" name="Psyk-out Grenades" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9dbe-7671-fecf-4101" targetId="481c-1180-bf1a-19cf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="54bc-dbc9-da58-26fc" name="Servo-skull" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="fb3e-0c4d-9867-9fb7" targetId="bbe3-6439-46ac-5156" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="7d67-ac2a-e649-10b3" name="Psybolt Ammunition" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -4221,7 +3941,11 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       </entries>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="1927-1cd9-b1ec-b3e5" targetId="0e47-f1c8-6ab8-ae29" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="7dfc-9b09-60bd-10a2" name="Ordo Malleus Ranged Weapon Options" defaultEntryId="87c9-7085-5e25-7e8b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
@@ -4561,30 +4285,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
     </entryGroup>
     <entryGroup id="b03b-2bfe-a1c1-cf48" name="Ordo Xenos Options" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="dcb5-cffb-6179-c64a" name="Psyk-out Grenades" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="d87e-0ca8-91ea-3a6e" targetId="481c-1180-bf1a-19cf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="e2b4-bf20-105d-e5d2" name="Servo-skull" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0b43-c783-c891-0e69" targetId="bbe3-6439-46ac-5156" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="bbe8-138a-e77b-3003" name="Digital Weapons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -4639,7 +4339,11 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       </entries>
       <entryGroups/>
       <modifiers/>
-      <links/>
+      <links>
+        <link id="2695-0124-44fe-6b18" targetId="0e47-f1c8-6ab8-ae29" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entryGroup>
     <entryGroup id="dee2-39d7-a870-f95b" name="Ordo Xenos Ranged Weapon Options" defaultEntryId="fb85-5f04-0907-dc3f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
