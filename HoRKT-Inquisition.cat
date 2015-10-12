@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a29e-b803-84d6-892f" revision="7" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a29e-b803-84d6-892f" revision="8" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" battleScribeVersion="1.15" name="Inquisition: HoR" books="Kill Team List: Inquisition v2.0" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -2719,379 +2719,244 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
       <links/>
     </entry>
     <entry id="1cdf-eacb-bcb6-5958" name="Warrior Acolyte Squad" points="20.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="f7a6-ff6e-ed8c-cee9" name="Squad" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="dd44-afb3-548d-e151" name="Warrior Acolyte" points="0.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
-              <entries/>
+      <entries>
+        <entry id="a927-400b-5460-5af7" name="Warrior Acolyte" points="0.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="9023-1e42-f8d0-4e41" name="Armour Options" defaultEntryId="6b35-4396-f365-b2c8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="6b35-4396-f365-b2c8" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="b45f-ef5f-e247-3c57" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="fd7b-3920-437d-c4b6" name="Carapace Armour" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="56fe-bf91-95fc-b60e" targetId="0012-73e3-6260-96ff" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
               <entryGroups/>
-              <modifiers>
-                <modifier type="decrement" field="minSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="1cdf-eacb-bcb6-5958" incrementChildId="a102-c8c3-2aa4-af1c" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles>
-                <profile id="5804-551e-45f0-2833" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Warrior Acolyte" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-                    <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
-                    <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-                    <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
-                    <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
-                    <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-                    <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
-                    <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-                    <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-                    <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
-                  </characteristics>
+              <modifiers/>
+              <links/>
+            </entryGroup>
+            <entryGroup id="bcc9-a538-7e9a-4950" name="Chainsword, or" defaultEntryId="36e1-fe9c-bd1e-4a38" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="36e1-fe9c-bd1e-4a38" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
                   <modifiers>
-                    <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                    <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions>
-                        <condition parentId="1cdf-eacb-bcb6-5958" childId="28d2-c9b7-681a-92ac" field="selections" type="at least" value="1.0"/>
+                        <condition parentId="a927-400b-5460-5af7" childId="b4a5-f773-bdfd-f1eb" field="selections" type="equal to" value="0.0"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-            <entry id="a102-c8c3-2aa4-af1c" name="Warrior Acolyte with special weapon" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Inquisition v2.0" page="3">
-              <entries/>
-              <entryGroups>
-                <entryGroup id="ee7b-94e2-c48b-8c5b" name="Chainsword, or" defaultEntryId="9610-19c6-cc59-381b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="9610-19c6-cc59-381b" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers>
-                        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="a102-c8c3-2aa4-af1c" childId="726d-f826-93b2-bce0" field="selections" type="equal to" value="0.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="ebc9-63ee-4e01-d2f6" targetId="8345-6f0f-2cad-eff9" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="7f4f-f6ed-bb19-768e" name="Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="57ad-73f1-de54-7bf3" targetId="8345-6f0f-2cad-eff9" linkType="profile">
                       <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="9494-d90d-0da3-87c2" targetId="fe11-7f04-819e-23ef" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="01b5-f175-553d-780b" name="Meltagun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="1da9-af1c-350f-7ba0" targetId="fe11-7f04-819e-23ef" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="49c1-18c4-9e9f-317d" name="Plasma Gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="2952-7f93-ee33-a60f" targetId="44a4-b4f5-f14a-f45d" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="28ef-07a6-532a-2ea8" name="Power Weapon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="ecc3-4334-19db-41e7" targetId="ad1c-10db-9d07-c9f0" linkType="entry group">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="b3b1-1e65-4888-53a8" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="8437-3844-9f7c-125a" targetId="3215-489c-20ea-e935" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                  </entries>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="ad07-d7eb-369b-2191" name="Boltgun" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
                   <entryGroups/>
                   <modifiers/>
-                  <links/>
-                </entryGroup>
-                <entryGroup id="1950-3926-0ea6-b6ea" name="Laspistol, or" defaultEntryId="726d-f826-93b2-bce0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="726d-f826-93b2-bce0" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers>
-                        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                          <conditions>
-                            <condition parentId="a102-c8c3-2aa4-af1c" childId="9610-19c6-cc59-381b" field="selections" type="equal to" value="0.0"/>
-                          </conditions>
-                          <conditionGroups/>
-                        </modifier>
-                      </modifiers>
-                      <rules/>
-                      <profiles/>
-                      <links/>
-                    </entry>
-                    <entry id="a10c-af66-5c31-58b3" name="Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="3d4f-c8e8-10f6-9960" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
                       <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="9cb7-0576-2987-7cf9" targetId="fe11-7f04-819e-23ef" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="a584-2a4c-786a-af16" name="Meltagun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="e137-a56b-d94f-1adb" targetId="fe11-7f04-819e-23ef" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="2a13-82c4-cf33-b7c4" name="Plasma Gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="a37a-ec1c-fdc3-f632" targetId="44a4-b4f5-f14a-f45d" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="1571-7224-5c7e-b4b2" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="6f23-eb87-fbb4-0e57" targetId="3215-489c-20ea-e935" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="0d81-4eb9-9873-09e4" name="Power Weapon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="4685-1c91-5437-55ac" targetId="ad1c-10db-9d07-c9f0" linkType="entry group">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                  </entries>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="f748-1120-5561-bb7e" name="Lasgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
                   <entryGroups/>
                   <modifiers/>
-                  <links/>
-                </entryGroup>
-              </entryGroups>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="97b5-a258-5c81-f96b" targetId="c80f-8aff-241a-0cce" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
               <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="b29a-d6b9-3314-e377" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Warrior Acolyte" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-                    <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
-                    <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-                    <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
-                    <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
-                    <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-                    <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
-                    <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-                    <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-                    <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
-                  </characteristics>
+              <links/>
+            </entryGroup>
+            <entryGroup id="8c38-79fd-927f-6f98" name="Laspistol, or" defaultEntryId="b4a5-f773-bdfd-f1eb" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="b4a5-f773-bdfd-f1eb" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
                   <modifiers>
-                    <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                    <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                       <conditions>
-                        <condition parentId="1cdf-eacb-bcb6-5958" childId="28d2-c9b7-681a-92ac" field="selections" type="at least" value="1.0"/>
+                        <condition parentId="a927-400b-5460-5af7" childId="36e1-fe9c-bd1e-4a38" field="selections" type="equal to" value="0.0"/>
                       </conditions>
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
-                </profile>
-              </profiles>
+                  <rules/>
+                  <profiles/>
+                  <links/>
+                </entry>
+                <entry id="144a-c0ab-bdda-fa86" name="Boltgun" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="e0cf-044c-d064-8d7f" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="4d9e-0db4-a355-06b6" name="Lasgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="b636-c9aa-a5b6-2ed2" targetId="c80f-8aff-241a-0cce" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
               <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="d4c2-1f29-cd53-c24d" name="Armour Options" defaultEntryId="b33e-88c3-1858-3079" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="b33e-88c3-1858-3079" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="6107-89f2-7686-88f2" targetId="8e02-87bc-1be3-f2bd" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="28d2-c9b7-681a-92ac" name="Carapace Armour" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="9331-a2fc-c550-6336" targetId="0012-73e3-6260-96ff" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="4c7b-2dda-a17c-0d76" name="Chainsword, or" defaultEntryId="9bf0-c7d1-87ec-67ca" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="9bf0-c7d1-87ec-67ca" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
+          <rules/>
+          <profiles>
+            <profile id="1dc0-4266-8eb6-04ea" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Warrior Acolyte" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+                <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
+                <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+                <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="3"/>
+                <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="3"/>
+                <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+                <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+                <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+                <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+                <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
+              </characteristics>
               <modifiers>
-                <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions>
-                    <condition parentId="1cdf-eacb-bcb6-5958" childId="a075-e5e8-c742-858c" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="a927-400b-5460-5af7" childId="fd7b-3920-437d-c4b6" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="9f7e-b91c-6b09-18ba" targetId="8345-6f0f-2cad-eff9" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="5f7a-8683-1093-cd72" name="Boltgun" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="dffe-737c-3aae-3b03" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="e62a-6b41-1133-2b48" name="Lasgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c5c7-5b3c-15b6-68e5" targetId="c80f-8aff-241a-0cce" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
+            </profile>
+          </profiles>
           <links/>
-        </entryGroup>
-        <entryGroup id="d5af-6319-4405-36b0" name="Laspistol, or" defaultEntryId="a075-e5e8-c742-858c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="a075-e5e8-c742-858c" name="Laspistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
+        </entry>
+        <entry id="b0fe-2349-2d9b-53dc" name="One Warrior Acolyte take Special Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="441e-6393-c3f8-cf7e" name="Special Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="84fc-ca70-3bee-09db" name="Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="c3c2-56a2-808a-b22c" targetId="fe11-7f04-819e-23ef" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="b870-760f-7e4c-0d20" name="Meltagun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="4cb6-405c-ea93-ae56" targetId="fe11-7f04-819e-23ef" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="ed4c-146d-3b3d-ce35" name="Plasma Gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="9007-35ff-f0a5-f861" targetId="44a4-b4f5-f14a-f45d" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="d329-f913-f964-51e1" name="Power Weapon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="139a-ba76-1840-cdd2" targetId="ad1c-10db-9d07-c9f0" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="5b2e-e90e-57eb-e252" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="2ba7-6d25-112f-5ad3" targetId="3215-489c-20ea-e935" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
               <entryGroups/>
-              <modifiers>
-                <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="1cdf-eacb-bcb6-5958" childId="9bf0-c7d1-87ec-67ca" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
+              <modifiers/>
               <links/>
-            </entry>
-            <entry id="b896-bf3e-ac33-0dfb" name="Boltgun" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="43ff-1a0d-400c-92ce" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="9481-f781-f10b-6f61" name="Lasgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="3279-4f9a-6625-523b" targetId="c80f-8aff-241a-0cce" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
+          <rules/>
+          <profiles/>
           <links/>
-        </entryGroup>
-      </entryGroups>
+        </entry>
+      </entries>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
@@ -3708,7 +3573,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
     </entryGroup>
     <entryGroup id="26aa-946e-f8de-1dbe" name="Ordo Hereticus Melee Weapon Options" defaultEntryId="8716-6d5d-98ce-44c5" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="de71-4155-4b32-c230" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+        <entry id="de71-4155-4b32-c230" name="Power Sword" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3801,7 +3666,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="1628-3e6f-2f2e-82d7" name="Thunder Hammer" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1628-3e6f-2f2e-82d7" name="Thunder Hammer" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3831,7 +3696,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="3ef1-52d8-d9fd-38bc" name="Null Rod" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3ef1-52d8-d9fd-38bc" name="Null Rod" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -3945,7 +3810,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
     </entryGroup>
     <entryGroup id="a688-1bb8-0917-b867" name="Ordo Hereticus Ranged Weapon Options" defaultEntryId="9e58-5ea0-0962-2102" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="0470-5f53-d29d-ce58" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+        <entry id="0470-5f53-d29d-ce58" name="Power Sword" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4038,7 +3903,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="3cb2-396c-8acf-6d14" name="Thunder Hammer" points="2015.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3cb2-396c-8acf-6d14" name="Thunder Hammer" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4068,7 +3933,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="9367-94a4-280a-5957" name="Null Rod" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="9367-94a4-280a-5957" name="Null Rod" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4114,7 +3979,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
     </entryGroup>
     <entryGroup id="0060-8f9e-2b77-e977" name="Ordo Malleus Melee Weapon Options" defaultEntryId="b056-5301-76a3-4aeb" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="73a8-1c1d-282e-eb62" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+        <entry id="73a8-1c1d-282e-eb62" name="Power Sword" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4329,7 +4194,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="7d67-ac2a-e649-10b3" name="Psybolt Ammunition" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="7d67-ac2a-e649-10b3" name="Psybolt Ammunition" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4372,7 +4237,7 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
             </link>
           </links>
         </entry>
-        <entry id="f44a-337b-853a-2740" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+        <entry id="f44a-337b-853a-2740" name="Power Sword" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4716,18 +4581,6 @@ d6. If the result is 4+ the model acts normally. If the result is 1-3 the Servit
           <profiles/>
           <links>
             <link id="0b43-c783-c891-0e69" targetId="bbe3-6439-46ac-5156" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c2da-6838-66ec-9b90" name="Psybolt Ammunition" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6969-75c6-9981-a400" targetId="40c4-33f6-0e72-7382" linkType="profile">
               <modifiers/>
             </link>
           </links>
