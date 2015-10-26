@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1531-c7fc-fdc9-6bd1" revision="4" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" battleScribeVersion="1.15" name="Dark Angels: HoR" books="Kill Team List: Dark Angels v3.0" authorName="new-neon, azdiscord" authorUrl="http://github.com/new-neon" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1531-c7fc-fdc9-6bd1" revision="5" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" battleScribeVersion="1.15" name="Dark Angels: HoR" books="Kill Team List: Dark Angels v3.0" authorName="new-neon, azdiscord" authorUrl="http://github.com/new-neon" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -140,7 +140,7 @@
             <link id="97ec-a2a2-50cd-fd10" targetId="4a97-30b9-513e-deff" linkType="entry">
               <modifiers/>
             </link>
-            <link id="000a-bd8f-3dbc-584a" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="000a-bd8f-3dbc-584a" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -264,24 +264,15 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="1389-0d7c-7bbb-0475" name="First Weapon" defaultEntryId="49f7-1511-2c02-b544" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="49f7-1511-2c02-b544" name="Storm Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="8775-1ef0-72b2-2837" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+        <entryGroup id="1389-0d7c-7bbb-0475" name="First Weapon" defaultEntryId="7fa2-8c03-fe62-9525" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
           <entryGroups/>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="7fa2-8c03-fe62-9525" targetId="c1cc-f0df-5114-867f" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -322,9 +313,15 @@
         <link id="44a6-c43a-4a2e-3e92" targetId="39a8-05c4-360f-e727" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="de63-e3cd-c0d1-b3be" targetId="64ab-2fdc-745b-deaa" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="889d-3d41-30b5-010f" targetId="b42a-77e5-3aad-1fb0" linkType="entry group">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="401e-f055-2829-2050" name="Apothecary Space Marine Bike" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+    <entry id="401e-f055-2829-2050" name="Apothecary Space Marine Bike" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
       <entries/>
       <entryGroups>
         <entryGroup id="0bff-3398-0b16-cd17" name="Weapon Options" defaultEntryId="234c-e606-4d5f-48af" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -380,7 +377,7 @@
         </link>
       </links>
     </entry>
-    <entry id="e3d3-da4d-fab4-78ca" name="Artificer Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+    <entry id="e3d3-da4d-fab4-78ca" name="Artificer Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -392,90 +389,93 @@
         </link>
       </links>
     </entry>
-    <entry id="c9c1-b87b-3844-7685" name="Assault Marine" points="15.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="5" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="5">
-      <entries>
-        <entry id="e32b-7e76-e8cb-8fe8" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
+    <entry id="b4d7-c95d-c823-2c1d" name="Assault Cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="465e-4b8a-62eb-dcb6" targetId="1a6d-4ef8-8276-1e82" linkType="profile">
           <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="a6d6-131a-b7d5-1fbc" targetId="ee9a-e8d4-4939-8704" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="193b-9218-69b3-7724" targetId="781d-32b4-fe98-c64b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+        </link>
+      </links>
+    </entry>
+    <entry id="c9c1-b87b-3844-7685" name="Assault Marine" points="12.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="5" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="5">
+      <entries/>
       <entryGroups>
         <entryGroup id="0d23-4cc9-e5d7-a554" name="First Weapon" defaultEntryId="668f-e189-655c-bb50" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups>
-            <entryGroup id="76fc-1d89-7f3c-1ec6" name="Special Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="a745-8a43-f8a2-00c8" name="Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="0d29-e3aa-7f7c-87df" name="Special Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="542b-871b-2b5d-d020" name="Special Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
-                  <rules/>
-                  <profiles/>
                   <links>
-                    <link id="22b5-dc7c-5210-5040" targetId="fe11-7f04-819e-23ef" linkType="profile">
+                    <link id="f2cc-f9a0-52ea-8204" targetId="501d-befd-d0f0-56fe" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="2d53-ac2f-96ed-c2d0" targetId="f57b-4d1d-74ac-23fe" linkType="entry">
                       <modifiers/>
                     </link>
                   </links>
-                </entry>
-                <entry id="65bd-547c-00ee-f38c" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="0baf-b933-5e63-6d46" targetId="3215-489c-20ea-e935" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
+                </entryGroup>
+              </entryGroups>
               <modifiers>
-                <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="c9c1-b87b-3844-7685" incrementField="selections" incrementValue="5.0">
+                <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="c9c1-b87b-3844-7685" incrementField="selections" incrementValue="5.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <rules/>
+              <profiles/>
               <links/>
-            </entryGroup>
-          </entryGroups>
-          <modifiers/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="1967-6407-80db-9c4d" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="1967-6407-80db-9c4d" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <links>
             <link id="668f-e189-655c-bb50" targetId="4a97-30b9-513e-deff" linkType="entry">
               <modifiers/>
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="81e5-3ffa-0a0c-8923" name="Second Weapon" defaultEntryId="232e-7f32-f345-0e1b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="232e-7f32-f345-0e1b" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="d2d4-9ce9-dab5-9723" targetId="8345-6f0f-2cad-eff9" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+        <entryGroup id="81e5-3ffa-0a0c-8923" name="Second Weapon" defaultEntryId="4480-f343-6661-478b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
           <entryGroups/>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="4480-f343-6661-478b" targetId="a392-e56f-8a66-b527" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="aef3-d478-1939-b13d" targetId="1967-6407-80db-9c4d" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="minInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="c9c1-b87b-3844-7685" incrementField="selections" incrementValue="5.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -512,6 +512,14 @@
         </link>
         <link id="fad9-9111-d984-be71" targetId="640c-ea94-cb38-884a" linkType="entry">
           <modifiers/>
+        </link>
+        <link id="d808-3b91-c605-ae97" targetId="8c15-e15a-7e37-8e8d" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -563,6 +571,18 @@
         </link>
       </links>
     </entry>
+    <entry id="adcb-dd43-fe53-8fd0" name="Chainfist" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9ba9-7792-1925-8c27" targetId="386a-dfb7-bf2b-abdf" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="a392-e56f-8a66-b527" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
       <entries/>
       <entryGroups/>
@@ -571,6 +591,18 @@
       <profiles/>
       <links>
         <link id="2cf3-96c4-152e-ccaa" targetId="8345-6f0f-2cad-eff9" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a9ee-3536-727d-12a5" name="Combat Knife" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b26a-7959-843c-06f2" targetId="f8c9-588b-f47d-8809" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -587,6 +619,33 @@
         </link>
       </links>
     </entry>
+    <entry id="eaac-1d34-56ea-223f" name="Combi-weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2ed1-5792-6f0e-4891" targetId="c5f3-5541-40e8-50fd" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5bb5-7225-628b-dd81" name="Corvus hammer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="79c4-6427-5f86-d676" targetId="59b8-bdff-994d-baf5" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="152e-29e5-546f-7b46" targetId="a512-210e-abf1-5e29" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="fb57-ed2c-ec96-ab6e" name="Cyclone Missile Launcher" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -599,7 +658,7 @@
         </link>
       </links>
     </entry>
-    <entry id="05ba-21db-da86-69ce" name="Deathwing Knight" points="46.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="7">
+    <entry id="05ba-21db-da86-69ce" name="Deathwing Knight" points="45.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="7">
       <entries>
         <entry id="804d-e516-5b48-5b64" name="Mace of Absolution" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -653,19 +712,10 @@
         <link id="fb26-4061-a43d-97fb" targetId="9a49-e87e-6539-b3e6" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="997b-d9f7-0189-4e48" targetId="869a-e21b-c551-4223" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6db7-a4ed-b0b7-5ddb" targetId="2bc4-4630-b8ec-346e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7c33-19a6-b080-38f8" targetId="265b-b154-4b26-4c64" linkType="rule">
+        <link id="6db7-a4ed-b0b7-5ddb" targetId="64ab-2fdc-745b-deaa" linkType="rule">
           <modifiers/>
         </link>
         <link id="f5fb-4a5e-91a2-4244" targetId="7ba7-aaf2-9ae5-1c3a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="805e-7910-224c-057f" targetId="5882-8488-74c0-f4ca" linkType="rule">
           <modifiers/>
         </link>
         <link id="ad55-9ac2-7a11-cdeb" targetId="b42a-77e5-3aad-1fb0" linkType="entry group">
@@ -674,9 +724,12 @@
         <link id="6da4-a3af-9972-5c75" targetId="39a8-05c4-360f-e727" linkType="entry group">
           <modifiers/>
         </link>
+        <link id="e064-181a-6cbf-e045" targetId="6ed0-37aa-e9d7-f739" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="7667-5092-0aca-e9a3" name="Deathwing Terminator" points="44.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="6">
+    <entry id="7667-5092-0aca-e9a3" name="Deathwing Terminator" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="6">
       <entries>
         <entry id="ccb3-0702-048b-23eb" name="Replace both weapons with pair of Lightning Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
@@ -730,7 +783,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="c9e3-fdeb-7ede-9092" name="Melee Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="c9e3-fdeb-7ede-9092" name="Melee Weapon" defaultEntryId="04a2-59e8-5ef9-d93e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -760,53 +813,82 @@
             </modifier>
           </modifiers>
           <links>
-            <link id="680a-1ed2-2391-2c6d" targetId="1446-ad22-bfba-d8fa" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="4066-2193-d6c1-9319" name="Ranged Weapon" defaultEntryId="e465-daca-f563-4f2a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition parentId="7667-5092-0aca-e9a3" childId="ccb3-0702-048b-23eb" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="7667-5092-0aca-e9a3" childId="6524-1760-3dbd-405f" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition parentId="7667-5092-0aca-e9a3" childId="ccb3-0702-048b-23eb" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="7667-5092-0aca-e9a3" childId="6524-1760-3dbd-405f" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-          <links>
-            <link id="e465-daca-f563-4f2a" targetId="ba99-1234-e5db-3048" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="0577-392b-2089-39ed" targetId="55aa-2e00-8c69-b00e" linkType="entry group">
+            <link id="04a2-59e8-5ef9-d93e" targetId="fe81-dd22-3665-fcc2" linkType="entry">
               <modifiers>
-                <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="roster" childId="fb57-ed2c-ec96-ab6e" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
+                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+            </link>
+            <link id="8c7e-c686-1dae-d177" targetId="adcb-dd43-fe53-8fd0" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="4066-2193-d6c1-9319" name="Ranged Weapon" defaultEntryId="f9f9-26b1-636e-90cd" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="7686-0a30-5d12-07df" name="Special Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups>
+                <entryGroup id="ca82-5e29-0e5f-459d" name="Special Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="a1fa-0341-433c-d59a" targetId="b4d7-c95d-c823-2c1d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="9d04-14a5-bb46-19cb" targetId="3b3b-f98b-0f06-adcc" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="1709-8479-e20a-3f41" targetId="21e8-3ecd-6357-8b63" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="7667-5092-0aca-e9a3" childId="ccb3-0702-048b-23eb" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="7667-5092-0aca-e9a3" childId="6524-1760-3dbd-405f" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="7667-5092-0aca-e9a3" childId="ccb3-0702-048b-23eb" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="7667-5092-0aca-e9a3" childId="6524-1760-3dbd-405f" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <links>
+            <link id="f9f9-26b1-636e-90cd" targetId="c1cc-f0df-5114-867f" linkType="entry">
+              <modifiers/>
             </link>
           </links>
         </entryGroup>
@@ -840,28 +922,18 @@
         <link id="f4b7-b1e0-e210-db93" targetId="b42a-77e5-3aad-1fb0" linkType="entry group">
           <modifiers/>
         </link>
-        <link id="b401-2318-fd3f-bf6c" targetId="265b-b154-4b26-4c64" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6995-21e3-8571-c291" targetId="2bc4-4630-b8ec-346e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7a85-1d19-ebd1-32c1" targetId="899a-5999-527c-6e37" linkType="rule">
+        <link id="6995-21e3-8571-c291" targetId="64ab-2fdc-745b-deaa" linkType="rule">
           <modifiers/>
         </link>
         <link id="30fb-1328-c127-17c5" targetId="fb57-ed2c-ec96-ab6e" linkType="entry">
-          <modifiers>
-            <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="roster" childId="55aa-2e00-8c69-b00e" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
+        </link>
+        <link id="ca7c-f198-dc33-3965" targetId="6ed0-37aa-e9d7-f739" linkType="rule">
+          <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="7410-ada4-f559-f7c9" name="Deathwing Terminator Sergeant" points="44.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="2">
+    <entry id="7410-ada4-f559-f7c9" name="Deathwing Terminator Sergeant" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="2">
       <entries>
         <entry id="df43-00be-9e7e-4904" name="Deathwing Champion" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -905,7 +977,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="6245-f338-cc54-0a4e" name="Replace both weapons with Thunder Hammer and Storm Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="6245-f338-cc54-0a4e" name="Replace both weapons with Thunder Hammer and Storm Shield" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -935,7 +1007,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="1dea-0c35-3456-d950" name="Melee Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="1dea-0c35-3456-d950" name="Melee Weapon" defaultEntryId="87c3-0f5c-23da-d759" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="f66d-b8b9-4714-4b85" name="Halberd of Caliban" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -981,31 +1053,58 @@
             </modifier>
           </modifiers>
           <links>
-            <link id="4e8e-1559-6e83-f712" targetId="0bb1-af05-4b78-ccd4" linkType="entry group">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="7410-ada4-f559-f7c9" childId="df43-00be-9e7e-4904" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="7410-ada4-f559-f7c9" childId="df43-00be-9e7e-4904" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
             <link id="15cd-c010-986f-fe00" targetId="3925-c849-2074-4c09" linkType="entry">
               <modifiers/>
             </link>
             <link id="9c9d-a2ce-cd42-cbf0" targetId="6499-ff41-7937-a940" linkType="entry">
               <modifiers/>
             </link>
+            <link id="87c3-0f5c-23da-d759" targetId="5189-a7dc-ec9e-f5e6" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="bed5-deca-326e-6112" targetId="1db3-7904-cf52-9ee9" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="7a35-1af7-a9fe-425f" targetId="ed02-2271-0dcb-8189" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="fb6b-cc66-d625-7c0e" targetId="fe81-dd22-3665-fcc2" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="6ba2-5953-fb25-b744" targetId="adcb-dd43-fe53-8fd0" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="e05f-501e-8047-a983" targetId="b4c8-fefc-5688-4207" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
           </links>
         </entryGroup>
-        <entryGroup id="6ca3-d029-4d48-4c55" name="Ranged Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6ca3-d029-4d48-4c55" name="Ranged Weapon" defaultEntryId="8577-2f11-76a9-9a9b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -1037,11 +1136,35 @@
             </modifier>
           </modifiers>
           <links>
-            <link id="6243-a93a-2acf-f68a" targetId="ba99-1234-e5db-3048" linkType="entry group">
-              <modifiers/>
-            </link>
             <link id="978b-4169-698b-bde3" targetId="391c-cedb-ce4d-acb2" linkType="entry">
               <modifiers/>
+            </link>
+            <link id="8577-2f11-76a9-9a9b" targetId="c1cc-f0df-5114-867f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c9a2-b91c-893d-0ecd" targetId="eaac-1d34-56ea-223f" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="fe07-d584-f0ac-22e6" targetId="b4c8-fefc-5688-4207" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="25.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="4c52-8cf2-2e0b-15dd" targetId="1db3-7904-cf52-9ee9" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </link>
           </links>
         </entryGroup>
@@ -1125,13 +1248,10 @@
         <link id="6327-fb2e-22e5-2910" targetId="664875a3-9ec4-4462-7d1f-30bd89e19103" linkType="rule">
           <modifiers/>
         </link>
-        <link id="071b-89c9-237a-b614" targetId="265b-b154-4b26-4c64" linkType="rule">
+        <link id="790c-1bd6-fdd7-09f9" targetId="64ab-2fdc-745b-deaa" linkType="rule">
           <modifiers/>
         </link>
-        <link id="790c-1bd6-fdd7-09f9" targetId="2bc4-4630-b8ec-346e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5110-dbbb-3c8f-9486" targetId="899a-5999-527c-6e37" linkType="rule">
+        <link id="e562-686d-45de-ae13" targetId="6ed0-37aa-e9d7-f739" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1238,6 +1358,42 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="1967-6407-80db-9c4d" name="Eviscerator" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d860-1e8c-728f-8ae4" targetId="1c7d-7e9c-41ff-a1c5" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f57b-4d1d-74ac-23fe" name="Flamer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b3c2-63e1-e02b-4929" targetId="fe11-7f04-819e-23ef" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ecfb-ea15-d322-e4b7" name="Force Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c025-2fe9-3df7-fec0" targetId="1660-4d20-53a0-db5b" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="78ab-6578-03bd-1588" name="Frag grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
       <entries/>
       <entryGroups/>
@@ -1249,6 +1405,18 @@
           <modifiers/>
         </link>
         <link id="0cca-9704-a386-ad09" targetId="1d3352b5-1f6d-e913-2c90-2067661ca739" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4ee0-c5aa-0188-8a04" name="Grav-pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8bcf-2dd6-3516-b952" targetId="cc3e-746b-a676-532b" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1270,6 +1438,42 @@
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="cffa-70df-4f16-0516" name="Heavy Bolter" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="1156-4702-cd7e-0ac8" targetId="53cf-af18-20eb-1b0d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3b3b-f98b-0f06-adcc" name="Heavy Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b134-afc6-e84a-9f70" targetId="73f5-0494-6516-1851" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="99f5-7696-8984-6392" name="Heavy Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="81fc-9ce4-e362-825f" targetId="69ec-f7e0-614d-e0cf" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="29ab-7056-7c8d-a50d" name="Infravisor" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: Cobex - Dark Angels 2013">
       <entries/>
@@ -1320,7 +1524,7 @@
         </link>
       </links>
     </entry>
-    <entry id="5520-2c62-60df-77c8" name="Knight Master" points="51.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="2">
+    <entry id="5520-2c62-60df-77c8" name="Knight Master" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="2">
       <entries>
         <entry id="31c1-6b7e-7477-82d0" name="Flail of the Unforgiven" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1374,16 +1578,13 @@
         <link id="c0ee-d1a0-f483-8898" targetId="664875a3-9ec4-4462-7d1f-30bd89e19103" linkType="rule">
           <modifiers/>
         </link>
-        <link id="43ba-d709-3579-c5bc" targetId="2bc4-4630-b8ec-346e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1643-17d0-50f6-93cb" targetId="265b-b154-4b26-4c64" linkType="rule">
+        <link id="43ba-d709-3579-c5bc" targetId="64ab-2fdc-745b-deaa" linkType="rule">
           <modifiers/>
         </link>
         <link id="a5cd-54da-7fd0-0f3d" targetId="7ba7-aaf2-9ae5-1c3a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="97fd-f8b8-c993-2941" targetId="5882-8488-74c0-f4ca" linkType="rule">
+        <link id="97fd-f8b8-c993-2941" targetId="6ed0-37aa-e9d7-f739" linkType="rule">
           <modifiers/>
         </link>
         <link id="7a8b-0fe6-5d48-828c" targetId="b42a-77e5-3aad-1fb0" linkType="entry group">
@@ -1412,7 +1613,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d5c0-844c-712c-f32e" name="Lexicanum" points="33.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d5c0-844c-712c-f32e" name="Lexicanum" points="43.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="a0aa-b343-4342-98d6" name="Codicier" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1436,7 +1637,7 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="d8f5-29ff-dfbc-f4df" name="First Weapon" defaultEntryId="f8ab-f90d-abb5-d4e9" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="d8f5-29ff-dfbc-f4df" name="First Weapon" defaultEntryId="8643-18a2-2064-7868" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="c685-9297-0e42-40f6" name="Staff of Hellfire" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -1465,13 +1666,13 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="c9f2-c60e-6e4a-51be" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="8643-18a2-2064-7868" targetId="ecfb-ea15-d322-e4b7" linkType="entry">
               <modifiers/>
             </link>
-            <link id="3f10-7dc9-dcee-84f7" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="7645-f2f1-64a3-0241" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
-            <link id="f8ab-f90d-abb5-d4e9" targetId="1660-4d20-53a0-db5b" linkType="entry group">
+            <link id="08ad-7cbe-4bb5-a4cc" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -1481,10 +1682,10 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="29c9-d982-96ea-aa45" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="29c9-d982-96ea-aa45" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
-            <link id="f90c-cb3e-ec96-0615" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="f90c-cb3e-ec96-0615" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
             <link id="f844-a24b-68f5-4762" targetId="4a97-30b9-513e-deff" linkType="entry">
@@ -1581,7 +1782,7 @@
         <link id="b86f-be2b-9061-ef78" targetId="664875a3-9ec4-4462-7d1f-30bd89e19103" linkType="rule">
           <modifiers/>
         </link>
-        <link id="29da-26bc-a834-26da" targetId="265b-b154-4b26-4c64" linkType="rule">
+        <link id="29da-26bc-a834-26da" targetId="64ab-2fdc-745b-deaa" linkType="rule">
           <modifiers/>
         </link>
         <link id="24b4-3c10-f9b5-2870" targetId="753e-d0ea-a186-aaf9" linkType="rule">
@@ -1598,12 +1799,6 @@
         </link>
         <link id="a8fc-9ad1-ec24-83b4" targetId="8c15-e15a-7e37-8e8d" linkType="entry">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="78f0-7e74-4a79-4fe1" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
             <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="direct parent" childId="78f0-7e74-4a79-4fe1" field="selections" type="equal to" value="1.0"/>
@@ -1614,12 +1809,6 @@
         </link>
         <link id="2552-4ce3-223d-6774" targetId="78f0-7e74-4a79-4fe1" linkType="entry">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="8c15-e15a-7e37-8e8d" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
             <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="direct parent" childId="8c15-e15a-7e37-8e8d" field="selections" type="equal to" value="1.0"/>
@@ -1641,6 +1830,33 @@
           <modifiers/>
         </link>
         <link id="3237-6cd9-86a7-16dc" targetId="640c-ea94-cb38-884a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b61e-188c-1788-4b29" targetId="6ed0-37aa-e9d7-f739" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1db3-7904-cf52-9ee9" name="Lightning claw" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d4c4-9f2d-daf8-75db" targetId="e114-6cd8-4885-c589" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f418-c21b-fc79-1279" name="Melee Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6c79-e7d5-2031-a408" targetId="8b57-84bf-18a6-e810" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -1729,6 +1945,30 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="21e8-3ecd-6357-8b63" name="Plasma Cannon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7a64-af8d-bf56-0b75" targetId="eaff-e185-54c2-dc05" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="501d-befd-d0f0-56fe" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="1b72-61d2-cd15-394a" targetId="3215-489c-20ea-e935" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="640c-ea94-cb38-884a" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1737,6 +1977,18 @@
       <profiles/>
       <links>
         <link id="1e7c-4cf4-ea24-5533" targetId="0c085a96-e82a-570d-20d6-6d2a71011307" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="037a-51d5-5132-e03c" name="Power Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="eaf3-5559-a326-ce7a" targetId="a957-5bca-3b84-b6e7" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1753,6 +2005,30 @@
         </link>
       </links>
     </entry>
+    <entry id="5d55-bdcc-078d-b94e" name="Power Lance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c732-f180-1643-ef37" targetId="f623-db3f-07ac-0c4d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f8d5-d21c-b6d6-a95b" name="Power Maul" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8585-d55b-1dfd-d2b5" targetId="029f-fd73-b9c9-4ed3" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="5189-a7dc-ec9e-f5e6" name="Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
       <entries/>
       <entryGroups/>
@@ -1761,6 +2037,18 @@
       <profiles/>
       <links>
         <link id="c880-70c6-5c6e-09c2" targetId="6755-1c93-fc37-3ec7" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ada3-e7a9-bff5-1477" name="Power Weapon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2c39-6a16-cdbc-7f05" targetId="ad1c-10db-9d07-c9f0" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -1780,7 +2068,19 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="c2c8-4a50-e60f-f66e" name="Ravenwing Biker" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="5">
+    <entry id="1823-0f3b-b7a5-5596" name="Ranged Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a4c8-f9a7-87c4-c220" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c2c8-4a50-e60f-f66e" name="Ravenwing Biker" points="23.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="5">
       <entries>
         <entry id="8523-707d-95cc-89d7" name="Teleport Homer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1831,7 +2131,7 @@
             </link>
           </links>
         </entry>
-        <entry id="8b74-1436-0170-9e84" name="Ravenwing Attack Bike upgrade" points="18.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8b74-1436-0170-9e84" name="Ravenwing Attack Bike upgrade" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
             <entryGroup id="bef0-2bbc-0f24-0beb" name="Heavy Weapon" defaultEntryId="19a7-27de-b7f6-82ea" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1881,7 +2181,7 @@
             <link id="81d6-927a-15a1-e63a" targetId="4a97-30b9-513e-deff" linkType="entry">
               <modifiers/>
             </link>
-            <link id="3847-1e20-42f6-3f81" targetId="e952-ed6f-3e47-73fc" linkType="entry group">
+            <link id="3847-1e20-42f6-3f81" targetId="3c0c-5ad2-8563-d40f" linkType="entry">
               <modifiers>
                 <modifier type="set" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="c2c8-4a50-e60f-f66e" incrementField="selections" incrementValue="3.0">
                   <conditions/>
@@ -1950,9 +2250,12 @@
         <link id="daac-bd10-dd1c-550e" targetId="640c-ea94-cb38-884a" linkType="entry">
           <modifiers/>
         </link>
+        <link id="18e9-2b5b-6e40-71f4" targetId="162d-0564-a953-5168" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="f762-b78d-81fa-81d4" name="Ravenwing Black Knight" points="40.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="6">
+    <entry id="f762-b78d-81fa-81d4" name="Ravenwing Black Knight" points="38.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="6">
       <entries>
         <entry id="6cb7-9376-3bf9-332e" name="Teleport Homer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2045,7 +2348,7 @@
         </entryGroup>
         <entryGroup id="2c1a-3287-5215-dde5" name="Second Weapon" defaultEntryId="5459-dc24-28b3-eeeb" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="5459-dc24-28b3-eeeb" name="Corvus talon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="5459-dc24-28b3-eeeb" name="Corvus hammer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2110,9 +2413,12 @@
         <link id="fa80-df66-4c6d-acb2" targetId="640c-ea94-cb38-884a" linkType="entry">
           <modifiers/>
         </link>
+        <link id="2230-a4ac-a355-8620" targetId="162d-0564-a953-5168" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="1da7-7f96-571a-9cd0" name="Ravenwing Huntmaster" points="40.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="3">
+    <entry id="1da7-7f96-571a-9cd0" name="Ravenwing Huntmaster" points="38.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="3">
       <entries>
         <entry id="f074-21b0-3fcf-d3c3" name="Ravenwing Champion" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2196,88 +2502,23 @@
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="b5ef-ceec-4136-bfd3" name="Melee Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="c64e-0fdf-1328-784a" name="Corvus talon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="1da7-7f96-571a-9cd0" childId="f074-21b0-3fcf-d3c3" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="8d58-6168-174f-a5d7" targetId="59b8-bdff-994d-baf5" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="5560-227a-a416-2cdf" name="Blade of Caliban" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="1da7-7f96-571a-9cd0" childId="f074-21b0-3fcf-d3c3" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="d8c4-42be-f824-9efe" targetId="18b9-c44f-d9d2-6435" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="2f46-f136-ae8a-c5c7" name="Power Sword" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="1da7-7f96-571a-9cd0" childId="f074-21b0-3fcf-d3c3" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="f9a5-25cb-37b1-1448" targetId="6755-1c93-fc37-3ec7" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="a121-cb23-0fe9-91cc" name="Power Maul" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="1da7-7f96-571a-9cd0" childId="f074-21b0-3fcf-d3c3" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="81ee-951f-36f5-081d" targetId="029f-fd73-b9c9-4ed3" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+        <entryGroup id="b5ef-ceec-4136-bfd3" name="Melee Weapon" defaultEntryId="9fa2-3ec4-625e-f5e8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
           <entryGroups/>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="9fa2-3ec4-625e-f5e8" targetId="5bb5-7225-628b-dd81" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="be1f-9183-3133-3248" targetId="ada3-e7a9-bff5-1477" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="12.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -2401,9 +2642,12 @@
         <link id="e827-41c2-6cb0-cd6d" targetId="640c-ea94-cb38-884a" linkType="entry">
           <modifiers/>
         </link>
+        <link id="51f1-a051-5970-7b2b" targetId="162d-0564-a953-5168" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="36f4-2cc3-2a30-edd6" name="Ravenwing Sergeant" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="2">
+    <entry id="36f4-2cc3-2a30-edd6" name="Ravenwing Sergeant" points="23.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="2">
       <entries>
         <entry id="23f9-a211-0922-b93d" name="Teleport Homer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2417,128 +2661,53 @@
             </link>
           </links>
         </entry>
-        <entry id="3d8d-0797-ee37-091b" name="Ravenwing Bike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+        <entry id="7e07-f288-1e89-9067" name="Space Marine Bike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
           <entries/>
-          <entryGroups>
-            <entryGroup id="12e3-7922-f8ce-ca4d" name="Weapon options" defaultEntryId="5125-0aca-87f6-9b12" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="2496-97d4-6fde-6e22" name="Plasma Talon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="6004-8b88-622e-bafd" targetId="8f5b-fc4b-9070-c937" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-                <entry id="5125-0aca-87f6-9b12" name="Twin-linked Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="f670-d3bb-adb8-35d9" targetId="71c3-6dbd-f915-e6e6" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-                <entry id="683c-22b1-6cb5-578d" name="Ravenwing grenade launcher" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="20fe-6f42-4372-c94a" targetId="de37-b8a9-7862-e162" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="8c99-c58e-a13a-502f" targetId="4a22-a8da-454f-f416" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="bb3a-07b3-85ae-4467" targetId="7da7-6d41-3f8a-a8fd" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="fb5e-c525-df2b-c40e" targetId="bbf3-855f-f093-f262" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
-              <modifiers/>
-              <links/>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="8bce-6063-8099-b437" targetId="5882-8488-74c0-f4ca" linkType="rule">
+            <link id="fd1f-f1b3-4d13-7e11" targetId="71c3-6dbd-f915-e6e6" linkType="profile">
               <modifiers/>
             </link>
-            <link id="49ce-188e-7595-87ce" targetId="065e-c9e6-5dae-f608" linkType="rule">
+            <link id="f6bf-4a12-4222-dc09" targetId="5882-8488-74c0-f4ca" linkType="rule">
               <modifiers/>
             </link>
-            <link id="9266-21dc-575f-4489" targetId="79bb-282f-c71a-f52c" linkType="rule">
+            <link id="e1b0-7701-2321-2636" targetId="065e-c9e6-5dae-f608" linkType="rule">
               <modifiers/>
             </link>
-            <link id="33d3-67a0-8f64-d822" targetId="df26-e321-b55d-ca4e" linkType="rule">
+            <link id="ead0-8eae-5db9-b2ca" targetId="79bb-282f-c71a-f52c" linkType="rule">
               <modifiers/>
             </link>
-            <link id="5a43-1771-5f2f-dc51" targetId="5ad1-61c0-d138-70a0" linkType="profile">
+            <link id="df68-3b98-2b86-3228" targetId="df26-e321-b55d-ca4e" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="7aaa-21b3-08a0-10d6" targetId="5ad1-61c0-d138-70a0" linkType="profile">
               <modifiers/>
             </link>
           </links>
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="6946-188c-b7b7-57aa" name="First Weapon" defaultEntryId="bdac-4a6a-ecc6-e9b3" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="6946-188c-b7b7-57aa" name="Weapon" defaultEntryId="bdac-4a6a-ecc6-e9b3" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="7102-e34a-14d2-7041" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="7102-e34a-14d2-7041" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
             <link id="bdac-4a6a-ecc6-e9b3" targetId="4a97-30b9-513e-deff" linkType="entry">
               <modifiers/>
             </link>
-            <link id="e56d-90a2-8e1b-aecd" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="e56d-90a2-8e1b-aecd" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
             <link id="2c8d-b67c-131f-6201" targetId="3925-c849-2074-4c09" linkType="entry">
               <modifiers/>
             </link>
             <link id="6e85-6bb0-e9c2-8268" targetId="6499-ff41-7937-a940" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e6c6-9014-36a2-143c" targetId="391c-cedb-ce4d-acb2" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="a41f-6696-6b89-b98c" name="Second Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="7393-c13f-cf1c-45c1" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="cdc5-a954-0262-3eca" targetId="8b57-84bf-18a6-e810" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="deab-822f-745c-eaf9" targetId="3925-c849-2074-4c09" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="6d54-599d-fa19-0e61" targetId="6499-ff41-7937-a940" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="5715-e16c-8dc7-9fdc" targetId="391c-cedb-ce4d-acb2" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2625,6 +2794,9 @@
           <modifiers/>
         </link>
         <link id="b0a0-b087-6914-38b1" targetId="640c-ea94-cb38-884a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2659-233b-10a5-d590" targetId="162d-0564-a953-5168" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2787,7 +2959,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3403-a51b-b69f-f31f" name="Scout" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="3403-a51b-b69f-f31f" name="Scout" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="ae91-86d3-c568-7b44" name="First Weapon" defaultEntryId="2f17-fa16-f977-844e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2800,89 +2972,57 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="4fdd-8f59-2f23-fac4" name="Second Weapon" defaultEntryId="1144-b6dc-ed09-ebba" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="4fdd-8f59-2f23-fac4" name="Second Weapon" defaultEntryId="56cd-468f-bb74-3a4b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="1144-b6dc-ed09-ebba" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="1e6e-84ba-ac33-a3cb" name="Heavy Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="74d9-9de9-79d1-3d59" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="7a59-01ef-1f63-61db" name="Combat Knife" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="52bc-09eb-6cdc-5ca7" targetId="f8c9-588b-f47d-8809" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="ff7d-7f6d-809f-3710" name="Space Marine shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="967b-41fa-a34a-452d" targetId="426d-7bd3-ee0f-fc6b" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="20d8-a10e-758a-d126" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="0ff8-85d4-6b49-f572" targetId="9f00-29f9-03ae-4725" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups>
-            <entryGroup id="b4e4-c2f3-a51e-66aa" name="Special Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="ed74-3936-1b1b-d65a" name="Heavy Bolter" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entryGroups>
+                <entryGroup id="0187-9c40-6f10-9373" name="Heavy Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
-                  <rules/>
-                  <profiles/>
                   <links>
-                    <link id="48ba-1545-bda6-ff70" targetId="53cf-af18-20eb-1b0d" linkType="profile">
+                    <link id="89c1-ab4b-2c4d-287a" targetId="cffa-70df-4f16-0516" linkType="entry">
+                      <modifiers>
+                        <modifier type="set" field="points" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                    <link id="dee3-4854-5b90-0bfc" targetId="048d-8297-dcf4-73fa" linkType="entry">
                       <modifiers/>
                     </link>
                   </links>
-                </entry>
-              </entries>
-              <entryGroups/>
+                </entryGroup>
+              </entryGroups>
               <modifiers>
-                <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="3403-a51b-b69f-f31f" incrementField="selections" incrementValue="5.0">
+                <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="3403-a51b-b69f-f31f" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <links>
-                <link id="baa2-f032-d2bc-2a86" targetId="048d-8297-dcf4-73fa" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="56cd-468f-bb74-3a4b" targetId="f322-8c02-ab77-48fe" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="d81b-ef0e-d2eb-dd03" targetId="5c55-e45f-d9fe-3789" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="defd-4006-0ee0-23eb" targetId="a9ee-3536-727d-12a5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c5f1-dcc6-91cf-16e9" targetId="1823-8d5f-0d31-1f47" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -2891,8 +3031,8 @@
         <profile id="8aec-fcbc-4c91-6881" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Scout" hidden="false">
           <characteristics>
             <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
             <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
             <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
             <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
@@ -2929,6 +3069,9 @@
         <link id="9a94-c6c3-7e02-4a43" targetId="f578-cca6-a2fc-9a90" linkType="entry">
           <modifiers/>
         </link>
+        <link id="af2f-5bfe-4f77-0085" targetId="6ed0-37aa-e9d7-f739" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="5bc3-c3a4-2d51-601d" name="Scout Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2943,67 +3086,30 @@
         </link>
       </links>
     </entry>
-    <entry id="53b6-2e6e-0f5a-e24d" name="Scout Sergeant" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="4">
+    <entry id="53b6-2e6e-0f5a-e24d" name="Scout Sergeant" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Dark Angels v3.0" page="4">
       <entries/>
       <entryGroups>
-        <entryGroup id="8531-b06e-f015-2a92" name="First Weapon" defaultEntryId="3039-c1dd-241d-995e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="3039-c1dd-241d-995e" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="c8f9-6d66-85a5-28ae" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="d28a-d5e3-40d7-1bc9" name="Combat Knife" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="fbae-4573-238d-b1d1" targetId="f8c9-588b-f47d-8809" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="8737-ba32-2c45-eb6e" name="Space Marine shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="dfa3-d4bb-5c85-1b2c" targetId="426d-7bd3-ee0f-fc6b" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="54ef-2158-dcde-2a9a" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="fe90-f4e4-e0aa-d582" targetId="9f00-29f9-03ae-4725" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+        <entryGroup id="8531-b06e-f015-2a92" name="First Weapon" defaultEntryId="b5ec-53e1-f0bb-9866" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="5cfd-a4aa-c7e9-ff35" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="5cfd-a4aa-c7e9-ff35" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
-            <link id="4d19-c435-3d79-8436" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="4d19-c435-3d79-8436" targetId="f418-c21b-fc79-1279" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b809-1dfe-9a62-d675" targetId="5c55-e45f-d9fe-3789" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b5ec-53e1-f0bb-9866" targetId="f322-8c02-ab77-48fe" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ec9f-aacb-0f87-948d" targetId="a9ee-3536-727d-12a5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c2df-4e8a-9f2b-8e93" targetId="1823-8d5f-0d31-1f47" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -3013,10 +3119,10 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="7245-2c34-1013-4f4c" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="7245-2c34-1013-4f4c" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
-            <link id="34c4-ff6d-6c47-333a" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="34c4-ff6d-6c47-333a" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
             <link id="5138-7e83-916a-e93c" targetId="4a97-30b9-513e-deff" linkType="entry">
@@ -3106,6 +3212,9 @@
         <link id="a38d-c9fc-6b3b-81f2" targetId="f578-cca6-a2fc-9a90" linkType="entry">
           <modifiers/>
         </link>
+        <link id="7c2d-e599-6ad7-c9fd" targetId="6ed0-37aa-e9d7-f739" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="790f-e37a-4b98-89f2" name="Searchlight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3163,13 +3272,13 @@
             </modifier>
           </modifiers>
           <links>
-            <link id="a607-939f-8e76-6c53" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="a607-939f-8e76-6c53" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
             <link id="2d3b-68e6-b569-8305" targetId="4a97-30b9-513e-deff" linkType="entry">
               <modifiers/>
             </link>
-            <link id="c2ec-3ab1-ab7c-462d" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="c2ec-3ab1-ab7c-462d" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
             <link id="825e-c926-b1b3-e363" targetId="3925-c849-2074-4c09" linkType="entry">
@@ -3183,21 +3292,8 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="b666-76aa-36b2-c269" name="Second Weapon" defaultEntryId="facf-1deb-321c-d8a9" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="facf-1deb-321c-d8a9" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="7b89-79ef-ae8a-6dd1" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+        <entryGroup id="b666-76aa-36b2-c269" name="Second Weapon" defaultEntryId="3409-4934-a86a-8cd1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -3214,10 +3310,10 @@
             </modifier>
           </modifiers>
           <links>
-            <link id="f1b7-33ba-9cb0-f904" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="f1b7-33ba-9cb0-f904" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
-            <link id="72f0-7d53-e13e-ff38" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="72f0-7d53-e13e-ff38" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
             <link id="d2d5-eab0-adc6-3d31" targetId="3925-c849-2074-4c09" linkType="entry">
@@ -3227,6 +3323,9 @@
               <modifiers/>
             </link>
             <link id="b8aa-4419-ab08-57d6" targetId="391c-cedb-ce4d-acb2" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3409-4934-a86a-8cd1" targetId="f322-8c02-ab77-48fe" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -3357,6 +3456,18 @@
         </link>
       </links>
     </entry>
+    <entry id="5c55-e45f-d9fe-3789" name="Sniper Rifle" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0fb1-5bec-3163-cf3c" targetId="9f00-29f9-03ae-4725" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="78f0-7e74-4a79-4fe1" name="Space Marine Bike" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
       <entries/>
       <entryGroups/>
@@ -3414,6 +3525,30 @@
         </link>
       </links>
     </entry>
+    <entry id="1823-8d5f-0d31-1f47" name="Space Marine shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ea2f-4616-d977-51a6" targetId="426d-7bd3-ee0f-fc6b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3c0c-5ad2-8563-d40f" name="Special Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0d1e-38b2-a084-f162" targetId="e952-ed6f-3e47-73fc" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="c1cc-f0df-5114-867f" name="Storm Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
       <entries/>
       <entryGroups/>
@@ -3451,61 +3586,43 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="3226-ccd7-ce66-175a" name="Second Weapon" defaultEntryId="4e1b-6d6c-1e2a-83c9" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="3226-ccd7-ce66-175a" name="Second Weapon" defaultEntryId="6aae-f7e1-9a0c-41d7" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="4e1b-6d6c-1e2a-83c9" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="588a-7459-552a-2dc5" name="Special or Heavy Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="1185-0d52-d2aa-9b1e" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups>
-            <entryGroup id="d8d5-1354-fc81-20b3" name="Special Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="d19d-53c7-ad79-ae87" name="Heavy Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entryGroups>
+                <entryGroup id="bb22-166c-e0b9-a754" name="Special or Heavy Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
-                  <rules/>
-                  <profiles/>
                   <links>
-                    <link id="5955-b1ff-937e-5a99" targetId="69ec-f7e0-614d-e0cf" linkType="entry group">
+                    <link id="324b-4291-19d7-6b95" targetId="3c0c-5ad2-8563-d40f" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="316a-d8a3-b0fa-af65" targetId="99f5-7696-8984-6392" linkType="entry">
                       <modifiers/>
                     </link>
                   </links>
-                </entry>
-                <entry id="d927-42cb-cd3d-efce" name="Special Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries/>
-                  <entryGroups/>
-                  <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="075d-636f-460a-0c5a" targetId="e952-ed6f-3e47-73fc" linkType="entry group">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups/>
+                </entryGroup>
+              </entryGroups>
               <modifiers>
-                <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="roster" incrementChildId="a916-f599-3517-4e0f" incrementField="selections" incrementValue="5.0">
+                <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="a916-f599-3517-4e0f" incrementField="selections" incrementValue="5.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <rules/>
+              <profiles/>
               <links/>
-            </entryGroup>
-          </entryGroups>
+            </entry>
+          </entries>
+          <entryGroups/>
           <modifiers/>
-          <links/>
+          <links>
+            <link id="6aae-f7e1-9a0c-41d7" targetId="f322-8c02-ab77-48fe" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -3564,7 +3681,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8950-7301-8550-ab37" name="Techmarine" points="48.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Blood Angels v3.0" page="7">
+    <entry id="8950-7301-8550-ab37" name="Techmarine" points="63.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Blood Angels v3.0" page="7">
       <entries>
         <entry id="41c2-7133-5e76-b92e" name="Photon Beam" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -3600,45 +3717,93 @@
             <link id="c56c-822f-90af-f3a6" targetId="4a97-30b9-513e-deff" linkType="entry">
               <modifiers/>
             </link>
-            <link id="15d1-cc79-638d-3251" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="15d1-cc79-638d-3251" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
-            <link id="c522-4029-848d-ec8a" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="c522-4029-848d-ec8a" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="ba92-c219-1c39-8bf7" name="Second Weapon" defaultEntryId="1bca-c7e7-61f8-010a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="ba92-c219-1c39-8bf7" name="Second Weapon" defaultEntryId="42e3-84ee-c459-5d1d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="1bca-c7e7-61f8-010a" targetId="f322-8c02-ab77-48fe" linkType="entry">
+            <link id="a476-4cbd-67fd-891f" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
-            <link id="a476-4cbd-67fd-891f" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="d2bb-7b87-4fe0-22b0" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
-            <link id="d2bb-7b87-4fe0-22b0" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="42e3-84ee-c459-5d1d" targetId="037a-51d5-5132-e03c" linkType="entry">
               <modifiers/>
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="ff65-2405-7df5-3e9c" name="Unit Type" defaultEntryId="b9ba-8c2b-bb80-8722" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="cde7-81c5-8243-d72a" name="Servo" defaultEntryId="370d-058a-ee99-37d3" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="fee3-7731-312a-0999" name="Jump Infantry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="370d-058a-ee99-37d3" name="Servo-arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="fe59-16ab-1bfd-7247" targetId="facc-a900-d87f-665b" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="9192-ebe2-8d42-3bcf" name="Servo-harness" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="d6e2-3d7e-d2d7-887e" name="Jump Pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+                <entry id="d4fb-1bd0-cbaf-181a" name="Servo-arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
                   <rules/>
                   <profiles/>
                   <links>
-                    <link id="bef7-df91-b657-7323" targetId="ee9a-e8d4-4939-8704" linkType="profile">
+                    <link id="b8a4-f0bc-5ae2-465f" targetId="facc-a900-d87f-665b" linkType="profile">
                       <modifiers/>
                     </link>
-                    <link id="a23e-45b0-b358-d5e9" targetId="781d-32b4-fe98-c64b" linkType="rule">
+                  </links>
+                </entry>
+                <entry id="a103-da0a-4b8e-418c" name="Servo-arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="5d20-dc98-60a3-bea2" targetId="facc-a900-d87f-665b" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="953f-5d96-9b58-80cc" name="Plasma Cutter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="56d2-a79d-d87b-e4bc" targetId="6fde-e369-5ff0-a1e1" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="75bf-434f-de4a-e8b5" name="Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="7c59-4ac9-1c85-865b" targetId="fe11-7f04-819e-23ef" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="6a6f-94aa-6279-13d9" targetId="f51b-afbc-b718-8026" linkType="rule">
                       <modifiers/>
                     </link>
                   </links>
@@ -3646,128 +3811,12 @@
               </entries>
               <entryGroups/>
               <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="b9ba-8c2b-bb80-8722" name="Infantry or Bike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries>
-                <entry id="8cc1-da05-1b02-185d" name="Space Marine Bike" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-                  <entries/>
-                  <entryGroups/>
+              <rules>
+                <rule id="6d4a-3837-c683-cc77" name="Servo-harness" hidden="false">
+                  <description>In the Shooting phase, the bearer can fire both harness-mounted weapons, or one harness-mounted weapon and another weapon.</description>
                   <modifiers/>
-                  <rules/>
-                  <profiles/>
-                  <links>
-                    <link id="6c92-4fa4-4ebc-4a82" targetId="71c3-6dbd-f915-e6e6" linkType="profile">
-                      <modifiers/>
-                    </link>
-                    <link id="a3ba-6f74-113b-a7c4" targetId="5882-8488-74c0-f4ca" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="3a68-604d-6a9f-330f" targetId="065e-c9e6-5dae-f608" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="c033-81cf-f2d5-a140" targetId="79bb-282f-c71a-f52c" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="ed80-cad3-6bf2-65e2" targetId="df26-e321-b55d-ca4e" linkType="rule">
-                      <modifiers/>
-                    </link>
-                    <link id="abdb-0159-58b4-5778" targetId="5ad1-61c0-d138-70a0" linkType="profile">
-                      <modifiers/>
-                    </link>
-                  </links>
-                </entry>
-              </entries>
-              <entryGroups>
-                <entryGroup id="bab4-dbe2-d859-a3bf" name="Servo" defaultEntryId="103f-201a-998f-10cd" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="103f-201a-998f-10cd" name="Servo-arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="17b3-e913-b6e3-e044" targetId="facc-a900-d87f-665b" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="7d0b-45e4-74ee-d86b" name="Servo-harness" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries>
-                        <entry id="f2de-e4a1-9a5b-1a2f" name="Servo-arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="0148-cc88-4df8-fc4d" targetId="facc-a900-d87f-665b" linkType="profile">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
-                        <entry id="232a-2464-39f6-6b8b" name="Servo-arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="f05b-ae99-8f37-438c" targetId="facc-a900-d87f-665b" linkType="profile">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
-                        <entry id="699f-95d1-9201-2c77" name="Plasma Cutter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="5726-57f8-e0d3-27bd" targetId="6fde-e369-5ff0-a1e1" linkType="profile">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
-                        <entry id="f79c-badc-a3fa-6e25" name="Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                          <entries/>
-                          <entryGroups/>
-                          <modifiers/>
-                          <rules/>
-                          <profiles/>
-                          <links>
-                            <link id="5b7d-ccee-d9cb-eb4b" targetId="fe11-7f04-819e-23ef" linkType="profile">
-                              <modifiers/>
-                            </link>
-                            <link id="c9cf-b764-65c0-1acf" targetId="f51b-afbc-b718-8026" linkType="rule">
-                              <modifiers/>
-                            </link>
-                          </links>
-                        </entry>
-                      </entries>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules>
-                        <rule id="779c-2b99-e0d4-722b" name="Servo-harness" hidden="false">
-                          <description>In the Shooting phase, the bearer can fire both harness-mounted weapons, or one harness-mounted weapon and another weapon.</description>
-                          <modifiers/>
-                        </rule>
-                      </rules>
-                      <profiles/>
-                      <links/>
-                    </entry>
-                  </entries>
-                  <entryGroups/>
-                  <modifiers/>
-                  <links/>
-                </entryGroup>
-              </entryGroups>
-              <modifiers/>
-              <rules/>
+                </rule>
+              </rules>
               <profiles/>
               <links/>
             </entry>
@@ -3793,45 +3842,21 @@
           <characteristics>
             <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
             <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="5"/>
             <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
             <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="2"/>
             <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="4"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="9"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="2+"/>
           </characteristics>
           <modifiers>
-            <modifier type="set" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Jump Infantry" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="set" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="5" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="8950-7301-8550-ab37" childId="fee3-7731-312a-0999" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="direct parent" childId="78f0-7e74-4a79-4fe1" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Bike" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition parentId="8950-7301-8550-ab37" childId="b9ba-8c2b-bb80-8722" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="8950-7301-8550-ab37" childId="8cc1-da05-1b02-185d" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="5" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition parentId="8950-7301-8550-ab37" childId="8cc1-da05-1b02-185d" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="8950-7301-8550-ab37" childId="b9ba-8c2b-bb80-8722" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
             </modifier>
           </modifiers>
         </profile>
@@ -3843,19 +3868,28 @@
         <link id="1393-510a-3030-f354" targetId="5105-7c74-cf86-fb8b" linkType="rule">
           <modifiers/>
         </link>
-        <link id="1889-ec9a-ab31-6867" targetId="10dd-bb3f-2da5-44d1" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="445b-dda6-73f7-96ee" targetId="b42a-77e5-3aad-1fb0" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="a90c-ade4-b699-747d" targetId="6006-23e8-860f-1b63" linkType="entry group">
           <modifiers/>
         </link>
         <link id="4eab-e982-ceaa-bb1c" targetId="78ab-6578-03bd-1588" linkType="entry">
           <modifiers/>
         </link>
         <link id="cf55-a5b9-baee-1000" targetId="2cf8-2289-975b-9778" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="666c-fadc-e2bb-a292" targetId="78f0-7e74-4a79-4fe1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a991-9f74-c0da-b759" targetId="29ab-7056-7c8d-a50d" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fc1e-74e0-566e-bcfb" targetId="984c-4d29-09ea-9147" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fd42-7a3d-307f-a750" targetId="6ed0-37aa-e9d7-f739" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a835-1418-6e37-26b8" targetId="8b54-bbbc-4e54-a9f8" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -3932,44 +3966,40 @@
             <link id="15a1-7033-d6b0-879d" targetId="4a97-30b9-513e-deff" linkType="entry">
               <modifiers/>
             </link>
-            <link id="78d3-2b3d-1d59-60db" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="78d3-2b3d-1d59-60db" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
-            <link id="7903-18d1-ae5d-3a15" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="7903-18d1-ae5d-3a15" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="18f4-1d8c-3eed-6ab6" name="Second Weapon" defaultEntryId="ea98-ad31-085c-b4b1" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="18f4-1d8c-3eed-6ab6" name="Second Weapon" defaultEntryId="0d16-0321-4395-eb50" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="ea98-ad31-085c-b4b1" name="Boltgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="46b7-16a1-f80e-953d" name="Special or Heavy weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
-              <entryGroups/>
+              <entryGroups>
+                <entryGroup id="2a51-1929-b2d9-fc98" name="Special or Heavy weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="c028-7572-6e91-116b" targetId="3c0c-5ad2-8563-d40f" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="e63f-b806-4235-892c" targetId="99f5-7696-8984-6392" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
               <modifiers/>
               <rules/>
               <profiles/>
-              <links>
-                <link id="2de7-56cc-8a6e-3502" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
           </entries>
-          <entryGroups>
-            <entryGroup id="7d3b-5e18-ab7f-293d" name="Special Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="fd4b-6563-a731-1102" targetId="69ec-f7e0-614d-e0cf" linkType="entry group">
-                  <modifiers/>
-                </link>
-                <link id="620b-41b8-1760-b76a" targetId="e952-ed6f-3e47-73fc" linkType="entry group">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
+          <entryGroups/>
           <modifiers>
             <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
@@ -3991,10 +4021,13 @@
             </modifier>
           </modifiers>
           <links>
-            <link id="5195-845d-5e9c-ea3e" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="5195-845d-5e9c-ea3e" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
-            <link id="dcd8-1ae6-685b-62dc" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="dcd8-1ae6-685b-62dc" targetId="f418-c21b-fc79-1279" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="0d16-0321-4395-eb50" targetId="f322-8c02-ab77-48fe" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -4103,10 +4136,10 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="993b-cfab-7b39-9f53" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
+            <link id="993b-cfab-7b39-9f53" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
-            <link id="4634-db64-1c59-dd0c" targetId="8b57-84bf-18a6-e810" linkType="entry group">
+            <link id="4634-db64-1c59-dd0c" targetId="f418-c21b-fc79-1279" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -4116,13 +4149,13 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="b5a7-afe6-0304-7bd1" targetId="ad37-7f7f-20c0-9e90" linkType="entry group">
-              <modifiers/>
-            </link>
-            <link id="6129-0327-a741-8648" targetId="8b57-84bf-18a6-e810" linkType="entry group">
-              <modifiers/>
-            </link>
             <link id="879b-5ed2-dc28-2ae4" targetId="4a97-30b9-513e-deff" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="42de-5e67-d9ca-e32d" targetId="f418-c21b-fc79-1279" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e684-9f51-b223-7b1e" targetId="1823-0f3b-b7a5-5596" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -4232,32 +4265,28 @@
         </link>
         <link id="21f1-b146-128b-5c01" targetId="8c15-e15a-7e37-8e8d" linkType="entry">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="direct parent" childId="78f0-7e74-4a79-4fe1" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="78f0-7e74-4a79-4fe1" field="selections" type="equal to" value="1.0"/>
-              </conditions>
+            <modifier type="set" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
         </link>
         <link id="7eb0-fb99-6e6f-be39" targetId="78f0-7e74-4a79-4fe1" linkType="entry">
           <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="direct parent" childId="8c15-e15a-7e37-8e8d" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
-            <modifier type="hide" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="8c15-e15a-7e37-8e8d" field="selections" type="equal to" value="1.0"/>
-              </conditions>
+            <modifier type="set" field="points" value="20.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
@@ -4287,9 +4316,9 @@
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
-    <entryGroup id="c5f3-5541-40e8-50fd" name="Combi Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="c5f3-5541-40e8-50fd" name="Combi Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="2a08-5329-9718-b708" name="Combi-flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="2a08-5329-9718-b708" name="Combi-flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4310,7 +4339,7 @@
             </link>
           </links>
         </entry>
-        <entry id="20f0-af90-6e2f-cdd4" name="Combi-melta" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="20f0-af90-6e2f-cdd4" name="Combi-melta" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4328,7 +4357,7 @@
             </link>
           </links>
         </entry>
-        <entry id="1192-8d78-5543-a2a2" name="Combi-plasma" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1192-8d78-5543-a2a2" name="Combi-plasma" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4739,7 +4768,7 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="1660-4d20-53a0-db5b" name="Force Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="1660-4d20-53a0-db5b" name="Force Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="48ac-58d8-cda2-355e" name="Force Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
           <entries/>
@@ -4791,7 +4820,7 @@
       <modifiers/>
       <links/>
     </entryGroup>
-    <entryGroup id="69ec-f7e0-614d-e0cf" name="Heavy Weapons" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="69ec-f7e0-614d-e0cf" name="Heavy Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="5482-769c-cd46-585b" name="Heavy Bolter" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -4865,33 +4894,8 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="8b57-84bf-18a6-e810" name="Melee Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="6ac8-5514-6aec-9671" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e7f8-cada-2e8e-79fa" targetId="8345-6f0f-2cad-eff9" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2816-167b-2cf7-9c20" name="Lightning claw" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="69a2-a698-123b-d1ad" targetId="e114-6cd8-4885-c589" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entryGroup id="8b57-84bf-18a6-e810" name="Melee Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <links>
@@ -4901,97 +4905,61 @@
         <link id="5ce4-efe1-8854-d323" targetId="b4c8-fefc-5688-4207" linkType="entry">
           <modifiers/>
         </link>
-        <link id="ee72-f47a-720f-d00c" targetId="ad1c-10db-9d07-c9f0" linkType="entry group">
+        <link id="ee72-f47a-720f-d00c" targetId="ada3-e7a9-bff5-1477" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b12b-b8b3-5a88-f82d" targetId="a392-e56f-8a66-b527" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="bb34-9218-9f62-81b8" targetId="1db3-7904-cf52-9ee9" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="ad1c-10db-9d07-c9f0" name="Power Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="770c-f294-f0fc-b7e5" targetId="f8d5-d21c-b6d6-a95b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="62a6-3be4-5e09-6cca" targetId="5d55-bdcc-078d-b94e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5769-28a8-b48e-fa27" targetId="037a-51d5-5132-e03c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d4ba-8521-e573-1f81" targetId="5189-a7dc-ec9e-f5e6" linkType="entry">
           <modifiers/>
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="ad1c-10db-9d07-c9f0" name="Power Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="b699-5015-d09e-684d" name="Power Axe" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="4df4-ade6-fda1-a7e6" targetId="a957-5bca-3b84-b6e7" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2ff5-3d22-7dba-48d5" name="Power Lance" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="89db-7ffd-bb9a-103f" targetId="f623-db3f-07ac-0c4d" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="af9a-0561-701c-9d10" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="b266-3587-2913-0510" targetId="6755-1c93-fc37-3ec7" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="709a-324e-ca64-1e8c" name="Power Maul" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="515a-9c43-2640-2437" targetId="029f-fd73-b9c9-4ed3" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="ad37-7f7f-20c0-9e90" name="Ranged Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="79c6-a2bb-ff62-40f6" name="Storm Bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0adc-3b6f-6649-0506" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4996-8586-f280-90c6" name="Plasma pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6089-d40d-be32-8c17" targetId="3215-489c-20ea-e935" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entryGroup id="ad37-7f7f-20c0-9e90" name="Ranged Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <links>
-        <link id="d82a-b157-12df-6dda" targetId="c5f3-5541-40e8-50fd" linkType="entry group">
+        <link id="0da4-413b-19e2-6f8e" targetId="501d-befd-d0f0-56fe" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d487-e09d-f44e-86f1" targetId="c1cc-f0df-5114-867f" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="2b20-7305-573a-881d" targetId="eaac-1d34-56ea-223f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="26cd-11b4-a9bc-94b6" targetId="4ee0-c5aa-0188-8a04" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -5065,7 +5033,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="e952-ed6f-3e47-73fc" name="Special Weapons" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="e952-ed6f-3e47-73fc" name="Special Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="fea8-6853-d0e0-9e43" name="Flamer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -5114,271 +5082,6 @@
           <profiles/>
           <links>
             <link id="7efb-b023-1036-1592" targetId="44a4-b4f5-f14a-f45d" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="1446-ad22-bfba-d8fa" name="Terminator Melee Weapon" defaultEntryId="249d-aa18-fb78-63da" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="41c0-60a1-bfc5-4039" name="Lightning claw" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0efe-3afb-f593-248a" targetId="e114-6cd8-4885-c589" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="6680-e8c8-867e-227d" name="Storm Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: Cobex - Dark Angels 2013">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6e35-2570-7a57-dfff" targetId="908c-2188-d00f-d577" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="249d-aa18-fb78-63da" name="Power Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="02fb-8c8d-f4ac-ac9d" targetId="9e06-4b53-2106-d7d3" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="809d-8936-38a4-24df" name="Chainfist" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="65a1-9445-82a0-e34e" targetId="386a-dfb7-bf2b-abdf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c478-90f0-1c0a-8036" name="Thunder hammer" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="098c-12cf-b06d-e359" targetId="bf52-488f-aa54-e034" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="ba99-1234-e5db-3048" name="Terminator Ranged Weapon" defaultEntryId="ffd3-37a4-0a4f-c8b1" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="894d-fc43-1824-b12e" name="Combi-flamer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8751-c594-7595-6cd5" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="a5b2-d18b-0d3f-817e" targetId="3f45-2eeb-d3a9-c181" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="d576-2fb1-e299-f478" targetId="fe11-7f04-819e-23ef" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="d741-45a0-aa77-6306" targetId="f51b-afbc-b718-8026" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2987-e068-c265-cdb1" name="Combi-melta" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e6ff-f569-00f8-d6d0" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="4704-7e2f-99d9-45dd" targetId="3f45-2eeb-d3a9-c181" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="d2a5-9502-d764-bc04" targetId="7256-02b9-2206-d20f" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="991d-096f-fe37-208c" name="Combi-plasma" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="c78a-e97c-0136-a437" targetId="70a8-7bc8-d6d6-6341" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="7026-67b4-7700-4504" targetId="3f45-2eeb-d3a9-c181" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="1784-5c20-802c-5eed" targetId="44a4-b4f5-f14a-f45d" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="ffd3-37a4-0a4f-c8b1" name="Storm Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5e09-3fea-df56-ec5b" targetId="dc81-6c6d-ab9e-fd7a" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="0bb1-af05-4b78-ccd4" name="Terminator Sergeant Melee Weapon" defaultEntryId="296e-1b96-1ae9-a51c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="76b2-0433-1ffb-7d34" name="Lightning claw" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="918e-5873-24ef-24b5" targetId="e114-6cd8-4885-c589" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="03a0-2cb9-7706-492b" name="Storm Shield" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: Cobex - Dark Angels 2013">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0a6b-6ce5-6aea-17c4" targetId="908c-2188-d00f-d577" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="06a6-058b-d427-ba81" name="Power Fist" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="6321-3fb1-1b5f-9834" targetId="9e06-4b53-2106-d7d3" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2e36-61a3-aa9a-6425" name="Chainfist" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1f28-7e4a-fb6d-16e8" targetId="386a-dfb7-bf2b-abdf" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="8605-91f3-608c-8a88" name="Thunder hammer" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="03a6-3854-d1d5-280c" targetId="bf52-488f-aa54-e034" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="296e-1b96-1ae9-a51c" name="Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e2fc-2c80-cf92-6cd3" targetId="6755-1c93-fc37-3ec7" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <links/>
-    </entryGroup>
-    <entryGroup id="55aa-2e00-8c69-b00e" name="Terminator Special Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="93cb-8d17-0533-0ccc" name="Heavy Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="9aec-e46b-8a80-2cd5" targetId="73f5-0494-6516-1851" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="1947-e5c5-f501-2feb" name="Plasma Cannon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="67f0-c4fb-78d3-de3d" targetId="eaff-e185-54c2-dc05" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="aa52-b28a-a600-8028" name="Assault Cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2a57-3794-2792-96d5" targetId="1a6d-4ef8-8276-1e82" linkType="profile">
               <modifiers/>
             </link>
           </links>
@@ -5490,9 +5193,8 @@ Furthermore, if a unit containing one or more models with this special rule is c
       <description>A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</description>
       <modifiers/>
     </rule>
-    <rule id="2bc4-4630-b8ec-346e" name="Deathwing Assault" hidden="false">
-      <description>Units composed entirely composed of models with this rule and wearing Terminator Armour can choose to make a Deathwing Assault.
-Immediatly after determining Warlord Traits, tell your opponent which units are making a Deathwing Assault, and make a secret note on weather it happens during turn 1 or turn 2. All units chosen arrive then with no need to roll for deep strike reserves.</description>
+    <rule id="64ab-2fdc-745b-deaa" name="Deathwing" hidden="false">
+      <description>A model with this special rule has the Fearless and Hatred (Chaos Space Marines) special rules.</description>
       <modifiers/>
     </rule>
     <rule id="23ad-015b-2c11-5e5f" name="Deep Strike" hidden="false" book="Wh40k: The Rules">
@@ -5598,8 +5300,7 @@ A model with the Non-flammable special rule passes all Initiative tests caused b
       <modifiers/>
     </rule>
     <rule id="6ed0-37aa-e9d7-f739" name="Grim Resolve" hidden="false">
-      <description>A model with the Grim Resolve special rule has the Stubborn special rule.
-In addition, a unit containing at least one model with the Grim Resolve special rule can never choose to automatically fail a Morale check.</description>
+      <description>Models with this special rule have the Stubborn special rule and, unless Jinking, count their Ballistic Skill as 2 when firing Overwatch.</description>
       <modifiers/>
     </rule>
     <rule id="5882-8488-74c0-f4ca" name="Hammer of Wrath" hidden="false" book="Wh40k: The Rules">
@@ -5651,8 +5352,8 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
       <description>The model may never gain Battle Honours.</description>
       <modifiers/>
     </rule>
-    <rule id="753e-d0ea-a186-aaf9" name="Psyker (Mastery Level1)" hidden="false" book="Kill Team List: Blood Angels v3.0" page="4">
-      <description>At the start of the battle the model generates a single Primaris Power from the either the Biomancy, Divination, Pyromancy or Sanguinary discipline.</description>
+    <rule id="753e-d0ea-a186-aaf9" name="Psyker (Mastery Level1)" hidden="false" book="">
+      <description>At the start of the battle the model generates a single Primaris Power from the either the Daemonology, Divination, Interromancy, Pyromancy, Telekinesis or Telepathy discipline.</description>
       <modifiers/>
     </rule>
     <rule id="3a55-e513-debc-e83e" name="Rage" hidden="false" book="Wh40k: The Rules">
@@ -5662,8 +5363,15 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
       <description>At the start of any Fight sub-phase, models with the Rampage special rule gain +D3 attacks if the combat they are in contains more enemy models than friendly models – count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that phase. A model that has made a disordered charge that turn receives no benefit from Rampage.</description>
       <modifiers/>
     </rule>
+    <rule id="162d-0564-a953-5168" name="Ravenwing" hidden="false">
+      <description>A model with this special rule can re-roll failed cover saves when it Jinks.</description>
+      <modifiers/>
+    </rule>
     <rule id="065e-c9e6-5dae-f608" name="Relentless" hidden="false" book="Wh40k: The Rules">
       <description>Relentless models can shoot with Heavy, Salvo or Ordnance weapons, counting as stationary, even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a512-210e-abf1-5e29" name="Rending" hidden="false">
       <modifiers/>
     </rule>
     <rule id="c3e3-9852-1260-d646" name="Scout" hidden="false" book="Wh40k: The Rules">
@@ -5814,7 +5522,7 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="59b8-bdff-994d-baf5" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Corvus talon" hidden="false">
+    <profile id="59b8-bdff-994d-baf5" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Corvus hammer" hidden="false">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
@@ -5835,6 +5543,15 @@ In addition, units containing one or more models with the Zealot special rule re
     <profile id="0a2f-0bbb-9a3e-2cb4" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Cyclone Missile Launcher" hidden="false" book="Wh40k: Cobex - Dark Angels 2013">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A Terminator can fire his cyclone missile launcher in addition to his storm bolter."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1c7d-7e9c-41ff-a1c5" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Eviscerator" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Armourbane, Two-handed, Unwieldy"/>
       </characteristics>
       <modifiers/>
     </profile>
