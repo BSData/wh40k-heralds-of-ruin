@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b765-0001-2066-28b4" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="16" battleScribeVersion="1.15" name="Astra Militarum: HoR" books="Kill Team List: Astra Militarum v3.0" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b765-0001-2066-28b4" revision="4" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="16" battleScribeVersion="1.15" name="Astra Militarum: HoR" books="Kill Team List: Astra Militarum v3.0" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -182,6 +182,18 @@
           <modifiers/>
         </link>
         <link id="8de4-2308-d53e-ec21" targetId="7193-3670-cc8c-70bd" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4c11-1fb2-49ca-3a53" name="Augur Array" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2263-d597-d128-2d92" targetId="56b0-ea4c-8ced-2994" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -377,6 +389,18 @@
         </link>
       </links>
     </entry>
+    <entry id="fd63-925b-bf80-3e21" name="Camo Netting" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="cb66-2e59-add1-4974" targetId="3655-583b-ecb0-81f5" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="c9b2-2ecc-2876-03b9" name="Carapace Armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -397,6 +421,116 @@
       <profiles/>
       <links>
         <link id="4bb6-8dfd-15a5-3b55" targetId="3679-f89c-27da-7875" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8424-8f66-aa00-dddd" name="Chimera" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="448e-6350-3d26-bb67" name="Searchlight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2f54-cb48-f3ea-ce0a" targetId="9de8-6c1c-f3a6-8944" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7af8-6120-e42f-4e50" name="Smoke Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="3b94-624b-524e-2ab7" targetId="882a-cdff-3971-f09d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="b7b5-eb5d-3a5f-19fb" name="Turret-mounted Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="d107-3030-ef94-3b39" targetId="8ebd-5b1f-3f4d-b6e5" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ab92-0eec-5498-f6d0" targetId="b2ea-eb55-4a10-2099" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="bfaf-8e9c-a322-fec7" targetId="d146-dabf-323a-0927" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="a5b2-bc4e-45c4-aaa8" name="Hull-mounted Weapon" defaultEntryId="ecbf-3831-5321-fe1b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="ecbf-3831-5321-fe1b" targetId="d146-dabf-323a-0927" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="7adf-99d6-9d5a-a195" targetId="b2ea-eb55-4a10-2099" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="6c71-2923-6229-712b" name="Lasgun Arrays" hidden="false">
+          <description>A Chimera has two separate arrays of three lasguns – one array located above each side of its hull. Up to six models in the embarked unit (a maximum of three per array) may fire one lasgun each from these lasgun arrays, provided those models are not using the Chimera’s Fire Points this turn. To represent the unusual nature of these weapons, use the Chimera’s Ballistic Skill for these shots – the lasgun arrays can shoot at this Ballistic Skill regardless of how far the Chimera has moved. If the Chimera has suffered a Crew Stunned or Crew Shaken result, the lasgun arrays can only make Snap Shots. Lastly, each array may shoot at a different target to the Chimera’s other weaponry, though all lasguns in the same array must shoot at the same target.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ceab-b392-1bb2-7038" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Chimera" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="12"/>
+            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="10"/>
+            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
+            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
+            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Tank, Transport)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cb77-92f6-33f3-9137" targetId="5cb3-023e-00ce-2c16" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a93e-1680-a015-a21e" targetId="9b39-b98c-63fd-4f1a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3c37-fb05-d2f2-3f71" targetId="f5ae-76b7-336e-2c84" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -452,7 +586,7 @@
             <link id="58e6-fadf-7489-e21e" targetId="75a4-a96a-1e3e-f078" linkType="entry">
               <modifiers/>
             </link>
-            <link id="e138-f12a-65e8-945d" targetId="79e3-f32f-5f28-372d" linkType="entry group">
+            <link id="e138-f12a-65e8-945d" targetId="4f3a-7782-d60e-9b2b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -634,6 +768,25 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="ead9-4866-4f93-4cac" name="Dozer Blade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="48dd-5a00-fa69-5228" field="selections" type="instance of" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2aea-9ed2-adb4-adcf" targetId="2532-2ec4-21f6-7f23" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="6df1-be78-9112-de5e" name="Enginseer" points="38.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="7e5b-188e-b23c-56b5" name="Servo-arm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -724,6 +877,25 @@
         </link>
       </links>
     </entry>
+    <entry id="7fcf-f86c-4575-f263" name="Fire Barrels" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="48dd-5a00-fa69-5228" field="selections" type="instance of" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="00f2-6a7f-2335-1fcb" targetId="d903-07d7-6caf-badc" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="d433-ea7c-7880-6caa" name="Flak Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -744,6 +916,30 @@
       <profiles/>
       <links>
         <link id="9173-60c1-625c-2b5c" targetId="281d-1cd5-e3e7-9e6c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c05c-e8a0-4b55-f45f" name="Flak missiles" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0947-3f33-d4c3-4185" targetId="a58b-79fa-cccd-550d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c774-1d56-2236-0e39" name="Flamer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="dd20-5399-c7f1-ab24" targetId="5f53-11cf-76a5-e604" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -774,6 +970,21 @@
           <modifiers/>
         </link>
         <link id="1ba4-9f90-2a48-625d" targetId="9abc-67b5-5c2d-dfc2" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="02b9-a2f8-1a27-85f5" name="Grenade launcher" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7b2a-f49e-2bab-7954" targetId="a89b-31cf-0fd9-bb4a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="c9f3-1e09-cd50-b810" targetId="e33f-3711-c568-e699" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -867,6 +1078,18 @@
       <profiles/>
       <links>
         <link id="4f21-ac0d-cb8d-6b0e" targetId="980a-b612-bb2f-b9c7" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d146-dabf-323a-0927" name="Heavy Bolter" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="49fc-965a-0876-d653" targetId="5784-fc60-3fbe-fa60" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1030,6 +1253,30 @@
       <profiles/>
       <links>
         <link id="060f-ec4d-467f-b799" targetId="b3ce-1dcc-e241-1931" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="fabf-8dda-37b2-9e06" name="Hot-shot volley gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b162-dee6-4d04-2d6c" targetId="a9d3-78bc-2bf4-ae6a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3595-2baf-9eac-e8f7" name="Hunter-killer Missile" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="1613-1b9b-3859-8f74" targetId="f1a3-2e7e-81c5-c5bf" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1272,6 +1519,18 @@
         </link>
       </links>
     </entry>
+    <entry id="4f3a-7782-d60e-9b2b" name="Melee Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="1821-9bfc-510d-b914" targetId="79e3-f32f-5f28-372d" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="6f20-7c38-f6b0-ca5e" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1283,6 +1542,18 @@
           <modifiers/>
         </link>
         <link id="2650-e200-c05e-8090" targetId="ce72-0bb4-d0d1-c1d2" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="fd05-4d89-13e6-b114" name="Meltagun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9140-2035-472c-9a70" targetId="50fb-bd5d-610a-037a" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1404,6 +1675,18 @@
           <modifiers/>
         </link>
         <link id="924c-e2b7-c5cc-8486" targetId="c05c-e8a0-4b55-f45f" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="61bd-66dd-30dc-b905" name="Mortar" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="af7d-8049-7ecc-4f20" targetId="a80e-7883-dc90-7295" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1567,6 +1850,66 @@
         </link>
       </links>
     </entry>
+    <entry id="ea97-bfa2-d211-7518" name="Power Fist" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="afa6-8628-2fb2-cbc1" targetId="5a18-4345-eeac-3044" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="47eb-f3e4-4d87-c5c1" name="Power Lance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9fc6-7de9-971a-1be2" targetId="5932-401c-25f1-f757" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5510-19be-8182-33b3" name="Power Maul" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="1f82-c63e-77e8-4973" targetId="67c9-8c10-588e-138c" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="62a3-13ba-22da-4036" name="Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7656-8077-56b3-c1bc" targetId="a961-0e29-c5d9-fed4" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6da0-4dad-575c-3f54" name="Ranged Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7626-3aa6-5810-7455" targetId="02f1-fe7d-d357-6ec8" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="386e-ef77-c532-6270" name="Ratling" points="10.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
@@ -1631,6 +1974,18 @@
           <modifiers/>
         </link>
         <link id="69b3-fbfd-a77c-f32a" targetId="7193-3670-cc8c-70bd" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4280-a7cc-266c-1676" name="Recovery Gear" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="de47-426f-ffe4-4997" targetId="298d-4edc-16b6-f6d2" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1838,6 +2193,18 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="9970-1644-56f4-aa7d" name="Relic Plating" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="84a8-845d-b318-218c" targetId="e700-bda2-1f89-4ed6" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="fd1e-e591-722c-ba46" name="Ripper Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1974,7 +2341,7 @@
             <link id="b539-574b-a800-6c4a" targetId="75a4-a96a-1e3e-f078" linkType="entry">
               <modifiers/>
             </link>
-            <link id="7df3-6f5a-16d8-2804" targetId="79e3-f32f-5f28-372d" linkType="entry group">
+            <link id="7df3-6f5a-16d8-2804" targetId="4f3a-7782-d60e-9b2b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -1987,7 +2354,7 @@
             <link id="34d6-8e6a-841f-713d" targetId="9fa3-1c21-11ef-4047" linkType="entry">
               <modifiers/>
             </link>
-            <link id="942e-1b6c-8a3d-bf90" targetId="02f1-fe7d-d357-6ec8" linkType="entry group">
+            <link id="942e-1b6c-8a3d-bf90" targetId="6da0-4dad-575c-3f54" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2151,6 +2518,18 @@
         </link>
       </links>
     </entry>
+    <entry id="7f66-4be2-8cc7-2194" name="Searchlight" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c0b0-0d20-3876-aa0b" targetId="9de8-6c1c-f3a6-8944" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="2613-79e1-7895-28f2" name="Sergeant" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="bcee-13ee-8c84-a18e" name="Upgrade to a Veteran Sergeant" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2204,7 +2583,7 @@
             <link id="bab6-f4c3-8a4a-b53d" targetId="75a4-a96a-1e3e-f078" linkType="entry">
               <modifiers/>
             </link>
-            <link id="40a9-46e9-0363-4edc" targetId="79e3-f32f-5f28-372d" linkType="entry group">
+            <link id="40a9-46e9-0363-4edc" targetId="4f3a-7782-d60e-9b2b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2217,7 +2596,7 @@
             <link id="765b-d93c-851c-bd50" targetId="9fa3-1c21-11ef-4047" linkType="entry">
               <modifiers/>
             </link>
-            <link id="780b-24d3-887f-8822" targetId="02f1-fe7d-d357-6ec8" linkType="entry group">
+            <link id="780b-24d3-887f-8822" targetId="6da0-4dad-575c-3f54" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2317,6 +2696,18 @@
         </link>
       </links>
     </entry>
+    <entry id="f979-35b4-85bc-152f" name="Smoke Launchers" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="22ce-871c-c698-7216" targetId="882a-cdff-3971-f09d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="a346-596a-2039-9387" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -2328,6 +2719,151 @@
           <modifiers/>
         </link>
         <link id="f4dc-bac7-b886-c549" targetId="50f5-1810-312e-2331" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6f79-0da8-f162-9db2" name="Taurox" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="0f6a-d521-e5a7-1e14" name="Twin-linked autocannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e30d-03e5-877a-06d3" targetId="6fea-9118-385e-db8b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="dbe9-66c4-a360-77a4" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Taurox" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="11"/>
+            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="10"/>
+            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
+            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
+            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Transport)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ddee-6bcd-4478-5d35" targetId="4d04-d129-cff3-cef3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2c8b-7c64-d9c3-d25d" targetId="f5ae-76b7-336e-2c84" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e16b-c5ae-333e-bb6b" name="Taurox Prime" points="80.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="9846-c807-87b7-42ca" name="Turret-mounted Weapon" defaultEntryId="5b39-8391-e5f9-7415" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5b39-8391-e5f9-7415" name="Taurox battle cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="25eb-c9f8-197c-6a1c" targetId="742f-3bf1-270a-e6e4" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="3577-6bf0-6445-6409" name="Twin-linked Taurox Gatling Cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="9789-8179-97f0-2c07" targetId="2724-5a72-0ec8-b285" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="46a9-67bf-6f19-e126" name="Taurox Missile Launcher" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e188-6bcc-1f1e-0f32" targetId="72bd-7723-854f-75ad" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="0ca9-fbc2-4333-f3f0" targetId="fe14-a791-a06e-b8bd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="2c1d-4027-3dce-59ac" name="Hull-mounted Weapon" defaultEntryId="e314-e533-efc9-1a7e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e314-e533-efc9-1a7e" name="Twin-linked Hot-shot Volley Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="47b8-0100-1fcb-2b58" targetId="a9d3-78bc-2bf4-ae6a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="1aa3-224e-7102-4c95" name="Twin-linked Autocannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0e4a-1344-cce1-0857" targetId="6fea-9118-385e-db8b" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2004-ce58-b500-89c1" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Taurox Prime" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="11"/>
+            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="10"/>
+            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
+            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
+            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Fast, Transport)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6faa-4f43-bf19-0c48" targetId="4d04-d129-cff3-cef3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="641a-44d2-9691-b223" targetId="f5ae-76b7-336e-2c84" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -2368,7 +2904,7 @@
             <link id="7149-20ad-fcd9-c0f3" targetId="75a4-a96a-1e3e-f078" linkType="entry">
               <modifiers/>
             </link>
-            <link id="0a67-ac46-61d9-9f59" targetId="79e3-f32f-5f28-372d" linkType="entry group">
+            <link id="0a67-ac46-61d9-9f59" targetId="4f3a-7782-d60e-9b2b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2381,7 +2917,7 @@
             <link id="205d-daa0-3230-daef" targetId="9fa3-1c21-11ef-4047" linkType="entry">
               <modifiers/>
             </link>
-            <link id="e277-e27f-e100-a821" targetId="02f1-fe7d-d357-6ec8" linkType="entry group">
+            <link id="e277-e27f-e100-a821" targetId="6da0-4dad-575c-3f54" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2528,7 +3064,7 @@
             <link id="822a-4ae2-98aa-cc75" targetId="75a4-a96a-1e3e-f078" linkType="entry">
               <modifiers/>
             </link>
-            <link id="cefe-4e88-b1e3-9713" targetId="79e3-f32f-5f28-372d" linkType="entry group">
+            <link id="cefe-4e88-b1e3-9713" targetId="4f3a-7782-d60e-9b2b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2632,7 +3168,7 @@
             <link id="4f01-0459-18da-8241" targetId="75a4-a96a-1e3e-f078" linkType="entry">
               <modifiers/>
             </link>
-            <link id="05a9-e612-5262-6d1d" targetId="79e3-f32f-5f28-372d" linkType="entry group">
+            <link id="05a9-e612-5262-6d1d" targetId="4f3a-7782-d60e-9b2b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -3167,514 +3703,14 @@
         </link>
       </links>
     </entry>
-    <entry id="5510-19be-8182-33b3" name="Power Maul" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="2632-4890-7c86-fa71" name="Power Weapon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
       <links>
-        <link id="1f82-c63e-77e8-4973" targetId="67c9-8c10-588e-138c" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="62a3-13ba-22da-4036" name="Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="7656-8077-56b3-c1bc" targetId="a961-0e29-c5d9-fed4" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="47eb-f3e4-4d87-c5c1" name="Power Lance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="9fc6-7de9-971a-1be2" targetId="5932-401c-25f1-f757" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ea97-bfa2-d211-7518" name="Power Fist" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="afa6-8628-2fb2-cbc1" targetId="5a18-4345-eeac-3044" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c774-1d56-2236-0e39" name="Flamer" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="dd20-5399-c7f1-ab24" targetId="5f53-11cf-76a5-e604" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="02b9-a2f8-1a27-85f5" name="Grenade launcher" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="7b2a-f49e-2bab-7954" targetId="a89b-31cf-0fd9-bb4a" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="c9f3-1e09-cd50-b810" targetId="e33f-3711-c568-e699" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="fabf-8dda-37b2-9e06" name="Hot-shot volley gun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="b162-dee6-4d04-2d6c" targetId="a9d3-78bc-2bf4-ae6a" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="fd05-4d89-13e6-b114" name="Meltagun" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="9140-2035-472c-9a70" targetId="50fb-bd5d-610a-037a" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="61bd-66dd-30dc-b905" name="Mortar" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="af7d-8049-7ecc-4f20" targetId="a80e-7883-dc90-7295" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="d146-dabf-323a-0927" name="Heavy Bolter" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="49fc-965a-0876-d653" targetId="5784-fc60-3fbe-fa60" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c05c-e8a0-4b55-f45f" name="Flak missiles" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="0947-3f33-d4c3-4185" targetId="a58b-79fa-cccd-550d" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7f66-4be2-8cc7-2194" name="Searchlight" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="c0b0-0d20-3876-aa0b" targetId="9de8-6c1c-f3a6-8944" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="9970-1644-56f4-aa7d" name="Relic Plating" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="84a8-845d-b318-218c" targetId="e700-bda2-1f89-4ed6" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ead9-4866-4f93-4cac" name="Dozer Blade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="48dd-5a00-fa69-5228" field="selections" type="instance of" value="0.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="2aea-9ed2-adb4-adcf" targetId="2532-2ec4-21f6-7f23" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="4280-a7cc-266c-1676" name="Recovery Gear" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="de47-426f-ffe4-4997" targetId="298d-4edc-16b6-f6d2" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="f979-35b4-85bc-152f" name="Smoke Launchers" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="22ce-871c-c698-7216" targetId="882a-cdff-3971-f09d" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="7fcf-f86c-4575-f263" name="Fire Barrels" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers>
-        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="direct parent" childId="48dd-5a00-fa69-5228" field="selections" type="instance of" value="0.0"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="00f2-6a7f-2335-1fcb" targetId="d903-07d7-6caf-badc" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3595-2baf-9eac-e8f7" name="Hunter-killer Missile" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="1613-1b9b-3859-8f74" targetId="f1a3-2e7e-81c5-c5bf" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="fd63-925b-bf80-3e21" name="Camo Netting" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="cb66-2e59-add1-4974" targetId="3655-583b-ecb0-81f5" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="4c11-1fb2-49ca-3a53" name="Augur Array" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="2263-d597-d128-2d92" targetId="56b0-ea4c-8ced-2994" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8424-8f66-aa00-dddd" name="Chimera" points="65.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="448e-6350-3d26-bb67" name="Searchlight" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="2f54-cb48-f3ea-ce0a" targetId="9de8-6c1c-f3a6-8944" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="7af8-6120-e42f-4e50" name="Smoke Launchers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="3b94-624b-524e-2ab7" targetId="882a-cdff-3971-f09d" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="b7b5-eb5d-3a5f-19fb" name="Turret-mounted Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="d107-3030-ef94-3b39" targetId="8ebd-5b1f-3f4d-b6e5" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="ab92-0eec-5498-f6d0" targetId="b2ea-eb55-4a10-2099" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="bfaf-8e9c-a322-fec7" targetId="d146-dabf-323a-0927" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="a5b2-bc4e-45c4-aaa8" name="Hull-mounted Weapon" defaultEntryId="ecbf-3831-5321-fe1b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="ecbf-3831-5321-fe1b" targetId="d146-dabf-323a-0927" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="7adf-99d6-9d5a-a195" targetId="b2ea-eb55-4a10-2099" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules>
-        <rule id="6c71-2923-6229-712b" name="Lasgun Arrays" hidden="false">
-          <description>A Chimera has two separate arrays of three lasguns – one array located above each side of its hull. Up to six models in the embarked unit (a maximum of three per array) may fire one lasgun each from these lasgun arrays, provided those models are not using the Chimera’s Fire Points this turn. To represent the unusual nature of these weapons, use the Chimera’s Ballistic Skill for these shots – the lasgun arrays can shoot at this Ballistic Skill regardless of how far the Chimera has moved. If the Chimera has suffered a Crew Stunned or Crew Shaken result, the lasgun arrays can only make Snap Shots. Lastly, each array may shoot at a different target to the Chimera’s other weaponry, though all lasguns in the same array must shoot at the same target.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="ceab-b392-1bb2-7038" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Chimera" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="12"/>
-            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="10"/>
-            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
-            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
-            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Tank, Transport)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="cb77-92f6-33f3-9137" targetId="5cb3-023e-00ce-2c16" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a93e-1680-a015-a21e" targetId="9b39-b98c-63fd-4f1a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3c37-fb05-d2f2-3f71" targetId="f5ae-76b7-336e-2c84" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6f79-0da8-f162-9db2" name="Taurox" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="0f6a-d521-e5a7-1e14" name="Twin-linked autocannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="e30d-03e5-877a-06d3" targetId="6fea-9118-385e-db8b" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="dbe9-66c4-a360-77a4" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Taurox" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
-            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="11"/>
-            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="10"/>
-            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
-            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
-            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Transport)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="ddee-6bcd-4478-5d35" targetId="4d04-d129-cff3-cef3" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2c8b-7c64-d9c3-d25d" targetId="f5ae-76b7-336e-2c84" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="e16b-c5ae-333e-bb6b" name="Taurox Prime" points="80.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups>
-        <entryGroup id="9846-c807-87b7-42ca" name="Turret-mounted Weapon" defaultEntryId="5b39-8391-e5f9-7415" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="5b39-8391-e5f9-7415" name="Taurox battle cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="25eb-c9f8-197c-6a1c" targetId="742f-3bf1-270a-e6e4" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="3577-6bf0-6445-6409" name="Twin-linked Taurox Gatling Cannon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="9789-8179-97f0-2c07" targetId="2724-5a72-0ec8-b285" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="46a9-67bf-6f19-e126" name="Taurox Missile Launcher" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="e188-6bcc-1f1e-0f32" targetId="72bd-7723-854f-75ad" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="0ca9-fbc2-4333-f3f0" targetId="fe14-a791-a06e-b8bd" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="2c1d-4027-3dce-59ac" name="Hull-mounted Weapon" defaultEntryId="e314-e533-efc9-1a7e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="e314-e533-efc9-1a7e" name="Twin-linked Hot-shot Volley Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="47b8-0100-1fcb-2b58" targetId="a9d3-78bc-2bf4-ae6a" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="1aa3-224e-7102-4c95" name="Twin-linked Autocannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="0e4a-1344-cce1-0857" targetId="6fea-9118-385e-db8b" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2004-ce58-b500-89c1" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Taurox Prime" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
-            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="11"/>
-            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="10"/>
-            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
-            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
-            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Fast, Transport)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="6faa-4f43-bf19-0c48" targetId="4d04-d129-cff3-cef3" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="641a-44d2-9691-b223" targetId="f5ae-76b7-336e-2c84" linkType="entry group">
+        <link id="e7a0-7bfc-217b-cc50" targetId="0e32-f67a-fa37-7e19" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -4018,7 +4054,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="5540-045c-4a4b-76a7" name="Heavy Weapons" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="fc63-e90b-e1c0-dde0" name="Heavy Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4055,30 +4091,59 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="79e3-f32f-5f28-372d" name="Melee Weapons" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="e72d-fbc5-247e-94c1" name="Power Weapon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="0e89-b15d-c42d-b2e4" targetId="0e32-f67a-fa37-7e19" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entryGroup id="4b57-0a8e-81ae-508c" name="Melee Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
       <links>
         <link id="60a8-9200-c64d-8a8a" targetId="ea97-bfa2-d211-7518" linkType="entry">
           <modifiers/>
         </link>
+        <link id="1360-2acb-1bfa-074d" targetId="2632-4890-7c86-fa71" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entryGroup>
-    <entryGroup id="02f1-fe7d-d357-6ec8" name="Ranged Weapons" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="0e32-f67a-fa37-7e19" name="Power Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="485f-85c2-8ccb-b50d" targetId="36ee-44a9-78ba-0e47" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="a63d-ed6a-c3dc-6cfa" targetId="5510-19be-8182-33b3" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="4d63-d6a6-52b3-1776" targetId="62a3-13ba-22da-4036" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="4c4b-d699-4ae4-ee67" targetId="47eb-f3e4-4d87-c5c1" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="1d52-4720-fc49-7069" name="Ranged Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4135,7 +4200,7 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="90f9-af8c-ad41-56d4" name="Special Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="90f9-af8c-ad41-56d4" name="Special Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -4191,47 +4256,16 @@
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="0e32-f67a-fa37-7e19" name="Power Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <links>
-        <link id="485f-85c2-8ccb-b50d" targetId="36ee-44a9-78ba-0e47" linkType="entry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="a63d-ed6a-c3dc-6cfa" targetId="5510-19be-8182-33b3" linkType="entry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="4d63-d6a6-52b3-1776" targetId="62a3-13ba-22da-4036" linkType="entry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-        <link id="4c4b-d699-4ae4-ee67" targetId="47eb-f3e4-4d87-c5c1" linkType="entry">
-          <modifiers>
-            <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </link>
-      </links>
-    </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
+    <rule id="4d04-d129-cff3-cef3" name="All-terrain APC" hidden="false" book="Codex: Astra Militarum" page="0">
+      <description>Re-roll Dangerous Terrain</description>
+      <modifiers/>
+    </rule>
+    <rule id="5cb3-023e-00ce-2c16" name="Amphibious" hidden="false" book="Codex: Astra Militarum" page="40">
+      <description>All water terrain is open ground.</description>
+      <modifiers/>
+    </rule>
     <rule id="4d42-33b6-d092-15f5" name="Awaken the Machine" hidden="false">
       <description>In each of your Shooting phases, instead of firing his weapons, the Enginseer may choose a single friendly Astra Militarum vehicle within 12&quot;. That vehicle gains the Power of the Machine Spirit special rule until the end of the turn.</description>
       <modifiers/>
@@ -4291,6 +4325,10 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
     </rule>
     <rule id="bf35-b5a1-495c-7df5" name="Listen Up Your Maggots!" hidden="false">
       <description>Any friendly Astra Militarum unit within 6” of the Sergeant may use his Leadership for any test. In addition, the Sergeant is a Character.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9b39-b98c-63fd-4f1a" name="Mobile Command Vehicle" hidden="false" book="Codex: Astra Militarum" page="40">
+      <description>An officer embarked within a Chimera may still issue orders to squads. Measure range from any part of the Chimera’s hull.</description>
       <modifiers/>
     </rule>
     <rule id="2839-b070-60b8-6a40" name="Move Through Cover" hidden="false" book="Wh40k: The Rules">
@@ -4353,20 +4391,14 @@ Against vehicles, Sniper weapons count as Strength 3. Sniper weapons also have t
 In addition, units containing one or more models with the Zealot special rule re-roll all failed To Hit rolls during the first round of each close combat – they do not get to re-roll failed To Hit rolls in subsequent rounds.</description>
       <modifiers/>
     </rule>
-    <rule id="5cb3-023e-00ce-2c16" name="Amphibious" hidden="false" book="Codex: Astra Militarum" page="40">
-      <description>All water terrain is open ground.</description>
-      <modifiers/>
-    </rule>
-    <rule id="9b39-b98c-63fd-4f1a" name="Mobile Command Vehicle" hidden="false" book="Codex: Astra Militarum" page="40">
-      <description>An officer embarked within a Chimera may still issue orders to squads. Measure range from any part of the Chimera’s hull.</description>
-      <modifiers/>
-    </rule>
-    <rule id="4d04-d129-cff3-cef3" name="All-terrain APC" hidden="false" book="Codex: Astra Militarum" page="0">
-      <description>Re-roll Dangerous Terrain</description>
-      <modifiers/>
-    </rule>
   </sharedRules>
   <sharedProfiles>
+    <profile id="56b0-ea4c-8ced-2994" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Augur Array" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Unit that Deep Strikes within 6&quot; of a vheicle with an Augur Array does not scatter."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="6fea-9118-385e-db8b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Autocannon" hidden="false" book="Codex: Astra Militarum" page="0">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48"/>
@@ -4421,6 +4453,12 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="3655-583b-ecb0-81f5" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Camo Netting" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="+1 to Cover Sv. Note that this means it always has a cover save of at least 6+, even in the open."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="3679-f89c-27da-7875" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Carapace Armour" hidden="false">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="4+ armour save"/>
@@ -4436,9 +4474,30 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="2532-2ec4-21f6-7f23" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Dozer Blade" hidden="false" book="Warhammer 40k rulebook" page="0">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Vehicles equipped with dozer blades treat their front armour as one higher than normal when ramming. Furthermore the vehicle can re-roll failed Dangerous Terrain tests."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d903-07d7-6caf-badc" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Fire Barrels" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The first time an enemy unit attempts to charge a vehicle with Fire Barrels, that unit suffers D6 S4 AP5 hits, Randomly Allocated."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="281d-1cd5-e3e7-9e6c" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Flak Armour" hidden="false">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="5+ armour save"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5f53-11cf-76a5-e604" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Flamer" hidden="false" book="Wh40k: The Rules">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4457,12 +4516,39 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="a89b-31cf-0fd9-bb4a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Grenade Launcher (Frag)" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, 3&quot; Blast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e33f-3711-c568-e699" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Grenade Launcher (Krak)" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="10b0-892d-e174-eee3" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Grenadier Gauntlet" hidden="false" book="Codex: Astra Militarum" page="0">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, 3&quot; Blast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5784-fc60-3fbe-fa60" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Heavy Bolter" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 3"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4499,6 +4585,15 @@ In addition, units containing one or more models with the Zealot special rule re
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Salvo 2/4"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f1a3-2e7e-81c5-c5bf" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Hunter-killer Missile" hidden="false" book="Imperial Armour Apocalypse 2013" page="135">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Infinite"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, One Use"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4577,6 +4672,15 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="50fb-bd5d-610a-037a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Meltagun" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Melta"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="a58b-79fa-cccd-550d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Missile Launcher (Flakk)" hidden="false" book="Codex: Astra Militarum" page="0">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48"/>
@@ -4601,6 +4705,15 @@ In addition, units containing one or more models with the Zealot special rule re
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a80e-7883-dc90-7295" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Mortar" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, 3&apos;&apos; Blast, Barrage"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4691,6 +4804,18 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="298d-4edc-16b6-f6d2" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Recovery Gear" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="If a vehicle with Recovery Gear is Immobilised, then it subsequent turns it may attempt to repair itself. Roll 1D6 at the end of the Movement phase: on a 6 the vehicle is no longer Immobilised. This does not restore HP."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e700-bda2-1f89-4ed6" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Relic Plating" hidden="false" book="Codex: Astra Militarum" page="0">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Has Adamantium Will."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="999d-c924-095a-8ede" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Ripper Gun" hidden="false" book="Codex: Astra Militarum" page="0">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12"/>
@@ -4703,6 +4828,12 @@ In addition, units containing one or more models with the Zealot special rule re
     <profile id="5a3f-927e-2e52-d499" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Rosarius" hidden="false" book="Codex: Astra Militarum" page="0">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="4+ Invul Sv"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9de8-6c1c-f3a6-8944" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Searchlight" hidden="false" book="Warhammer 40k rulebook" page="0">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Used when the Night Fighting rules are in effect. If a vehicle has a searchlight, it can, after firing all of its weapons, choose to illuminate its target with the searchlight. If it does so, it also illuminates itself. You may place markers next to the units, and next to the vehicle, to show it has used its searchlights this turn. Illumination lasts until the end of the following turn. Illuminated units gain no benefit from the Night Fighting special rule."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4730,6 +4861,12 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="882a-cdff-3971-f09d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Smoke Launchers" hidden="false" book="Warhammer 40k rulebook" page="0">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Once per game, instead of shooting or moving Flat Out (or Running in the case of Walkers), a vehicle with smoke launchers can trigger them. Place some cotton wool or some other appropriate counter next to the vehicle to show it is obscured. The vehicle may not fire any of its weapons in the same turn as it used smoke launchers, but counts as obscured in the next enemy Shooting phase, receiving a 5+ cover save. After the enemy’s Shooting phase, the smoke disperses with no further effect. Note that a vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stunned result or it does not have any shooting weapons."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="1da4-45b2-86df-6cea" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Snare Mines" hidden="false" book="Codex: Astra Militarum" page="0">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Enemy units that charge a unit with snare mines count as having made a disordered charge."/>
@@ -4745,120 +4882,21 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9da9-c08e-a257-f884" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Vox-caster" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Failed Leadership tests for orders issued to a unit with a vox-caster can be re-rolled, provided the officer’s unit also has a vox-caster. An officer may not use a vox-caster’s ability on his own unit."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="5f53-11cf-76a5-e604" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Flamer" hidden="false" book="Wh40k: The Rules">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="a89b-31cf-0fd9-bb4a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Grenade Launcher (Frag)" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, 3&quot; Blast"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="e33f-3711-c568-e699" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Grenade Launcher (Krak)" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="50fb-bd5d-610a-037a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Meltagun" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Melta"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="a80e-7883-dc90-7295" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Mortar" hidden="false" book="Codex: Astra Militarum" page="0">
+    <profile id="742f-3bf1-270a-e6e4" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Taurox Battle Cannon" hidden="false" book="Codex: Astra Militarum" page="41">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, 3&apos;&apos; Blast, Barrage"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="5784-fc60-3fbe-fa60" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Heavy Bolter" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, 3&quot; Blast"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9de8-6c1c-f3a6-8944" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Searchlight" hidden="false" book="Warhammer 40k rulebook" page="0">
+    <profile id="2724-5a72-0ec8-b285" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Taurox Gatling Cannon" hidden="false" book="Codex: Astra Militarum" page="41">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Used when the Night Fighting rules are in effect. If a vehicle has a searchlight, it can, after firing all of its weapons, choose to illuminate its target with the searchlight. If it does so, it also illuminates itself. You may place markers next to the units, and next to the vehicle, to show it has used its searchlights this turn. Illumination lasts until the end of the following turn. Illuminated units gain no benefit from the Night Fighting special rule."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="e700-bda2-1f89-4ed6" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Relic Plating" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Has Adamantium Will."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="2532-2ec4-21f6-7f23" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Dozer Blade" hidden="false" book="Warhammer 40k rulebook" page="0">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Vehicles equipped with dozer blades treat their front armour as one higher than normal when ramming. Furthermore the vehicle can re-roll failed Dangerous Terrain tests."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="298d-4edc-16b6-f6d2" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Recovery Gear" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="If a vehicle with Recovery Gear is Immobilised, then it subsequent turns it may attempt to repair itself. Roll 1D6 at the end of the Movement phase: on a 6 the vehicle is no longer Immobilised. This does not restore HP."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="882a-cdff-3971-f09d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Smoke Launchers" hidden="false" book="Warhammer 40k rulebook" page="0">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Once per game, instead of shooting or moving Flat Out (or Running in the case of Walkers), a vehicle with smoke launchers can trigger them. Place some cotton wool or some other appropriate counter next to the vehicle to show it is obscured. The vehicle may not fire any of its weapons in the same turn as it used smoke launchers, but counts as obscured in the next enemy Shooting phase, receiving a 5+ cover save. After the enemy’s Shooting phase, the smoke disperses with no further effect. Note that a vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stunned result or it does not have any shooting weapons."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="d903-07d7-6caf-badc" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Fire Barrels" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The first time an enemy unit attempts to charge a vehicle with Fire Barrels, that unit suffers D6 S4 AP5 hits, Randomly Allocated."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="f1a3-2e7e-81c5-c5bf" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Hunter-killer Missile" hidden="false" book="Imperial Armour Apocalypse 2013" page="135">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Infinite"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, One Use"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="3655-583b-ecb0-81f5" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Camo Netting" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="+1 to Cover Sv. Note that this means it always has a cover save of at least 6+, even in the open."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="56b0-ea4c-8ced-2994" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Augur Array" hidden="false" book="Codex: Astra Militarum" page="0">
-      <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Unit that Deep Strikes within 6&quot; of a vheicle with an Augur Array does not scatter."/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 10"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4880,21 +4918,9 @@ In addition, units containing one or more models with the Zealot special rule re
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2724-5a72-0ec8-b285" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Taurox Gatling Cannon" hidden="false" book="Codex: Astra Militarum" page="41">
+    <profile id="9da9-c08e-a257-f884" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Vox-caster" hidden="false" book="Codex: Astra Militarum" page="0">
       <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 10"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="742f-3bf1-270a-e6e4" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Taurox Battle Cannon" hidden="false" book="Codex: Astra Militarum" page="41">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, 3&quot; Blast"/>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Failed Leadership tests for orders issued to a unit with a vox-caster can be re-rolled, provided the officer’s unit also has a vox-caster. An officer may not use a vox-caster’s ability on his own unit."/>
       </characteristics>
       <modifiers/>
     </profile>
