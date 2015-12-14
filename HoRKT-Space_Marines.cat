@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2659-6725-4287-c661" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" battleScribeVersion="1.15" name="Space Marines: HoR" books="Kill Team List: Space Marines v3.2" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2659-6725-4287-c661" revision="3" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" battleScribeVersion="1.15" name="Space Marines: HoR" books="Kill Team List: Space Marines v3.2" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -246,6 +246,18 @@
       <profiles/>
       <links>
         <link id="a1fc-1ef3-c6aa-0d88" targetId="5347-7d4e-5922-c86a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="dcda-c005-1094-e2f9" name="Assault Cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d4e9-2c78-7c00-9af3" targetId="1a6d-4ef8-8276-1e82" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -790,6 +802,18 @@
           <modifiers/>
         </link>
         <link id="2f65-9203-bd6f-3ad6" targetId="193b-7b38-035d-18c5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1112-dbb9-42a0-29da" name="Chainfist" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="205c-0361-df04-8098" targetId="386a-dfb7-bf2b-abdf" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1368,6 +1392,21 @@
           <modifiers/>
         </link>
         <link id="db84-f17c-5bb3-8a09" targetId="0bf9-db0b-4136-c3ef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="554d-8be1-fbaa-a0de" name="Heavy Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ff5f-9a78-ad9c-0327" targetId="73f5-0494-6516-1851" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a63d-1562-92e2-93ae" targetId="f51b-afbc-b718-8026" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2744,6 +2783,12 @@
             <link id="5a6c-077c-a4e0-baf3" targetId="300a-22c5-180d-37f5" linkType="entry">
               <modifiers/>
             </link>
+            <link id="eb6b-7ce3-4490-dabe" targetId="391c-cedb-ce4d-acb2" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="f57d-0ffb-0731-6ae7" targetId="f92d-f8c4-74b2-ab9b" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
         <entryGroup id="238f-852c-a1d7-4a1d" name="Second Weapon" defaultEntryId="5138-7e83-916a-e93c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2758,6 +2803,12 @@
               <modifiers/>
             </link>
             <link id="5138-7e83-916a-e93c" targetId="4a97-30b9-513e-deff" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="e34a-e842-ddb4-45eb" targetId="391c-cedb-ce4d-acb2" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="b326-db7a-4834-284c" targetId="f92d-f8c4-74b2-ab9b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -2913,6 +2964,12 @@
             <link id="f84d-e56f-c450-62cc" targetId="eda9-9e15-20f4-d1f9" linkType="entry">
               <modifiers/>
             </link>
+            <link id="820b-3793-d73f-3847" targetId="a392-e56f-8a66-b527" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c2a2-c2a0-37fb-561d" targetId="f92d-f8c4-74b2-ab9b" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
         <entryGroup id="b666-76aa-36b2-c269" name="Second Weapon" defaultEntryId="e20a-5df2-e0a2-7a1e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2933,6 +2990,12 @@
               <modifiers/>
             </link>
             <link id="e20a-5df2-e0a2-7a1e" targetId="f322-8c02-ab77-48fe" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="bb22-7250-1893-fd8c" targetId="a392-e56f-8a66-b527" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ac90-052c-82a2-0792" targetId="f92d-f8c4-74b2-ab9b" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -3985,6 +4048,23 @@
         </link>
       </links>
     </entry>
+    <entry id="f92d-f8c4-74b2-ab9b" name="Teeth of Legion" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="29bd-4e5c-303b-e9c1" name="Tearing" hidden="false">
+          <description>Any model that suffers an unsaved Wound by this weapon must pass a Toughness test or suffer Instant Death.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="8b10-c10a-136b-3d45" targetId="c021-136b-a8fa-076a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7449-554e-8dfc-7423" name="Teleport Homer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -4920,45 +5000,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="1112-dbb9-42a0-29da" name="Chainfist" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wh40k: The Rules">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="205c-0361-df04-8098" targetId="386a-dfb7-bf2b-abdf" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="554d-8be1-fbaa-a0de" name="Heavy Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="ff5f-9a78-ad9c-0327" targetId="73f5-0494-6516-1851" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="a63d-1562-92e2-93ae" targetId="f51b-afbc-b718-8026" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="dcda-c005-1094-e2f9" name="Assault Cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="d4e9-2c78-7c00-9af3" targetId="1a6d-4ef8-8276-1e82" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -7122,6 +7163,15 @@ In addition, units containing one or more models with the Zealot special rule re
     <profile id="908c-2188-d00f-d577" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Storm Shield" hidden="false" book="Wh40k: Cobex - Dark Angels 2013">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A storm shield confers a 3+ invulnerable save. In addition, a model with a storm shield can never claim the +1 Attack gained for being armed with two Melee weapons in an assault."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c021-136b-a8fa-076a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Teeth of Legion" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Tearing, Master-crafted"/>
       </characteristics>
       <modifiers/>
     </profile>
