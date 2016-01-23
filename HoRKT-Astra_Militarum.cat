@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b765-0001-2066-28b4" revision="6" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="16" battleScribeVersion="1.15" name="Astra Militarum: HoR" books="Kill Team List: Astra Militarum v3.0" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b765-0001-2066-28b4" revision="7" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="16" battleScribeVersion="1.15" name="Astra Militarum: HoR" books="Kill Team List: Astra Militarum v3.0" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -3293,7 +3293,35 @@
           <entries>
             <entry id="f84a-3542-8acb-b3c3" name="Special Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
-              <entryGroups/>
+              <entryGroups>
+                <entryGroup id="7b23-2961-31ac-7087" name="Special Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="be81-7612-2b89-17c6" targetId="c774-1d56-2236-0e39" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="9d17-e19f-11af-dc2f" targetId="02b9-a2f8-1a27-85f5" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="96ec-3998-8074-6243" targetId="fabf-8dda-37b2-9e06" linkType="entry">
+                      <modifiers>
+                        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                    <link id="7436-9f09-bc09-f574" targetId="fd05-4d89-13e6-b114" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="bea4-881d-cb08-2f65" targetId="9f4e-f9ce-b6c8-029a" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
               <modifiers>
                 <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="bc2b-6eb3-3746-f2ae" incrementField="selections" incrementValue="5.0">
                   <conditions/>
@@ -3302,11 +3330,7 @@
               </modifiers>
               <rules/>
               <profiles/>
-              <links>
-                <link id="5d3e-bae2-9906-bc11" targetId="90f9-af8c-ad41-56d4" linkType="entry group">
-                  <modifiers/>
-                </link>
-              </links>
+              <links/>
             </entry>
           </entries>
           <entryGroups/>
@@ -3353,7 +3377,7 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
-            <modifier type="increment" field="minInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="bc2b-6eb3-3746-f2ae" incrementField="selections" incrementValue="5.0">
+            <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="bc2b-6eb3-3746-f2ae" incrementField="selections" incrementValue="5.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -3433,7 +3457,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="85b1-4c0c-b5b5-26fa" name="Special Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="85b1-4c0c-b5b5-26fa" name="Special Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers>
@@ -4198,21 +4222,7 @@
           <modifiers/>
         </link>
         <link id="7bf2-a2f4-cddd-b486" targetId="fabf-8dda-37b2-9e06" linkType="entry">
-          <modifiers>
-            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition parentId="direct parent" childId="5466-aa8e-e3bb-ed49" field="selections" type="instance of" value="0.0"/>
-                    <condition parentId="direct parent" childId="bc2b-6eb3-3746-f2ae" field="selections" type="instance of" value="0.0"/>
-                    <condition parentId="direct parent" childId="dacb-7cb3-c55b-f8de" field="selections" type="instance of" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </link>
         <link id="1e76-e14b-4181-4c3e" targetId="fd05-4d89-13e6-b114" linkType="entry">
           <modifiers/>
