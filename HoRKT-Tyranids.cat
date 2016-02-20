@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bd35-6839-e9d0-54cb" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Tyranids: HoR" books="Kill Team: Tyranids v2.1" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bd35-6839-e9d0-54cb" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Tyranids: HoR" books="Kill Team: Tyranids v2.1" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -149,11 +149,19 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="90f3-ba3c-8b77-b652" incrementChildId="4061-f2da-65a1-6c2f" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
         <link id="2a99-9913-aef0-fe7c" targetId="a222-dd3c-d799-0c17" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4061-f2da-65a1-6c2f" targetId="d099-cb99-e60e-31e7" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -222,6 +230,9 @@
                 </modifier>
               </modifiers>
             </link>
+            <link id="6d05-371b-5af1-745b" targetId="d099-cb99-e60e-31e7" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -246,7 +257,12 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="046f-5264-e6d8-89ed" incrementChildId="6d05-371b-5af1-745b" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
@@ -391,7 +407,12 @@
                 <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
                 <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
               </characteristics>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="5+" repeat="true" numRepeats="1" incrementParentId="41a2-c6f8-e40d-d0d6" incrementChildId="d2d2-95cc-f303-94fe" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <links>
@@ -399,6 +420,9 @@
               <modifiers/>
             </link>
             <link id="f888-bcfa-4b24-4666" targetId="20b3-9760-8be2-0c20" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="d2d2-95cc-f303-94fe" targetId="0208-3225-803f-a081" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -462,6 +486,9 @@
                 </modifier>
               </modifiers>
             </link>
+            <link id="00ed-2903-2802-2513" targetId="3947-0098-fe15-9854" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -481,7 +508,12 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="0d4f-e058-4c3c-9ab2" incrementChildId="00ed-2903-2802-2513" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
@@ -495,6 +527,30 @@
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="d099-cb99-e60e-31e7" name="Hardened Carapace (3+)" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="3947-0098-fe15-9854" name="Hardened Carapace (4+)" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="0208-3225-803f-a081" name="Hardened Carapace (5+)" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="c843-b1cc-4cbc-992b" name="Hive Guard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -557,6 +613,9 @@
                 </modifier>
               </modifiers>
             </link>
+            <link id="a2d5-ed52-b52d-d35f" targetId="d099-cb99-e60e-31e7" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -576,7 +635,12 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="7"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="c843-b1cc-4cbc-992b" incrementChildId="a2d5-ed52-b52d-d35f" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
@@ -648,7 +712,12 @@
                 <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
                 <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
               </characteristics>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="5+" repeat="true" numRepeats="1" incrementParentId="c2f5-9616-e63c-e1a0" incrementChildId="f228-32ae-4f18-d502" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <links>
@@ -662,6 +731,9 @@
               <modifiers/>
             </link>
             <link id="f6af-e3d3-bb51-187a" targetId="9068-256b-91d2-942d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="f228-32ae-4f18-d502" targetId="0208-3225-803f-a081" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -769,7 +841,12 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="3028-ea07-e189-e9cc" incrementChildId="7af9-824a-0d85-d508" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
@@ -795,6 +872,9 @@
           <modifiers/>
         </link>
         <link id="dac2-4261-a9c4-c98d" targetId="1536-aed9-9b82-7e55" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7af9-824a-0d85-d508" targetId="3947-0098-fe15-9854" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -874,11 +954,19 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="6cdc-bc59-fb82-1468" incrementChildId="40e2-6b66-251a-0a06" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
         <link id="708e-7fab-2050-19a5" targetId="634d-7737-af49-ccd5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="40e2-6b66-251a-0a06" targetId="d099-cb99-e60e-31e7" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -960,7 +1048,12 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="9bd5-0303-8827-520d" incrementChildId="67a9-dae6-b2c7-d5a7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
@@ -971,6 +1064,9 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           <modifiers/>
         </link>
         <link id="a832-3a25-8d1e-cb3d" targetId="fe26-76a9-2b19-7bfd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="67a9-dae6-b2c7-d5a7" targetId="3947-0098-fe15-9854" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1090,7 +1186,12 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                 <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
                 <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
               </characteristics>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="5+" repeat="true" numRepeats="1" incrementParentId="2d8c-fcf8-396a-5550" incrementChildId="ed7d-9bbf-dfdf-9a60" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <links>
@@ -1104,6 +1205,9 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
               <modifiers/>
             </link>
             <link id="3fe1-8b9a-40dd-41e0" targetId="0885-6edc-a447-728d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="ed7d-9bbf-dfdf-9a60" targetId="0208-3225-803f-a081" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -1229,6 +1333,9 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                 </modifier>
               </modifiers>
             </link>
+            <link id="95a6-3aff-d321-808c" targetId="3947-0098-fe15-9854" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -1253,7 +1360,12 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="c342-0ee0-5699-bf6b" incrementChildId="95a6-3aff-d321-808c" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
@@ -1370,7 +1482,12 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                 <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
                 <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
               </characteristics>
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="5+" repeat="true" numRepeats="1" incrementParentId="192a-118c-f733-bd2f" incrementChildId="740b-ec47-7470-8a42" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </profile>
           </profiles>
           <links>
@@ -1381,6 +1498,9 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
               <modifiers/>
             </link>
             <link id="ccf8-7224-93ab-7fc0" targetId="9068-256b-91d2-942d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="740b-ec47-7470-8a42" targetId="0208-3225-803f-a081" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -1488,7 +1608,12 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="ad61-0506-fc24-917c" incrementChildId="9f5b-c2ff-70f4-09a3" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
@@ -1499,6 +1624,9 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           <modifiers/>
         </link>
         <link id="dae8-781d-ad97-64b3" targetId="8003-f612-47c9-9ca9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9f5b-c2ff-70f4-09a3" targetId="3947-0098-fe15-9854" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1601,6 +1729,9 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                 </modifier>
               </modifiers>
             </link>
+            <link id="6145-70ce-f31a-6498" targetId="d099-cb99-e60e-31e7" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -1625,7 +1756,12 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="93c1-bdda-1cc8-05fd" incrementChildId="6145-70ce-f31a-6498" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
@@ -1788,6 +1924,9 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <link id="6a16-b1ad-735b-922a" targetId="8418-eac5-99a9-e013" linkType="entry">
               <modifiers/>
             </link>
+            <link id="b884-1e76-b384-3fa7" targetId="d099-cb99-e60e-31e7" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -1812,7 +1951,12 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="1ab7-2a22-6c72-d53b" incrementChildId="b884-1e76-b384-3fa7" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <links>
