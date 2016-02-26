@@ -6,52 +6,42 @@
   <sharedEntries/>
   <sharedEntryGroups/>
   <sharedRules>
+    <rule id="a76f-f3bc-b8f2-abb4" name="Blind" hidden="false" book="40k BRB" page="159">
+      <modifiers/>
+    </rule>
     <rule id="c80f-6ba2-8caa-c527" name="Concussive" hidden="false" book="40k BRB" page="163">
-      <description></description>
       <modifiers/>
     </rule>
-    <rule id="fcac-f6f2-0799-c414" name="Homing" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
-      <description>Does not need Line of Sight to target</description>
-      <modifiers/>
-    </rule>
-    <rule id="cf1c-7144-3fb9-cfec" name="Pinning" hidden="false">
+    <rule id="0f20-efe3-28be-8a61" name="Feel No Pain" hidden="false" book="40k BRB" page="164">
       <modifiers/>
     </rule>
     <rule id="c274-bfd0-f90b-0e12" name="Flamer" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
       <description>Uses the flamer rules in the core Kill Team rules, page 5.</description>
       <modifiers/>
     </rule>
-    <rule id="a76f-f3bc-b8f2-abb4" name="Blind" hidden="false" book="40k BRB" page="159">
+    <rule id="e6d2-79c1-a77a-962f" name="Gets Hot" hidden="false" book="40k BRB" page="164">
       <modifiers/>
     </rule>
-    <rule id="00f9-920e-419f-6cc4" name="Strikedown" hidden="false" book="40k BRB" page="172">
+    <rule id="fcac-f6f2-0799-c414" name="Homing" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
+      <description>Does not need Line of Sight to target</description>
+      <modifiers/>
+    </rule>
+    <rule id="9347-bafd-6051-4bdd" name="Infiltrate" hidden="false" book="40k BRB" page="167">
       <modifiers/>
     </rule>
     <rule id="c0d6-235e-995c-6681" name="Inspiring Presence" hidden="false" book="Kill Team Core Rules v3.1" page="7">
       <description>Any friendly model within 6&quot; of this model may use its Leadership for all Leadership tests.</description>
       <modifiers/>
     </rule>
-    <rule id="d027-8af3-5779-dc39" name="Riot Tactics" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
-      <description>When charged, a model with the Riot Tactics special rule may take a Leadership Test. If this test is successful, charging models lose their bonus attacks from charging the model with Riot Tactics.</description>
-      <modifiers/>
-    </rule>
-    <rule id="cb5d-5a88-5807-b36b" name="Stubborn" hidden="false" book="40k BRB" page="172">
-      <description></description>
-      <modifiers/>
-    </rule>
     <rule id="226e-5c41-6768-0ff4" name="Judge, Jury, Executioner" hidden="false" book="Kill Team List: Adeptus Arbits" page="2">
       <description>After deployment, the Judge may name a single enemy model the ‘perpetrator’ for the duration of this game. All failed rolls of To Hit and Wound made by the Judge against the perpetrator must be re-rolled.</description>
       <modifiers/>
     </rule>
-    <rule id="a38a-78cf-aefb-bc8c" name="Voice of the Law" hidden="false" book="Kill Team List: Adeptus Arbites" page="2">
-      <description>Any friendly model within the Inspiring Presence radius of the Judge gains the Stubborn special rule.</description>
+    <rule id="6593-2c55-60de-93bf" name="Lone Wolf" hidden="false" book="Kill Team List: Adeptus Arbites">
+      <description>A Mortiurge operates better alone and is never affected by the Inspiring Presence or Voice of the Law rules.</description>
       <modifiers/>
     </rule>
-    <rule id="b1e3-e15f-315b-df06" name="Shield Wall" hidden="false" book="Kill Team List: Adeptus Arbites" page="4">
-      <description>If a model with a Suppression Shield is in base contact with another friendly model with a Suppression Shield they form a ‘shield wall’. Any enemy models that successfully charge a model that is part of a ‘shield wall’ counts its Initiative as being 1, exactly as if the charging model had moved through terrain (which means some models may ignore this rule – e.g. assault/frag grenades, etc.).</description>
-      <modifiers/>
-    </rule>
-    <rule id="c9e1-7d79-fe96-9d87" name="Scout" hidden="false" book="40k BRB" page="171">
+    <rule id="7de6-7e30-ad46-10ef" name="Master-Crafted" hidden="false" book="40k BRB" page="167">
       <modifiers/>
     </rule>
     <rule id="daad-60d3-c454-41ce" name="Move Through Cover" hidden="false" book="40k BRB" page="168">
@@ -61,36 +51,52 @@
       <description>The model passes all Initiative tests caused by the Flamer rule, and may never gain a Burning counter for any reason.</description>
       <modifiers/>
     </rule>
-    <rule id="9347-bafd-6051-4bdd" name="Infiltrate" hidden="false" book="40k BRB" page="167">
-      <description></description>
+    <rule id="cf1c-7144-3fb9-cfec" name="Pinning" hidden="false">
       <modifiers/>
     </rule>
     <rule id="3579-eb4f-cc5a-4aaf" name="Primary Target" hidden="false" book="Kill Team List: Adeptus Arbites" page="4">
       <description>At the beginning of every game choose one enemy model in the opponent’s team. Any Arbites Mortiurges in your team gain the Preferred Enemy special rule against that model.</description>
       <modifiers/>
     </rule>
-    <rule id="6593-2c55-60de-93bf" name="Lone Wolf" hidden="false" book="Kill Team List: Adeptus Arbites">
-      <description>A Mortiurge operates better alone and is never affected by the Inspiring Presence or Voice of the Law rules.</description>
-      <modifiers/>
-    </rule>
     <rule id="3f41-2146-3680-711f" name="Ricochet" hidden="false" book="Kill Team List: Adeptus Arbites" page="5">
       <description>If the Ricochet Bolt hits its target but doesn’t Wound, immediately roll a D6. On a 4+ choose one enemy model within 6” to be automatically hit – roll to Wound against that model as normal. This can happen only once.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d027-8af3-5779-dc39" name="Riot Tactics" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
+      <description>When charged, a model with the Riot Tactics special rule may take a Leadership Test. If this test is successful, charging models lose their bonus attacks from charging the model with Riot Tactics.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c9e1-7d79-fe96-9d87" name="Scout" hidden="false" book="40k BRB" page="171">
+      <modifiers/>
+    </rule>
+    <rule id="b1e3-e15f-315b-df06" name="Shield Wall" hidden="false" book="Kill Team List: Adeptus Arbites" page="4">
+      <description>If a model with a Suppression Shield is in base contact with another friendly model with a Suppression Shield they form a ‘shield wall’. Any enemy models that successfully charge a model that is part of a ‘shield wall’ counts its Initiative as being 1, exactly as if the charging model had moved through terrain (which means some models may ignore this rule – e.g. assault/frag grenades, etc.).</description>
       <modifiers/>
     </rule>
     <rule id="05ce-169c-f744-29cd" name="Smoke" hidden="false" book="Kill Team List: Adeptus Arbites" page="5">
       <description>Any model that is hit by this weapon gains a 5+ cover save until the start of their next turn. You may target friendly models with this weapon.</description>
       <modifiers/>
     </rule>
-    <rule id="7de6-7e30-ad46-10ef" name="Master-Crafted" hidden="false" book="40k BRB" page="167">
+    <rule id="00f9-920e-419f-6cc4" name="Strikedown" hidden="false" book="40k BRB" page="172">
       <modifiers/>
     </rule>
-    <rule id="e6d2-79c1-a77a-962f" name="Gets Hot" hidden="false" book="40k BRB" page="164">
+    <rule id="cb5d-5a88-5807-b36b" name="Stubborn" hidden="false" book="40k BRB" page="172">
       <modifiers/>
     </rule>
-    <rule id="0f20-efe3-28be-8a61" name="Feel No Pain" hidden="false" book="40k BRB" page="164">
-      <description></description>
+    <rule id="a38a-78cf-aefb-bc8c" name="Voice of the Law" hidden="false" book="Kill Team List: Adeptus Arbites" page="2">
+      <description>Any friendly model within the Inspiring Presence radius of the Judge gains the Stubborn special rule.</description>
       <modifiers/>
     </rule>
   </sharedRules>
-  <sharedProfiles/>
+  <sharedProfiles>
+    <profile id="140b-b15a-095f-42ee" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Shock Maul" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Concussive"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
 </catalogue>
