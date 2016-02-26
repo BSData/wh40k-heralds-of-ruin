@@ -3,7 +3,29 @@
   <entries/>
   <rules/>
   <links/>
-  <sharedEntries/>
+  <sharedEntries>
+    <entry id="08bf-f179-5f20-3313" name="Arbites Grenade Launcher" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2cbd-2e48-3e03-5f2b" targetId="029d-0fc5-3a09-1168" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="39ed-a5ca-1e4f-459b" targetId="5228-90b7-c5e3-af5b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="aad0-8395-4165-7c5a" targetId="402f-91c2-e9e1-a93c" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="47d7-9fbc-b6ea-1d3c" targetId="68ae-c579-68e6-1c4e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
     <rule id="a76f-f3bc-b8f2-abb4" name="Blind" hidden="false" book="40k BRB" page="159">
@@ -89,6 +111,15 @@
     </rule>
   </sharedRules>
   <sharedProfiles>
+    <profile id="f36d-580f-f306-998f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Combat Shotgun" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="140b-b15a-095f-42ee" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Shock Maul" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
@@ -98,12 +129,39 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f36d-580f-f306-998f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Combat Shotgun" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
+    <profile id="029d-0fc5-3a09-1168" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arbites Grenade Launcher (Frag Grenade)" hidden="false" book="Kill Team List: Adeptus Arbites">
       <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5228-90b7-c5e3-af5b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arbites Grenade Launcher (Krak Grenade)" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value=""/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="402f-91c2-e9e1-a93c" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arbites Grenade Launcher (Gas Grenade)" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value=""/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value=""/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast, Poison (4+)"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="68ae-c579-68e6-1c4e" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arbites Grenade Launcher (Stun Grenade)" hidden="false" book="Kill Team List: Adeptus Arbites">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value=""/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blind"/>
       </characteristics>
       <modifiers/>
     </profile>
