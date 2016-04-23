@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f5d4-8fef-6aa4-f14c" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="2" battleScribeVersion="1.15" name="Tau: HoR" books="Kill Team: Tau Empire v2.3" authorName="bitfury" authorContact="@BSData" authorUrl="http://github.com/bitfury" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f5d4-8fef-6aa4-f14c" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="2" battleScribeVersion="1.15" name="Tau: HoR" books="Kill Team: Tau Empire v2.3" authorName="bitfury" authorContact="@BSData" authorUrl="http://github.com/bitfury" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -522,7 +522,7 @@
           <entryGroups>
             <entryGroup id="1e80-f4ce-8642-103b" name="Twin-linked Weapons - Counts as 2 Selections" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="d56e-1b41-b85f-55f3" name="Twin-linked Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="d56e-1b41-b85f-55f3" name="Twin-linked Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -534,7 +534,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="6a1e-77f4-a7f5-4a67" name="Twin-linked Burst Cannon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="6a1e-77f4-a7f5-4a67" name="Twin-linked Burst Cannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -546,7 +546,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="a698-da16-f291-5e6d" name="Twin-linked Fusion Blaster" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="a698-da16-f291-5e6d" name="Twin-linked Fusion Blaster" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -558,7 +558,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="73ca-2f21-4dec-171f" name="Twin-linked Missile Pod" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="73ca-2f21-4dec-171f" name="Twin-linked Missile Pod" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -570,7 +570,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="9950-1bb6-c0c8-dd85" name="Twin-linked Plasma Rifle" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="9950-1bb6-c0c8-dd85" name="Twin-linked Plasma Rifle" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -613,7 +613,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="34cf-b86f-e62a-f3c8" name="Fusion Blaster" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="34cf-b86f-e62a-f3c8" name="Fusion Blaster" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -625,7 +625,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="32fb-b9d7-2296-c47a" name="Missile Pod" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="32fb-b9d7-2296-c47a" name="Missile Pod" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -637,7 +637,7 @@
                     </link>
                   </links>
                 </entry>
-                <entry id="aa33-759d-7161-f5fd" name="Plasma Rifle" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="aa33-759d-7161-f5fd" name="Plasma Rifle" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
                   <entryGroups/>
                   <modifiers/>
@@ -2020,9 +2020,9 @@
         </link>
       </links>
     </entry>
-    <entry id="25be-8667-d2c5-2124" name="Sniper Drone Team" points="28.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="25be-8667-d2c5-2124" name="Sniper Drone Team" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="1f73-6805-24e5-e818" name="Firesight Marksman" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="1f73-6805-24e5-e818" name="Firesight Marksman" points="13.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="775d-0591-1d62-3fc3" name="Combat Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -2095,7 +2095,7 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="ca23-6717-5fcb-9c77" name="Sniper Drone" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="ca23-6717-5fcb-9c77" name="Sniper Drone" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="6056-7370-05b3-db86" name="Longshot Pulse Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -3310,24 +3310,6 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="e645-6ae8-0720-f216" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Heavy Rail Rifle" hidden="false" book="Codex: Tau Empire" page="66">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="60&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="e967-86e3-1667-9f37" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked High-yield Missile Pod" hidden="false" book="Codex: Tau Empire" page="66">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 4"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="847f-16a4-da89-88fc" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Homing Beacon" hidden="false" book="Codex: Tau Empire" page="69">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Friendly units arriving by Deep Strike do not scatter as long as the first model is placed within 6&quot; of a model with a homing beacon."/>
@@ -3553,15 +3535,6 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d9b7-5e3e-675f-274b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Smart Missile System" hidden="false" book="Codex: Tau Empire" page="66">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="30&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 4, Homing, Ignores Cover"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="8bbf-b5ee-a623-a41f" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Specialist Hunter" hidden="false" book="HoR: Kill Team - Tau">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model gains Preferred Enemy (Codex). Choose the ‘Codex’ when the model buys this wargear."/>
@@ -3580,6 +3553,96 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="ecd0-0560-88b9-ab1d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Burst Cannon" hidden="false" book="Codex: Tau Empire" page="65">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 4"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c5b2-6272-690c-e541" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Flamer" hidden="false" book="Warhammer 40,000 Rulebook" page="56">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c4ea-d08e-3cf6-33cf" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Fusion Blaster" hidden="false" book="Codex: Tau Empire" page="65">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Melta"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e645-6ae8-0720-f216" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Heavy Rail Rifle" hidden="false" book="Codex: Tau Empire" page="66">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="60&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e967-86e3-1667-9f37" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked High-yield Missile Pod" hidden="false" book="Codex: Tau Empire" page="66">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 4"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4269-b799-f241-13bd" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Missile Pod" hidden="false" book="Codex: Tau Empire" page="66">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="32b8-331f-cdbd-9185" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Plasma Rifle" hidden="false" book="Codex: Tau Empire" page="66">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8bdf-ca8a-aed3-aa94" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Pulse Carbine" hidden="false" book="Codex: Tau Empire" page="66">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2, Pinning"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="156a-3a03-3a5b-862b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Pulse Rifle" hidden="false" book="Codex: Tau Empire" page="66">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="30&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d9b7-5e3e-675f-274b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Smart Missile System" hidden="false" book="Codex: Tau Empire" page="66">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="30&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 4, Homing, Ignores Cover"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="67e4-5756-3c9c-27dc" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Vectored Retro-thrusters" hidden="false" book="Codex: Tau Empire" page="69">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Fleet and Hit &amp; Run."/>
@@ -3595,69 +3658,6 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
     <profile id="c694-b23c-be25-ed9d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="XV8-02 Crisis &apos;Iridium&apos; Battlesuit" hidden="false">
       <characteristics>
         <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Gives +1 Toughness and a 2+ Armour Save."/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="156a-3a03-3a5b-862b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Pulse Rifle" hidden="false" book="Codex: Tau Empire" page="66">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="30&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="32b8-331f-cdbd-9185" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Plasma Rifle" hidden="false" book="Codex: Tau Empire" page="66">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="c5b2-6272-690c-e541" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Flamer" hidden="false" book="Warhammer 40,000 Rulebook" page="56">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="ecd0-0560-88b9-ab1d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Burst Cannon" hidden="false" book="Codex: Tau Empire" page="65">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 4"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="c4ea-d08e-3cf6-33cf" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Fusion Blaster" hidden="false" book="Codex: Tau Empire" page="65">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Melta"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="4269-b799-f241-13bd" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Missile Pod" hidden="false" book="Codex: Tau Empire" page="66">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="8bdf-ca8a-aed3-aa94" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Twin-linked Pulse Carbine" hidden="false" book="Codex: Tau Empire" page="66">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2, Pinning"/>
       </characteristics>
       <modifiers/>
     </profile>
