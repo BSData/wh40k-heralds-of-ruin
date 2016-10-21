@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bd35-6839-e9d0-54cb" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Tyranids: HoR" books="Kill Team: Tyranids v2.1" authorName="azdiscord" authorContact="azdiscord@yandex.ru" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="be8f-1301-f0d1-004c" revision="11" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Tyranids: HoR" books="Kill Team: Tyranids v2.1" authorName="beckian" authorContact="beckiantrash@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
-    <link id="8953-345f-0e1d-bead" targetId="48b4-a062-93b5-d86a" linkType="entry" categoryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <link id="8953-345f-0e1d-bead" targetId="48b4-a062-93b5-d86a" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
       <modifiers/>
     </link>
     <link id="d2fe-4e41-6ea8-d0c4" targetId="1ab7-2a22-6c72-d53b" linkType="entry" categoryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
@@ -71,6 +71,12 @@
     <link id="d815-d9c9-4b28-35b9" targetId="0d4f-e058-4c3c-9ab2" linkType="entry" categoryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
       <modifiers/>
     </link>
+    <link id="fa6f-5a77-3f69-384b" targetId="9af5-0dd3-fff2-7f6f" linkType="entry" categoryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+      <modifiers/>
+    </link>
+    <link id="3ecc-12b7-d45c-7b75" targetId="b59d-6dd4-a7c5-18e4" linkType="entry" categoryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+      <modifiers/>
+    </link>
   </links>
   <sharedEntries>
     <entry id="169f-f5a3-c507-aaa5" name="Acid Blood" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -85,7 +91,7 @@
         </link>
       </links>
     </entry>
-    <entry id="8794-0c19-2be5-15c8" name="Adrenal Glands" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="8794-0c19-2be5-15c8" name="Adrenal Glands" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -149,19 +155,11 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="90f3-ba3c-8b77-b652" incrementChildId="4061-f2da-65a1-6c2f" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
         <link id="2a99-9913-aef0-fe7c" targetId="a222-dd3c-d799-0c17" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4061-f2da-65a1-6c2f" targetId="d099-cb99-e60e-31e7" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -205,14 +203,6 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="3c2f-2283-bd86-a5fe" targetId="bc47-58d4-12e2-67e3" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
             <link id="1099-87fa-0eb5-b7bb" targetId="5041-6d5a-ad95-af3c" linkType="entry">
               <modifiers/>
             </link>
@@ -223,14 +213,17 @@
               <modifiers/>
             </link>
             <link id="54e8-a59f-1dcd-c5cc" targetId="8418-eac5-99a9-e013" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="01de-bfb8-8350-b00c" targetId="bc47-58d4-12e2-67e3" linkType="entry">
               <modifiers>
-                <modifier type="set" field="points" value="30.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
             </link>
-            <link id="6d05-371b-5af1-745b" targetId="d099-cb99-e60e-31e7" linkType="entry">
+            <link id="ab9d-b884-5aa9-4b9c" targetId="57ea-a58a-5a2e-a216" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -257,12 +250,7 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="046f-5264-e6d8-89ed" incrementChildId="6d05-371b-5af1-745b" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -292,6 +280,24 @@
         </link>
       </links>
     </entry>
+    <entry id="f8b0-e9b3-ace6-ff57" name="Crushing Claws" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e490-8368-7ebd-d720" targetId="c577-d6ef-922c-3c68" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6e90-cf13-fc08-d6c9" targetId="27c8-1d4d-4e36-f3d2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="61dc-dca6-71ac-4bd8" targetId="f608-d3cb-8aef-af8e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7aa2-92b2-92b7-00a8" name="Deathspitter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
@@ -312,6 +318,21 @@
       <profiles/>
       <links>
         <link id="7d07-d927-2c0e-dc34" targetId="fdc4-0698-8f16-dd9b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bf58-fbfe-ecb8-3f2f" name="Diamond Coated Rending Claws" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b2b7-5578-46be-dc6b" targetId="2a7b-5b32-de6d-8643" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="27e8-7211-45fa-03d3" targetId="2c3e-88ff-e51e-eaa6" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -407,12 +428,7 @@
                 <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
                 <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
               </characteristics>
-              <modifiers>
-                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="5+" repeat="true" numRepeats="1" incrementParentId="41a2-c6f8-e40d-d0d6" incrementChildId="d2d2-95cc-f303-94fe" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </profile>
           </profiles>
           <links>
@@ -420,9 +436,6 @@
               <modifiers/>
             </link>
             <link id="f888-bcfa-4b24-4666" targetId="20b3-9760-8be2-0c20" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="d2d2-95cc-f303-94fe" targetId="0208-3225-803f-a081" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -480,13 +493,13 @@
             </link>
             <link id="c1f8-489e-b352-c521" targetId="bc47-58d4-12e2-67e3" linkType="entry">
               <modifiers>
-                <modifier type="set" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
               </modifiers>
             </link>
-            <link id="00ed-2903-2802-2513" targetId="3947-0098-fe15-9854" linkType="entry">
+            <link id="275f-1be3-a98a-091a" targetId="ffb5-cd81-afb3-c504" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -508,12 +521,7 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="0d4f-e058-4c3c-9ab2" incrementChildId="00ed-2903-2802-2513" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -526,34 +534,41 @@
         <link id="6b86-886d-b263-b7ff" targetId="9068-256b-91d2-942d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="0e8f-497d-56f7-9db6" targetId="1536-aed9-9b82-7e55" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="d099-cb99-e60e-31e7" name="Hardened Carapace (3+)" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ffb5-cd81-afb3-c504" name="Hardened Carapace" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="3947-0098-fe15-9854" name="Hardened Carapace (4+)" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="0208-3225-803f-a081" name="Hardened Carapace (5+)" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
+      <profiles>
+        <profile id="1e14-b558-d931-4bc3" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Hardened Carapace" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model has a hard chitinous exoskeleton, protecting it from harm. The model improves its armour save by 1. A 5+ save would become a 4+."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="c843-b1cc-4cbc-992b" name="Hive Guard" points="55.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
+      <entries>
+        <entry id="e3a8-4b18-ae0f-cb4f" name="Evolved Hive Guard" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7b98-8da9-238a-f427" targetId="961f-bb69-fe63-690b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups>
         <entryGroup id="c9ab-1370-4973-db3a" name="Weapon" defaultEntryId="111f-c78f-fb2b-5ce6" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
@@ -613,9 +628,6 @@
                 </modifier>
               </modifiers>
             </link>
-            <link id="a2d5-ed52-b52d-d35f" targetId="d099-cb99-e60e-31e7" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -635,12 +647,7 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="7"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="c843-b1cc-4cbc-992b" incrementChildId="a2d5-ed52-b52d-d35f" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -653,7 +660,7 @@
       <entries>
         <entry id="c2f5-9616-e63c-e1a0" name="Hormagaunt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="da65-722d-0478-3374" name="Adrenal Glands" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+            <entry id="da65-722d-0478-3374" name="Adrenal Glands" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -665,7 +672,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="3b7a-fe6f-1ab9-c872" name="Toxin Sacs" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+            <entry id="3b7a-fe6f-1ab9-c872" name="Toxin Sacs" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -712,12 +719,7 @@
                 <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
                 <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
               </characteristics>
-              <modifiers>
-                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="5+" repeat="true" numRepeats="1" incrementParentId="c2f5-9616-e63c-e1a0" incrementChildId="f228-32ae-4f18-d502" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </profile>
           </profiles>
           <links>
@@ -731,9 +733,6 @@
               <modifiers/>
             </link>
             <link id="f6af-e3d3-bb51-187a" targetId="9068-256b-91d2-942d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="f228-32ae-4f18-d502" targetId="0208-3225-803f-a081" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -841,12 +840,7 @@
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="3028-ea07-e189-e9cc" incrementChildId="7af9-824a-0d85-d508" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -874,8 +868,148 @@
         <link id="dac2-4261-a9c4-c98d" targetId="1536-aed9-9b82-7e55" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7af9-824a-0d85-d508" targetId="3947-0098-fe15-9854" linkType="entry">
+      </links>
+    </entry>
+    <entry id="9af5-0dd3-fff2-7f6f" name="Neurothrope" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="6ca2-d20f-f74c-5204" name="May take any of the following" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
           <modifiers/>
+          <links>
+            <link id="02b1-4ca5-dab8-6d12" targetId="169f-f5a3-c507-aaa5" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="8233-87cc-7fb7-22de" targetId="8794-0c19-2be5-15c8" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4980-7786-1a6c-f878" targetId="8418-eac5-99a9-e013" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6321-69e9-6110-9f7a" targetId="5041-6d5a-ad95-af3c" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="37dd-366b-1665-bb2c" targetId="63c3-5eec-93ab-6196" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="827c-574d-71df-72b2" name="May take any of the following" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="5ef1-7100-7a23-0285" targetId="c847-a71d-5180-9a78" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ee58-e8c0-0460-2359" targetId="d490-b19e-d08b-adce" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="49fa-0e4f-3579-010a" targetId="9024-12c8-9c54-a723" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="c502-185b-0248-9f7e" name="Psychic Powers" hidden="false">
+          <description>Before the battle the Neurothrope may choose two Psychic Powers from the Power of the Hive Mind discipline from Codex: Tyranid.
+If one warp blast is chosen as a shooting mode the Neurothrope becomes ML1
+If both warp blast mode are chosen the Neurothrope become ML0 </description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ce8e-4240-23fd-51c1" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Neurothrope" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry (Character)"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="3"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cf8c-324d-62d8-7042" targetId="b48a-0138-4e34-c0f3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e14d-0c16-2bd5-6f38" targetId="c424-ff37-94f2-5b12" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="64cd-1770-8279-fa3c" targetId="89e1-9be1-9d52-01ac" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3958-8091-02ca-b971" targetId="0f6e-a5bc-aca0-8443" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="86ff-4688-f710-801b" targetId="b32a-efba-cfd0-7608" linkType="rule">
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="c847-a71d-5180-9a78" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="d490-b19e-d08b-adce" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="c847-a71d-5180-9a78" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="d490-b19e-d08b-adce" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="53a8-26a0-eb2d-546c" targetId="e9f8-fed7-73fd-38c2" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="51e0-1b14-2287-8c89" targetId="28e3-2d5e-b421-33f6" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="eef3-dae1-46fb-9dc5" targetId="0923-8173-a725-1ca3" linkType="rule">
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="c847-a71d-5180-9a78" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="roster" childId="d490-b19e-d08b-adce" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -935,8 +1069,7 @@
       <rules>
         <rule id="9127-134a-a57f-e13e" name="Volatile" hidden="false" book="Codex: Tyranids" page="51">
           <description>If a Pyrovore is slain by a Wound that inflicted Instant Death, every unit suffers a
-Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the slain Pyrovore
-(resolve damage before removing the Pyrovore as a casualty).</description>
+Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the slain Pyrovore (resolve damage before removing the Pyrovore as a casualty).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -954,19 +1087,11 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="6cdc-bc59-fb82-1468" incrementChildId="40e2-6b66-251a-0a06" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
         <link id="708e-7fab-2050-19a5" targetId="634d-7737-af49-ccd5" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="40e2-6b66-251a-0a06" targetId="d099-cb99-e60e-31e7" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1031,6 +1156,21 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             </link>
           </links>
         </entryGroup>
+        <entryGroup id="b492-8825-8932-73dc" name="May take any of the following" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="68a7-1a56-73d9-0106" targetId="14f3-bd5b-e9f9-9719" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
@@ -1048,12 +1188,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="9bd5-0303-8827-520d" incrementChildId="67a9-dae6-b2c7-d5a7" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -1066,12 +1201,9 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <link id="a832-3a25-8d1e-cb3d" targetId="fe26-76a9-2b19-7bfd" linkType="rule">
           <modifiers/>
         </link>
-        <link id="67a9-dae6-b2c7-d5a7" targetId="3947-0098-fe15-9854" linkType="entry">
-          <modifiers/>
-        </link>
       </links>
     </entry>
-    <entry id="8418-eac5-99a9-e013" name="Regeneration" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+    <entry id="8418-eac5-99a9-e013" name="Regeneration" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1114,7 +1246,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                 </link>
               </links>
             </entry>
-            <entry id="8d89-d47c-f00d-a758" name="Toxin Sacs" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+            <entry id="8d89-d47c-f00d-a758" name="Toxin Sacs" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1186,12 +1318,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                 <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
                 <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
               </characteristics>
-              <modifiers>
-                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="5+" repeat="true" numRepeats="1" incrementParentId="2d8c-fcf8-396a-5550" incrementChildId="ed7d-9bbf-dfdf-9a60" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </profile>
           </profiles>
           <links>
@@ -1205,9 +1332,6 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
               <modifiers/>
             </link>
             <link id="3fe1-8b9a-40dd-41e0" targetId="0885-6edc-a447-728d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="ed7d-9bbf-dfdf-9a60" targetId="0208-3225-803f-a081" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -1231,6 +1355,28 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
       <profiles/>
       <links>
         <link id="1f65-65c9-6e1a-671e" targetId="127e-35cd-b71d-1e2f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b0ec-5a8a-2b6d-9b54" targetId="fba3-800b-cd4e-5abf" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bd43-e67f-2780-21c5" name="Shredder Shard Beetle Bombs" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9991-236f-dbb7-685b" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Shredder Shard Beetle Bombs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Biovore gains the ability to shoot Shredder Shard Beetle Bombs"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b412-56fa-8cab-5abd" targetId="1474-dc93-c6ab-5fd1" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1311,7 +1457,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           <links>
             <link id="2afc-252d-6cee-8853" targetId="14f3-bd5b-e9f9-9719" linkType="entry">
               <modifiers>
-                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
@@ -1332,9 +1478,6 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-            </link>
-            <link id="95a6-3aff-d321-808c" targetId="3947-0098-fe15-9854" linkType="entry">
-              <modifiers/>
             </link>
           </links>
         </entryGroup>
@@ -1360,12 +1503,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="c342-0ee0-5699-bf6b" incrementChildId="95a6-3aff-d321-808c" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -1392,11 +1530,35 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         </link>
       </links>
     </entry>
+    <entry id="63c3-5eec-93ab-6196" name="Spirit Leech" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e92f-6f21-5ce4-4171" targetId="3065-f896-e218-84db" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="57ea-a58a-5a2e-a216" name="Stealth" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c168-7020-4033-2985" targetId="1536-aed9-9b82-7e55" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="cc32-d198-9593-ada3" name="Termagant Brood" points="20.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="192a-118c-f733-bd2f" name="Termagant" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="5" maxSelections="5" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="2c3b-593e-2417-c3cb" name="Adrenal Glands" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+            <entry id="2c3b-593e-2417-c3cb" name="Adrenal Glands" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1408,7 +1570,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                 </link>
               </links>
             </entry>
-            <entry id="040f-94fb-8107-2e70" name="Toxin Sacs" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+            <entry id="040f-94fb-8107-2e70" name="Toxin Sacs" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1482,12 +1644,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                 <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
                 <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
               </characteristics>
-              <modifiers>
-                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="5+" repeat="true" numRepeats="1" incrementParentId="192a-118c-f733-bd2f" incrementChildId="740b-ec47-7470-8a42" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </profile>
           </profiles>
           <links>
@@ -1498,9 +1655,6 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
               <modifiers/>
             </link>
             <link id="ccf8-7224-93ab-7fc0" targetId="9068-256b-91d2-942d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="740b-ec47-7470-8a42" targetId="0208-3225-803f-a081" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -1541,6 +1695,108 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
       <profiles/>
       <links>
         <link id="5a63-6eb3-7a58-dadd" targetId="c95b-9269-eec3-4c8e" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b59d-6dd4-a7c5-18e4" name="Tyrant Guard" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="837a-49bc-9bb4-e71d" name="Armoured plates" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7810-956c-3146-92db" targetId="44ab-1988-262d-70ff" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="18de-7409-4925-6c80" name="Rending Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7f7d-020d-57a0-4501" targetId="ba89-03f8-b4ab-aec0" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="8270-6560-86e6-92c1" targetId="909c-c1d1-2ec3-9087" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="0939-7069-9e26-bffe" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="c7ec-acf2-6ea8-4879" targetId="b79b-c3aa-eb32-3aeb" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="deef-3f59-961c-f2a1" targetId="bc47-58d4-12e2-67e3" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="4fbe-d302-a081-e210" targetId="f8b0-e9b3-ace6-ff57" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="fa90-4c49-49c4-6f79" name="May take any of the following" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a7d6-a312-562f-e2a5" targetId="5041-6d5a-ad95-af3c" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="51f9-5640-a75a-015b" targetId="8794-0c19-2be5-15c8" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1229-5824-2ae8-d73c" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Tyrant Guard" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+            <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="5"/>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="3"/>
+            <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="5"/>
+            <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="6"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="2"/>
+            <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="4"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="3"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="7"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="3+"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7be9-92ad-512d-8a2f" targetId="634d-7737-af49-ccd5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b436-747c-828e-37d7" targetId="dd06-7948-82fd-c699" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6057-7687-4c2f-37b9" targetId="ec0d-27e3-af6f-d1dd" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1608,12 +1864,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4+" repeat="true" numRepeats="1" incrementParentId="ad61-0506-fc24-917c" incrementChildId="9f5b-c2ff-70f4-09a3" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -1626,7 +1877,28 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <link id="dae8-781d-ad97-64b3" targetId="8003-f612-47c9-9ca9" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9f5b-c2ff-70f4-09a3" targetId="3947-0098-fe15-9854" linkType="entry">
+      </links>
+    </entry>
+    <entry id="c847-a71d-5180-9a78" name="Warp blast" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="735c-66c7-1e0e-c670" targetId="555e-4655-b80a-a9bf" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d490-b19e-d08b-adce" name="Warp blast - Lance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="68f4-8f19-a5a6-283e" targetId="22bd-5c2c-58fb-c1d3" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1707,7 +1979,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           <links>
             <link id="8dae-b9d7-69c6-5e9f" targetId="14f3-bd5b-e9f9-9719" linkType="entry">
               <modifiers>
-                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
@@ -1728,9 +2000,6 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-            </link>
-            <link id="6145-70ce-f31a-6498" targetId="d099-cb99-e60e-31e7" linkType="entry">
-              <modifiers/>
             </link>
           </links>
         </entryGroup>
@@ -1756,12 +2025,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="93c1-bdda-1cc8-05fd" incrementChildId="6145-70ce-f31a-6498" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -1780,42 +2044,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
       <entries/>
       <entryGroups>
         <entryGroup id="defd-63e2-a2ab-0a19" name="First Weapon" defaultEntryId="1c99-b42c-016f-f0f8" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="fb42-35ee-7039-b0b5" name="Distended Pincers" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="1ab7-2a22-6c72-d53b" childId="9bdf-c24e-a288-3baf" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules>
-                <rule id="9634-6315-d5e2-1f4b" name="Reaping" hidden="false">
-                  <description>All attacks made with Distended Pincers by this model may re-roll To Hit rolls of 1.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="d0ad-e3a9-fdcc-2dc6" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Distended Pincers" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
-                    <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
-                    <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
-                    <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Unwieldy, Reaping"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="66cf-6f1b-bcd4-52e2" targetId="f608-d3cb-8aef-af8e" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+          <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
@@ -1848,42 +2077,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           </links>
         </entryGroup>
         <entryGroup id="90d5-8feb-cad0-bbbd" name="Second Weapon" defaultEntryId="7886-6edf-a7bb-5a99" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="9bdf-c24e-a288-3baf" name="Distended Pincers" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="1ab7-2a22-6c72-d53b" childId="fb42-35ee-7039-b0b5" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <rules>
-                <rule id="2892-dda8-8170-1a36" name="Reaping" hidden="false">
-                  <description>All attacks made with Distended Pincers by this model may re-roll To Hit rolls of 1.</description>
-                  <modifiers/>
-                </rule>
-              </rules>
-              <profiles>
-                <profile id="0da2-c71a-2a5f-a572" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Distended Pincers" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
-                    <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
-                    <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
-                    <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Unwieldy, Reaping"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="dd0e-09c0-757f-7e6e" targetId="f608-d3cb-8aef-af8e" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
+          <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
@@ -1924,9 +2118,6 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <link id="6a16-b1ad-735b-922a" targetId="8418-eac5-99a9-e013" linkType="entry">
               <modifiers/>
             </link>
-            <link id="b884-1e76-b384-3fa7" targetId="d099-cb99-e60e-31e7" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -1951,12 +2142,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
             <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+" repeat="true" numRepeats="1" incrementParentId="1ab7-2a22-6c72-d53b" incrementChildId="b884-1e76-b384-3fa7" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </profile>
       </profiles>
       <links>
@@ -1979,7 +2165,37 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
     </entry>
     <entry id="48b4-a062-93b5-d86a" name="Zoanthrope" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="609d-0ce1-e363-ddfc" name="May take any of the following" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9461-ed88-6108-54af" targetId="169f-f5a3-c507-aaa5" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="1a4b-7868-eac3-68b5" targetId="8794-0c19-2be5-15c8" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="a6a4-2c49-3ee9-0e17" targetId="8418-eac5-99a9-e013" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="49cc-a67b-8d9b-4f63" targetId="5041-6d5a-ad95-af3c" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="a18d-43de-8eef-e7a7" name="Psychic Powers" hidden="false">
@@ -1990,12 +2206,12 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
       <profiles>
         <profile id="8051-9373-22c5-ce86" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Zoanthrope" hidden="false">
           <characteristics>
-            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry (Character)"/>
+            <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
             <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="3"/>
             <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
             <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
             <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="3"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="2"/>
             <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="3"/>
             <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
@@ -2032,7 +2248,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
   <sharedEntryGroups>
     <entryGroup id="e9f8-fed7-73fd-38c2" name="Tyranids Armoury" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="545f-634b-a8d5-8105" name="Thornback" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="545f-634b-a8d5-8105" name="Thornback" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2047,15 +2263,32 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           </profiles>
           <links/>
         </entry>
-        <entry id="37f3-75b1-8a38-b2a6" name="Hardened Carapace" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="37f3-75b1-8a38-b2a6" name="Hardened Carapace" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="046f-5264-e6d8-89ed" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="48b4-a062-93b5-d86a" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="c342-0ee0-5699-bf6b" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="93c1-bdda-1cc8-05fd" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="9af5-0dd3-fff2-7f6f" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="1ab7-2a22-6c72-d53b" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles>
             <profile id="afbd-cfa8-990b-068b" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Hardened Carapace" hidden="false">
               <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model has a hard chitinous exoskeleton, protecting it from harm. The model improves its armour save by 1. For example a Warriors 4+ save would become a 3+."/>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model has a hard chitinous exoskeleton, protecting it from harm. The model improves its armour save by 1. A 6+ save would become a 5+."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2071,21 +2304,6 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <profile id="e9e5-ff42-8c6a-8b0d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Corrosive Shots" hidden="false">
               <characteristics>
                 <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model is armed with a highly corrosive strain of ranged weapon, designed to breach armoured vehicles. Any ranged weapon the model has gains the Melta special rule."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="b11f-c353-eaad-878b" name="Reaping Talons" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="315b-742b-d304-db6a" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Reaping Talons" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="All attacks made with Scything Talons by this model may re-roll To Hit rolls of 1."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2120,6 +2338,83 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <profile id="8b11-4541-c0f7-b438" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Leaping Stride" hidden="false">
               <characteristics>
                 <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model leaps great distances and climbs walls with unnatural agility. The model may re-roll all Initiative tests it is required to take when climbing or jumping."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="99b0-9499-70ac-4c55" name="Hardened Carapace" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="1ab7-2a22-6c72-d53b" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="046f-5264-e6d8-89ed" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="93c1-bdda-1cc8-05fd" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="9f76-5ef5-0bbc-0ca8" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Hardened Carapace" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model has a hard chitinous exoskeleton, protecting it from harm. The model improves its armour save by 1. A 5+ save would become a 4+."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ab80-178d-6808-23ef" name="Synaptic Pain Suppression" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9742-098c-4753-4541" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Synaptic Pain Suppression" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Model gains a 5+ FNP when inside Synapse range."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="4efc-a59f-70dc-92fb" targetId="7c03-2748-816e-b088" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8223-26d4-6ba8-9fa2" name="Hardened Carapace" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="direct parent" childId="c342-0ee0-5699-bf6b" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="9af5-0dd3-fff2-7f6f" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="direct parent" childId="48b4-a062-93b5-d86a" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles>
+            <profile id="f464-39bb-40c8-979c" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Hardened Carapace" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model has a hard chitinous exoskeleton, protecting it from harm. The model improves its armour save by 1. A 4+ save has become a 3+."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -2162,6 +2457,21 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             </profile>
           </profiles>
           <links/>
+        </entry>
+        <entry id="ec6e-5b42-7acd-0d34" name="Diamond Coated Rending Claws" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e3b0-755d-fe43-10a4" targetId="2a7b-5b32-de6d-8643" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="a1d6-3376-d93b-c425" targetId="2c3e-88ff-e51e-eaa6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
         </entry>
       </entries>
       <entryGroups/>
@@ -2279,7 +2589,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           </profiles>
           <links/>
         </entry>
-        <entry id="7aec-0be6-d6c7-ae97" name="Burrower" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="7aec-0be6-d6c7-ae97" name="Burrower" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -2308,7 +2618,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             </link>
           </links>
         </entry>
-        <entry id="29cf-4f47-c0a3-3fc5" name="Shrike Wings" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="29cf-4f47-c0a3-3fc5" name="Shrike Wings" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers>
@@ -2349,8 +2659,56 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             </link>
           </links>
         </entry>
+        <entry id="7f25-e90f-f2d5-675e" name="Distended Pincers" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="fa58-110c-0d95-c995" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Distended Pincers" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Replaces one weapon of your choice. Some Tyranids grow engorged scything talons, allowing it to crush their prey, as well as slice."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="4172-ce53-8038-438c" targetId="8162-4ea8-797a-feb0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8c5e-be93-78ce-8468" name="Osseoblades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c345-c620-54ec-db0a" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Osseoblades" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Replaces one weapon of your choice. This pair of boneswords diminishes to monomolecular sharpness at each razor edge."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="ee70-3a39-cc3b-b875" targetId="8d99-02b7-ca4f-1788" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="48d9-2f79-9554-1738" targetId="ea0d-5e7e-7f67-b727" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="be3f-c692-dceb-5e64" name="New Entry Group" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <links/>
     </entryGroup>
@@ -2378,6 +2736,15 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
+    <rule id="27c8-1d4d-4e36-f3d2" name="Armourbane" hidden="false">
+      <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, it rolls an additional D6 for armour penetration in close combat.
+If a model makes a shooting attack with a weapon that has this special rule, it rolls an additional D6 for armour penetration. In either case, this special rule has no effect against non-vehicle models.</description>
+      <modifiers/>
+    </rule>
+    <rule id="dd06-7948-82fd-c699" name="Blind Rampage" hidden="false">
+      <description>If the Leader model dies within 6”, model gains Furious Charge and Rage.</description>
+      <modifiers/>
+    </rule>
     <rule id="fe26-76a9-2b19-7bfd" name="Burrowing" hidden="false">
       <description>Models with the Burrowing special rule may Deep Strike as normal (see the Built-up Area rule in the Kill Team rules).</description>
       <modifiers/>
@@ -2419,6 +2786,10 @@ disembark during their Movement phase as normal.
 4-6 - Delayed. Because of mechanical failure or enemy action, the reinforcements are delayed. The unit is placed in Ongoing Reserves.</description>
       <modifiers/>
     </rule>
+    <rule id="2c3e-88ff-e51e-eaa6" name="Diamond Rending" hidden="false">
+      <description>This weapon rends on a 5 or 6.</description>
+      <modifiers/>
+    </rule>
     <rule id="0b7f-bab7-93e7-ecb5" name="Fear" hidden="false" book="Warhammer 40k rulebook" page="35">
       <description>At the start of each Fight sub-phase, a unit in base contact with one or more enemy models that cause Fear must take a Leadership test (called a Fear test) before any blows are struck. If the test is passed, all is well and there is no effect. If the test is failed, the unit succumbs to fear – all models in the unit have their Weapon Skill reduced to 1 for the remainder of that Fight sub-phase. Note that a model that causes Fear is not itself immune to Fear, and will still need to take a Fear test if it is base contact with any enemy models that cause Fear.</description>
       <modifiers/>
@@ -2427,8 +2798,15 @@ disembark during their Movement phase as normal.
       <description>Units containing one or more models with the Fearless special rule automatically pass Pinning, Fear, Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit has Gone to Ground and then gains the Fearless special rule, all the effects of Go to Ground are immediately cancelled.</description>
       <modifiers/>
     </rule>
+    <rule id="13de-6660-4859-61d3" name="Feel No Pain" hidden="false">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
+Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved Wound is discounted – treat it as having been saved.
+</description>
+      <modifiers/>
+    </rule>
     <rule id="feb3-e3c5-eeba-6eff" name="Fleet" hidden="false" book="Warhammer 40k rulebook" page="35">
-      <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
+      <description>A model with this special rule can re-roll one or more of the dice when determining charge ranges (such as a single D6 from a charge range roll, for example). A model with this rule may add D3 inches on to this Run distance.</description>
       <modifiers/>
     </rule>
     <rule id="9db4-58d3-f1dc-35e1" name="Haywire" hidden="false">
@@ -2436,23 +2814,11 @@ disembark during their Movement phase as normal.
       <modifiers/>
     </rule>
     <rule id="4e1f-69af-5e4a-d8ba" name="Hit and Run" hidden="false" book="Warhammer 40k rulebook" page="38">
-      <description>A unit that contains at least one model with this special rule that is locked in combat can
-choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it
-must take an Initiative test.
+      <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test.
 
-If the test is failed, nothing happens and the models remain locked in the fight. If the test is
-passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is
-sufficient to allow the entire unit to move over 1&quot; away from all of the enemy units they are
-engaged in combat with, the unit breaks away from combat and immediately moves a number
-of inches in the chosen direction equal to the 3D6 result, ignoring the units they were locked in
-combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in
-combat immediately Consolidate D6&quot;.
+If the test is failed, nothing happens and the models remain locked in the fight. If the test is passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1&quot; away from all of the enemy units they are engaged in combat with, the unit breaks away from combat and immediately moves a number of inches in the chosen direction equal to the 3D6 result, ignoring the units they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6&quot;.
 
-A Hit &amp; Run move is not slowed by difficult terrain, but treats dangerous terrain normally. It may
-not be used to move into contact with enemy units, and models instead stop 1&quot; away. If there
-are units with this rule on both sides who wish to disengage, roll-off to determine who goes first
-and then alternate disengaging them. If the last of these ends up no longer in combat, it
-Consolidates instead.</description>
+A Hit &amp; Run move is not slowed by difficult terrain, but treats dangerous terrain normally. It may not be used to move into contact with enemy units, and models instead stop 1&quot; away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
       <modifiers/>
     </rule>
     <rule id="30e2-0c1c-179b-bde2" name="Homing" hidden="false">
@@ -2514,7 +2880,7 @@ Stealth special rule.</description>
       <modifiers/>
     </rule>
     <rule id="9068-256b-91d2-942d" name="Move Through Cover" hidden="false" book="Warhammer 40k rulebook" page="40">
-      <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
+      <description>A model may always move its full movement across Difficult Terrain and is not slowed by charging through difficult terrain. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
       <modifiers/>
     </rule>
     <rule id="5b92-87fc-fd2f-cc23" name="Night Vision" hidden="false" book="BRB 2014" page="168">
@@ -2526,10 +2892,7 @@ Stealth special rule.</description>
       <modifiers/>
     </rule>
     <rule id="199f-73cb-5ba9-e17c" name="Pheromone Trail" hidden="false" book="Codex: Tyranids" page="44">
-      <description>If a friendly unit from Codex: Tyranids arrives on the battlefield via Deep Strike, it will
-not scatter so long as the first model in the unit is placed within 6&quot; of a model with this
-special rule. Note that the model with the Pheromone Trail special rule must already be
-on the table at the start of the turn for this ability to be used.</description>
+      <description>If a friendly unit from Codex: Tyranids arrives on the battlefield via Deep Strike, it will not scatter so long as the first model in the unit is placed within 6&quot; of a model with this special rule. Note that the model with the Pheromone Trail special rule must already be on the table at the start of the turn for this ability to be used.</description>
       <modifiers/>
     </rule>
     <rule id="b32a-efba-cfd0-7608" name="Psyker (ML1)" hidden="false" book="Warhammer 40k rulebook" page="41">
@@ -2542,6 +2905,14 @@ on the table at the start of the turn for this ability to be used.</description>
       <description>In a turn in which a model with this special rule charges into combat, it gains +2 Attacks for charging, rather than +1. A model that has made a disordered charge that turn receives no benefit from Rage.</description>
       <modifiers/>
     </rule>
+    <rule id="35ba-355a-422d-a1a5" name="Reaping" hidden="false">
+      <description>All attacks made with Distended Pincers by this model re-roll  To Hit rolls of a 1</description>
+      <modifiers/>
+    </rule>
+    <rule id="fba3-800b-cd4e-5abf" name="Reaping Talons" hidden="false">
+      <description>All attacks made with Scything Talons may re-roll To Hit rolls of 1.</description>
+      <modifiers/>
+    </rule>
     <rule id="909c-c1d1-2ec3-9087" name="Rending" hidden="false" book="BRB 2014" page="170">
       <description>Rolls of 6 to wound always wound at AP2, regardless of target&apos;s toughness. Rolls of 6 to penetrate vehicle armor add D3 to the penetration.</description>
       <modifiers/>
@@ -2550,6 +2921,10 @@ on the table at the start of the turn for this ability to be used.</description>
       <description>All enemy units and models with the Psyker, Psychic Pilot or Brotherhood of Psykers
 special rules suffer a -3 penalty to their Leadership whilst they are within 12&quot; of one or
 more models with the Shadow in the Warp special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ec0d-27e3-af6f-d1dd" name="Shieldwall" hidden="false">
+      <description>Team leaders within 6” can Look Out Sir to this model automatically.</description>
       <modifiers/>
     </rule>
     <rule id="aeff-5e32-a3c3-377d" name="Shrouded" hidden="false">
@@ -2572,14 +2947,8 @@ Venomthrope have the Shrouded special rule.</description>
       <modifiers/>
     </rule>
     <rule id="1536-aed9-9b82-7e55" name="Stealth" hidden="false" book="Warhammer 40k rulebook" page="42">
-      <description>A unit that contains at least one model with this special rule counts its cover saves as being 1
-point better than normal. Note that this means that a model with the Stealth special rule always
-has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth
-(X) where X indicates a specific type of terrain, such as Stealth (Forests) or Stealth (Ruins). If
-this is the case, the unit only gains the benefit whilst it is in terrain of the specified type.
-
-Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a
-maximum of a 2+ cover save).</description>
+      <description>A unit that contains at least one model with this special rule counts its cover saves as being 1 point better than normal. Note that this means that a model with the Stealth special rule always has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth (X) where X indicates a specific type of terrain, such as Stealth (Forests) or Stealth (Ruins). If this is the case, the unit only gains the benefit whilst it is in terrain of the specified type.
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
       <modifiers/>
     </rule>
     <rule id="0885-6edc-a447-728d" name="Swarms" hidden="false" book="Warhammer 40k rulebook" page="43">
@@ -2603,6 +2972,10 @@ before the unit moves, the unit automatically Regroups.</description>
     </rule>
     <rule id="f608-d3cb-8aef-af8e" name="Unwieldly" hidden="false" book="BRB 2014" page="174">
       <description>When attacking with this weapon, pile in and fight at Initiative step 1 unless you&apos;re a Walker or Monstrous Creature.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2f2a-fc0c-1d6f-7ffb" name="Vanguard Synapse" hidden="false">
+      <description>A Tyranid team represents the furthermost tendrils of a Hive Fleet, scouting the void ahead of the rest of the swarm in order to find the ripest targets. All Tyranid Team Leaders increase their base synapse range from 12” to 24”, representing their greater autonomy from the Hive Mind.</description>
       <modifiers/>
     </rule>
     <rule id="0f6e-a5bc-aca0-8443" name="Warp Field" hidden="false" book="Codex: Tyranids" page="45">
@@ -2632,6 +3005,12 @@ before the unit moves, the unit automatically Regroups.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="44ab-1988-262d-70ff" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Armoured Plates" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Any model may upgrade to have Armoured plates, receiving a 2+ Armor Save for 15 points"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="f75c-13ab-7c94-66ab" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Barbed Strangler" hidden="false" book="Codex: Tyranids" page="63">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
@@ -2650,6 +3029,15 @@ before the unit moves, the unit automatically Regroups.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="c577-d6ef-922c-3c68" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Crushing Claws" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melle, Armourbane, Unwieldy"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="a666-c7c0-f06e-5292" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Deathspitter" hidden="false" book="Codex: Tyranids" page="64">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
@@ -2665,6 +3053,30 @@ before the unit moves, the unit automatically Regroups.</description>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 3"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2a7b-5b32-de6d-8643" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Diamond Coated Rending Claws" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Diamond Rending"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8162-4ea8-797a-feb0" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Distended Pincers" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="*2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Unweidy, Reaping"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="961f-bb69-fe63-690b" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Evolved Hive Guard" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Any model may upgrade to an Evolved Hive Guard, receiving +1 BS for 15 points"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -2701,6 +3113,12 @@ before the unit moves, the unit automatically Regroups.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="9024-12c8-9c54-a723" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Focused Psyker" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A Neurothrope may choose either a Psyker Mastery Level or to have access to one of the Warp Blast shooting Modes. Thus it may choose to be either ML 0 with both shooting attacks, ML1 with one shooting attack, or ML2 with neither shooting attack"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="f4d8-f33f-396c-70cb" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Impaler Cannon" hidden="false" book="Codex: Tyranids" page="64">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
@@ -2716,6 +3134,15 @@ before the unit moves, the unit automatically Regroups.</description>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Swiftstrike"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8d99-02b7-ca4f-1788" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Osseoblades" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Lifedrain"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -2739,7 +3166,7 @@ before the unit moves, the unit automatically Regroups.</description>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="user"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Rending"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="melee, rending"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -2761,6 +3188,15 @@ before the unit moves, the unit automatically Regroups.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="1474-dc93-c6ab-5fd1" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Shredder Shard Beetle Bombs" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast, Shred, Rending"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="e08c-a54f-c2dd-ecae" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Spike Rifle" hidden="false" book="Codex: Tyranids" page="65">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
@@ -2779,6 +3215,12 @@ before the unit moves, the unit automatically Regroups.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="3065-f896-e218-84db" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Spirit Leech Psychic Power" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Spirit Leech ...Warp Charge 1 The Neurothrope steals energy from its victims to empower its attacks. Spirit Leech is a witchfire power that targets a nonvehicle enemy unit within 18&quot;. That unit must take a Leadership test on 3D6. If the test is failed, the enemy unit suffers 1 Wound for each point the test was failed by, with no armour or cover saves allowed. Add 1 dice to your Warp Charge pool for each Wound inflicted by Spirit Leech. These additional dice can only be used by the unit that manifested Spirit Leech and only to manifest Warp Blast."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="e99a-61ae-4a9e-68bd" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Spore Mine Launcher" hidden="false" book="Codex: Tyranids" page="65">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48&quot;"/>
@@ -2788,12 +3230,24 @@ before the unit moves, the unit automatically Regroups.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="4fab-b715-95ee-3e88" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Stealth" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Improves cover saves by +1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="ad3b-1bc9-2391-7ebf" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Strangleweb" hidden="false" book="Codex: Tyranids" page="65">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="2"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Pinning"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7c03-2748-816e-b088" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Synaptic Pain Suppression" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Model gains a 5+ FNP when inside Synapse range."/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -2815,6 +3269,24 @@ before the unit moves, the unit automatically Regroups.</description>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="555e-4655-b80a-a9bf" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Warp blast" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault, Blast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="22bd-5c2c-58fb-c1d3" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Warp Blast - Lance" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="9"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault"/>
       </characteristics>
       <modifiers/>
     </profile>
