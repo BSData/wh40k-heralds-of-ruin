@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9166-92b5-ddb8-5be4" revision="5" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9166-92b5-ddb8-5be4" revision="7" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -3464,9 +3464,7 @@
           <profiles>
             <profile id="f093-2413-b132-58e6" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Runes of Doom" hidden="false">
               <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="One use only. Until the next shooting phase, weapons of
-Wanderer and all Rangers that shoot at a target within
-12&quot; of Wanderer&apos;s target gain the Shred special rule."/>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="One use only. Until the next shooting phase, weapons of Wanderer and all Rangers that shoot at a target within 12&quot; of Wanderer&apos;s target gain the Shred special rule."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3503,8 +3501,7 @@ Wanderer and all Rangers that shoot at a target within
           <profiles>
             <profile id="c038-5f8d-225b-067a" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Armour of Vaul" hidden="false">
               <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Confers the Exarch a re-rollable 3+ armour save. May not
-be taken with the Armour of Eldanesh or Isha."/>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Confers the Exarch a re-rollable 3+ armour save. May not be taken with the Armour of Eldanesh or Isha."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3535,6 +3532,21 @@ be taken with the Armour of Eldanesh or Isha."/>
             <profile id="0933-1c1b-b931-fa30" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Armour of Eldanesh" hidden="false">
               <characteristics>
                 <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Exarch gains the Preferred Enemy special rule. May not be taken with the Armour of Vaul or Isha."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c807-dfda-f698-32dc" name="Shrinekeeper" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8757-80e3-4f97-8e90" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Shrinekeeper" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Exarch is promoted to be a Shrinekeeper. The model can re-roll Morale, Pinning and Fear checks. In addition, Guardians can take additional wargear (see ‘In Time of Need’ section), - but they don’t get extra leadership, special rules that Aspect warriors have and are rather bad at using the corresponding wargear."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3572,6 +3584,21 @@ be taken with the Armour of Eldanesh or Isha."/>
             <profile id="ca14-3235-819f-9e60" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Runes of Wrath" hidden="false">
               <characteristics>
                 <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Runes of Wrath imbues its wielder with an uncontrollable hatred towards its enemy. The model gains the Hatred special rule."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="e917-d5b7-d7f6-13e0" name="Runes of Distraction" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f379-e110-b557-3531" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Runes of Distraction" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model gains the Hit &amp; Run special rule."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3675,8 +3702,7 @@ be taken with the Armour of Eldanesh or Isha."/>
           <profiles>
             <profile id="48bf-a00c-72e6-8d12" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Spirit Stones of Windfall" hidden="false">
               <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Spirit Stones of Windfall imbue the Warlocks weapon with energy, cutting through armour as well as flesh. This strength of this energy is unpredictable however. At the start of ever Assault phase the Warlock is engaged in combat roll a D6. Roll a D6 at the start of every Assault phase. The AP value of a bearer’s close combat weapon of your choice
-becomes equal to the number that you rolled."/>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Spirit Stones of Windfall imbue the Warlocks weapon with energy, cutting through armour as well as flesh. This strength of this energy is unpredictable however. At the start of ever Assault phase the Warlock is engaged in combat roll a D6. Roll a D6 at the start of every Assault phase. The AP value of a bearer’s close combat weapon of your choice becomes equal to the number that you rolled."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3736,8 +3762,7 @@ becomes equal to the number that you rolled."/>
           <profiles>
             <profile id="1796-1ba5-b365-4d41" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Spirit Stones of the Warp" hidden="false">
               <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Warlock or Spiritseer Only) – 10 pts
-Instead of moving in the Movement phase, the bearer may teleport through the Warp. Roll 2d6, the model may then move up to this amount in any direction, ignoring all terrain and models."/>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Warlock or Spiritseer Only) – 10 pts Instead of moving in the Movement phase, the bearer may teleport through the Warp. Roll 2d6, the model may then move up to this amount in any direction, ignoring all terrain and models."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3886,7 +3911,9 @@ If the model&apos;s total is equal to or higher than his opponent&apos;s, nomina
       <modifiers/>
     </rule>
     <rule id="9673-8783-3546-e3b9" name="Eldar Jetbike" hidden="false" book="">
-      <description>In addition to following all the rules for Jetbikes, if an Eldar Jetbike elects to Turbo-boost in the Shooting phase, it can move up to 36&quot;. If they do not Turbo-boost, Eldar Jetbikes may move up to 2D6&quot; in the Assault phase, even if they have shot in the preceding Shooting phase or arrived by Deep Strike that turn. When Eldar Jetbikes move in the Assault phase and do not charge, they treat difficult terrain in the same way as they do in the Movement phase.</description>
+      <description>In addition to following all the rules for Jetbikes, if an Eldar Jetbike elects to Turbo-boost in the Shooting phase, it can move up to 36&quot;. If they do not Turbo-boost, Eldar Jetbikes may move up to 2D6&quot; in the Assault phase, even if they have shot in the preceding Shooting phase or arrived by Deep Strike that turn. When Eldar Jetbikes move in the Assault phase and do not charge, they treat difficult terrain in the same way as they do in the Movement phase.
+
+Eldar jetbike wargear only improves the armour save of the rider to 4+ instead of 3+. If the rider’s armour save is better, he or she keeps it.</description>
       <modifiers/>
     </rule>
     <rule id="5304-74c3-bb03-2e90" name="Fast Shot" hidden="false" book="Codex: Craftworld Eldar (2015)">
@@ -3929,7 +3956,7 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
       <modifiers/>
     </rule>
     <rule id="4486-a131-bfd7-5b73" name="Iron Resolve" hidden="false">
-      <description>A unit that contains at least one model with this special rule automatically passes Pinning, Fear, Regroup tests and Morale checks.</description>
+      <description>The model with this special rule, and all friendly Warp Spiders within 6”,automatically pass Pinning, Fear, Regroup and Morale checks.</description>
       <modifiers/>
     </rule>
     <rule id="0d62-2b87-de98-3a52" name="Marksman&apos;s Eye" hidden="false" book="Codex: Eldar (2013)" page="30">
@@ -4006,11 +4033,27 @@ ensuing combat.</description>
       <modifiers/>
     </rule>
     <rule id="26a7-0f26-dbf3-8b55" name="Vibro" hidden="false">
-      <description>For each model in the same unit after the first that scores at least 1 hit on the target unit with a weapon that has this special rule, add 1 to the Strength (to a maximum of 10) and subtract 1 from the AP (to a minimum of 1) of each hit for that round of shooting. For example, if three models in a unit all score hits on the same target unit with weapons that have this special rule, all hits would be resolved at +2 Strength and -2AP.</description>
+      <description>Two Vaul’s Wrath Support Platforms equipped with Vibro Cannons within 4” of each other may use their weapons as if they were in one unit. For each model in the same unit after the first that scores at least 1 hit on the target unit with a weapon that has this special rule, add 1 to the Strength (to a maximum of 10) and subtract 1 from the AP (to a minimum of 1) of each hit for that round of shooting. For example, if three models in a unit all score hits on the same target unit with weapons that have this special rule, all hits would be resolved at +2 Strength and -2AP.</description>
       <modifiers/>
     </rule>
     <rule id="4c56-b3c1-ba3f-ae9a" name="Warp Jump Generator" hidden="false">
       <description>When making a Warp Jump using a Warp Jump Generator, a model is only removed if a double 1 is rolled, rather than any double.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ae1f-f18b-1d74-4c04" name="Destroyer Weapons" hidden="false">
+      <description>Destroyer weapons aren’t widely accessible, so in skirmish battles Eldar replace them with substitutes. Weapons with strength D are strength 10 instead, (unless they are Template or Blast, in which case they are strength 4). On a 6 to wound, they also wound automatically and have the Instant Death special rule; 6 rolled for armour penetration causes an automatic penetrating hit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5844-2b83-1a60-3067" name="Flickerjump" hidden="false">
+      <description>In order to successfully perform a Flickerjump, the model has to take an Initiative test with -1 penalty. If the test is failed, the model receives shots this turn as normal. In addition, under any condition, one model cannot perform more than one Flickerjump per turn.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4259-6250-ee40-0322" name="Sky Grenade Pack" hidden="false">
+      <description>Ignore rules in the codex, use the following: Roll a D6 for every model who does not suffer a Mishap when arriving from Deep Strike. For every roll of 5+ a model may throw a Skyburst grenade with the profile below. The model shooting a Skyburst grenade may still shoot in the subsequent Shooting Phase, but has to target the same unit if possible.</description>
+      <modifiers/>
+    </rule>
+    <rule id="662d-0666-db8a-3ade" name="Intercept" hidden="false">
+      <description>A model with this special rule may Deep Strike as normal (see Built Up Area).</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -4663,6 +4706,15 @@ ensuing combat.</description>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="D"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ab3b-5481-bd75-3c0f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Skyburst grenade" hidden="false">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Barrage, Blast, Ignores Cover, Skyburst, One Use"/>
       </characteristics>
       <modifiers/>
     </profile>
