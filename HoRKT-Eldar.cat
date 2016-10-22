@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9166-92b5-ddb8-5be4" revision="2" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v3.0a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9166-92b5-ddb8-5be4" revision="5" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -3456,6 +3456,23 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="e1f4-530e-cc84-3c92" name="Runes of Doom" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f093-2413-b132-58e6" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Runes of Doom" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="One use only. Until the next shooting phase, weapons of
+Wanderer and all Rangers that shoot at a target within
+12&quot; of Wanderer&apos;s target gain the Shred special rule."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -3472,6 +3489,52 @@
             <profile id="af5d-094a-dc18-8857" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Force Buckler" hidden="false">
               <characteristics>
                 <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A Force Buckler is an arm mounted energy shield generator that confers a 5+ invulnerable save."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="5d48-b739-9f0b-5a06" name="Armour of Vaul" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c038-5f8d-225b-067a" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Armour of Vaul" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Confers the Exarch a re-rollable 3+ armour save. May not
+be taken with the Armour of Eldanesh or Isha."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6559-741e-5039-7758" name="Armour of Isha" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d637-ea68-d9f0-f153" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Armour of Isha" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="It is said this set of armour is imbued with the tears of Isha. The Exarch gains the Feel No Pain special rule. May not be taken with the Armour of Eldanesh or Vaul."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="587e-35f5-6a24-670d" name="Armour of Eldanesh" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0933-1c1b-b931-fa30" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Armour of Eldanesh" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Exarch gains the Preferred Enemy special rule. May not be taken with the Armour of Vaul or Isha."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3612,7 +3675,8 @@
           <profiles>
             <profile id="48bf-a00c-72e6-8d12" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Spirit Stones of Windfall" hidden="false">
               <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Spirit Stones of Windfall imbue the Warlocks weapon with energy, cutting through armour as well as flesh. This strength of this energy is unpredictable however. At the start of ever Assault phase the Warlock is engaged in combat roll a D6. The number you rolled is the AP value of the Warlock’s weapon for that phase."/>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Spirit Stones of Windfall imbue the Warlocks weapon with energy, cutting through armour as well as flesh. This strength of this energy is unpredictable however. At the start of ever Assault phase the Warlock is engaged in combat roll a D6. Roll a D6 at the start of every Assault phase. The AP value of a bearer’s close combat weapon of your choice
+becomes equal to the number that you rolled."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3672,7 +3736,8 @@
           <profiles>
             <profile id="1796-1ba5-b365-4d41" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Spirit Stones of the Warp" hidden="false">
               <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Instead of moving in the Movement phase, a Warlock may teleport through the Warp. Roll 2d6, the model may then move up to this amount in any direction, ignoring all terrain and models. If the Warlock does this it cannot assault this turn."/>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Warlock or Spiritseer Only) – 10 pts
+Instead of moving in the Movement phase, the bearer may teleport through the Warp. Roll 2d6, the model may then move up to this amount in any direction, ignoring all terrain and models."/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -3837,7 +3902,7 @@ If the model&apos;s total is equal to or higher than his opponent&apos;s, nomina
       <modifiers/>
     </rule>
     <rule id="df64-18fb-0ccd-2cb7" name="Fleet" hidden="false" book="Wh40k: The Rules">
-      <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
+      <description>Models with this special rule can re-roll one or more of the dice when determining charge ranges, they may also add D3 inches on to thier Run distance.</description>
       <modifiers/>
     </rule>
     <rule id="47c7-9685-94b2-dc6d" name="Fleshbane" hidden="false">
