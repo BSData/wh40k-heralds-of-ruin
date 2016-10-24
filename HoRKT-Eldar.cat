@@ -733,22 +733,6 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="1a4b-0823-5af3-175c" name="May take up to two of the following" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="cd09-6528-6cf9-0a65" targetId="313f-7bb5-d075-b85e" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="9fe6-e547-dcd8-5e88" targetId="0905-ee32-2d1c-a02c" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="2aa4-080d-acef-c84f" targetId="1b93-5d8e-a337-1827" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules/>
@@ -794,7 +778,10 @@
         <link id="e93d-46f9-c72d-bfd2" targetId="1a61-20f6-9fa6-11ce" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9ff0-0515-0ec0-90ac" targetId="b696-1d6f-895b-f7f0" linkType="rule">
+        <link id="bad2-3eab-a6e4-3404" targetId="127e-4b3b-3838-ac47" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1628-ba2a-9959-d867" targetId="4575-dc1f-96e7-b9d5" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2770,51 +2757,11 @@
     </entry>
     <entry id="045f-ec48-68f1-2e13" name="Wanderer" points="22.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
-      <entryGroups>
-        <entryGroup id="d2ee-c95b-5443-fe74" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="90a0-c212-67f7-465f" name="Tempest launcher" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="f708-fdbb-8ec1-1d9a" targetId="eab5-bb26-8675-7651" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="5d72-8ffa-30a3-259e" targetId="f6d9-4ee3-8395-3f73" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="3590-0792-a19c-128f" targetId="c748-60a0-994b-7ebe" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="points" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-            <link id="3b2e-bfcc-53a2-1c3f" targetId="4745-c84d-9e09-66a3" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles>
-        <profile id="0bc3-e157-23f4-7c66" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Dark Reaper Exarch" hidden="false">
+        <profile id="0bc3-e157-23f4-7c66" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Wanderer" hidden="false">
           <characteristics>
             <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry (Character)"/>
             <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="5"/>
@@ -2824,8 +2771,8 @@
             <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="2"/>
             <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="6"/>
             <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
-            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="9"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="3+"/>
+            <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="5+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -2846,13 +2793,34 @@
         <link id="ce0d-a9cd-a769-6b75" targetId="09ee-a654-301a-8493" linkType="rule">
           <modifiers/>
         </link>
-        <link id="d9fd-2de2-9fa3-53c9" targetId="7bd8-4beb-ad3c-5455" linkType="rule">
+        <link id="49d4-8bd8-9647-0559" targetId="50a9-02b9-57d9-7bdf" linkType="entry">
           <modifiers/>
         </link>
-        <link id="8db3-1c94-1d81-4da6" targetId="d7a5-b6d5-000e-f17f" linkType="entry">
+        <link id="7f87-c45b-e9fd-fd92" targetId="380c-29a8-e8dd-e9cc" linkType="entry">
           <modifiers/>
         </link>
-        <link id="d24d-ddfc-286c-e86e" targetId="7f35-2ebd-ce98-9bcc" linkType="entry">
+        <link id="c65b-9dd1-83ba-cf5d" targetId="657d-eaa3-9c72-44c2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="85de-2de0-d4d2-0a29" targetId="1a61-20f6-9fa6-11ce" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6567-380f-4e3f-772f" targetId="df64-18fb-0ccd-2cb7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="62f2-e9bf-dabe-8d81" targetId="bb37-66d2-69be-c107" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1dfb-cb3d-6fa0-772f" targetId="cbd0-50fe-8475-1647" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e4a9-4ec3-8045-90a1" targetId="db9d-8374-a635-d2c8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8bcd-9d0d-7d13-3232" targetId="5304-74c3-bb03-2e90" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0036-7615-2269-6b1b" targetId="0d62-2b87-de98-3a52" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4255,6 +4223,15 @@ At the end of each turn, roll a D6 for each unit with a Soul Blaze counter on it
     </rule>
     <rule id="4c56-b3c1-ba3f-ae9a" name="Warp Jump Generator" hidden="false">
       <description>When making a Warp Jump using a Warp Jump Generator, a model is only removed if a double 1 is rolled, rather than any double.</description>
+      <modifiers/>
+    </rule>
+    <rule id="db9d-8374-a635-d2c8" name="Shrouded" hidden="false">
+      <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it’s in the open.
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
+      <modifiers/>
+    </rule>
+    <rule id="4575-dc1f-96e7-b9d5" name="Defence Tactics" hidden="false">
+      <description>When chosen as the target of a charge, a unit that consists entirely of models with this special rule can either choose to fire Overwatch at Ballistic Skill 2, or gain the Counter-attack and Stubborn special rules until the end of the phase (in which case it cannot fire Overwatch).</description>
       <modifiers/>
     </rule>
   </sharedRules>
