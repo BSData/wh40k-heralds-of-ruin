@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9166-92b5-ddb8-5be4" revision="17" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9166-92b5-ddb8-5be4" revision="20" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -220,12 +220,15 @@
     <link id="b3f7-e6a4-4567-992c" targetId="af71-31a8-1699-fc5f" linkType="entry" categoryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
       <modifiers/>
     </link>
+    <link id="8e73-4d06-9080-ed45" targetId="045f-ec48-68f1-2e13" linkType="entry" categoryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+      <modifiers/>
+    </link>
   </links>
   <sharedEntries>
     <entry id="2b20-6ae6-9e1f-739f" name="Apprentice" points="35.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="d04b-f344-8f66-d790" name="Weapon" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="d04b-f344-8f66-d790" name="Weapon" defaultEntryId="2e31-c153-4cf8-0f7b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -274,15 +277,11 @@
         <link id="8fe0-68c7-9614-3104" targetId="e3ac-bc16-c8d0-9cf7" linkType="entry">
           <modifiers/>
         </link>
-        <link id="ae20-f1ed-f534-e788" targetId="f526-d641-19e1-fa1d" linkType="entry">
+        <link id="ae20-f1ed-f534-e788" targetId="fa12-fa36-0b3d-0b30" linkType="entry">
           <modifiers>
-            <modifier type="set" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="category" childId="f526-d641-19e1-fa1d" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="category" childId="fa12-fa36-0b3d-0b30" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -389,6 +388,18 @@
         </link>
       </links>
     </entry>
+    <entry id="0c33-ca5e-350f-9800" name="Biting Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="fbc5-ba6a-7a77-2bdb" targetId="8c6f-103d-2b8e-7aaf" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="1db1-fa43-1a51-bc9c" name="Bright Lance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -397,6 +408,32 @@
       <profiles/>
       <links>
         <link id="9d31-91f9-0c21-58ff" targetId="5a7b-a007-9a83-88b1" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f4c5-7c7d-9d24-e9a5" name="Chainsabres" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="45bc-8364-f85c-1d27" name="Chainsabres" hidden="false">
+          <description>A set of chainsabres is comprised of two weapons and hence grants a bonus attack.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="9f17-961d-f1b5-55c1" targetId="36ed-77f6-eede-d590" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="ee88-e08a-f6fe-5c4b" targetId="7374-38b3-dec2-0ef2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="94e7-5eb6-66a8-77e3" targetId="e152-95e7-088d-1bc2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c08-5321-dd05-4845" targetId="ab71-1b04-dbfc-b23c" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -518,25 +555,14 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="b87e-220f-6880-06cf" name="May take up to two of the following" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="c0bb-b2b2-5fa1-77e7" targetId="a7b8-9431-a6e2-21e8" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="ccbb-11ad-2966-4afa" targetId="ec27-f1db-ab1a-090b" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="724a-13b0-06eb-2a08" targetId="abd6-7563-cf45-ba7a" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
       </entryGroups>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="1e57-cb27-0c9b-30a0" name="Exarch" hidden="false">
+          <description>In a team led by a Dark reaper Exarch, Dark reapers may be taken as Core.</description>
+          <modifiers/>
+        </rule>
+      </rules>
       <profiles>
         <profile id="aecc-fb59-bd5e-36b8" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Dark Reaper Exarch" hidden="false">
           <characteristics>
@@ -577,6 +603,15 @@
           <modifiers/>
         </link>
         <link id="c2f9-038a-51db-cdee" targetId="7f35-2ebd-ce98-9bcc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e983-dc6a-aab9-435b" targetId="33dc-4446-eb4e-ddf2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4681-9db4-8359-c04b" targetId="373f-1924-2e51-0b99" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fc71-8db2-9599-daa3" targetId="5304-74c3-bb03-2e90" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -645,7 +680,7 @@
         </link>
       </links>
     </entry>
-    <entry id="1608-a345-fcc6-9eb2" name="Dire Avenger Exarch" points="21.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="1608-a345-fcc6-9eb2" name="Dire Avenger Exarch" points="23.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="6e51-f168-a274-5278" name="Weapons" defaultEntryId="0c34-44eb-723c-48df" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -672,13 +707,13 @@
               <rules/>
               <profiles/>
               <links>
-                <link id="ac97-4769-c00a-a799" targetId="f16b-f43c-2d1a-453a" linkType="profile">
-                  <modifiers/>
-                </link>
                 <link id="477f-5681-2000-b154" targetId="e152-95e7-088d-1bc2" linkType="rule">
                   <modifiers/>
                 </link>
                 <link id="759e-d12b-d658-f1f9" targetId="a83c-20d9-dd83-befb" linkType="entry group">
+                  <modifiers/>
+                </link>
+                <link id="1a2b-2e84-e15b-d7d5" targetId="7b91-3069-8f84-8d99" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -693,13 +728,13 @@
                 <link id="58a8-857c-d8e2-961d" targetId="0311-a41c-fc58-150f" linkType="profile">
                   <modifiers/>
                 </link>
-                <link id="0bcf-c90b-5ea1-e55e" targetId="f16b-f43c-2d1a-453a" linkType="profile">
-                  <modifiers/>
-                </link>
                 <link id="e827-c462-5f95-34be" targetId="7c19-ad5b-9980-2133" linkType="rule">
                   <modifiers/>
                 </link>
                 <link id="eba3-b6a3-050d-4283" targetId="e152-95e7-088d-1bc2" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="86f8-a426-f267-5c6d" targetId="7b91-3069-8f84-8d99" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -748,7 +783,7 @@
             <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="6"/>
             <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="9"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="3+"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -782,6 +817,9 @@
           <modifiers/>
         </link>
         <link id="1628-ba2a-9959-d867" targetId="4575-dc1f-96e7-b9d5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="13c2-dadc-d55b-efa1" targetId="f9aa-6d03-e9ab-16dd" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -840,6 +878,21 @@
           <modifiers/>
         </link>
         <link id="5b56-7230-2cd4-c433" targetId="b1e3-318f-e929-42e7" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ed68-9d0c-eeb8-d76f" name="Executioner" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3a05-10f3-4df3-599a" targetId="440c-e369-0cfc-9299" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5c9b-b107-0e6e-a008" targetId="8c6f-103d-2b8e-7aaf" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -957,22 +1010,6 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="a8e0-16a9-1f02-8857" name="May take up to two of the following" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="840b-dc14-349c-e8da" targetId="a331-b1bc-e872-f023" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="6eba-959b-941e-db4a" targetId="50ea-ebc3-a8ef-ec32" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="6fef-e271-9d42-41f5" targetId="a7b8-9431-a6e2-21e8" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules>
@@ -999,9 +1036,6 @@
         </profile>
       </profiles>
       <links>
-        <link id="1322-48f6-92c4-8772" targetId="6781-716a-25ae-acaa" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="20ad-135f-d497-038b" targetId="6405-00e4-c8a3-f6d8" linkType="entry group">
           <modifiers/>
         </link>
@@ -1022,6 +1056,20 @@
         </link>
         <link id="1c24-6a5e-46e8-f15c" targetId="df64-18fb-0ccd-2cb7" linkType="rule">
           <modifiers/>
+        </link>
+        <link id="c042-82ee-5d8b-bf3a" targetId="7a16-6e41-32c9-dcb7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="125d-533d-c646-a391" targetId="39e2-8dee-b683-6d00" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fbca-4b20-adf7-bf3b" targetId="6781-716a-25ae-acaa" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -1095,7 +1143,7 @@
         </link>
       </links>
     </entry>
-    <entry id="f333-2a32-28d0-ea53" name="Haywire Grenade" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f333-2a32-28d0-ea53" name="Haywire Grenade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1276,7 +1324,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7e4e-4f85-37ce-3227" name="Howling Banshee Exarch" points="25.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7e4e-4f85-37ce-3227" name="Howling Banshee Exarch" points="23.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="a649-6cfb-d769-fe50" name="Weapons" defaultEntryId="8348-5f80-853d-c398" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1284,73 +1332,28 @@
             <entry id="8348-5f80-853d-c398" name="Shuriken Pistol and" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups>
-                <entryGroup id="e5f6-8d00-d182-3d1a" name="Melee weapon" defaultEntryId="2b60-ace1-9710-d855" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                  <entries>
-                    <entry id="2b60-ace1-9710-d855" name="Power sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="ee36-466e-e5a0-8643" targetId="37f9-6668-417c-46c6" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="0c4f-78e6-f00e-6a7a" name="Triskele" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="421d-8645-1d2b-e84b" targetId="31a9-25d6-1e93-55db" linkType="profile">
-                          <modifiers/>
-                        </link>
-                        <link id="dc61-fd2d-6aeb-8789" targetId="3b26-a9e0-e55e-9731" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                    <entry id="a065-a018-580d-f7fa" name="Executioner" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <rules/>
-                      <profiles/>
-                      <links>
-                        <link id="077b-e677-67d8-ba11" targetId="440c-e369-0cfc-9299" linkType="profile">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entry>
-                  </entries>
+                <entryGroup id="e5f6-8d00-d182-3d1a" name="Melee weapon" defaultEntryId="83f1-a0d6-fdb8-e37a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
                   <entryGroups/>
                   <modifiers/>
-                  <links/>
+                  <links>
+                    <link id="38f7-e97a-9e5b-ad3e" targetId="ed68-9d0c-eeb8-d76f" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="68ca-dc05-8d53-4343" targetId="4774-1335-2684-40a0" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="83f1-a0d6-fdb8-e37a" targetId="d802-cc38-53b0-aa7d" linkType="entry">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entryGroup>
               </entryGroups>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="a06b-9ef1-de29-5875" targetId="f16b-f43c-2d1a-453a" linkType="profile">
-                  <modifiers/>
-                </link>
-                <link id="3b96-0f7c-45ab-4eb0" targetId="e152-95e7-088d-1bc2" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="728e-2ef0-0a51-c4eb" name="Two Mirrorblades" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="1cdb-65ca-609c-3592" targetId="bd99-9a30-698b-b931" linkType="profile">
+                <link id="25ac-62d2-aa40-c7b6" targetId="657d-eaa3-9c72-44c2" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -1358,20 +1361,8 @@
           </entries>
           <entryGroups/>
           <modifiers/>
-          <links/>
-        </entryGroup>
-        <entryGroup id="7001-40b7-b359-ce07" name="May take up to two of the following" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
           <links>
-            <link id="76cf-dd5b-e4e9-ac8f" targetId="313f-7bb5-d075-b85e" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="286b-42dc-aafc-6d74" targetId="0905-ee32-2d1c-a02c" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="1ee7-e9b5-e46a-41f7" targetId="c25b-9db6-9793-855d" linkType="entry">
+            <link id="ee6b-1623-7579-eaaa" targetId="abc9-dd75-1ba4-235d" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -1396,7 +1387,7 @@
             <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="6"/>
             <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="9"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="3+"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -1427,6 +1418,12 @@
           <modifiers/>
         </link>
         <link id="ce37-09b5-d8a4-d9dc" targetId="608c-0666-284b-526e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="9472-fbff-d07f-37ac" targetId="d1f7-0cbf-5df8-6b47" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f7ac-f7d2-3d8d-6f41" targetId="f9aa-6d03-e9ab-16dd" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1517,6 +1514,18 @@
       <profiles/>
       <links>
         <link id="530e-e023-90e7-105d" targetId="84b8-05f1-3d34-64a1" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="abc9-dd75-1ba4-235d" name="Mirror Swords" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="4431-c87c-ef44-90df" targetId="bd99-9a30-698b-b931" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1694,7 +1703,22 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="9020-9e1d-4edc-6e76" targetId="5013-178a-99fa-8ffd" linkType="profile">
+        <link id="6197-9a0b-d570-92ac" targetId="2e37-c259-917b-573d" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9b79-f68e-e9b3-09ab" name="Scorpion&apos;s Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0c59-1403-2aac-b3a3" targetId="a670-ee59-30f3-2b2a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="a291-e0ce-4a13-d29c" targetId="5804-27dc-bc52-b838" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1806,22 +1830,6 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="d7d6-cf93-b303-2c8d" name="May take up to two of the following" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="b4eb-0476-b13f-5b7f" targetId="313f-7bb5-d075-b85e" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="27e8-530e-6337-2495" targetId="da60-e9cd-fd57-b28f" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e98c-9326-12d2-a8a5" targetId="5252-7b31-547f-c83d" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules>
@@ -1873,6 +1881,15 @@
           <modifiers/>
         </link>
         <link id="e8c4-db84-aa06-4058" targetId="3d45-353e-1e24-5e78" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="bfe7-43e0-5389-6e66" targetId="33dc-4446-eb4e-ddf2" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0c83-555b-e313-367d" targetId="01e7-f2cf-659c-dd73" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c740-8a0b-c91f-17ae" targetId="5a46-a8c9-6281-bea6" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1929,10 +1946,10 @@
       <rules/>
       <profiles/>
       <links>
-        <link id="35e3-05c0-36ae-830f" targetId="f16b-f43c-2d1a-453a" linkType="profile">
+        <link id="6071-ce52-26b1-d490" targetId="e152-95e7-088d-1bc2" linkType="rule">
           <modifiers/>
         </link>
-        <link id="6071-ce52-26b1-d490" targetId="e152-95e7-088d-1bc2" linkType="rule">
+        <link id="e50c-dd84-66ce-604e" targetId="7b91-3069-8f84-8d99" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2040,7 +2057,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7f35-2ebd-ce98-9bcc" name="Starshot missiles" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="7f35-2ebd-ce98-9bcc" name="Starshot missiles" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -2111,9 +2128,6 @@
               <rules/>
               <profiles/>
               <links>
-                <link id="e9b5-a827-c08b-acae" targetId="f16b-f43c-2d1a-453a" linkType="profile">
-                  <modifiers/>
-                </link>
                 <link id="6f69-7036-b963-3b86" targetId="e152-95e7-088d-1bc2" linkType="rule">
                   <modifiers/>
                 </link>
@@ -2257,148 +2271,92 @@
         <link id="3bf5-7e09-95ab-f17b" targetId="33dc-4446-eb4e-ddf2" linkType="entry">
           <modifiers/>
         </link>
+        <link id="45b3-2707-0d8b-4b74" targetId="6685-afe3-da6b-281b" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="5c21-c845-b42e-59eb" name="Striking Scorpion Exarch" points="27.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="9d64-bd50-f359-2f70" name="Replace both weapons with two chainsabres" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="1660-2d13-9559-e4b1" targetId="7374-38b3-dec2-0ef2" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="4cb4-0697-57a8-bf81" targetId="36ed-77f6-eede-d590" linkType="profile">
-              <modifiers/>
-            </link>
-            <link id="6198-85c8-e0f6-31e9" targetId="e152-95e7-088d-1bc2" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="20af-4fe4-4881-b974" targetId="ab71-1b04-dbfc-b23c" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
+    <entry id="5c21-c845-b42e-59eb" name="Striking Scorpion Exarch" points="25.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups>
-        <entryGroup id="f09d-1222-ed26-6585" name="Melee Weapon" defaultEntryId="1603-4c60-4047-c1c2" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="fd61-f878-ac16-c8e6" name="Must have one of the following weapon combinations" defaultEntryId="cae7-63ce-f364-83f0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="0d18-a929-a6ba-fb1f" name="Biting Blade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="cae7-63ce-f364-83f0" name="Shuriken pistol &amp; Scorpion chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="8fc8-e74c-32d8-b4cb" targetId="d420-3b28-5115-ff41" linkType="profile">
+                <link id="dbc6-09f6-bcd3-4a66" targetId="657d-eaa3-9c72-44c2" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="8991-c7ba-df1e-693d" targetId="2e37-c259-917b-573d" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
             </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="5c21-c845-b42e-59eb" childId="9d64-bd50-f359-2f70" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="5c21-c845-b42e-59eb" childId="9d64-bd50-f359-2f70" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="5c21-c845-b42e-59eb" childId="9d64-bd50-f359-2f70" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <links>
-            <link id="1603-4c60-4047-c1c2" targetId="e6a4-445b-060c-d39e" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="f291-9d89-dc18-2824" name="Ranged Weapon" defaultEntryId="7c66-700f-fae3-a715" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="d9f7-e56d-836b-c7d2" name="Scorpion&apos;s Claw" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="c87c-86f1-e480-3e14" name="Two chainsabres" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="1ea9-56a5-8b86-955c" targetId="a670-ee59-30f3-2b2a" linkType="profile">
+                <link id="4c76-8fa9-4acf-1fb4" targetId="f4c5-7c7d-9d24-e9a5" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="3573-5398-cb67-145c" targetId="5804-27dc-bc52-b838" linkType="profile">
+              </links>
+            </entry>
+            <entry id="aae2-5b8e-3022-db99" name="Shuriken pistol and Biting blade" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="1a86-6989-0d33-a499" targetId="657d-eaa3-9c72-44c2" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="6022-fe47-cec5-492e" targetId="e152-95e7-088d-1bc2" linkType="rule">
+                <link id="3eb0-dda2-010c-ede6" targetId="0c33-ca5e-350f-9800" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8d81-ebf2-6eb5-dfa8" name="Scorpions claw &amp; scorpion chainsword" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3b64-4096-8810-1ccb" targetId="9b79-f68e-e9b3-09ab" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="5475-6b9b-4a46-58cf" targetId="2e37-c259-917b-573d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="5d6c-32d5-bbd1-d757" name="Scorpions claw &amp; Biting blade" points="35.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="eb80-c9e4-f1da-2f53" targetId="9b79-f68e-e9b3-09ab" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="862d-bd79-6ebf-8196" targetId="0c33-ca5e-350f-9800" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
             </entry>
           </entries>
-          <entryGroups/>
-          <modifiers>
-            <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="5c21-c845-b42e-59eb" childId="9d64-bd50-f359-2f70" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="5c21-c845-b42e-59eb" childId="9d64-bd50-f359-2f70" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="5c21-c845-b42e-59eb" childId="9d64-bd50-f359-2f70" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <links>
-            <link id="7c66-700f-fae3-a715" targetId="657d-eaa3-9c72-44c2" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-            </link>
-          </links>
-        </entryGroup>
-        <entryGroup id="7e69-292c-99f5-7416" name="May take up to two of the following" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
           <entryGroups/>
           <modifiers/>
-          <links>
-            <link id="7c64-2232-3c86-4ebd" targetId="5252-7b31-547f-c83d" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="e6e8-ddcf-0616-1489" targetId="ec03-d0ae-f054-950e" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="916e-8b8b-3b39-c4a3" targetId="50ea-ebc3-a8ef-ec32" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -2445,6 +2403,18 @@
           <modifiers/>
         </link>
         <link id="678c-e6db-c68b-6b0d" targetId="bf1f-cab9-c44f-15f4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e38b-90a4-1ce4-06e5" targetId="f8ae-a61a-7d8f-1ee4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="166d-779b-86e6-bc0d" targetId="c0de-225a-ca79-d224" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c987-4c97-1eb3-5b5d" targetId="71e1-ac92-1495-e5c4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9e88-70bc-2be5-2db9" targetId="6685-afe3-da6b-281b" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2507,7 +2477,7 @@
         </link>
       </links>
     </entry>
-    <entry id="14b8-c777-c374-7dad" name="Swooping Hawk Exarch" points="22.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="14b8-c777-c374-7dad" name="Swooping Hawk Exarch" points="24.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="37e6-58ec-300b-e87e" name="Power weapon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2566,22 +2536,6 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="90bb-35ab-a9dc-a185" name="May take up to two of the following" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="ee42-b087-b8ae-f325" targetId="ec27-f1db-ab1a-090b" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="1ec4-e551-9223-0f71" targetId="da60-e9cd-fd57-b28f" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="1890-6b2a-9977-a178" targetId="abd6-7563-cf45-ba7a" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules>
@@ -2602,14 +2556,19 @@
             <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="6"/>
             <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="9"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="3+"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
         <link id="3cd7-bf9c-8cc7-dee8" targetId="6685-afe3-da6b-281b" linkType="entry">
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
         <link id="cb5c-137b-5c79-8bac" targetId="f333-2a32-28d0-ea53" linkType="entry">
           <modifiers/>
@@ -2644,6 +2603,15 @@
         <link id="7ba9-c0c4-74da-e486" targetId="df64-18fb-0ccd-2cb7" linkType="rule">
           <modifiers/>
         </link>
+        <link id="ba36-1304-4d3e-575e" targetId="f9aa-6d03-e9ab-16dd" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="de18-3656-d406-047f" targetId="564b-0aa6-643d-a213" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ecd0-7c7a-d07c-fe56" targetId="662d-0666-db8a-3ade" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9f42-aa80-bb31-ab48" name="Swooping Hawk wings" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2654,6 +2622,21 @@
       <profiles/>
       <links>
         <link id="4037-c4ac-cc0e-0a56" targetId="0049-56bd-80dc-2937" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="4774-1335-2684-40a0" name="Triskele" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d99d-3e4d-be7b-3c53" targetId="31a9-25d6-1e93-55db" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="7a81-d29c-3179-3b14" targetId="3b26-a9e0-e55e-9731" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2756,7 +2739,20 @@
       <links/>
     </entry>
     <entry id="045f-ec48-68f1-2e13" name="Wanderer" points="22.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
-      <entries/>
+      <entries>
+        <entry id="7e21-ac1c-a563-22a9" name="Power weapon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="84ca-2611-9c86-1452" targetId="a83c-20d9-dd83-befb" linkType="entry group">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules/>
@@ -3003,17 +2999,8 @@
         <link id="8237-960d-920e-cf36" targetId="e3ac-bc16-c8d0-9cf7" linkType="entry">
           <modifiers/>
         </link>
-        <link id="c909-9ffa-374a-a1a0" targetId="f526-d641-19e1-fa1d" linkType="entry">
-          <modifiers>
-            <modifier type="set" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+        <link id="c909-9ffa-374a-a1a0" targetId="fa12-fa36-0b3d-0b30" linkType="entry">
+          <modifiers/>
         </link>
         <link id="9328-0759-8594-d19a" targetId="3956-8e52-779e-d848" linkType="rule">
           <modifiers>
@@ -3132,7 +3119,7 @@
         </link>
       </links>
     </entry>
-    <entry id="b648-f657-804e-a4ca" name="Warp Spider Exarch" points="29.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b648-f657-804e-a4ca" name="Warp Spider Exarch" points="34.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="3da0-7242-d516-9727" name="Pair of powerblades" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -3194,22 +3181,6 @@
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="323c-7e2d-b0e1-55ac" name="May take up to two of the following" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links>
-            <link id="8897-f0fa-aa67-ac69" targetId="ec27-f1db-ab1a-090b" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d493-0b8b-3ddf-5950" targetId="ec03-d0ae-f054-950e" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="bf49-9838-03fa-e669" targetId="a7b8-9431-a6e2-21e8" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
-        </entryGroup>
       </entryGroups>
       <modifiers/>
       <rules>
@@ -3261,6 +3232,12 @@
           <modifiers/>
         </link>
         <link id="d504-16b6-1b48-5c91" targetId="ca67-28de-c1eb-c877" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8adc-501a-3827-7c70" targetId="5844-2b83-1a60-3067" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7508-8bbf-881e-f69e" targetId="4486-a131-bfd7-5b73" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3457,7 +3434,7 @@
         <link id="6cb7-4510-1af8-0079" targetId="a45f-4fad-57b9-d9c7" linkType="rule">
           <modifiers/>
         </link>
-        <link id="97a4-b637-5973-f4de" targetId="b734-b97a-0f5a-d7d9" linkType="rule">
+        <link id="e33d-18c5-51bf-2598" targetId="601e-9381-9c04-5acd" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3529,10 +3506,56 @@
         <link id="207e-847f-b71c-1bfd" targetId="a45f-4fad-57b9-d9c7" linkType="rule">
           <modifiers/>
         </link>
-        <link id="0106-c489-2bdf-efd3" targetId="b734-b97a-0f5a-d7d9" linkType="rule">
+        <link id="3cb0-3fe9-fc58-d04e" targetId="601e-9381-9c04-5acd" linkType="rule">
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="564b-0aa6-643d-a213" name="Sky grenade pack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3ae7-5c6c-a1da-117d" targetId="ab3b-5481-bd75-3c0f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="91c3-0efb-44df-c979" targetId="4259-6250-ee40-0322" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="fa12-fa36-0b3d-0b30" name="Eldar Jetbike (upgrade)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="5d6c-473c-c149-fbe8" name="Twin-linked shuriken catapult" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7610-a8f4-45f9-d703" targetId="b696-d43e-4c39-9f10" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="3452-8ad2-813e-77c8" targetId="e152-95e7-088d-1bc2" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="89e9-c7a1-4884-e064" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Eldar Jetbike" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model riding an Eldar jetbike has a 3+ Armour Save and a twin-linked shuriken catapult. Their unit type also changes to Eldar Jetbike"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -3697,14 +3720,6 @@
         </link>
         <link id="9ba8-6d51-219f-52c6" targetId="ed9f-8cbe-6627-904f" linkType="entry">
           <modifiers/>
-        </link>
-        <link id="d3c2-1f29-70a2-0cbf" targetId="33dc-4446-eb4e-ddf2" linkType="entry">
-          <modifiers>
-            <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
         <link id="26b1-7538-7ba3-3d45" targetId="29c3-27a1-18fc-7ccb" linkType="entry">
           <modifiers/>
@@ -3991,6 +4006,10 @@
       <description>A unit that consists entirely of models with this special rule adds 3&quot; to its maximum move distance when it Runs and when it makes charge moves. Furthermore, models with this special rule do not suffer the Initiative penalty for charging enemies through difficult terrain.</description>
       <modifiers/>
     </rule>
+    <rule id="01e7-f2cf-659c-dd73" name="Aerobatic Grace" hidden="false">
+      <description>A model with this special rule has a 4+ cover save unless it remained stationary in its previous Movement phase.</description>
+      <modifiers/>
+    </rule>
     <rule id="09ee-a654-301a-8493" name="Ancient Doom" hidden="false">
       <description>A model with this special rule has the Hatred special rule against Daemons of Slaanesh or models with the Mark of Slaanesh. Furthermore, when making Fear tests, a unit containing at least one model with this special rule suffers a -1 penalty to its Leadership if it is engaged in combat with a unit that contains at least one model with the Mark of Slaanesh or the Daemon of Slaanesh special rule.</description>
       <modifiers/>
@@ -3998,6 +4017,10 @@
     <rule id="b0b0-3c07-e25f-3197" name="Armourbane" hidden="false">
       <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, it rolls an additional D6 for armour penetration in close combat.
 If a model makes a shooting attack with a weapon that has this special rule, it rolls an additional D6 for armour penetration. In either case, this special rule has no effect against non-vehicle models.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7a16-6e41-32c9-dcb7" name="Assured Destruction" hidden="false">
+      <description>Models with this special rule have a +1 modifier when rolling on the Vehicle Damage table.</description>
       <modifiers/>
     </rule>
     <rule id="1a61-20f6-9fa6-11ce" name="Battle Focus" hidden="false" book="Kill Team: Eldar v7.5.7a" page="1">
@@ -4046,12 +4069,20 @@ If, when charged, the unit was already locked in combat, the Counter-attack spec
 has no effect.</description>
       <modifiers/>
     </rule>
+    <rule id="39e2-8dee-b683-6d00" name="Crack Shot" hidden="false">
+      <description>A model with this special rule can re-roll one failed To Hit or To Wound roll, or armour penetration roll, per turn.</description>
+      <modifiers/>
+    </rule>
     <rule id="e6ea-efa0-cf3c-5048" name="Crushing Blow" hidden="false" book="Codex: Eldar (2013)" page="30">
       <description>This model has +1 Strength.</description>
       <modifiers/>
     </rule>
     <rule id="f26c-4c05-7394-4822" name="Death Speaker" hidden="false">
       <description>In a team lead by a Spiritseer, Wraithguard and Wrathblades may be taken as Core.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4575-dc1f-96e7-b9d5" name="Defence Tactics" hidden="false">
+      <description>When chosen as the target of a charge, a unit that consists entirely of models with this special rule can either choose to fire Overwatch at Ballistic Skill 2, or gain the Counter-attack and Stubborn special rules until the end of the phase (in which case it cannot fire Overwatch).</description>
       <modifiers/>
     </rule>
     <rule id="ae1f-f18b-1d74-4c04" name="Destroyer Weapons" hidden="false">
@@ -4071,6 +4102,10 @@ If the model&apos;s total is equal to or higher than his opponent&apos;s, nomina
       <description>In addition to following all the rules for Jetbikes, if an Eldar Jetbike elects to Turbo-boost in the Shooting phase, it can move up to 36&quot;. If they do not Turbo-boost, Eldar Jetbikes may move up to 2D6&quot; in the Assault phase, even if they have shot in the preceding Shooting phase or arrived by Deep Strike that turn. When Eldar Jetbikes move in the Assault phase and do not charge, they treat difficult terrain in the same way as they do in the Movement phase.
 
 Eldar jetbike wargear only improves the armour save of the rider to 4+ instead of 3+. If the rider’s armour save is better, he or she keeps it.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5a46-a8c9-6281-bea6" name="Expert Hunter" hidden="false">
+      <description>A model with this special rule re-rolls all failed to Wound rolls against Monstrous Creatures, and can choose to re-roll armour penetration rolls that do not result in a penetrating hit.</description>
       <modifiers/>
     </rule>
     <rule id="5304-74c3-bb03-2e90" name="Fast Shot" hidden="false" book="Codex: Craftworld Eldar (2015)">
@@ -4108,6 +4143,11 @@ If the test is passed, choose a direction – then roll 3D6. As long as the dist
 A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1&quot; away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
       <modifiers/>
     </rule>
+    <rule id="373f-1924-2e51-0b99" name="Inescapable Accuracy" hidden="false">
+      <description>A model with this special rule re-rolls failed To Hit rolls when firing at a unit that Zoomed, Swooped, Turbo-boosted or moved Flat Out during its previous turn.
+</description>
+      <modifiers/>
+    </rule>
     <rule id="bb37-66d2-69be-c107" name="Infiltrate" hidden="false">
       <description>Deployed after all other units anywhere &gt; 12&quot; away from enemy and outside their line of sight, or &gt; 18&quot; away within LoS.  Cannot charge in first turn after deploying this way.  Also has Outflank.</description>
       <modifiers/>
@@ -4137,14 +4177,14 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
       <modifiers/>
     </rule>
     <rule id="cbd0-50fe-8475-1647" name="Move Through Cover" hidden="false">
-      <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
+      <description>A model with the Move Through Cover special rule is not affected by the ‘doubling’ and may always move/charge/run its full movement across Difficult Terrain. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
       <modifiers/>
     </rule>
     <rule id="2be2-eb37-061b-4b84" name="Night Vision" hidden="false" book="Warhammer 40K Rulebook">
       <description>A unit that contains at least one model with this special rule ignores the effects of Night Fighting.</description>
       <modifiers/>
     </rule>
-    <rule id="b734-b97a-0f5a-d7d9" name="Non-learning" hidden="false">
+    <rule id="601e-9381-9c04-5acd" name="Non-Learning" hidden="false" book="Kill team rules v3.1" page="7">
       <description>The model may never gain Battle Honours.</description>
       <modifiers/>
     </rule>
@@ -4153,9 +4193,7 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
       <modifiers/>
     </rule>
     <rule id="eb3c-c722-e597-97c5" name="Plasma Grenade" hidden="false" book="Warhammer 40K Rulebook">
-      <description>Models equipped with plasma grenades don’t suffer the penalty to their Initiative for
-charging enemies through difficult terrain, but fight at their normal Initiative step in the
-ensuing combat.</description>
+      <description>Models equipped with plasma grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative step in the ensuing combat.</description>
       <modifiers/>
     </rule>
     <rule id="db24-747a-f008-da81" name="Psyker (Mastery Level 2)" hidden="false" book="Kill Team: Eldar v7.5.7a" page="2">
@@ -4173,11 +4211,20 @@ Powers from Runes of Battle and the following:
       <description>Rolls of 6 to wound always wound at AP2, regardless of target&apos;s toughness. Rolls of 6 to penetrate vehicle armor add D3 to the penetration.</description>
       <modifiers/>
     </rule>
+    <rule id="c0de-225a-ca79-d224" name="Shadowstrike" hidden="false">
+      <description>A model with this special rule that infiltrates has the Shrouded special rule. If the model shoots (including Overwatch) or fights in combat, it loses the Shrouded special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="db9d-8374-a635-d2c8" name="Shrouded" hidden="false">
+      <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it’s in the open.
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
+      <modifiers/>
+    </rule>
     <rule id="17a9-0e95-ce70-e0aa" name="Skilled Rider" hidden="false">
       <description>Automatically passes Dangerous Terrain and receives +1 to Jink saves</description>
       <modifiers/>
     </rule>
-    <rule id="4259-6250-ee40-0322" name="Sky Grenade Pack" hidden="false">
+    <rule id="4259-6250-ee40-0322" name="Skyburst" hidden="false">
       <description>Ignore rules in the codex, use the following: Roll a D6 for every model who does not suffer a Mishap when arriving from Deep Strike. For every roll of 5+ a model may throw a Skyburst grenade with the profile below. The model shooting a Skyburst grenade may still shoot in the subsequent Shooting Phase, but has to target the same unit if possible.</description>
       <modifiers/>
     </rule>
@@ -4217,21 +4264,20 @@ At the end of each turn, roll a D6 for each unit with a Soul Blaze counter on it
       <description>Counts it&apos;s coversave as 1 point better than normal (Combines with Shrouded)</description>
       <modifiers/>
     </rule>
+    <rule id="8c6f-103d-2b8e-7aaf" name="Two Handed" hidden="false">
+      <description>A model attacking with this weapon never receives +1 Attack for fighting with two Melee weapons.</description>
+      <modifiers/>
+    </rule>
     <rule id="26a7-0f26-dbf3-8b55" name="Vibro" hidden="false" book="Kill Team: Eldar v7.5.7a" page="1">
       <description>Two Vaul’s Wrath Support Platforms equipped with Vibro Cannons within 4” of each other may use their weapons as if they were in one unit. For each model in the same unit after the first that scores at least 1 hit on the target unit with a weapon that has this special rule, add 1 to the Strength (to a maximum of 10) and subtract 1 from the AP (to a minimum of 1) of each hit for that round of shooting. For example, if three models in a unit all score hits on the same target unit with weapons that have this special rule, all hits would be resolved at +2 Strength and -2AP.</description>
       <modifiers/>
     </rule>
+    <rule id="d1f7-0cbf-5df8-6b47" name="War Shout" hidden="false">
+      <description>Enemy units locked in combat with a model that has this special rule subtract 2 from their Leadership.</description>
+      <modifiers/>
+    </rule>
     <rule id="4c56-b3c1-ba3f-ae9a" name="Warp Jump Generator" hidden="false">
       <description>When making a Warp Jump using a Warp Jump Generator, a model is only removed if a double 1 is rolled, rather than any double.</description>
-      <modifiers/>
-    </rule>
-    <rule id="db9d-8374-a635-d2c8" name="Shrouded" hidden="false">
-      <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it’s in the open.
-Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
-      <modifiers/>
-    </rule>
-    <rule id="4575-dc1f-96e7-b9d5" name="Defence Tactics" hidden="false">
-      <description>When chosen as the target of a charge, a unit that consists entirely of models with this special rule can either choose to fire Overwatch at Ballistic Skill 2, or gain the Counter-attack and Stubborn special rules until the end of the phase (in which case it cannot fire Overwatch).</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -4295,19 +4341,10 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
     </profile>
     <profile id="3e06-0ae6-4fb3-d90b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Chainsword" hidden="false">
       <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="2e37-c259-917b-573d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Chainsword" hidden="false" book="">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="user"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="melee"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4656,7 +4693,7 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="5013-178a-99fa-8ffd" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Scorpion Chainsword" hidden="false" page="0">
+    <profile id="2e37-c259-917b-573d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Scorpion Chainsword" hidden="false" book="">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
@@ -4722,15 +4759,6 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f16b-f43c-2d1a-453a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Shuriken Pistol" hidden="false" book="Codex: Craftworld Eldar (2015)">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol, Bladestorm"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="7b91-3069-8f84-8d99" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Shuriken Pistol" hidden="false" book="Codex: Craftworld Eldar (2015)">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
@@ -4758,7 +4786,7 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ab3b-5481-bd75-3c0f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Skyburst grenade" hidden="false">
+    <profile id="ab3b-5481-bd75-3c0f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Sky grenade pack" hidden="false">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
@@ -4814,7 +4842,7 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
     </profile>
     <profile id="0049-56bd-80dc-2937" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Swooping Hawk Wings" hidden="false">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model equipped with Swooping Hawk wings gains the Jump unit type as described in Warhammer 40,000: The Rules. When a unit composed entirely of models equipped with Swooping Hawk wings uses its jump packs in the Movement phase, it can move up to 18&quot; instead of 12&quot;. Furthermore, the unit can choose to Skyleap instead of moving in the Movement phase, as long as it did not arrive from Reserves that turn and is not locked in combat or Falling Back. A Skyleaping unit is removed from the board and placed into Ongoing "/>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model equipped with Swooping Hawk wings gains the Jump unit type as described in Warhammer 40,000: The Rules. When a unit composed entirely of models equipped with Swooping Hawk wings uses its jump packs in the Movement phase, it can move up to 18&quot; instead of 12&quot;. Furthermore, the unit can choose to Skyleap instead of moving in the Movement phase, as long as it did not arrive from Reserves that turn and is not locked in combat or Falling Back. A Skyleaping unit is removed from the board and placed into Ongoing reserves."/>
       </characteristics>
       <modifiers/>
     </profile>
