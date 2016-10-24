@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9166-92b5-ddb8-5be4" revision="17" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9166-92b5-ddb8-5be4" revision="18" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -1365,9 +1365,6 @@
           <entryGroups/>
           <modifiers/>
           <links>
-            <link id="76cf-dd5b-e4e9-ac8f" targetId="313f-7bb5-d075-b85e" linkType="entry">
-              <modifiers/>
-            </link>
             <link id="286b-42dc-aafc-6d74" targetId="0905-ee32-2d1c-a02c" linkType="entry">
               <modifiers/>
             </link>
@@ -3457,9 +3454,6 @@
         <link id="6cb7-4510-1af8-0079" targetId="a45f-4fad-57b9-d9c7" linkType="rule">
           <modifiers/>
         </link>
-        <link id="97a4-b637-5973-f4de" targetId="b734-b97a-0f5a-d7d9" linkType="rule">
-          <modifiers/>
-        </link>
       </links>
     </entry>
     <entry id="566c-4a78-9b43-a7e9" name="Wraithguard" points="32.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3527,9 +3521,6 @@
           <modifiers/>
         </link>
         <link id="207e-847f-b71c-1bfd" targetId="a45f-4fad-57b9-d9c7" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0106-c489-2bdf-efd3" targetId="b734-b97a-0f5a-d7d9" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4054,6 +4045,10 @@ has no effect.</description>
       <description>In a team lead by a Spiritseer, Wraithguard and Wrathblades may be taken as Core.</description>
       <modifiers/>
     </rule>
+    <rule id="4575-dc1f-96e7-b9d5" name="Defence Tactics" hidden="false">
+      <description>When chosen as the target of a charge, a unit that consists entirely of models with this special rule can either choose to fire Overwatch at Ballistic Skill 2, or gain the Counter-attack and Stubborn special rules until the end of the phase (in which case it cannot fire Overwatch).</description>
+      <modifiers/>
+    </rule>
     <rule id="ae1f-f18b-1d74-4c04" name="Destroyer Weapons" hidden="false">
       <description>Destroyer weapons aren’t widely accessible, so in skirmish battles Eldar replace them with substitutes. Weapons with strength D are strength 10 instead, (unless they are Template or Blast, in which case they are strength 4). On a 6 to wound, they also wound automatically and have the Instant Death special rule; 6 rolled for armour penetration causes an automatic penetrating hit.</description>
       <modifiers/>
@@ -4137,15 +4132,11 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
       <modifiers/>
     </rule>
     <rule id="cbd0-50fe-8475-1647" name="Move Through Cover" hidden="false">
-      <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
+      <description>A model with the Move Through Cover special rule is not affected by the ‘doubling’ and may always move/charge/run its full movement across Difficult Terrain. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
       <modifiers/>
     </rule>
     <rule id="2be2-eb37-061b-4b84" name="Night Vision" hidden="false" book="Warhammer 40K Rulebook">
       <description>A unit that contains at least one model with this special rule ignores the effects of Night Fighting.</description>
-      <modifiers/>
-    </rule>
-    <rule id="b734-b97a-0f5a-d7d9" name="Non-learning" hidden="false">
-      <description>The model may never gain Battle Honours.</description>
       <modifiers/>
     </rule>
     <rule id="760a-e3a3-a395-5bb9" name="Outflank" hidden="false">
@@ -4171,6 +4162,11 @@ Powers from Runes of Battle and the following:
     </rule>
     <rule id="ab71-1b04-dbfc-b23c" name="Rending" hidden="false">
       <description>Rolls of 6 to wound always wound at AP2, regardless of target&apos;s toughness. Rolls of 6 to penetrate vehicle armor add D3 to the penetration.</description>
+      <modifiers/>
+    </rule>
+    <rule id="db9d-8374-a635-d2c8" name="Shrouded" hidden="false">
+      <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it’s in the open.
+Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
       <modifiers/>
     </rule>
     <rule id="17a9-0e95-ce70-e0aa" name="Skilled Rider" hidden="false">
@@ -4225,13 +4221,37 @@ At the end of each turn, roll a D6 for each unit with a Soul Blaze counter on it
       <description>When making a Warp Jump using a Warp Jump Generator, a model is only removed if a double 1 is rolled, rather than any double.</description>
       <modifiers/>
     </rule>
-    <rule id="db9d-8374-a635-d2c8" name="Shrouded" hidden="false">
-      <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it’s in the open.
-Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
+    <rule id="d1f7-0cbf-5df8-6b47" name="War Shout" hidden="false">
+      <description>Enemy units locked in combat with a model that has this special rule subtract 2 from their Leadership.</description>
       <modifiers/>
     </rule>
-    <rule id="4575-dc1f-96e7-b9d5" name="Defence Tactics" hidden="false">
-      <description>When chosen as the target of a charge, a unit that consists entirely of models with this special rule can either choose to fire Overwatch at Ballistic Skill 2, or gain the Counter-attack and Stubborn special rules until the end of the phase (in which case it cannot fire Overwatch).</description>
+    <rule id="c0de-225a-ca79-d224" name="Shadowstrike" hidden="false">
+      <description>A model with this special rule that infiltrates has the Shrouded special rule. If the model shoots (including Overwatch) or fights in combat, it loses the Shrouded special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7a16-6e41-32c9-dcb7" name="Assured Destruction" hidden="false">
+      <description>Models with this special rule have a +1 modifier when rolling on the Vehicle Damage table.</description>
+      <modifiers/>
+    </rule>
+    <rule id="39e2-8dee-b683-6d00" name="Crack Shot" hidden="false">
+      <description>A model with this special rule can re-roll one failed To Hit or To Wound roll, or armour penetration roll, per turn.</description>
+      <modifiers/>
+    </rule>
+    <rule id="01e7-f2cf-659c-dd73" name="Aerobatic Grace" hidden="false">
+      <description>A model with this special rule has a 4+ cover save unless it remained stationary in its previous Movement phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5a46-a8c9-6281-bea6" name="Expert Hunter" hidden="false">
+      <description>A model with this special rule re-rolls all failed to Wound rolls against Monstrous Creatures, and can choose to re-roll armour penetration rolls that do not result in a penetrating hit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="373f-1924-2e51-0b99" name="Inescapable Accuracy" hidden="false">
+      <description>A model with this special rule re-rolls failed To Hit rolls when firing at a unit that Zoomed, Swooped, Turbo-boosted or moved Flat Out during its previous turn.
+</description>
+      <modifiers/>
+    </rule>
+    <rule id="601e-9381-9c04-5acd" name="Non-Learning" hidden="false" book="Kill team rules v3.1" page="7">
+      <description>The model may never gain Battle Honours.</description>
       <modifiers/>
     </rule>
   </sharedRules>
@@ -4295,18 +4315,18 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
     </profile>
     <profile id="3e06-0ae6-4fb3-d90b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Chainsword" hidden="false">
       <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type"/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="user"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="melee"/>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="2e37-c259-917b-573d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Chainsword" hidden="false" book="">
+    <profile id="2e37-c259-917b-573d" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Scorpion Chainsword" hidden="false" book="">
       <characteristics>
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
       </characteristics>
       <modifiers/>
@@ -4814,7 +4834,7 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
     </profile>
     <profile id="0049-56bd-80dc-2937" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Swooping Hawk Wings" hidden="false">
       <characteristics>
-        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model equipped with Swooping Hawk wings gains the Jump unit type as described in Warhammer 40,000: The Rules. When a unit composed entirely of models equipped with Swooping Hawk wings uses its jump packs in the Movement phase, it can move up to 18&quot; instead of 12&quot;. Furthermore, the unit can choose to Skyleap instead of moving in the Movement phase, as long as it did not arrive from Reserves that turn and is not locked in combat or Falling Back. A Skyleaping unit is removed from the board and placed into Ongoing "/>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model equipped with Swooping Hawk wings gains the Jump unit type as described in Warhammer 40,000: The Rules. When a unit composed entirely of models equipped with Swooping Hawk wings uses its jump packs in the Movement phase, it can move up to 18&quot; instead of 12&quot;. Furthermore, the unit can choose to Skyleap instead of moving in the Movement phase, as long as it did not arrive from Reserves that turn and is not locked in combat or Falling Back. A Skyleaping unit is removed from the board and placed into Ongoing reserves."/>
       </characteristics>
       <modifiers/>
     </profile>
