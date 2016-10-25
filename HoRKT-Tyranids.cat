@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="be8f-1301-f0d1-004c" revision="11" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Tyranids: HoR" books="Kill Team: Tyranids v2.1" authorName="beckian" authorContact="beckiantrash@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="be8f-1301-f0d1-004c" revision="12" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Tyranids: HoR" books="Kill Team: Tyranids v2.1" authorName="beckian" authorContact="beckiantrash@gmail.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -276,6 +276,9 @@
           <modifiers/>
         </link>
         <link id="ad1e-5b74-d672-aa9c" targetId="00d0-5fbd-3153-50e6" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="f2bd-2c35-3c57-8047" targetId="e7f8-1e6f-6159-4433" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -1010,6 +1013,9 @@ If both warp blast mode are chosen the Neurothrope become ML0 </description>
               </conditionGroups>
             </modifier>
           </modifiers>
+        </link>
+        <link id="6cff-64e0-19e7-6e67" targetId="e7f8-1e6f-6159-4433" linkType="entry group">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -2161,6 +2167,9 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <link id="9615-44fa-a84b-ad00" targetId="89e1-9be1-9d52-01ac" linkType="rule">
           <modifiers/>
         </link>
+        <link id="b56e-02be-ec99-c210" targetId="e7f8-1e6f-6159-4433" linkType="entry group">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="48b4-a062-93b5-d86a" name="Zoanthrope" points="50.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2480,7 +2489,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
     </entryGroup>
     <entryGroup id="e7f8-1e6f-6159-4433" name="Tyranids Leader Armoury" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="634f-ad16-fbe1-66cd" name="Capillary Synapse" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="634f-ad16-fbe1-66cd" name="Capillary Synapse" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
