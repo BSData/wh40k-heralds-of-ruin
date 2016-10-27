@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9166-92b5-ddb8-5be4" revision="25" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9166-92b5-ddb8-5be4" revision="26" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -2918,6 +2918,15 @@
           <modifiers/>
         </link>
         <link id="9e88-70bc-2be5-2db9" targetId="6685-afe3-da6b-281b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e0c9-de5f-9ce0-4dfe" targetId="6405-00e4-c8a3-f6d8" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="de19-ef19-06f0-44e6" targetId="3d45-353e-1e24-5e78" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="d59e-0750-50fd-c7c3" targetId="c059-70e5-386d-618c" linkType="entry group">
           <modifiers/>
         </link>
       </links>
