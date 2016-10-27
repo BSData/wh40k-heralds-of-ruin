@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9166-92b5-ddb8-5be4" revision="26" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9166-92b5-ddb8-5be4" revision="27" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" battleScribeVersion="1.15" name="Eldar: HoR" books="Kill Team: Eldar v7.5.7a" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries/>
   <rules/>
   <links>
@@ -287,7 +287,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="f9aa-6d03-e9ab-16dd" name="Aspect armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="f9aa-6d03-e9ab-16dd" name="Aspect armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1057,7 +1057,35 @@
           <entries/>
           <entryGroups>
             <entryGroup id="ba80-6155-af0c-5ac5" name="Dire Avenger upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
+              <entries>
+                <entry id="58b0-b43b-4f3b-808f" name="Aspect armour" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="10fa-9736-f308-6e4b" targetId="bdbc-67ea-ec8b-52d4" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="5f35-c55b-ea20-ce8c" name="Avenger Shuriken Catapult" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="77f7-c498-feb4-f83b" targetId="e152-95e7-088d-1bc2" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="ee58-f10d-d849-f534" targetId="b4f0-a1e6-25fa-0bd8" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
               <entryGroups/>
               <modifiers>
                 <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -1067,36 +1095,11 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <links>
-                <link id="16b3-50e6-c6f4-f7ba" targetId="f9aa-6d03-e9ab-16dd" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="e32e-2d17-b6a1-8993" targetId="8744-e53c-4990-6aa7" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
+              <links/>
             </entryGroup>
             <entryGroup id="66e4-3e45-7691-4d2a" name="Fire Dragon upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="5c2a-cd29-d815-093e" name="Fusion gun and Melta bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="5c2a-cd29-d815-093e" name="Fusion gun and Melta bomb" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
                     <entry id="1994-aedf-ebff-f0f5" name="Fusion gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
@@ -1132,6 +1135,18 @@
                   <profiles/>
                   <links/>
                 </entry>
+                <entry id="2750-4cb5-8aba-e44a" name="Heavy Aspect Armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="5d8d-f9fa-89e9-9b52" targetId="7eb4-2bdf-b332-bb4b" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
               </entries>
               <entryGroups/>
               <modifiers>
@@ -1142,24 +1157,7 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <links>
-                <link id="e753-e1af-148e-4850" targetId="33dc-4446-eb4e-ddf2" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
+              <links/>
             </entryGroup>
             <entryGroup id="13e6-df62-5d6b-d75a" name="Swooping Hawk upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
@@ -1204,6 +1202,18 @@
                   <profiles/>
                   <links/>
                 </entry>
+                <entry id="dcd1-fa0e-5b84-b21a" name="Lasblaster" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="9f78-7760-f2b8-c820" targetId="0e78-361c-d1ff-2459" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
               </entries>
               <entryGroups/>
               <modifiers>
@@ -1214,20 +1224,7 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <links>
-                <link id="f36e-f431-ec75-40d9" targetId="ae85-cd17-f3c9-e20e" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
+              <links/>
             </entryGroup>
             <entryGroup id="ab4f-502e-3fef-3d61" name="Warp Spider upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
@@ -1261,6 +1258,21 @@
                     </link>
                   </links>
                 </entry>
+                <entry id="e2a2-5461-1210-309f" name="Death Spinner" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="ba01-a632-5e11-55a5" targetId="7a88-025f-bda1-e088" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="b113-e625-5d52-2119" targetId="1574-aeaf-a227-3a65" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
               </entries>
               <entryGroups/>
               <modifiers>
@@ -1271,20 +1283,7 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <links>
-                <link id="3917-e553-bd82-ea04" targetId="7ddf-567c-fc5b-9ac8" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
+              <links/>
             </entryGroup>
             <entryGroup id="2339-69e8-ade6-f93d" name="Dark Reaper upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
@@ -1321,6 +1320,18 @@
                   <profiles/>
                   <links/>
                 </entry>
+                <entry id="5532-286e-3b67-f67e" name="Heavy Aspect Armour" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="f77e-dc70-85c0-b9bc" targetId="7eb4-2bdf-b332-bb4b" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
               </entries>
               <entryGroups/>
               <modifiers>
@@ -1331,20 +1342,7 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <links>
-                <link id="2a66-27a3-0c7f-e654" targetId="33dc-4446-eb4e-ddf2" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
+              <links/>
             </entryGroup>
           </entryGroups>
           <modifiers>
@@ -1477,7 +1475,7 @@
         </link>
       </links>
     </entry>
-    <entry id="33dc-4446-eb4e-ddf2" name="Heavy Aspect Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="33dc-4446-eb4e-ddf2" name="Heavy Aspect Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1892,7 +1890,7 @@
         </link>
       </links>
     </entry>
-    <entry id="d802-cc38-53b0-aa7d" name="Power sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="d802-cc38-53b0-aa7d" name="Power sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2482,6 +2480,18 @@
                   <profiles/>
                   <links/>
                 </entry>
+                <entry id="d08a-8f16-b4a6-b4c3" name="Power sword" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="3fe7-e013-7866-7bad" targetId="37f9-6668-417c-46c6" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
               </entries>
               <entryGroups/>
               <modifiers>
@@ -2492,24 +2502,11 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <links>
-                <link id="aa63-dc7d-6f04-ce62" targetId="d802-cc38-53b0-aa7d" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
+              <links/>
             </entryGroup>
             <entryGroup id="42e6-e4d2-f7cb-6254" name="Striking Scorpion upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
-                <entry id="9e8f-d39e-ea42-8ee8" name="Heavy Aspect armour and Warp Jump Generator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                <entry id="9e8f-d39e-ea42-8ee8" name="Heavy Aspect armour and Mandiblaster" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries>
                     <entry id="69a3-3e33-043e-e273" name="Heavy Aspect Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                       <entries/>
@@ -2539,6 +2536,18 @@
                     </link>
                   </links>
                 </entry>
+                <entry id="2ed8-f8ea-64d6-28c4" name="Scorpion Chainsword" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="823b-1392-73d4-6fb5" targetId="2e37-c259-917b-573d" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
               </entries>
               <entryGroups/>
               <modifiers>
@@ -2549,20 +2558,7 @@
                   <conditionGroups/>
                 </modifier>
               </modifiers>
-              <links>
-                <link id="da43-6fb4-8b52-7195" targetId="e6a4-445b-060c-d39e" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                    <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-              </links>
+              <links/>
             </entryGroup>
           </entryGroups>
           <modifiers>
@@ -3227,7 +3223,7 @@
           <links>
             <link id="42b8-183e-ee58-9f6a" targetId="9a1b-adcf-4ddb-a82c" linkType="entry">
               <modifiers>
-                <modifier type="set" field="points" value="-2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="set" field="points" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
