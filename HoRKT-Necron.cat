@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a5b3-f7d7-39b9-a678" name="Necrons: HoR" book="Kill Team: Necrons v3.0" revision="2" battleScribeVersion="2.00" authorName="bitfury" authorContact="@BSData" authorUrl="http://github.com/bitfury" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a5b3-f7d7-39b9-a678" name="Necrons: HoR" book="Kill Team: Necrons v3.0" revision="3" battleScribeVersion="2.00" authorName="bitfury" authorContact="@BSData" authorUrl="http://github.com/bitfury" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -481,7 +481,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="points" value="5">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eddc-8b45-c2c1-0f85" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -489,7 +497,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="2.0"/>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d59-78be-17de-0093" name="Shadowloom" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -503,7 +511,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="points" value="1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eddc-8b45-c2c1-0f85" type="instanceOf"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
       </constraints>
@@ -511,7 +527,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="1.0"/>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eddc-8b45-c2c1-0f85" name="Tomb Blade" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
