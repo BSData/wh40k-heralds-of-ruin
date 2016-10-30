@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2659-6725-4287-c661" name="Space Marines: HoR" book="Kill Team List: Space Marines v3.2" revision="4" battleScribeVersion="2.00" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2659-6725-4287-c661" name="Space Marines: HoR" book="Kill Team List: Space Marines v3.2" revision="5" battleScribeVersion="2.00" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1533,7 +1533,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="65.0"/>
+        <cost name="pts" costTypeId="points" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1112-dbb9-42a0-29da" name="Chainfist" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -7979,7 +7979,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="40.0"/>
+        <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4c8-fefc-5688-4207" name="Thunder hammer" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
