@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ee55996d-ef47-1409-40a1-09bb8a55733a" name="Orks: HoR" book="Kill Team List: Orks v3.0" revision="3" battleScribeVersion="2.00" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ee55996d-ef47-1409-40a1-09bb8a55733a" name="Orks: HoR" book="Kill Team List: Orks v3.0" revision="4" battleScribeVersion="2.00" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -229,6 +229,13 @@
           <conditionGroups/>
         </modifier>
       </modifiers>
+      <constraints/>
+    </entryLink>
+    <entryLink id="498a-0e14-9b48-d325" name="" hidden="false" targetId="222c-ed77-874d-d653" type="selectionEntry" categoryEntryId="64d3-e5e3-f321-7804">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <constraints/>
     </entryLink>
   </entryLinks>
@@ -4970,6 +4977,134 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="222c-ed77-874d-d653" name="Trukk" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="ee29-4260-7347-3c5f" name="Trukk" hidden="false" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764" profileTypeName="Transport">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Unit Type" characteristicTypeId="760f-2ac8-56cc-9509" value="Vehicle (Fast, Open-topped, Transport)"/>
+            <characteristic name="BS" characteristicTypeId="b81e-503e-7d2e-1bd2" value="2"/>
+            <characteristic name="F" characteristicTypeId="e4a8-9f80-a7bb-4937" value="10"/>
+            <characteristic name="S" characteristicTypeId="fc46-97a8-00ac-1f0b" value="10"/>
+            <characteristic name="R" characteristicTypeId="1306-1865-0155-ed8c" value="10"/>
+            <characteristic name="HP" characteristicTypeId="0053-bc31-16c0-31f6" value="3"/>
+            <characteristic name="Transport Capacity" characteristicTypeId="b90d-8d9b-4979-4fe9" value="12"/>
+            <characteristic name="Access Points" characteristicTypeId="64d4-b230-3c57-4d86" value="-"/>
+            <characteristic name="Fire Points" characteristicTypeId="28d5-39e2-1cd7-3fb4" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1bec-38c2-01d9-d09c" name="Ramshackle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Roll a D6 each time a Trukk suffers a penetrating hit. On the roll of a 6, the Trukk only suffers a glancing hit instead.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ab69-02c2-0614-ce53" name="Trukk Weapons" hidden="false" collective="false" defaultSelectionEntryId="886e-be34-708d-0332">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8877-df2b-e26b-36a4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f80f-50d2-4925-5218" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="886e-be34-708d-0332" name="" hidden="false" targetId="f7ac-e4b1-dbd8-8f20" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="1836-0caf-8ac5-1f35" name="" hidden="false" targetId="94ce-4eed-8e50-9850" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1101-bb0a-e01b-d115" name="New EntryLink" hidden="false" targetId="66cb-68e1-e561-4c27" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7ac-e4b1-dbd8-8f20" name="Big Shoota" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="75f2-fce4-1eb2-52e3" name="Big Shoota" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="94ce-4eed-8e50-9850" name="Rokkit launcha" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9371-7f5b-9551-9ed2" hidden="false" targetId="78674f71-667c-38fb-650f-600d474f2b33" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5ebb-ce07-c857-2317" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="8a86d4a4-13f8-ffd4-ae33-416553c75596" name="Additional Equipment" hidden="false" collective="false">
@@ -5692,28 +5827,6 @@
               <entryLinks/>
               <costs>
                 <cost name="pts" costTypeId="points" value="10.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="0804-bfbc-175f-e36e" name="Rokkit launcha" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="5025-790a-d2c1-12de" hidden="false" targetId="78674f71-667c-38fb-650f-600d474f2b33" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e50d-92dd-e750-9fe2" name="Slugga" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -6501,9 +6614,206 @@
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="1c29-737c-5968-6364" name="New EntryLink" hidden="false" targetId="94ce-4eed-8e50-9850" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="66cb-68e1-e561-4c27" name="Ork Vehicle Equipment" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="64e8-988b-5991-18f6" name="Boarding Plank" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d80d-4393-ce5b-8201" name="Boarding Plank" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If a unit disembarks from an Open-topped vehicle with a boarding plank and declares a charge in the same turn, it adds +2 to its charge distance (to a maximum of 12)."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1431-6507-b422-2d60" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9908-2e15-0a42-9f7b" name="Grot Riggers" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="535d-13e9-bba5-9d4a" name="Grot Riggers" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A vehicle with grot riggers has the It Will Not Die special rule."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e28-963e-8e21-7a7a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2708-efac-467b-244d" name="Red Paint Job" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="65dc-cda6-33e4-e34b" name="Red Paint Job" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Ork vehicles with red paint jobs add +1&quot; to their move when they move Flat Out."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bb11-ed16-a6c5-4d4b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="244f-ca46-a5a6-87b3" name="Reinforced Ram" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="48e1-83e4-fb2e-92f3" name="Reinforced Ram" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A vehicle with a reinforced ram can Tank Shock and Ram, and treats its front Armour Value as two higher than normal when Ramming. Furthermore, the vehicle may re-roll failed Dangerous Terrain tests."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f6eb-e925-1ee3-ffb6" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b57d-3917-6288-d289" name="Stikkbomb Chukka" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3422-fe8e-b55d-5ed2" name="Stikkbomb Chukka" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The vehicle is armed with stikkbombs. Any unit disembarking from a vehicle with a stikkbomb chukka is treated as having stikkbombs for the remainder of that turn."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="96a0-75cb-9f00-abe8" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8faf-6d37-132b-e2b9" name="Wreckin&apos; Ball" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1c0b-3841-f7cf-f65e" name="Wreckin&apos; Ball" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="3&quot;"/>
+                <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="9"/>
+                <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
+                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault D3"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="286e-3f5e-05d5-9cec" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="12a7-9939-be1d-d208" name="Extra Armor" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="41ac-fa4c-5c2a-2a02" name="Extra Armor" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="901d-8735-e05f-8a9c" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
