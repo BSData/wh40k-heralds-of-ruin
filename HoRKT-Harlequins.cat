@@ -141,25 +141,25 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="0f0b-ff65-d42b-deab" hidden="false" targetId="b211-7fbf-db30-ed4f" type="rule">
+        <infoLink id="0f0b-ff65-d42b-deab" hidden="false" targetId="1a6b-15b4-049d-fc47" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f7a6-577d-cb4f-1153" hidden="false" targetId="7bba-c0e5-159d-cbee" type="rule">
+        <infoLink id="f7a6-577d-cb4f-1153" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5f70-9de4-8582-8452" hidden="false" targetId="f14a-16f8-d062-84b1" type="rule">
+        <infoLink id="5f70-9de4-8582-8452" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="283e-5c12-6899-f1de" hidden="false" targetId="af4f-4430-a275-c5b3" type="rule">
+        <infoLink id="283e-5c12-6899-f1de" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -264,7 +264,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9084-6caf-8cd2-e8c8" name="" hidden="false" targetId="a302-31af-8eb7-bf65" type="rule">
+        <infoLink id="9084-6caf-8cd2-e8c8" name="" hidden="false" targetId="276c-8078-b846-c348" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -347,25 +347,25 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="df25-7b25-e207-27dc" hidden="false" targetId="af4f-4430-a275-c5b3" type="rule">
+        <infoLink id="df25-7b25-e207-27dc" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="cd4a-cd21-5087-25ab" hidden="false" targetId="b211-7fbf-db30-ed4f" type="rule">
+        <infoLink id="cd4a-cd21-5087-25ab" hidden="false" targetId="1a6b-15b4-049d-fc47" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="c1d7-324d-492d-0856" hidden="false" targetId="7bba-c0e5-159d-cbee" type="rule">
+        <infoLink id="c1d7-324d-492d-0856" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="bab2-dcd5-49d3-29a3" hidden="false" targetId="f14a-16f8-d062-84b1" type="rule">
+        <infoLink id="bab2-dcd5-49d3-29a3" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -462,25 +462,25 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="5126-5951-bd83-518a" hidden="false" targetId="b211-7fbf-db30-ed4f" type="rule">
+        <infoLink id="5126-5951-bd83-518a" hidden="false" targetId="1a6b-15b4-049d-fc47" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b7c8-add7-91c2-4ae0" hidden="false" targetId="7bba-c0e5-159d-cbee" type="rule">
+        <infoLink id="b7c8-add7-91c2-4ae0" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6c9c-4a71-9125-a75b" hidden="false" targetId="f14a-16f8-d062-84b1" type="rule">
+        <infoLink id="6c9c-4a71-9125-a75b" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9745-d1f3-1c1d-15f8" hidden="false" targetId="af4f-4430-a275-c5b3" type="rule">
+        <infoLink id="9745-d1f3-1c1d-15f8" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -507,13 +507,13 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="14f5-c1ce-695c-8712" name="" hidden="false" targetId="61e0-ac5b-5138-12e4" type="rule">
+            <infoLink id="14f5-c1ce-695c-8712" name="" hidden="false" targetId="b9c4-1bb1-d19d-cad8" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="7949-779a-6fd3-60c0" name="" hidden="false" targetId="c5d0-8104-82f2-6d97" type="rule">
+            <infoLink id="7949-779a-6fd3-60c0" name="" hidden="false" targetId="d4bc-4e4e-1420-3763" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -646,6 +646,12 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="e1de-5be4-e17c-92b4" name="New InfoLink" hidden="false" targetId="b500-071c-f79c-fbfd" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -691,31 +697,31 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="f634-a1bd-f6df-0aba" hidden="false" targetId="b211-7fbf-db30-ed4f" type="rule">
+        <infoLink id="f634-a1bd-f6df-0aba" hidden="false" targetId="1a6b-15b4-049d-fc47" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0122-83b5-4325-d83b" hidden="false" targetId="f14a-16f8-d062-84b1" type="rule">
+        <infoLink id="0122-83b5-4325-d83b" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6123-19c9-8783-f931" hidden="false" targetId="af4f-4430-a275-c5b3" type="rule">
+        <infoLink id="6123-19c9-8783-f931" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="28e0-14fb-f24d-d933" hidden="false" targetId="b349-d7e3-bc47-925d" type="rule">
+        <infoLink id="28e0-14fb-f24d-d933" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="5d81-a615-85fe-195e" hidden="false" targetId="7bba-c0e5-159d-cbee" type="rule">
+        <infoLink id="5d81-a615-85fe-195e" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1257,7 +1263,9 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8c6c-4d14-ccdc-b5a8" name="Mirage Launchers" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1281,7 +1289,9 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="86ec-ef8c-0b05-b8bf" name="Serpent&apos;s Head" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1306,19 +1316,19 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="395c-bb2a-b66e-73d7" name="" hidden="false" targetId="af4f-4430-a275-c5b3" type="rule">
+        <infoLink id="395c-bb2a-b66e-73d7" name="" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b0a9-1345-5896-54a2" name="" hidden="false" targetId="f14a-16f8-d062-84b1" type="rule">
+        <infoLink id="b0a9-1345-5896-54a2" name="" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="78af-c57d-1057-0a83" name="" hidden="false" targetId="7bba-c0e5-159d-cbee" type="rule">
+        <infoLink id="78af-c57d-1057-0a83" name="" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1454,7 +1464,9 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cd02-c439-b201-91a2" name="Skyweaver" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1479,19 +1491,25 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="cb57-abe5-f2a6-9c54" name="New InfoLink" hidden="false" targetId="af4f-4430-a275-c5b3" type="rule">
+        <infoLink id="cb57-abe5-f2a6-9c54" name="New InfoLink" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="263e-60a1-0889-cce8" name="New InfoLink" hidden="false" targetId="7bba-c0e5-159d-cbee" type="rule">
+        <infoLink id="263e-60a1-0889-cce8" name="New InfoLink" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7165-d89c-7624-50d1" name="New InfoLink" hidden="false" targetId="f14a-16f8-d062-84b1" type="rule">
+        <infoLink id="7165-d89c-7624-50d1" name="New InfoLink" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bddc-a6b8-beb3-cabc" name="New InfoLink" hidden="false" targetId="ea84-1c05-69e4-2065" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1934,7 +1952,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="0e4c-fb4a-75fe-4dcb" name="" hidden="false" targetId="d647-68b6-94be-976e" type="rule">
+            <infoLink id="0e4c-fb4a-75fe-4dcb" name="" hidden="false" targetId="d03d-ea48-fd6a-e59a" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2301,7 +2319,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="7491-071f-db91-7c97" hidden="false" targetId="61e0-ac5b-5138-12e4" type="rule">
+            <infoLink id="7491-071f-db91-7c97" hidden="false" targetId="b9c4-1bb1-d19d-cad8" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2324,6 +2342,12 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <rules/>
           <infoLinks>
             <infoLink id="84d5-eefa-5d14-8668" hidden="false" targetId="ddb2-528f-8303-7bce" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3999-97f6-0ee5-d0ca" name="New InfoLink" hidden="false" targetId="844c-faa7-5c09-5d8c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2394,6 +2418,84 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ae66-c4df-d5fc-7b73" name="Power Axe" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1161-3acb-85a0-376b" name="New InfoLink" hidden="false" targetId="d0ed-4cef-e425-1d61" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a954-56d1-3365-f2eb" name="New InfoLink" hidden="false" targetId="11c6-e9de-18cc-249e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b6cd-87b7-8811-5034" name="Power Lance" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="33af-0c79-f046-ed0f" name="New InfoLink" hidden="false" targetId="093a-e25a-14aa-c3a8" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6b57-ee5f-b297-dd6a" name="New InfoLink" hidden="false" targetId="7d23-1d42-e204-a346" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="360e-ee17-aeee-1458" name="Power Maul" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6251-beac-1d38-12ca" name="New InfoLink" hidden="false" targetId="fd52-e5b5-915b-f74f" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="9c61-8e61-2ca1-dc86" name="New InfoLink" hidden="false" targetId="d4bc-4e4e-1420-3763" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -2437,7 +2539,9 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="cf43-869c-d222-6a95" name="Haywire Cannon" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2456,7 +2560,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="e54b-5cef-59c4-b0d3" name="" hidden="false" targetId="a302-31af-8eb7-bf65" type="rule">
+            <infoLink id="e54b-5cef-59c4-b0d3" name="" hidden="false" targetId="276c-8078-b846-c348" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2556,33 +2660,6 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <modifiers/>
       <description>A model equipped with a Harlequin’s Embrace has the Hammer of Wrath special rule, but makes D3 Hammer of Wrath Attacks that hit automatically and are resolved at Strength 6.</description>
     </rule>
-    <rule id="af4f-4430-a275-c5b3" name="Fear" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>At the start of each Fight sub-phase, a unit in base contact with one or more enemy models that cause Fear must take a Leadership test (called a Fear test) before any blows are struck. If the test is passed, all is well and there is no effect. If the test is failed, the unit succumbs to fear – all models in the unit have their Weapon Skill reduced to 1 for the remainder of that Fight sub-phase. Note that a model that causes Fear is not itself immune to Fear, and will still need to take a Fear test if it is base contact with any enemy models that cause Fear.</description>
-    </rule>
-    <rule id="b211-7fbf-db30-ed4f" name="Fleet" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
-    </rule>
-    <rule id="61e0-ac5b-5138-12e4" name="Fleshbane" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="7bba-c0e5-159d-cbee" name="Furious Charge" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>In a turn in which a model with this special rule charges into combat, it adds +1 to its Strength characteristic until the end of the Assault phase. A model that has made a disordered charge that turn receives no benefit from Furious Charge.</description>
-    </rule>
     <rule id="c4d5-5646-9ab4-3b5c" name="Hallucinogenic" hidden="false">
       <profiles/>
       <rules/>
@@ -2591,23 +2668,6 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <description>At the end of the Shooting phase, a model that has suffered one or more hits from a weapon with this special rule in that
 phase must make a Pinning test. If the test is failed, then in addition to being Pinned one model within 3” suffers a single Wound with no armour or cover saves allowed. This Wound is Randomly Allocated.</description>
     </rule>
-    <rule id="f14a-16f8-d062-84b1" name="Hit &amp; Run" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test.
-If the test is failed, nothing happens and the models remain locked in the fight.
-If the test is passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1&quot; away from all of the enemy units they are locked in combat with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6&quot;.
-A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1&quot; away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
-    </rule>
-    <rule id="b349-d7e3-bc47-925d" name="Inspiring Presence" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Any friendly model within 6&quot; of this model may use its Leadership for all Leadership tests.</description>
-    </rule>
     <rule id="c3fb-7e78-7075-d07c" name="Kiss of Death" hidden="false">
       <profiles/>
       <rules/>
@@ -2615,31 +2675,14 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
       <modifiers/>
       <description>When a model equipped with this weapon makes its close combat attacks, one of its Attacks will be a Kiss of Death Attack (roll this Attack separately). A Kiss of Death Attack is always resolved at Strength 6 AP2. If a 6 is rolled To Wound with a Kiss of Death Attack, that attack has the Instant Death special rule.</description>
     </rule>
-    <rule id="a302-31af-8eb7-bf65" name="Haywire" hidden="false">
+    <rule id="ea84-1c05-69e4-2065" name="Eldar Jetbike" book="" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When a weapon with this special rule hits a vehicle, roll a D6 to determine the effect rather than rolling for armour penetration normally:
+      <description>In addition to following all the rules for Jetbikes, if an Eldar Jetbike elects to Turbo-boost in the Shooting phase, it can move up to 36&quot;. If they do not Turbo-boost, Eldar Jetbikes may move up to 2D6&quot; in the Assault phase, even if they have shot in the preceding Shooting phase or arrived by Deep Strike that turn. When Eldar Jetbikes move in the Assault phase and do not charge, they treat difficult terrain in the same way as they do in the Movement phase.
 
-D6 - Result
-1 - No effect
-2-5 - Glancing hit
-6 - Penetrating hit</description>
-    </rule>
-    <rule id="c5d0-8104-82f2-6d97" name="Concussive" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</description>
-    </rule>
-    <rule id="d647-68b6-94be-976e" name="Strikedown" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Any non-vehicle model that suffers one or more unsaved Wounds or passes one or more saving throws against an attack with the Strikedown special rule moves as if it is in difficult terrain until the end of its next turn. It is a good idea to mark affected models with counters or coins so that you remember.</description>
+Eldar jetbike wargear only improves the armour save of the rider to 4+ instead of 3+. If the rider’s armour save is better, he or she keeps it.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -2889,6 +2932,51 @@ D6 - Result
         <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="3"/>
         <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
         <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="d0ed-4cef-e425-1d61" name="Power Axe" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Unwieldy"/>
+      </characteristics>
+    </profile>
+    <profile id="093a-e25a-14aa-c3a8" name="Power Lance" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1/User*"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3/4*"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+      </characteristics>
+    </profile>
+    <profile id="fd52-e5b5-915b-f74f" name="Power Maul" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Concussive"/>
+      </characteristics>
+    </profile>
+    <profile id="7d23-1d42-e204-a346" name="Power Lance" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="*This weapon has two S and AP values. A model armed with this weapon uses the first value when charging, and the second in all other instances."/>
       </characteristics>
     </profile>
   </sharedProfiles>

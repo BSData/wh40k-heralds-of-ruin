@@ -55,84 +55,84 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="969c-1d97-ac72-1c85" hidden="false" targetId="aebd-f745-deeb-2bac" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="969c-1d97-ac72-1c85" hidden="false" targetId="aebd-f745-deeb-2bac" type="selectionEntry" categoryEntryId="a823-2346-e149-e375">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="b800-a6b5-555f-0152" hidden="false" targetId="282e-e7e6-83f9-93a3" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="b800-a6b5-555f-0152" hidden="false" targetId="282e-e7e6-83f9-93a3" type="selectionEntry" categoryEntryId="a823-2346-e149-e375">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="c1fb-d7ee-61fb-f0a0" hidden="false" targetId="e71d-9d30-e310-a1c9" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="c1fb-d7ee-61fb-f0a0" hidden="false" targetId="e71d-9d30-e310-a1c9" type="selectionEntry" categoryEntryId="358b-2aba-557c-2873">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="60d2-b679-b600-abd4" hidden="false" targetId="6313-2196-4df5-8d79" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="60d2-b679-b600-abd4" hidden="false" targetId="6313-2196-4df5-8d79" type="selectionEntry" categoryEntryId="358b-2aba-557c-2873">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="2c28-6be9-c12b-a82f" hidden="false" targetId="0ad9-01a7-16a0-4a52" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="2c28-6be9-c12b-a82f" hidden="false" targetId="0ad9-01a7-16a0-4a52" type="selectionEntry" categoryEntryId="358b-2aba-557c-2873">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="e265-d1b6-0697-6137" hidden="false" targetId="70ba-a3af-d827-1705" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="e265-d1b6-0697-6137" hidden="false" targetId="70ba-a3af-d827-1705" type="selectionEntry" categoryEntryId="358b-2aba-557c-2873">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="118d-9b3d-5924-44be" hidden="false" targetId="1471-e96e-0463-667e" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="118d-9b3d-5924-44be" hidden="false" targetId="1471-e96e-0463-667e" type="selectionEntry" categoryEntryId="d738-e165-6c53-09cd">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="7690-ba01-0239-158e" hidden="false" targetId="279d-b18a-1e78-1db2" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="7690-ba01-0239-158e" hidden="false" targetId="279d-b18a-1e78-1db2" type="selectionEntry" categoryEntryId="a823-2346-e149-e375">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="7ae3-36b1-74b2-a744" hidden="false" targetId="a772-2987-b8c3-06d2" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="7ae3-36b1-74b2-a744" hidden="false" targetId="a772-2987-b8c3-06d2" type="selectionEntry" categoryEntryId="358b-2aba-557c-2873">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="4783-ae0a-fb18-6a56" hidden="false" targetId="abdb-caaa-44b6-c08c" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="4783-ae0a-fb18-6a56" hidden="false" targetId="abdb-caaa-44b6-c08c" type="selectionEntry" categoryEntryId="a823-2346-e149-e375">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="20ea-4232-806a-865a" hidden="false" targetId="c5ee-c388-2858-a0f2" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="20ea-4232-806a-865a" hidden="false" targetId="c5ee-c388-2858-a0f2" type="selectionEntry" categoryEntryId="a823-2346-e149-e375">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="435a-7b20-32b9-2128" hidden="false" targetId="7710-bd03-f39d-29aa" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="435a-7b20-32b9-2128" hidden="false" targetId="7710-bd03-f39d-29aa" type="selectionEntry" categoryEntryId="a823-2346-e149-e375">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -147,14 +147,14 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="4b15-19d1-1a74-d87f" hidden="false" targetId="ed62-bade-9902-db66" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="4b15-19d1-1a74-d87f" hidden="false" targetId="ed62-bade-9902-db66" type="selectionEntry" categoryEntryId="d738-e165-6c53-09cd">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="5e86-2646-481a-7b08" hidden="false" targetId="c5ee-c388-2858-a0f2" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="5e86-2646-481a-7b08" hidden="false" targetId="c5ee-c388-2858-a0f2" type="selectionEntry" categoryEntryId="358b-2aba-557c-2873">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -169,42 +169,42 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="52c9-5187-a4bd-b90c" hidden="false" targetId="1b3e-1010-a7aa-26a1" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="52c9-5187-a4bd-b90c" hidden="false" targetId="1b3e-1010-a7aa-26a1" type="selectionEntry" categoryEntryId="d738-e165-6c53-09cd">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="ea44-015e-5599-6348" hidden="false" targetId="a47f-65fd-3830-90ea" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="ea44-015e-5599-6348" hidden="false" targetId="a47f-65fd-3830-90ea" type="selectionEntry" categoryEntryId="d738-e165-6c53-09cd">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="e8a3-8e33-7a96-1356" hidden="false" targetId="25be-8667-d2c5-2124" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="e8a3-8e33-7a96-1356" hidden="false" targetId="25be-8667-d2c5-2124" type="selectionEntry" categoryEntryId="a823-2346-e149-e375">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="9f4f-8d64-8f41-0120" hidden="false" targetId="6b0d-c127-c1a4-db89" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="9f4f-8d64-8f41-0120" hidden="false" targetId="6b0d-c127-c1a4-db89" type="selectionEntry" categoryEntryId="d738-e165-6c53-09cd">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="d9af-4de7-7057-bdd2" hidden="false" targetId="0dd9-ba60-4071-a916" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="d9af-4de7-7057-bdd2" hidden="false" targetId="0dd9-ba60-4071-a916" type="selectionEntry" categoryEntryId="d738-e165-6c53-09cd">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="bfd0-7c0f-6cac-c836" hidden="false" targetId="7710-bd03-f39d-29aa" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="bfd0-7c0f-6cac-c836" hidden="false" targetId="7710-bd03-f39d-29aa" type="selectionEntry" categoryEntryId="358b-2aba-557c-2873">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -219,7 +219,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="eb9b-a8d0-d4b8-08fa" hidden="false" targetId="904a-cb7e-f619-5e97" type="selectionEntry" categoryEntryId="cb2cd0fc-5911-38e6-9296-dcbaa3aaad0d">
+    <entryLink id="eb9b-a8d0-d4b8-08fa" hidden="false" targetId="904a-cb7e-f619-5e97" type="selectionEntry" categoryEntryId="d048-91a9-6dc1-9137">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -354,7 +354,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="bbdf-213f-0917-377a" hidden="false" targetId="c119-5259-3dc1-d621" type="rule">
+        <infoLink id="bbdf-213f-0917-377a" hidden="false" targetId="4598-78c5-24b1-072a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -626,7 +626,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="aa1d-3fe1-82e1-83ec" hidden="false" targetId="6e6f-a54b-5f8f-63b8" type="rule">
+        <infoLink id="aa1d-3fe1-82e1-83ec" hidden="false" targetId="c150-94f8-2dd4-7cd5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1672,13 +1672,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="25d6-a63c-50dd-d73c" hidden="false" targetId="b674-95ed-b0f8-38dd" type="rule">
+        <infoLink id="25d6-a63c-50dd-d73c" hidden="false" targetId="5220-d286-fec6-ba8e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="fe9d-9652-a2ec-c4f0" hidden="false" targetId="fa36-b91d-cb8e-c52c" type="rule">
+        <infoLink id="fe9d-9652-a2ec-c4f0" hidden="false" targetId="f55a-7ab8-c801-3811" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1902,7 +1902,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8111-beb1-6f5f-33a7" hidden="false" targetId="adae-eca6-8a85-429d" type="rule">
+        <infoLink id="8111-beb1-6f5f-33a7" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2211,13 +2211,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3ccb-70fe-04c3-ac7d" hidden="false" targetId="fa36-b91d-cb8e-c52c" type="rule">
+        <infoLink id="3ccb-70fe-04c3-ac7d" hidden="false" targetId="f55a-7ab8-c801-3811" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8a8f-625a-0fdf-958f" hidden="false" targetId="b674-95ed-b0f8-38dd" type="rule">
+        <infoLink id="8a8f-625a-0fdf-958f" hidden="false" targetId="5220-d286-fec6-ba8e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2314,13 +2314,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="08ad-b791-0039-9e1f" hidden="false" targetId="02c5-ba90-2cf4-c05d" type="rule">
+        <infoLink id="08ad-b791-0039-9e1f" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f38f-54da-8dce-766c" hidden="false" targetId="a608-9616-43c2-8328" type="rule">
+        <infoLink id="f38f-54da-8dce-766c" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2444,25 +2444,25 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="eb19-3bea-3576-6145" hidden="false" targetId="8ab7-15e3-3ef7-acd6" type="rule">
+        <infoLink id="eb19-3bea-3576-6145" hidden="false" targetId="8460-7bb6-2191-f2ea" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3f58-782e-480e-ffe8" hidden="false" targetId="02c5-ba90-2cf4-c05d" type="rule">
+        <infoLink id="3f58-782e-480e-ffe8" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9508-3e8e-1321-a38c" hidden="false" targetId="a608-9616-43c2-8328" type="rule">
+        <infoLink id="9508-3e8e-1321-a38c" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4ef7-ffbc-e155-f1a7" hidden="false" targetId="fa36-b91d-cb8e-c52c" type="rule">
+        <infoLink id="4ef7-ffbc-e155-f1a7" hidden="false" targetId="f55a-7ab8-c801-3811" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2541,19 +2541,19 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="d8b0-99cf-e976-d0e0" hidden="false" targetId="ea39-56af-aaba-dc2a" type="rule">
+        <infoLink id="d8b0-99cf-e976-d0e0" hidden="false" targetId="f181-d35e-7e1b-3ec5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f450-16f8-adc8-efd6" hidden="false" targetId="02c5-ba90-2cf4-c05d" type="rule">
+        <infoLink id="f450-16f8-adc8-efd6" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f36d-229e-8f18-8f89" hidden="false" targetId="a608-9616-43c2-8328" type="rule">
+        <infoLink id="f36d-229e-8f18-8f89" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2638,13 +2638,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9b35-5c78-3c76-d56d" hidden="false" targetId="02c5-ba90-2cf4-c05d" type="rule">
+        <infoLink id="9b35-5c78-3c76-d56d" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d16a-c6df-2f40-565f" hidden="false" targetId="a608-9616-43c2-8328" type="rule">
+        <infoLink id="d16a-c6df-2f40-565f" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2697,13 +2697,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="2a8e-d71d-c7bd-ed12" hidden="false" targetId="02c5-ba90-2cf4-c05d" type="rule">
+        <infoLink id="2a8e-d71d-c7bd-ed12" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6d6c-9fa2-7b3d-5997" hidden="false" targetId="a608-9616-43c2-8328" type="rule">
+        <infoLink id="6d6c-9fa2-7b3d-5997" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2715,7 +2715,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="acbb-2084-1439-6945" hidden="false" targetId="adae-eca6-8a85-429d" type="rule">
+        <infoLink id="acbb-2084-1439-6945" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2885,13 +2885,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="aedd-64d4-bd6d-e867" hidden="false" targetId="fa36-b91d-cb8e-c52c" type="rule">
+        <infoLink id="aedd-64d4-bd6d-e867" hidden="false" targetId="f55a-7ab8-c801-3811" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="cf70-c8ea-81fe-1d36" hidden="false" targetId="b674-95ed-b0f8-38dd" type="rule">
+        <infoLink id="cf70-c8ea-81fe-1d36" hidden="false" targetId="5220-d286-fec6-ba8e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2988,13 +2988,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="32f5-3573-a42d-bbf0" hidden="false" targetId="fa36-b91d-cb8e-c52c" type="rule">
+        <infoLink id="32f5-3573-a42d-bbf0" hidden="false" targetId="f55a-7ab8-c801-3811" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="1a09-57e4-3f50-3a8f" hidden="false" targetId="b674-95ed-b0f8-38dd" type="rule">
+        <infoLink id="1a09-57e4-3f50-3a8f" hidden="false" targetId="5220-d286-fec6-ba8e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3097,7 +3097,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="8b6c-4055-632b-bc0f" hidden="false" targetId="b7d7-b3cc-7def-a8ea" type="rule">
+        <infoLink id="8b6c-4055-632b-bc0f" hidden="false" targetId="5bcf-9fda-1fea-ca0e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3283,7 +3283,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="dc49-0771-5ecd-86ac" hidden="false" targetId="adae-eca6-8a85-429d" type="rule">
+        <infoLink id="dc49-0771-5ecd-86ac" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3295,7 +3295,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="6a67-f486-331a-0b89" hidden="false" targetId="b7d7-b3cc-7def-a8ea" type="rule">
+        <infoLink id="6a67-f486-331a-0b89" hidden="false" targetId="5bcf-9fda-1fea-ca0e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3557,13 +3557,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4fa3-794b-38a2-b5d1" hidden="false" targetId="fa36-b91d-cb8e-c52c" type="rule">
+        <infoLink id="4fa3-794b-38a2-b5d1" hidden="false" targetId="f55a-7ab8-c801-3811" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b6df-c57b-a454-f43e" hidden="false" targetId="b674-95ed-b0f8-38dd" type="rule">
+        <infoLink id="b6df-c57b-a454-f43e" hidden="false" targetId="5220-d286-fec6-ba8e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3635,13 +3635,13 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="ed3f-7689-a692-2d8b" hidden="false" targetId="b674-95ed-b0f8-38dd" type="rule">
+        <infoLink id="ed3f-7689-a692-2d8b" hidden="false" targetId="5220-d286-fec6-ba8e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="635a-e0d8-03b2-41a9" hidden="false" targetId="1286-c14d-d688-e062" type="rule">
+        <infoLink id="635a-e0d8-03b2-41a9" hidden="false" targetId="b20e-353a-90c7-ba27" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3653,7 +3653,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="c769-8c2a-1367-4286" hidden="false" targetId="fa36-b91d-cb8e-c52c" type="rule">
+        <infoLink id="c769-8c2a-1367-4286" hidden="false" targetId="f55a-7ab8-c801-3811" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3885,13 +3885,13 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="919b-8104-281f-922a" hidden="false" targetId="0345-241b-fa5f-64ac" type="rule">
+        <infoLink id="919b-8104-281f-922a" hidden="false" targetId="370b-2de3-dc87-827a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d712-06b6-cf04-7071" hidden="false" targetId="1286-c14d-d688-e062" type="rule">
+        <infoLink id="d712-06b6-cf04-7071" hidden="false" targetId="b20e-353a-90c7-ba27" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3941,7 +3941,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="caf5-d0e3-556e-5853" hidden="false" targetId="02c5-ba90-2cf4-c05d" type="rule">
+        <infoLink id="caf5-d0e3-556e-5853" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4076,13 +4076,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="4f79-6b04-828e-ff72" hidden="false" targetId="adae-eca6-8a85-429d" type="rule">
+        <infoLink id="4f79-6b04-828e-ff72" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="1aab-3eef-0a5b-9125" hidden="false" targetId="02c5-ba90-2cf4-c05d" type="rule">
+        <infoLink id="1aab-3eef-0a5b-9125" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4390,19 +4390,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="1bd9-7ce0-f0b4-efde" hidden="false" targetId="f0e0-ef4d-782a-c8a6" type="rule">
+        <infoLink id="1bd9-7ce0-f0b4-efde" hidden="false" targetId="1a6b-15b4-049d-fc47" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d820-fe28-02ec-abde" hidden="false" targetId="296c-9b81-0473-99be" type="rule">
+        <infoLink id="d820-fe28-02ec-abde" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="12d3-0350-7200-6352" hidden="false" targetId="a608-9616-43c2-8328" type="rule">
+        <infoLink id="12d3-0350-7200-6352" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4467,19 +4467,19 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e309-1a4c-4852-9d14" hidden="false" targetId="f0e0-ef4d-782a-c8a6" type="rule">
+        <infoLink id="e309-1a4c-4852-9d14" hidden="false" targetId="1a6b-15b4-049d-fc47" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="10fb-f525-8d7e-c1a2" hidden="false" targetId="296c-9b81-0473-99be" type="rule">
+        <infoLink id="10fb-f525-8d7e-c1a2" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0a5d-0182-6001-fb08" hidden="false" targetId="a608-9616-43c2-8328" type="rule">
+        <infoLink id="0a5d-0182-6001-fb08" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4491,7 +4491,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="972d-e14e-3e86-6245" hidden="false" targetId="adae-eca6-8a85-429d" type="rule">
+        <infoLink id="972d-e14e-3e86-6245" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4609,7 +4609,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="afae-f818-3167-f784" hidden="false" targetId="5d0f-8d4f-2eb4-c273" type="rule">
+            <infoLink id="afae-f818-3167-f784" hidden="false" targetId="2350-6ff9-1887-698c" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4984,7 +4984,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="5455-f4f8-3d52-205b" hidden="false" targetId="8ab7-15e3-3ef7-acd6" type="rule">
+            <infoLink id="5455-f4f8-3d52-205b" hidden="false" targetId="8460-7bb6-2191-f2ea" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5202,7 +5202,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="f1b0-367a-d38e-10b2" hidden="false" targetId="76ef-2247-48d8-2dff" type="rule">
+            <infoLink id="f1b0-367a-d38e-10b2" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5226,12 +5226,6 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="8ab7-15e3-3ef7-acd6" name="Acute Senses" book="Warhammer 40k rulebook" page="33" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="6b0e-fabf-ef07-cf6d" name="Artificial Intelligence" hidden="false">
       <profiles/>
       <rules/>
@@ -5246,36 +5240,12 @@
       <modifiers/>
       <description>Every bonded Tau warrior knows that his fellow team member will willingly lay down his life for the Greater Good. A model with the Bonding Knife Ritual may re-roll failed Pinning tests that are caused by a friendly model being killed within 3”.</description>
     </rule>
-    <rule id="ea39-56af-aaba-dc2a" name="Bulky" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Bulky models count as two models for the purposes of Transport Capacity.</description>
-    </rule>
-    <rule id="8925-a274-be29-5d22" name="Counter-attack" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>  If a unit contains at least one model with this special rule, and that unit is charged, every
-model with the Counter-attack special rule in the unit gets +1 Attack until the end of the
-phase.
-  If, when charged, the unit was already locked in combat, the Counter-attack special rule
-has no effect.</description>
-    </rule>
     <rule id="13bd-8c6a-f546-1107" name="Crushing Blow" book="Codex: Eldar (2013)" page="30" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>This model has +1 Strength.</description>
-    </rule>
-    <rule id="b27b-45f7-f6b0-0591" name="Deep Strike" book="Warhammer 40k rulebook" page="36" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
     </rule>
     <rule id="c970-3096-e16c-3f6d" name="Disarming Strike" hidden="false">
       <profiles/>
@@ -5293,12 +5263,6 @@ If the model’s total is equal to or higher than his opponent’s, nominate one
       <modifiers/>
       <description>A Firesight Marksman uses the normal rules for Injury during a Campaign. Drones, however, are easy to repair. If a Sniper Drone must make an Injury roll it does not use the normal chart, instead roll a D6: 1 = Dead!, 2+ = Full Recovery. Also, Sniper Drone models may never claim an Objective or carry anything. If the Firesight Marksman rolls a Dead! result during a Campaign, a replacement may be bought for 13 pts IF there are still Sniper Drones left alive.</description>
     </rule>
-    <rule id="c119-5259-3dc1-d621" name="Extremely Bulky" book="Warhammer 40k rulebook" page="35" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="b17c-659c-ab0c-377a" name="Fast Shot" book="Codex: Eldar (2013)" page="30" hidden="false">
       <profiles/>
       <rules/>
@@ -5306,87 +5270,12 @@ If the model’s total is equal to or higher than his opponent’s, nominate one
       <modifiers/>
       <description>This model always fires one more shot than is normal for his weapon. This power cannot be used when firing a Template weapon.</description>
     </rule>
-    <rule id="80b3-6ec4-9ba4-4c5f" name="Fear" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>At the start of each fight sub-phase, a unit in base contact with one or more enemy models that cause fear must take a leadership test (called a fear test) before any blows are struck.
-If the test is passed, all is well and there is no effect. If the test is failed, the unit succumbs to fear – all models in the unit have their weapon skill reduced to 1 for the remainder of that fight sub-phase.
-</description>
-    </rule>
-    <rule id="c5f4-1342-f8c3-4333" name="Fearless" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Units containing one or more models with the Fearless special rule automatically pass
-Pinning, Fear, Regroup tests and Morale checks, but cannot Go to Ground and cannot
-choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit has Gone
-to Ground and then gains the Fearless special rule, all the effects of Go to Ground are
-immediately cancelled.</description>
-    </rule>
-    <rule id="2e6b-6a94-3bbe-5b03" name="Feel No Pain" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain rol1to avoid being wounded (this is not a saving throw). Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the wound as normal. On a 5+, the unsaved wound is discounted - treat it as having been saved. </description>
-    </rule>
-    <rule id="f0e0-ef4d-782a-c8a6" name="Fleet" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>This model may run and charge an additional 1D3&quot;.</description>
-    </rule>
-    <rule id="76ef-2247-48d8-2dff" name="Furious Charge" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="2b05-0fc0-5ad4-a9b0" name="Grenade Pack" book="Codex: Eldar (2013)" page="66" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Any time a unit with a grenade pack enters play by Deep Strike and does not suffer a Deep Strike mishap, nominate one model in the unit immediatly after it arrives. That model can make a single special shooting attack in the Movement phase with the Grenade Pack profile. Unit must target the same target unit at Shooting phase if possible.</description>
-    </rule>
-    <rule id="211a-3c53-360c-1490" name="Hatred" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A model striking a hated foe in close combat re-rolls all misses during the first round of each combat - he does not get to make re-rolls for Hatred in subsequent rounds.</description>
-    </rule>
-    <rule id="296c-9b81-0473-99be" name="Hit &amp; Run" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test.
-If the test is failed, nothing happens and the models remain locked in the fight. If the test is passed, choose a direction - then roll 3D5. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over l &quot; away from all of the enemy units they are engaged in combat with, the unit breaks away from combat and immediately moves a number of inches in the chosen direction equal to the 3D6 result, ignoring the units they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6&quot;.
-A Hit &amp; Run move is not slowed by difficult terrain, but treats dangerous terrain normally. It may not be used to move into contact with enemy units, and models instead stop 1” away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat it consolidates instead.
-</description>
-    </rule>
-    <rule id="02c5-ba90-2cf4-c05d" name="Infiltrate" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Units that contain at least one model with this special rule are deployed last, after all other units (friend and foe) have been deployed. If both sides have Infiltrators, the players roll-off and the winner decides who goes first, then alternate deploying these units. 
-Infiltrators can be set up anywhere on the table that is more than 12 &quot; from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a building, as long as the building is more than 12 &quot; from any enemy unit. Alternatively, they can be set up anywhere on the table more than 18&quot; from any enemy unit, even in plain sight.
-A unit that deploys using these rules cannot charge in the first turn.
-Having Infiltrate also confers the Outflank special rule to units of Infiltrators that are kept as Reserves. If a unit with Infiltrate is deployed inside a Dedicated Transport, they may Infiltrate or Outflank along with their Transport, but if they do, they must deploy/move onto the table embarked within it. 
-</description>
-    </rule>
-    <rule id="adae-eca6-8a85-429d" name="Inspiring Presence" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Any friendly model within 6&quot; of this model may use  its Leadership for all Leadership test.</description>
     </rule>
     <rule id="c525-b4db-6010-37d1" name="Iron Resolve" book="Codex: Eldar (2013)" page="30" hidden="false">
       <profiles/>
@@ -5409,58 +5298,6 @@ Having Infiltrate also confers the Outflank special rule to units of Infiltrator
       <modifiers/>
       <description>This model has the Precision Shots special rule and will make Precision Shots on a 5+, reather than a 6.</description>
     </rule>
-    <rule id="04ca-1930-ff3c-ecc8" name="Monster Hunter" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule re-rolls all failed to Wound rolls against Monstrous Creatures and Flying Monstrous Creatures.</description>
-    </rule>
-    <rule id="a608-9616-43c2-8328" name="Move Through Cover" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule rolls an extra D5 when rolling to move through difficult terrain. In most circumstances, this will mean that the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests. The Move Through Cover special rule has no effect on charge range rolls or Impact tests.</description>
-    </rule>
-    <rule id="fb24-9686-15f8-9af6" name="Night Vision" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule ignores the effects of Night
-Fighting.</description>
-    </rule>
-    <rule id="5d0f-8d4f-2eb4-c273" name="Non-Flammable" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>The model passes all Initiative tests caused by the  Flamer rule, and may never gain a Burning counter  for any reason. </description>
-    </rule>
-    <rule id="fa36-b91d-cb8e-c52c" name="Non-Learning" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>This model may never gain Battle Honours. </description>
-    </rule>
-    <rule id="7284-4532-d2ba-c070" name="Outflank" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>During deployment, players can declare that any unit that contains at least one model with this special rule is attempting to Outflank the enemy. This means they are making a wide sweeping move to get behind enemy lines or come at the foe from an unexpected direction.
-When an Outflanking unit arrives from Reserves, but not Ongoing Reserve, the controlling player rolls a D6: on a 1 -2, the unit comes in from the table edge to the left of their controlling player&apos;s own table edge; on a 3-4, they come on from the right; on a 5-6, the player can choose left or right. Models move onto the table as described for other Reserves. If such units are picked from their army list with a Dedicated Transport, they may Outflank along with their Transport, but if they do, they must move onto the table embarked within it.
-</description>
-    </rule>
-    <rule id="9868-32c6-f9f5-83db" name="Preferred Enemy" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule re-rolls failed To Hit and To Wound rolls of 1 if attacking its Preferred Enemy. This applies to both shooting and close combat attacks.</description>
-    </rule>
     <rule id="65f9-6066-9b23-8819" name="Psyker (Master Level 1)" hidden="false">
       <profiles/>
       <rules/>
@@ -5481,29 +5318,12 @@ When an Outflanking unit arrives from Reserves, but not Ongoing Reserve, the con
       <modifiers/>
       <description>In a team lead by a Pathfinder Shas&apos;ui, Pathfinders MUST be taken as Core.</description>
     </rule>
-    <rule id="b7d7-b3cc-7def-a8ea" name="Scouts" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>After both sides have deployed (including Infiltrators), but before the first player begins his first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, a Walker or a Monstrous Creature, each model can redeploy anywhere entirely within 6&quot; of its current position. If it is any other unit type, each model can instead redeploy anywhere entirely within 12&quot; of its current position. During this redeployment, Scouts must remain more than 12&quot; away from any enemy unit. A unit that makes a Scout redeployment cannot charge in the first turn. A unit cannot embark or disembark as part of a Scout redeployment.
-If both sides have Scouts, roll-off, the winner decides who redeploys first. Then alternate redeploying Scout units.
-If a unit with this special rule is deployed inside a Dedicated Transport, it confers the Scout special rule to the Transport (though disembarkation cannot be performed as part of the redeployment). Note that a Transport with this special rule does not lose it if a unit without this special rule is embarked upon it.
-This rule also confers the Outflank special rule.
-</description>
-    </rule>
     <rule id="b5b0-f8b9-483e-32e5" name="Shield of Grace" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>In any round of a challenge, this model can choose to defend, gaining a 3+ invulnerable save until the end of the phase. If he does so, he can only make a single Attack this phase. You must declare that the model is opting to defend immediately before the Initiative 10 step.</description>
-    </rule>
-    <rule id="0345-241b-fa5f-64ac" name="Shrouded" book="Warhammer 40k rulebook" page="41" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
     </rule>
     <rule id="b088-a50d-048f-8af5" name="Single Unit" hidden="false">
       <profiles/>
@@ -5512,19 +5332,6 @@ This rule also confers the Outflank special rule.
       <modifiers/>
       <description>The entire Sniper Drone Team counts as a single Special model in regards to the model availability requirements.</description>
     </rule>
-    <rule id="5cb7-2c86-3a07-20d7" name="Slow and Purposeful" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule cannot Run, Turboboost, move Flat Out, perform Sweeping Advances or fire Overwatch. They can) however, shoot with Heavy, Salvo and Ordnance weapons, counting as stationary even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
-    </rule>
-    <rule id="b674-95ed-b0f8-38dd" name="Squad" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="da27-302b-3f9b-6a20" name="Stalker" book="Codex: Eldar (2013)" page="30" hidden="false">
       <profiles/>
       <rules/>
@@ -5532,15 +5339,6 @@ This rule also confers the Outflank special rule.
       <modifiers/>
       <description>In the first round of a challenge, the model can attempt to backstab his opponent – you must declare he is doing so immediately after a challenge has been accepted. If the attempt is made, both he and his opponent roll 1D6 before either makes any To Hit rolls. The model with this power adds 1 to the total if his initiative is higher than his opponent’s.
 If the model’s total is equal to or higher than the opponent’s, he re-rolls failed To Wound rolls this phase.
-</description>
-    </rule>
-    <rule id="1286-c14d-d688-e062" name="Stealth" book="Warhammer 40K Rulebook" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule counts its cover saves as being I point better than normal. Note that this means that a model with the Stealth special rule always has a cover save of at least 6+, even if it is in the open. This rule is often presented as Stealth (X) where X indicates a specific type of terrain, such as Stealth (Forests) or Stealth (Ruins). If this is the case, the unit only gains the benefit whilst it is in terrain of the specified type.
-Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).
 </description>
     </rule>
     <rule id="1902-9901-95b0-13c6" name="Stealth (Forests)" hidden="false">
@@ -5574,12 +5372,6 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       <infoLinks/>
       <modifiers/>
       <description>During the Overwatch sub-phase, any model with the Supporting Fire special rule within 6&quot; of a friendly Charge target, may choose to immediately also fire Overwatch as well. This is instead of the usual 3”.</description>
-    </rule>
-    <rule id="6e6f-a54b-5f8f-63b8" name="Very Bulky" book="Warhammer 40k rulebook" page="35" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>

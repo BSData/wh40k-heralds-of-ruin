@@ -90,56 +90,12 @@
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
   <sharedRules>
-    <rule id="a76f-f3bc-b8f2-abb4" name="Blind" book="40k BRB" page="159" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="c80f-6ba2-8caa-c527" name="Concussive" book="40k BRB" page="163" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="0f20-efe3-28be-8a61" name="Feel No Pain" book="40k BRB" page="164" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="c274-bfd0-f90b-0e12" name="Flamer" book="Kill Team List: Adeptus Arbites" page="1" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Uses the flamer rules in the core Kill Team rules, page 5.</description>
-    </rule>
-    <rule id="e6d2-79c1-a77a-962f" name="Gets Hot" book="40k BRB" page="164" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="fcac-f6f2-0799-c414" name="Homing" book="Kill Team List: Adeptus Arbites" page="1" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Does not need Line of Sight to target</description>
-    </rule>
-    <rule id="9347-bafd-6051-4bdd" name="Infiltrate" book="40k BRB" page="167" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="c0d6-235e-995c-6681" name="Inspiring Presence" book="Kill Team Core Rules v3.1" page="7" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Any friendly model within 6&quot; of this model may use its Leadership for all Leadership tests.</description>
     </rule>
     <rule id="226e-5c41-6768-0ff4" name="Judge, Jury, Executioner" book="Kill Team List: Adeptus Arbits" page="2" hidden="false">
       <profiles/>
@@ -154,31 +110,6 @@
       <infoLinks/>
       <modifiers/>
       <description>A Mortiurge operates better alone and is never affected by the Inspiring Presence or Voice of the Law rules.</description>
-    </rule>
-    <rule id="7de6-7e30-ad46-10ef" name="Master-Crafted" book="40k BRB" page="167" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="daad-60d3-c454-41ce" name="Move Through Cover" book="40k BRB" page="168" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="b033-e697-4a90-bc7d" name="Non-Flammable" book="Kill Team Core Rules" page="7" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>The model passes all Initiative tests caused by the Flamer rule, and may never gain a Burning counter for any reason.</description>
-    </rule>
-    <rule id="cf1c-7144-3fb9-cfec" name="Pinning" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
     </rule>
     <rule id="3579-eb4f-cc5a-4aaf" name="Primary Target" book="Kill Team List: Adeptus Arbites" page="4" hidden="false">
       <profiles/>
@@ -201,12 +132,6 @@
       <modifiers/>
       <description>When charged, a model with the Riot Tactics special rule may take a Leadership Test. If this test is successful, charging models lose their bonus attacks from charging the model with Riot Tactics.</description>
     </rule>
-    <rule id="c9e1-7d79-fe96-9d87" name="Scout" book="40k BRB" page="171" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="b1e3-e15f-315b-df06" name="Shield Wall" book="Kill Team List: Adeptus Arbites" page="4" hidden="false">
       <profiles/>
       <rules/>
@@ -220,18 +145,6 @@
       <infoLinks/>
       <modifiers/>
       <description>Any model that is hit by this weapon gains a 5+ cover save until the start of their next turn. You may target friendly models with this weapon.</description>
-    </rule>
-    <rule id="00f9-920e-419f-6cc4" name="Strikedown" book="40k BRB" page="172" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="cb5d-5a88-5807-b36b" name="Stubborn" book="40k BRB" page="172" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
     </rule>
     <rule id="a38a-78cf-aefb-bc8c" name="Voice of the Law" book="Kill Team List: Adeptus Arbites" page="2" hidden="false">
       <profiles/>

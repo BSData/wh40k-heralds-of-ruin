@@ -64,49 +64,49 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="6ddd-9511-24c6-78d6" hidden="false" targetId="c489-c0fb-005f-d259" type="selectionEntry" categoryEntryId="522d-3575-2e53-d2ef">
+    <entryLink id="6ddd-9511-24c6-78d6" hidden="false" targetId="c489-c0fb-005f-d259" type="selectionEntry" categoryEntryId="3368-fd13-4733-c8cf">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="ea34-bcc1-90fc-1b8d" hidden="false" targetId="825f-d084-27dd-ba7b" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="ea34-bcc1-90fc-1b8d" hidden="false" targetId="825f-d084-27dd-ba7b" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="b9a7-03a6-624f-c03a" hidden="false" targetId="4c55-9020-f7e1-b0ba" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="b9a7-03a6-624f-c03a" hidden="false" targetId="4c55-9020-f7e1-b0ba" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="695f-72e4-c5ec-2186" hidden="false" targetId="2530-3700-d2ce-525e" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="695f-72e4-c5ec-2186" hidden="false" targetId="2530-3700-d2ce-525e" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="e010-a4e1-7583-6d83" hidden="false" targetId="6452-bada-51d6-db9c" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="e010-a4e1-7583-6d83" hidden="false" targetId="6452-bada-51d6-db9c" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="c5cc-0900-3fbc-0365" hidden="false" targetId="fd42-3cde-cf87-37a4" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="c5cc-0900-3fbc-0365" hidden="false" targetId="fd42-3cde-cf87-37a4" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="b63f-92a2-1a82-b628" hidden="false" targetId="d330-0f69-6eef-21ec" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="b63f-92a2-1a82-b628" hidden="false" targetId="d330-0f69-6eef-21ec" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -121,7 +121,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="fd74-2b78-9ba6-54cf" hidden="false" targetId="8c23-69f6-dc01-ece3" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="fd74-2b78-9ba6-54cf" hidden="false" targetId="8c23-69f6-dc01-ece3" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -136,28 +136,28 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="7794-e6c1-5f5e-9d76" hidden="false" targetId="a5f6-6092-efce-cd59" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="7794-e6c1-5f5e-9d76" hidden="false" targetId="a5f6-6092-efce-cd59" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="e6f7-7cae-dbf8-e055" hidden="false" targetId="f2a6-5c60-5659-e4d3" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="e6f7-7cae-dbf8-e055" hidden="false" targetId="f2a6-5c60-5659-e4d3" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="af55-6a1d-f4e5-3231" hidden="false" targetId="db1a-f58f-16d3-4c46" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="af55-6a1d-f4e5-3231" hidden="false" targetId="db1a-f58f-16d3-4c46" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="958f-f32c-f367-546d" hidden="false" targetId="c87f-7867-97aa-7927" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="958f-f32c-f367-546d" hidden="false" targetId="c87f-7867-97aa-7927" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -172,12 +172,12 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="ebf9-c0da-10f1-d8bf" hidden="false" targetId="b373-2f13-1a31-6ca6" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="ebf9-c0da-10f1-d8bf" hidden="false" targetId="b373-2f13-1a31-6ca6" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="minInForce" value="-1.0">
+        <modifier type="set" field="maxSelections" value="-1">
           <repeats/>
           <conditions>
             <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="352d-6749-6be0-e333" type="equalTo"/>
@@ -187,7 +187,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="de3a-5505-cd6b-f863" hidden="false" targetId="c970-aaa5-95e3-74ff" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="de3a-5505-cd6b-f863" hidden="false" targetId="c970-aaa5-95e3-74ff" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -217,7 +217,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="6525-c637-7d1f-fe2c" hidden="false" targetId="6441-1d50-8d47-d7f0" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="6525-c637-7d1f-fe2c" hidden="false" targetId="6441-1d50-8d47-d7f0" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -232,14 +232,14 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="274f-cbfa-4233-ef80" hidden="false" targetId="706d-a156-84bb-1f5d" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="274f-cbfa-4233-ef80" hidden="false" targetId="706d-a156-84bb-1f5d" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="cfa7-dadb-1abf-bc04" hidden="false" targetId="8cb5-94bd-810b-6708" type="selectionEntry" categoryEntryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15">
+    <entryLink id="cfa7-dadb-1abf-bc04" hidden="false" targetId="8cb5-94bd-810b-6708" type="selectionEntry" categoryEntryId="9e1c-8d00-c3b7-d9db">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -254,7 +254,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="fd90-daae-05da-28c0" hidden="false" targetId="8cb8-fcac-85a7-6d6c" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="fd90-daae-05da-28c0" hidden="false" targetId="8cb8-fcac-85a7-6d6c" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -269,7 +269,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="9337-45c0-6ccd-cd75" hidden="false" targetId="6441-1d50-8d47-d7f0" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="9337-45c0-6ccd-cd75" hidden="false" targetId="6441-1d50-8d47-d7f0" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -284,7 +284,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="b744-e6b0-6b9e-428f" hidden="false" targetId="33a4-0292-58b7-6152" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="b744-e6b0-6b9e-428f" hidden="false" targetId="33a4-0292-58b7-6152" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -299,7 +299,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="8560-de53-3624-3bfb" hidden="false" targetId="33a4-0292-58b7-6152" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="8560-de53-3624-3bfb" hidden="false" targetId="33a4-0292-58b7-6152" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -314,7 +314,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="40a6-4310-6067-e265" hidden="false" targetId="a416-d4e8-2dbe-9d7d" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="40a6-4310-6067-e265" hidden="false" targetId="a416-d4e8-2dbe-9d7d" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -329,7 +329,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="980a-e413-63e2-59a6" hidden="false" targetId="a416-d4e8-2dbe-9d7d" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="980a-e413-63e2-59a6" hidden="false" targetId="a416-d4e8-2dbe-9d7d" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -344,7 +344,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="7160-7758-370a-5636" hidden="false" targetId="2973-7a44-9b80-499e" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="7160-7758-370a-5636" hidden="false" targetId="2973-7a44-9b80-499e" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -359,7 +359,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="8cc2-32e2-79fb-8105" hidden="false" targetId="2973-7a44-9b80-499e" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="8cc2-32e2-79fb-8105" hidden="false" targetId="2973-7a44-9b80-499e" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -374,7 +374,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="ddad-b928-2bb9-1a9e" hidden="false" targetId="4691-1183-bb12-f31c" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="ddad-b928-2bb9-1a9e" hidden="false" targetId="4691-1183-bb12-f31c" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -389,7 +389,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="97de-b922-49c3-5fd7" hidden="false" targetId="4691-1183-bb12-f31c" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="97de-b922-49c3-5fd7" hidden="false" targetId="4691-1183-bb12-f31c" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -404,7 +404,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="e758-e31b-201f-690d" hidden="false" targetId="db41-0c4f-032f-6f44" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="e758-e31b-201f-690d" hidden="false" targetId="db41-0c4f-032f-6f44" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -419,7 +419,7 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="a0fb-ab79-28d5-1a43" hidden="false" targetId="db41-0c4f-032f-6f44" type="selectionEntry" categoryEntryId="27f87f9f-d6db-7f68-9eb1-11563649e4dc">
+    <entryLink id="a0fb-ab79-28d5-1a43" hidden="false" targetId="db41-0c4f-032f-6f44" type="selectionEntry" categoryEntryId="7f2d-2dba-e694-e132">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -434,35 +434,35 @@
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="744e-4797-8945-939b" hidden="false" targetId="0be5-bb50-8648-c85a" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="744e-4797-8945-939b" hidden="false" targetId="0be5-bb50-8648-c85a" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="134a-d57c-c806-cfe0" hidden="false" targetId="274a-6267-d446-59bd" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="134a-d57c-c806-cfe0" hidden="false" targetId="274a-6267-d446-59bd" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="b318-614f-a9a1-7f58" hidden="false" targetId="938f-2401-56e1-5ad8" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="b318-614f-a9a1-7f58" hidden="false" targetId="938f-2401-56e1-5ad8" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="4c04-99b9-0b20-0146" hidden="false" targetId="5d99-588a-349a-eb55" type="selectionEntry" categoryEntryId="7b4c7698-ce98-e36c-d6fd-9ecc992d2326">
+    <entryLink id="4c04-99b9-0b20-0146" hidden="false" targetId="5d99-588a-349a-eb55" type="selectionEntry" categoryEntryId="775b-7a96-b10c-7216">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="389c-dca3-3040-a178" hidden="false" targetId="9ba1-ccfc-78b2-455b" type="selectionEntry" categoryEntryId="cb2cd0fc-5911-38e6-9296-dcbaa3aaad0d">
+    <entryLink id="389c-dca3-3040-a178" hidden="false" targetId="9ba1-ccfc-78b2-455b" type="selectionEntry" categoryEntryId="dea4-ad88-e634-a686">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -516,7 +516,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="f2db-3c81-9196-8cef" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="f2db-3c81-9196-8cef" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -534,7 +534,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7d93-01ec-b315-8f08" hidden="false" targetId="e0e9-842d-f920-0c16" type="rule">
+        <infoLink id="7d93-01ec-b315-8f08" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -563,7 +563,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="8079-a959-7f12-14fa" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="8079-a959-7f12-14fa" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -577,7 +577,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="2c83-7b04-fefe-5b19" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="2c83-7b04-fefe-5b19" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -605,7 +605,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="7ff9-a65e-fa93-8518" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="7ff9-a65e-fa93-8518" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -633,7 +633,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="5a18-30a4-4837-dcf6" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="5a18-30a4-4837-dcf6" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -647,7 +647,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="d3a9-399d-ce8d-9bcf" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="d3a9-399d-ce8d-9bcf" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -661,7 +661,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="2f17-306e-5d1e-d42b" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="2f17-306e-5d1e-d42b" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1105,7 +1105,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="5dd9-bc3a-781b-83bf" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="5dd9-bc3a-781b-83bf" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1117,7 +1117,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f3d6-4a08-622c-212c" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="f3d6-4a08-622c-212c" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1611,25 +1611,25 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="ae70-6649-6b79-374d" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="ae70-6649-6b79-374d" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0cc5-f87f-d9f2-1935" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="0cc5-f87f-d9f2-1935" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9d42-2f85-22f7-1641" hidden="false" targetId="10dd-bb3f-2da5-44d1" type="rule">
+        <infoLink id="9d42-2f85-22f7-1641" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="51d4-df7a-f62c-beaf" hidden="false" targetId="e0e9-842d-f920-0c16" type="rule">
+        <infoLink id="51d4-df7a-f62c-beaf" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1658,7 +1658,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="22f4-27aa-622b-64e2" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="22f4-27aa-622b-64e2" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1672,7 +1672,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="a42e-46a2-dc29-e05f" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="a42e-46a2-dc29-e05f" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1700,7 +1700,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="5e62-7c48-e2c3-f26d" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="5e62-7c48-e2c3-f26d" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1728,7 +1728,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="d49e-538a-c57a-426e" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="d49e-538a-c57a-426e" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1742,7 +1742,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="b6bd-9c22-4f9a-6116" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="b6bd-9c22-4f9a-6116" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1756,7 +1756,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="7341-b202-9c2b-9dbf" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="7341-b202-9c2b-9dbf" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2322,7 +2322,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="7e78-f478-07d1-3fb2" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="7e78-f478-07d1-3fb2" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2348,7 +2348,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="0e70-a17e-4364-0e7e" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="0e70-a17e-4364-0e7e" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2362,7 +2362,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="c1ae-3eff-962c-0fb6" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="c1ae-3eff-962c-0fb6" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2390,7 +2390,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="0ffa-046d-62a6-6eee" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="0ffa-046d-62a6-6eee" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2418,7 +2418,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="ee1d-f919-8386-4beb" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="ee1d-f919-8386-4beb" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2432,7 +2432,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="9dbb-335d-d8f0-a0a2" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="9dbb-335d-d8f0-a0a2" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2446,7 +2446,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="07da-06b4-e7ef-5807" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="07da-06b4-e7ef-5807" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2903,7 +2903,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="8abf-c614-571d-32b3" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="8abf-c614-571d-32b3" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2917,7 +2917,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="85de-c45f-6433-c213" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="85de-c45f-6433-c213" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2945,7 +2945,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="6528-7166-6e38-d540" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="6528-7166-6e38-d540" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2973,7 +2973,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="0bdf-6d56-cad3-64f5" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="0bdf-6d56-cad3-64f5" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2987,7 +2987,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="c366-9d4c-2d8b-97b9" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="c366-9d4c-2d8b-97b9" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3001,7 +3001,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="43b4-61c7-0565-80e8" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="43b4-61c7-0565-80e8" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3377,7 +3377,7 @@
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="c20c-32cb-c943-52e1" hidden="false" targetId="c3e3-9852-1260-d646" type="rule">
+            <infoLink id="c20c-32cb-c943-52e1" hidden="false" targetId="5bcf-9fda-1fea-ca0e" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3602,13 +3602,13 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="809d-a528-cbc7-542d" hidden="false" targetId="3a55-e513-debc-e83e" type="rule">
+        <infoLink id="809d-a528-cbc7-542d" hidden="false" targetId="8408-2500-936f-5910" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="46f4-b8af-379b-aaad" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="46f4-b8af-379b-aaad" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3803,7 +3803,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="5107-0219-462b-b755" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="5107-0219-462b-b755" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3817,7 +3817,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="aa50-b8ed-75e8-5a67" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="aa50-b8ed-75e8-5a67" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3845,7 +3845,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="c0a4-7fa9-f294-c8d8" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="c0a4-7fa9-f294-c8d8" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3873,7 +3873,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="13f7-6b8f-103c-0c56" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="13f7-6b8f-103c-0c56" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3887,7 +3887,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="3386-15cd-6281-c896" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="3386-15cd-6281-c896" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -3901,7 +3901,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="08b5-b0ee-1d52-8887" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="08b5-b0ee-1d52-8887" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4342,31 +4342,31 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="0b63-21f3-3b3a-21fc" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+        <infoLink id="0b63-21f3-3b3a-21fc" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="e4ad-9469-2068-12c7" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="e4ad-9469-2068-12c7" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="def7-0731-8c45-2c46" hidden="false" targetId="3a55-e513-debc-e83e" type="rule">
+        <infoLink id="def7-0731-8c45-2c46" hidden="false" targetId="8408-2500-936f-5910" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="40c0-f55f-50f8-5573" hidden="false" targetId="df26-e321-b55d-ca4e" type="rule">
+        <infoLink id="40c0-f55f-50f8-5573" hidden="false" targetId="c150-94f8-2dd4-7cd5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="27b4-7f85-2c83-2b8a" hidden="false" targetId="479a-8da3-535d-f0ba" type="rule">
+        <infoLink id="27b4-7f85-2c83-2b8a" hidden="false" targetId="f55a-7ab8-c801-3811" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4505,7 +4505,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="285c-a392-9f81-4b5d" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="285c-a392-9f81-4b5d" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4519,7 +4519,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="e63e-096d-8e1f-15c8" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="e63e-096d-8e1f-15c8" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4547,7 +4547,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="7529-0772-9a3e-e169" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="7529-0772-9a3e-e169" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4575,7 +4575,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="4f5b-941f-f551-a9bc" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="4f5b-941f-f551-a9bc" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4589,7 +4589,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="0d28-bde6-ff61-1195" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="0d28-bde6-ff61-1195" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -4603,7 +4603,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="8b20-d0a9-2ee8-d042" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="8b20-d0a9-2ee8-d042" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5108,7 +5108,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="7ab1-fe9d-6792-50a2" hidden="false" targetId="e0e9-842d-f920-0c16" type="rule">
+        <infoLink id="7ab1-fe9d-6792-50a2" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5137,7 +5137,7 @@
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="6034-41a3-bf1c-da3b" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="6034-41a3-bf1c-da3b" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5151,7 +5151,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="8bfd-7808-c02d-e054" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="8bfd-7808-c02d-e054" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5179,7 +5179,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="0c80-189a-6743-666f" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="0c80-189a-6743-666f" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5207,7 +5207,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="c323-c5cc-73bf-193f" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="c323-c5cc-73bf-193f" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5221,7 +5221,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="e6c3-adae-1c42-2a2d" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="e6c3-adae-1c42-2a2d" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5235,7 +5235,7 @@
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="efd8-6e02-b35c-9f97" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="efd8-6e02-b35c-9f97" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5852,7 +5852,7 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="cffd-ec03-725f-88d5" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="cffd-ec03-725f-88d5" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6610,7 +6610,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="757b-dbfa-1eb0-2956" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="757b-dbfa-1eb0-2956" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7272,13 +7272,13 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="12d4-1eaf-27ff-496b" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="12d4-1eaf-27ff-496b" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="baf9-6b6e-4408-1ece" hidden="false" targetId="10dd-bb3f-2da5-44d1" type="rule">
+        <infoLink id="baf9-6b6e-4408-1ece" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7513,13 +7513,13 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="fe16-a288-5378-f63a" hidden="false" targetId="4c62-22fe-25ed-6512" type="rule">
+        <infoLink id="fe16-a288-5378-f63a" hidden="false" targetId="d8f0-051e-fd21-660a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7af1-19c2-c5f4-08a3" hidden="false" targetId="3a55-e513-debc-e83e" type="rule">
+        <infoLink id="7af1-19c2-c5f4-08a3" hidden="false" targetId="8408-2500-936f-5910" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7785,25 +7785,25 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="872b-a371-527f-050f" hidden="false" targetId="781d-32b4-fe98-c64b" type="rule">
+        <infoLink id="872b-a371-527f-050f" hidden="false" targetId="f181-d35e-7e1b-3ec5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2d57-0f37-90ad-97f5" hidden="false" targetId="10d4-a9af-9a9f-8829" type="rule">
+        <infoLink id="2d57-0f37-90ad-97f5" hidden="false" targetId="9dae-1137-9bfc-dc6a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="4cae-22ea-af16-22d2" hidden="false" targetId="23ad-015b-2c11-5e5f" type="rule">
+        <infoLink id="4cae-22ea-af16-22d2" hidden="false" targetId="258b-44dd-90f5-5940" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9599-f26a-ea7b-48c3" hidden="false" targetId="7412-9a84-4569-a3da" type="rule">
+        <infoLink id="9599-f26a-ea7b-48c3" hidden="false" targetId="bf97-1e19-225f-592d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7970,19 +7970,19 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="dc0d-cb4a-e85f-8fe5" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="dc0d-cb4a-e85f-8fe5" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="64bc-31ea-1483-2e0c" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="64bc-31ea-1483-2e0c" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="aacb-48ce-e588-f1ed" hidden="false" targetId="e0e9-842d-f920-0c16" type="rule">
+        <infoLink id="aacb-48ce-e588-f1ed" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8011,7 +8011,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="b28d-909a-98a7-934f" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="b28d-909a-98a7-934f" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8025,7 +8025,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="3a53-6f11-d3b8-1ee9" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="3a53-6f11-d3b8-1ee9" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8053,7 +8053,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="bad7-e48d-8934-95db" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="bad7-e48d-8934-95db" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8081,7 +8081,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="1d86-c67e-c10f-78ba" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="1d86-c67e-c10f-78ba" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8095,7 +8095,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="ae7a-e297-b682-92f6" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="ae7a-e297-b682-92f6" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8109,7 +8109,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="55cb-8c21-2ec3-32d7" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="55cb-8c21-2ec3-32d7" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8210,13 +8210,13 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="0ae8-5723-adb2-1918" hidden="false" targetId="3214-1fea-38c9-8db1" type="rule">
+            <infoLink id="0ae8-5723-adb2-1918" hidden="false" targetId="3012-28a7-681f-dfa3" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="e23c-246b-cbc6-e8aa" hidden="false" targetId="aab2-f5f9-77b9-a363" type="rule">
+            <infoLink id="e23c-246b-cbc6-e8aa" hidden="false" targetId="8460-7bb6-2191-f2ea" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8488,7 +8488,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="b26e-ee1b-68be-b4b5" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="b26e-ee1b-68be-b4b5" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8678,25 +8678,25 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="5cdc-3cb7-42de-2ad6" hidden="false" targetId="781d-32b4-fe98-c64b" type="rule">
+        <infoLink id="5cdc-3cb7-42de-2ad6" hidden="false" targetId="f181-d35e-7e1b-3ec5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2059-7bde-631f-e92d" hidden="false" targetId="10d4-a9af-9a9f-8829" type="rule">
+        <infoLink id="2059-7bde-631f-e92d" hidden="false" targetId="9dae-1137-9bfc-dc6a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0d62-d8e2-310c-5db0" hidden="false" targetId="23ad-015b-2c11-5e5f" type="rule">
+        <infoLink id="0d62-d8e2-310c-5db0" hidden="false" targetId="258b-44dd-90f5-5940" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="cb96-a0e7-615a-834d" hidden="false" targetId="7412-9a84-4569-a3da" type="rule">
+        <infoLink id="cb96-a0e7-615a-834d" hidden="false" targetId="bf97-1e19-225f-592d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8893,25 +8893,25 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="0a17-7799-7035-a2fa" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="0a17-7799-7035-a2fa" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="c67c-e334-9708-9a82" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+        <infoLink id="c67c-e334-9708-9a82" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="80d4-1e8e-5669-34d1" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="80d4-1e8e-5669-34d1" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="83bd-4fde-fa57-a529" hidden="false" targetId="e0e9-842d-f920-0c16" type="rule">
+        <infoLink id="83bd-4fde-fa57-a529" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8940,7 +8940,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="f0f0-4438-b90b-394d" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="f0f0-4438-b90b-394d" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8954,7 +8954,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="ae59-20fa-c2b3-575a" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="ae59-20fa-c2b3-575a" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8982,7 +8982,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="e373-bcc8-8697-f07c" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="e373-bcc8-8697-f07c" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9010,7 +9010,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="813c-7cf3-902b-1869" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="813c-7cf3-902b-1869" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9024,7 +9024,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="9fd6-fb54-5962-ffdc" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="9fd6-fb54-5962-ffdc" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9038,7 +9038,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="42c1-9782-5a6a-4a1d" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="42c1-9782-5a6a-4a1d" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9139,7 +9139,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="a91d-89be-0363-98b5" hidden="false" targetId="df26-e321-b55d-ca4e" type="rule">
+            <infoLink id="a91d-89be-0363-98b5" hidden="false" targetId="c150-94f8-2dd4-7cd5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9412,13 +9412,13 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="02a9-d6c0-844a-c3bf" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="02a9-d6c0-844a-c3bf" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="b5fb-3daf-2e26-5fb5" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+        <infoLink id="b5fb-3daf-2e26-5fb5" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9728,19 +9728,19 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="16c5-0393-fdeb-5ab3" hidden="false" targetId="10d4-a9af-9a9f-8829" type="rule">
+        <infoLink id="16c5-0393-fdeb-5ab3" hidden="false" targetId="9dae-1137-9bfc-dc6a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="2248-4bcb-f7c1-742a" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="2248-4bcb-f7c1-742a" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="c3d5-0854-2c8d-a62e" hidden="false" targetId="c8bf-eed2-774d-b68d" type="rule">
+        <infoLink id="c3d5-0854-2c8d-a62e" hidden="false" targetId="1a6b-15b4-049d-fc47" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9987,7 +9987,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="a4c2-4492-e5b5-c8c2" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="a4c2-4492-e5b5-c8c2" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9999,19 +9999,19 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9571-47ee-8888-0a22" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="9571-47ee-8888-0a22" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f641-4108-940f-b154" hidden="false" targetId="c8bf-eed2-774d-b68d" type="rule">
+        <infoLink id="f641-4108-940f-b154" hidden="false" targetId="1a6b-15b4-049d-fc47" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3e68-7550-ad59-4ea6" hidden="false" targetId="10d4-a9af-9a9f-8829" type="rule">
+        <infoLink id="3e68-7550-ad59-4ea6" hidden="false" targetId="9dae-1137-9bfc-dc6a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10385,7 +10385,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="4029-9af8-cba9-8d76" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+        <infoLink id="4029-9af8-cba9-8d76" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10492,7 +10492,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="a811-d1a9-214b-2162" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="a811-d1a9-214b-2162" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10506,7 +10506,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="36a4-8abb-7476-a7cd" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="36a4-8abb-7476-a7cd" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10534,7 +10534,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="ef8f-85e2-628f-744d" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="ef8f-85e2-628f-744d" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10562,7 +10562,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="6a2d-4485-c8bd-267b" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="6a2d-4485-c8bd-267b" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10576,7 +10576,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="eae7-b575-1159-98c3" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="eae7-b575-1159-98c3" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10590,7 +10590,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="503b-07d0-7b50-dac0" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="503b-07d0-7b50-dac0" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11007,7 +11007,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="cc54-c8e0-1524-a161" hidden="false" targetId="bf3c-519a-9367-6ac4" type="rule">
+        <infoLink id="cc54-c8e0-1524-a161" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11021,7 +11021,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           <profiles/>
           <rules/>
           <infoLinks>
-            <infoLink id="3b0f-abd7-cbeb-2ca2" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="3b0f-abd7-cbeb-2ca2" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11035,7 +11035,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="d192-d42e-fb61-9aba" hidden="false" targetId="296f-56de-f64a-edd8" type="rule">
+            <infoLink id="d192-d42e-fb61-9aba" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11063,7 +11063,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="3ed1-42ca-c9e6-aaca" hidden="false" targetId="a516-a118-7b50-9ad0" type="rule">
+            <infoLink id="3ed1-42ca-c9e6-aaca" hidden="false" targetId="0821-7806-2619-1446" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11091,7 +11091,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="f051-b205-0e71-bc50" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="f051-b205-0e71-bc50" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11105,7 +11105,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="9022-75a7-77ad-caee" hidden="false" targetId="051f-1326-606d-dc6b" type="rule">
+            <infoLink id="9022-75a7-77ad-caee" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11119,7 +11119,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
                 </modifier>
               </modifiers>
             </infoLink>
-            <infoLink id="0332-e03c-cebc-c587" hidden="false" targetId="08c9-828d-654f-e1a0" type="rule">
+            <infoLink id="0332-e03c-cebc-c587" hidden="false" targetId="06b1-b18a-8932-abd2" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11429,13 +11429,13 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="fa80-162d-5700-14a0" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+        <infoLink id="fa80-162d-5700-14a0" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3855-5a85-03b8-bde7" hidden="false" targetId="7412-9a84-4569-a3da" type="rule">
+        <infoLink id="3855-5a85-03b8-bde7" hidden="false" targetId="bf97-1e19-225f-592d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11833,7 +11833,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="a63f-48db-89f5-b8a2" hidden="false" targetId="10d4-a9af-9a9f-8829" type="rule">
+        <infoLink id="a63f-48db-89f5-b8a2" hidden="false" targetId="9dae-1137-9bfc-dc6a" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -12125,7 +12125,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="5792-807f-f07d-7531" hidden="false" targetId="0a24-95ec-8ef6-c533" type="rule">
+            <infoLink id="5792-807f-f07d-7531" hidden="false" targetId="c9b2-bc45-b716-f304" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12166,7 +12166,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="01a4-af71-e790-0723" hidden="false" targetId="6194-1e2e-ded8-561b" type="rule">
+            <infoLink id="01a4-af71-e790-0723" hidden="false" targetId="370b-2de3-dc87-827a" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12592,13 +12592,13 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="6295-33f4-b61f-8973" hidden="false" targetId="7190-bfa7-986f-7bca" type="rule">
+            <infoLink id="6295-33f4-b61f-8973" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="9563-af4b-e6c5-42a4" hidden="false" targetId="a476-0855-d1d9-062d" type="rule">
+            <infoLink id="9563-af4b-e6c5-42a4" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12950,7 +12950,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="783f-d295-c874-f3ba" hidden="false" targetId="f51b-afbc-b718-8026" type="rule">
+            <infoLink id="783f-d295-c874-f3ba" hidden="false" targetId="d33a-f347-4961-4044" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13066,7 +13066,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="fda8-1e5b-f157-ed65" hidden="false" targetId="1774-a004-f875-1f02" type="rule">
+            <infoLink id="fda8-1e5b-f157-ed65" hidden="false" targetId="245f-13ad-292b-fa91" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13094,7 +13094,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="ee5c-e5f4-7c29-30cd" hidden="false" targetId="1774-a004-f875-1f02" type="rule">
+            <infoLink id="ee5c-e5f4-7c29-30cd" hidden="false" targetId="245f-13ad-292b-fa91" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13122,7 +13122,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="cc7c-89ab-4892-d060" hidden="false" targetId="1774-a004-f875-1f02" type="rule">
+            <infoLink id="cc7c-89ab-4892-d060" hidden="false" targetId="245f-13ad-292b-fa91" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13313,13 +13313,13 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
             </rule>
           </rules>
           <infoLinks>
-            <infoLink id="488f-bd02-06fd-f694" hidden="false" targetId="4c62-22fe-25ed-6512" type="rule">
+            <infoLink id="488f-bd02-06fd-f694" hidden="false" targetId="d8f0-051e-fd21-660a" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="f03a-194f-b8ec-430e" hidden="false" targetId="3a55-e513-debc-e83e" type="rule">
+            <infoLink id="f03a-194f-b8ec-430e" hidden="false" targetId="8408-2500-936f-5910" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13604,19 +13604,19 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="ec2b-42b2-9480-0d2f" hidden="false" targetId="781d-32b4-fe98-c64b" type="rule">
+            <infoLink id="ec2b-42b2-9480-0d2f" hidden="false" targetId="f181-d35e-7e1b-3ec5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="020a-8a6b-fd51-8ab0" hidden="false" targetId="065e-c9e6-5dae-f608" type="rule">
+            <infoLink id="020a-8a6b-fd51-8ab0" hidden="false" targetId="def6-2a5c-4283-3b51" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="e4b7-2a62-f202-f9e9" hidden="false" targetId="23ad-015b-2c11-5e5f" type="rule">
+            <infoLink id="e4b7-2a62-f202-f9e9" hidden="false" targetId="258b-44dd-90f5-5940" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13648,19 +13648,19 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="a84e-cb00-311c-6fba" hidden="false" targetId="781d-32b4-fe98-c64b" type="rule">
+            <infoLink id="a84e-cb00-311c-6fba" hidden="false" targetId="f181-d35e-7e1b-3ec5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="7c1f-5266-2223-58b9" hidden="false" targetId="23ad-015b-2c11-5e5f" type="rule">
+            <infoLink id="7c1f-5266-2223-58b9" hidden="false" targetId="258b-44dd-90f5-5940" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="b1be-b5d1-9c54-09a4" hidden="false" targetId="7412-9a84-4569-a3da" type="rule">
+            <infoLink id="b1be-b5d1-9c54-09a4" hidden="false" targetId="bf97-1e19-225f-592d" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13692,19 +13692,19 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="aaa1-ac90-6071-a27b" hidden="false" targetId="781d-32b4-fe98-c64b" type="rule">
+            <infoLink id="aaa1-ac90-6071-a27b" hidden="false" targetId="f181-d35e-7e1b-3ec5" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="676a-7a1e-008a-c201" hidden="false" targetId="23ad-015b-2c11-5e5f" type="rule">
+            <infoLink id="676a-7a1e-008a-c201" hidden="false" targetId="258b-44dd-90f5-5940" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="bdce-74c6-97a6-633b" hidden="false" targetId="065e-c9e6-5dae-f608" type="rule">
+            <infoLink id="bdce-74c6-97a6-633b" hidden="false" targetId="def6-2a5c-4283-3b51" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -13804,26 +13804,12 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="aab2-f5f9-77b9-a363" name="Acute Senses" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When arriving from a random table-edge (Outflank, etc) you may re-roll the dice to see where you arrive from.</description>
-    </rule>
     <rule id="0c5c-4e54-88c5-1555" name="Banner" book="HoR: Kill Team Rules v3.1" page="7" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Add +1 to assault results, regardless of how many models with this rule in this combat.</description>
-    </rule>
-    <rule id="781d-32b4-fe98-c64b" name="Bulky" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Bulky models count as two models for the purposes of Transport Capacity.</description>
     </rule>
     <rule id="4405-b4df-d000-41ac" name="Champion of Chaos" hidden="false">
       <profiles/>
@@ -13840,163 +13826,12 @@ Whenever a model with this rule kills a character, roll a D66 and consult the Ch
       <modifiers/>
       <description>In a team lead by an Aspiring Champion with a Chaos Bike, you may take more than three Chaos Bikers. If the Aspiring Champion has a Jump Pack, you may take more than five Raptors. In a team led by a Terminator Champion, Chaos Terminators may be taken as Core.</description>
     </rule>
-    <rule id="d40a-2f32-d335-63c3" name="Concussive" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A model that suffers one or more unsaved Wounds from a weapon with this special rule is reduced to Initiative 1 until the end of the following Assault phase.</description>
-    </rule>
-    <rule id="4c62-22fe-25ed-6512" name="Counter-attack" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If a unit contains at least one model with this special rule, and that unit is charged, every model with the Counter-attack special rule in the unit gets +1 Attack until the end of the phase.
-
-If, when charged, the unit was already locked in combat, the Counter-attack special rule has no effect.</description>
-    </rule>
-    <rule id="a516-a118-7b50-9ad0" name="Crusader" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Roll an extra die when Running, take the highest result. Also add D3 to each Sweeping Advance total.</description>
-    </rule>
-    <rule id="10d4-a9af-9a9f-8829" name="Daemon" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Models with the Daemon special rule have a 5+ invulnerable save, and also have the Fear
-special rule.</description>
-    </rule>
-    <rule id="23ad-015b-2c11-5e5f" name="Deep Strike" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="a476-0855-d1d9-062d" name="Fear" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>At the start of each Fight sub-phase, a unit in base contact with one or more enemy models that cause Fear must take a Leadership test (called a Fear test) before any blows are struck. If the test is passed, all is well and there is no effect. If the test is failed, the unit succumbs to fear – all models in the unit have their Weapon Skill reduced to 1 for the remainder of that Fight sub-phase. Note that a model that causes Fear is not itself immune to Fear, and will still need to take a Fear test if it is base contact with any enemy models that cause Fear.</description>
-    </rule>
-    <rule id="7190-bfa7-986f-7bca" name="Fearless" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Units containing one or more models with the Fearless special rule automatically pass Pinning, Fear, Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit has Gone to Ground and then gains the Fearless special rule, all the effects of Go to Ground are immediately cancelled.</description>
-    </rule>
-    <rule id="296f-56de-f64a-edd8" name="Feel No Pain" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
-
-Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
-
-Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved  Wound is discounted – treat it as having been saved.
-
-If a unit has the Feel No Pain special rule with a number in brackets afterwards –Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</description>
-    </rule>
-    <rule id="f51b-afbc-b718-8026" name="Flamer" book="HoR: Kill Team Rules v3.1" page="5" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Flamer weapons may cause their targets to catch on fire even if they survive the initial damage. Any model that is hit by a Flamer weapon must pass an Initiative test or be set on fire! This test must be taken after any Wounds have been resolved. If a model fails the Imitative test it gains a Burning counter. Models may only ever have one Burning counter.
-A model with a Burning counter must take an Initiative test at the start of his turn. If passed, remove the Burning counter. If failed, the fire continues to burn: the model suffers an automatic Strength 3 AP – hit and the counter remains. Any model that starts their turn in base contact with a model with a Burning counter must pass an Initiative test or gain a Burning counter themselves – they may not try and remove the counter during the same phase.
-During the Shooting phase any friendly model within 1” may help a Burning model put out the flames instead of shooting or running. The friendly model rolls a D6: on a 2+ it has succeeded and may remove the Burning counter. If you roll a 1 however, you have aggravated the flames and the helping model gains a Burning counter too!
-A model with the Non-flammable special rule passes all Initiative tests caused by the Flamer rule, and may never gain a Burning counter for any reason.</description>
-    </rule>
-    <rule id="c8bf-eed2-774d-b68d" name="Fleet" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit composed entirely of models with this special rule can re-roll one or more of the dice when determining Run moves and charge ranges (such as a single D6 from a charge range roll, for example).</description>
-    </rule>
-    <rule id="1774-a004-f875-1f02" name="Force" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Psyker also has Force power: Warp Charge 1 Blessing, Psyker&apos;s unit&apos;s weapons with this rule gain Instant Death for a turn.</description>
-    </rule>
-    <rule id="10dd-bb3f-2da5-44d1" name="Furious Charge" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>In a turn in which a model with this special rule charges into combat, it adds +1 to its Strength characteristic until the end of the Assault phase. A model that has made a disordered charge that turn receives no benefit from Furious Charge.</description>
-    </rule>
-    <rule id="5882-8488-74c0-f4ca" name="Hammer of Wrath" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>If a model with this special rule ends its charge move in base or hull contact with an enemy model, it makes one additional Attack that hits automatically and is resolved at the model’s unmodified Strength with AP-. This Attack does not benefit from any of the model’s special rules (such as Furious Charge, Rending etc.). This Attack is resolved during the Fight sub-phase at the Initiative 10 step, but does not grant the model an additional Pile In move.
-
-If a model with this special rule charges a building or vehicle, the hit is resolved against the Armour Value of the facing the charging model is touching. If a model with this special rule charges a building or vehicle that is a Transport or a Chariot, the hit is resolved against the building or vehicle, not the occupants or the rider.</description>
-    </rule>
     <rule id="76bf-a26d-3008-534d" name="Hatred (Space Marines)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>In first round of each close combat, re-roll failed To Hit against hated enemies.</description>
-    </rule>
-    <rule id="051f-1326-606d-dc6b" name="Hit &amp; Run" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test.
-If the test is failed, nothing happens and the models remain locked in the fight.
-If the test is passed, choose a direction – then roll 3D6. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1&quot; away from all of the enemy units they are locked in combat with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 3D6 result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate D6&quot;.
-A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1&quot; away. If there are units with this rule on both sides who wish to disengage, roll-off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
-    </rule>
-    <rule id="e0e9-842d-f920-0c16" name="Infiltrate" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Deployed after all other units anywhere &gt; 12&quot; away from enemy and outside their line of sight, or &gt; 18&quot; away within LoS.  Cannot charge in first turn after deploying this way.  Also has Outflank.</description>
-    </rule>
-    <rule id="bf3c-519a-9367-6ac4" name="Inspiring Presence" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Any friendly model within 6&quot; of this model may use its Leadership for all Leadership tests.</description>
-    </rule>
-    <rule id="0a24-95ec-8ef6-c533" name="It Will Not Die" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>At the end of each of your turns, roll a D6 for each of your models with this special rule that has less than its starting number of Wounds or Hull Points, but has not been removed as a casualty or destroyed. On a roll of 5+, that model regains a Wound, or Hull Point, lost earlier in the game.</description>
-    </rule>
-    <rule id="cd18-a102-df11-2184" name="Melta" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Ranged weapons with this special rule roll an additional D6 when rolling to penetrate a vehicle’s armour at half range or less. 
-If a weapon has both the Melta and Blast special rules, measure the distance to the centre of the blast marker after it has scattered.
-</description>
-    </rule>
-    <rule id="50aa-2981-7748-5393" name="Move Through Cover" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
     </rule>
     <rule id="8421-4d32-8111-72cc" name="Mutated Beyond Reason" page="0" hidden="false">
       <profiles/>
@@ -14015,26 +13850,12 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
       <modifiers/>
       <description>At the start of each turn, the mutilator unit  MUST change all their weapons to the same weapon. The weapon choices are under the Mutilator profile in Codex: Chaos Space Marines</description>
     </rule>
-    <rule id="479a-8da3-535d-f0ba" name="Non-learning" book="HoR: Kill Team Rules v3.1" page="7" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>The model may never gain Battle Honours.</description>
-    </rule>
     <rule id="8d8f-1353-dbae-2e45" name="Obliterator Weapons" page="0" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>At the start of each turn, the obliterator unit  MUST change all their weapons to the same weapon. The weapon choices are under the Obliterator profile in Codex: Chaos Space Marines</description>
-    </rule>
-    <rule id="3214-1fea-38c9-8db1" name="Outflank" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When this unit arrives from reserves roll a die. On a 1 or 2 it comes in on your left, on a 3 or 4 it comes in on your right and on a 5 or 6 you choose right or left.</description>
     </rule>
     <rule id="753e-d0ea-a186-aaf9" name="Psyker (Mastery Level1)" book="Kill Team List: Blood Angels v3.0" page="4" hidden="false">
       <profiles/>
@@ -14043,47 +13864,12 @@ If a weapon has both the Melta and Blast special rules, measure the distance to 
       <modifiers/>
       <description>At the start of the battle the model generates a single Primaris Power from the either the Biomancy, Divination, Pyromancy or Sanguinary discipline.</description>
     </rule>
-    <rule id="3a55-e513-debc-e83e" name="Rage" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>In a turn in which a model with this special rule charges into combat, it gains +2 Attacks for charging, rather than +1. A model that has made a disordered charge that turn receives no benefit from Rage.</description>
-    </rule>
     <rule id="c885-b847-ac36-3a6e" name="Random Attacks" page="0" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Roll a D6. The result is the number of attacks for that unit.</description>
-    </rule>
-    <rule id="065e-c9e6-5dae-f608" name="Relentless" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Relentless models can shoot with Heavy, Salvo or Ordnance weapons, counting as stationary, even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
-    </rule>
-    <rule id="c3e3-9852-1260-d646" name="Scout" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>After both sides have deployed (including Infiltrators), but before the first player begins his first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, a Walker or a Monstrous Creature, each model can redeploy anywhere entirely within 6&quot; of its current position. If it is any other unit type, each model can instead redeploy anywhere entirely within 12&quot; of its current position. During this redeployment, Scouts can move outside the owning player’s deployment zone, but must remain more than 12&quot; away from any enemy unit. A unit that makes a Scout redeployment cannot charge in the first game turn. A unit cannot embark or disembark as part of a Scout redeployment.
-If both sides have Scouts, roll-off; the winner decides who redeploys first. Then alternate redeploying Scout units.
-If a unit with this special rule is deployed inside a Dedicated Transport, it confers the Scout special rule to the Transport (though a disembarkation cannot be performed as part of the redeployment). Note that a Transport with this special rule does not lose it if a unit without this special rule is embarked upon it. Having Scout also confers the Outflank special rule to units of Scouts that are kept as Reserves.
-Outflank
-During deployment, players can declare that any unit that contains at least one model with this special rule is attempting to Outflank the enemy. When this unit arrives from Reserves, but not Ongoing Reserve, the controlling player rolls a D6: on a 1-2, the unit comes in from the table edge to the left of their controlling player’s own table edge; on a 3-4, they come on from the right; on a 5-6, the player can choose left or right. Models move onto the table as described for other Reserves. If a unit with Scouts is deployed inside a Dedicated Transport, they may Outflank along with their Transport.
-Iinfiltrate and Scout
-If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
-    </rule>
-    <rule id="6194-1e2e-ded8-561b" name="Shrouded" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it’s in the open.
-Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
     </rule>
     <rule id="d2a0-96d8-422f-19f2" name="Shrouded (first turn only)" hidden="false">
       <profiles/>
@@ -14092,27 +13878,6 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       <modifiers/>
       <description>A unit that contains at least one model with this special rule counts its cover save as being 2 points better than normal. Note that this means a model with the Shrouded special rule always has a cover save of at least 5+, even if it’s in the open.
 Cover save bonuses from the Shrouded and Stealth special rules are cumulative (to a maximum of a 2+ cover save).</description>
-    </rule>
-    <rule id="7412-9a84-4569-a3da" name="Slow and Purposeful" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit that contains at least one model with this special rule cannot Run, Turbo-boost, move Flat Out, perform Sweeping Advances or fire Overwatch. However, they can shoot with Heavy, Salvo and Ordnance weapons, counting as stationary even if they moved in the previous Movement phase. They are also allowed to charge in the same turn they fire Heavy, Ordnance, Rapid Fire or Salvo weapons.</description>
-    </rule>
-    <rule id="08c9-828d-654f-e1a0" name="Stubborn" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When a unit that contains at least one model with this special rule takes Morale checks or Pinning tests, they ignore any negative Leadership modifiers. If a unit is both Fearless and Stubborn, it uses the rules for Fearless instead.</description>
-    </rule>
-    <rule id="df26-e321-b55d-ca4e" name="Very Bulky" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Very Bulky models instead count as three models.</description>
     </rule>
     <rule id="1d15-06f7-79c9-33f0" name="Vessels of Chaos" hidden="false">
       <profiles/>
@@ -14134,14 +13899,6 @@ Cover save bonuses from the Shrouded and Stealth special rules are cumulative (t
       <infoLinks/>
       <modifiers/>
       <description>Immediately after entering via Deep Strike, all enemy units within 6&quot; of the Warptalons count as being hit with a weapon with Blinded.</description>
-    </rule>
-    <rule id="a04f-fcbf-4054-4ccf" name="Zealot" book="Wh40k: The Rules" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A unit containing one or more models with the Zealot special rule automatically passes Pinning, Fear and Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit gains the Zealot special rule when it has Gone to Ground, all the effects of Go to Ground are immediately cancelled.
-In addition, units containing one or more models with the Zealot special rule re-roll all failed To Hit rolls during the first round of each close combat – they do not get to re-roll failed To Hit rolls in subsequent rounds.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
