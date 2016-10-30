@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2659-6725-4287-c661" name="Space Marines: HoR" book="Kill Team List: Space Marines v3.2" revision="5" battleScribeVersion="2.00" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2659-6725-4287-c661" name="Space Marines: HoR" book="Kill Team List: Space Marines v3.2" revision="6" battleScribeVersion="2.00" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -124,51 +124,21 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="maxInForce" value="-1.0">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
     </entryLink>
     <entryLink id="9736-a622-604c-a53b" hidden="false" targetId="0449-c1b9-e70a-ea22" type="selectionEntry" categoryEntryId="e291-5023-f17c-38c4">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="maxInForce" value="-1.0">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="atLeast"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53b6-2e6e-0f5a-e24d" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
     </entryLink>
     <entryLink id="062f-e46f-443c-5392" hidden="false" targetId="c2c8-4a50-e60f-f66e" type="selectionEntry" categoryEntryId="e291-5023-f17c-38c4">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="maxInForce" value="-1.0">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
     </entryLink>
     <entryLink id="e6a5-f3e7-c02b-d7b0" hidden="false" targetId="26fd-b979-7665-f970" type="selectionEntry" categoryEntryId="8e35-f2bd-0b70-6bc0">
@@ -577,7 +547,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="-1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -587,7 +565,22 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e55e-b658-e6f7-e769" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="minSelections" value="0.0">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e55e-b658-e6f7-e769" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -599,17 +592,90 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="maxInForce" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" repeats="1"/>
-                  </repeats>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
                   <conditions/>
-                  <conditionGroups/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                            <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                            <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                            <condition field="selections" scope="force" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                            <condition field="selections" scope="force" value="19.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+                <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="a745-8a43-f8a2-00c8" name="Flamer" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -711,15 +777,90 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="maxInForce" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" repeats="1"/>
-                  </repeats>
+                <modifier type="increment" field="34ab-228b-e5f1-3f6d" value="1">
+                  <repeats/>
                   <conditions/>
-                  <conditionGroups/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                            <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="34ab-228b-e5f1-3f6d" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                            <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="34ab-228b-e5f1-3f6d" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                            <condition field="selections" scope="force" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="34ab-228b-e5f1-3f6d" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                            <condition field="selections" scope="force" value="19.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c1-b87b-3844-7685" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="34ab-228b-e5f1-3f6d" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -2470,7 +2611,7 @@
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -4535,12 +4676,89 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="maxInForce" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3403-a51b-b69f-f31f" repeats="1"/>
-                  </repeats>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
                   <conditions/>
-                  <conditionGroups/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3403-a51b-b69f-f31f" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3403-a51b-b69f-f31f" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53b6-2e6e-0f5a-e24d" type="atLeast"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3403-a51b-b69f-f31f" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3403-a51b-b69f-f31f" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53b6-2e6e-0f5a-e24d" type="atLeast"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3403-a51b-b69f-f31f" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3403-a51b-b69f-f31f" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53b6-2e6e-0f5a-e24d" type="atLeast"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3403-a51b-b69f-f31f" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="19.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3403-a51b-b69f-f31f" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53b6-2e6e-0f5a-e24d" type="atLeast"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -4737,7 +4955,21 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="-1">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="atLeast"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="53b6-2e6e-0f5a-e24d" type="atLeast"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -4834,12 +5066,26 @@
                     </infoLink>
                   </infoLinks>
                   <modifiers>
-                    <modifier type="increment" field="maxInForce" value="1.0">
-                      <repeats>
-                        <repeat field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0449-c1b9-e70a-ea22" repeats="1"/>
-                      </repeats>
+                    <modifier type="increment" field="maxInForce" value="1">
+                      <repeats/>
                       <conditions/>
-                      <conditionGroups/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0449-c1b9-e70a-ea22" type="atLeast"/>
+                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="and">
+                              <conditions>
+                                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0449-c1b9-e70a-ea22" type="atLeast"/>
+                                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="53b6-2e6e-0f5a-e24d" type="atLeast"/>
+                                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="equalTo"/>
+                              </conditions>
+                              <conditionGroups/>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                   <constraints>
@@ -5926,7 +6172,17 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="-1">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5147-092d-40ba-64a0" type="atLeast"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
       </constraints>
@@ -6090,12 +6346,27 @@
                   <conditions/>
                   <conditionGroups/>
                 </modifier>
-                <modifier type="increment" field="maxInForce" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2c8-4a50-e60f-f66e" repeats="1"/>
-                  </repeats>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
                   <conditions/>
-                  <conditionGroups/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2c8-4a50-e60f-f66e" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2c8-4a50-e60f-f66e" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5147-092d-40ba-64a0" type="atLeast"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints/>
@@ -6847,12 +7118,93 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="maxInForce" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" repeats="1"/>
-                  </repeats>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
                   <conditions/>
-                  <conditionGroups/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5147-092d-40ba-64a0" type="atLeast"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="equalTo"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="9.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5147-092d-40ba-64a0" type="atLeast"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="equalTo"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="15.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="14.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5147-092d-40ba-64a0" type="atLeast"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="equalTo"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="increment" field="maxInForce" value="1">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="20.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" type="atLeast"/>
+                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="19.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" type="atLeast"/>
+                            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5147-092d-40ba-64a0" type="atLeast"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1662-af64-9825-d30f" type="equalTo"/>
+                            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c415-93c7-13d3-9265" type="equalTo"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
