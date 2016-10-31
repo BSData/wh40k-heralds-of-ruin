@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d992-2889-35da-b302" name="Harlequins: HoR" book="Killteam: Harlequins v4.4" revision="1" battleScribeVersion="2.00" authorName="DreadPirateLynx" authorContact="" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d992-2889-35da-b302" name="Harlequins: HoR" book="Killteam: Harlequins v4.4" revision="2" battleScribeVersion="2.00" authorName="DreadPirateLynx" authorContact="" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="503d-c41f-5a54-39c3" name="Rising Crescendo" hidden="false">
@@ -14,41 +14,40 @@
   <costTypes/>
   <profileTypes/>
   <forceEntries>
-    <forceEntry id="df50-e6d0-5634-c01a" name="Harlequins Kill Team List" hidden="false">
+    <forceEntry id="df50-e6d0-5634-c01a" name="Harlequins Kill Team" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryEntries>
-        <categoryEntry id="0057-0603-3436-0f4e" name="Team Leader" hidden="false">
+        <categoryEntry id="9e2b-875c-3cb6-a0f9" name="Team Leader" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="36b1-db92-9784-e71a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fc17-30d0-baa3-5354" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ecb0-7ad9-fe60-7ec3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3376-fabf-9ddc-2e07" type="max"/>
           </constraints>
         </categoryEntry>
-        <categoryEntry id="7d5f-f0f8-7d85-2326" name="Special" hidden="false">
+        <categoryEntry id="1950-b076-e7e2-fc7c" name="Core" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dbeb-6ce8-4f46-13bf" type="min"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cf26-042d-6c33-49c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e94-c369-d603-f94d" type="min"/>
+            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e0d0-edd1-545d-ee5c" type="max"/>
           </constraints>
         </categoryEntry>
-        <categoryEntry id="ab47-252c-1f8d-a479" name="Core" hidden="false">
+        <categoryEntry id="1221-ecd4-4e88-cd66" name="Special" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="31e7-2abc-2d00-3047" type="min"/>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9ed5-7f39-5d27-796f" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c54-9e23-7bb3-c712" type="max"/>
           </constraints>
         </categoryEntry>
       </categoryEntries>
@@ -57,42 +56,42 @@
   </forceEntries>
   <selectionEntries/>
   <entryLinks>
-    <entryLink id="f387-4971-a6b4-cfad" hidden="false" targetId="5cd4-3615-399d-d5ec" type="selectionEntry" categoryEntryId="0057-0603-3436-0f4e">
+    <entryLink id="f387-4971-a6b4-cfad" hidden="false" targetId="5cd4-3615-399d-d5ec" type="selectionEntry" categoryEntryId="9e2b-875c-3cb6-a0f9">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="bad5-0aa0-5ceb-d292" hidden="false" targetId="0b39-07cd-27e8-ac2b" type="selectionEntry" categoryEntryId="7d5f-f0f8-7d85-2326">
+    <entryLink id="bad5-0aa0-5ceb-d292" hidden="false" targetId="0b39-07cd-27e8-ac2b" type="selectionEntry" categoryEntryId="1221-ecd4-4e88-cd66">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="5a1c-9271-ccab-a579" hidden="false" targetId="24f6-3959-e466-47b1" type="selectionEntry" categoryEntryId="7d5f-f0f8-7d85-2326">
+    <entryLink id="5a1c-9271-ccab-a579" hidden="false" targetId="24f6-3959-e466-47b1" type="selectionEntry" categoryEntryId="1221-ecd4-4e88-cd66">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="aa6c-5ed3-0791-39dc" hidden="false" targetId="d60c-daea-70ae-c6a2" type="selectionEntry" categoryEntryId="ab47-252c-1f8d-a479">
+    <entryLink id="aa6c-5ed3-0791-39dc" hidden="false" targetId="d60c-daea-70ae-c6a2" type="selectionEntry" categoryEntryId="1950-b076-e7e2-fc7c">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="663a-f1b1-f145-71b3" name="" hidden="false" targetId="86ec-ef8c-0b05-b8bf" type="selectionEntry" categoryEntryId="0057-0603-3436-0f4e">
+    <entryLink id="663a-f1b1-f145-71b3" name="" hidden="false" targetId="86ec-ef8c-0b05-b8bf" type="selectionEntry" categoryEntryId="9e2b-875c-3cb6-a0f9">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="5c61-dc23-c46f-fc69" name="" hidden="false" targetId="cd02-c439-b201-91a2" type="selectionEntry" categoryEntryId="7d5f-f0f8-7d85-2326">
+    <entryLink id="5c61-dc23-c46f-fc69" name="" hidden="false" targetId="cd02-c439-b201-91a2" type="selectionEntry" categoryEntryId="1221-ecd4-4e88-cd66">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -791,7 +790,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="d6e4-d5e3-7fe9-8298" name="" hidden="false" targetId="bef7-eedf-4f0c-8956" type="selectionEntryGroup">
+        <entryLink id="d6e4-d5e3-7fe9-8298" name="" hidden="false" targetId="9216-861e-e33e-2264" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1383,7 +1382,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="71b2-b17c-e32b-bf0d" name="" hidden="false" targetId="bef7-eedf-4f0c-8956" type="selectionEntryGroup">
+        <entryLink id="71b2-b17c-e32b-bf0d" name="" hidden="false" targetId="9216-861e-e33e-2264" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1520,7 +1519,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="57ea-81ca-14ab-9553" name="Skyweaver Weapons" hidden="false" collective="false" defaultSelectionEntryId="0ada-0480-d47e-632a">
+        <selectionEntryGroup id="57ea-81ca-14ab-9553" name=" Skyweaver Weapons" hidden="false" collective="false" defaultSelectionEntryId="0ada-0480-d47e-632a">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1597,43 +1596,22 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86ec-ef8c-0b05-b8bf" type="instanceOf"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1467-154b-089c-1ba2" type="atLeast"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="6f92-c6ef-3a9d-bfcf" value="1">
-          <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1467-154b-089c-1ba2" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a3b-b104-e7f0-af65" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
-        <modifier type="set" field="d923-1ee3-7a04-d725" value="1">
+        <modifier type="set" field="4964-2c2b-b5b5-7d72" value="1">
           <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1467-154b-089c-1ba2" type="atLeast"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86ec-ef8c-0b05-b8bf" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a3b-b104-e7f0-af65" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6f92-c6ef-3a9d-bfcf" type="min"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d923-1ee3-7a04-d725" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d923-1ee3-7a04-d725" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4964-2c2b-b5b5-7d72" type="min"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1657,43 +1635,22 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86ec-ef8c-0b05-b8bf" type="instanceOf"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e67e-f35c-c21a-01b7" type="atLeast"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1424-156b-e714-4164" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
         </modifier>
         <modifier type="set" field="26e1-afa2-73a4-5bc1" value="1">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e67e-f35c-c21a-01b7" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1424-156b-e714-4164" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
-        <modifier type="set" field="af93-90c3-1cf8-9a52" value="1">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86ec-ef8c-0b05-b8bf" type="instanceOf"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e67e-f35c-c21a-01b7" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="26e1-afa2-73a4-5bc1" type="min"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af93-90c3-1cf8-9a52" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26e1-afa2-73a4-5bc1" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af93-90c3-1cf8-9a52" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1715,45 +1672,96 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       </rules>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="0abe-64c0-0434-e3b6" value="1">
+        <modifier type="set" field="hidden" value="false">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a31d-a7b3-37cc-964d" type="atLeast"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e59c-250c-dc1d-c798" type="atLeast"/>
           </conditions>
           <conditionGroups/>
         </modifier>
-        <modifier type="set" field="39e6-c12f-2a21-f4da" value="1">
+        <modifier type="set" field="2a9c-900d-cfa5-aaa8" value="1">
           <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a31d-a7b3-37cc-964d" type="atLeast"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86ec-ef8c-0b05-b8bf" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-        <modifier type="set" field="hidden" value="false">
-          <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a31d-a7b3-37cc-964d" type="atLeast"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86ec-ef8c-0b05-b8bf" type="instanceOf"/>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e59c-250c-dc1d-c798" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0abe-64c0-0434-e3b6" type="min"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="39e6-c12f-2a21-f4da" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="39e6-c12f-2a21-f4da" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a9c-900d-cfa5-aaa8" type="min"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e59c-250c-dc1d-c798" name="Path of Darkness" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="57b7-dee6-24da-cf3a" name="Path of Darkness" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This model gains Stealth and Shrouded against all models outside 15&quot;. Any models with the Eldar Jetbike unit type only gain Stealth instead of Stealth and Shrouded.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3e3a-22b2-a6c7-49ce" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="359e-a8a6-049e-6d98" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a3b-b104-e7f0-af65" name="Path of Light" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="ff48-7e2c-a4fc-eba8" name="Path of Light" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>May re-roll invulnerable saves from wounds cause by models within 15&quot;</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5c88-d056-4159-c451" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6255-d293-313a-fb92" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1424-156b-e714-4164" name="Path of Twilight" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="7cb0-f151-6fec-39a6" name="Path of Twilight" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Gain Outflank, Acute Senses, and may add or subtract 1 to reserve roll from this Kill Team.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="99e2-8652-031b-79f2" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa84-96dd-1222-0a6c" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2107,7 +2115,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="7672-16c4-89a3-f69c" name="Melee Weapons" hidden="false" collective="false" defaultSelectionEntryId="a6ef-b524-5efb-1cce">
+    <selectionEntryGroup id="7672-16c4-89a3-f69c" name=" Melee Weapons" hidden="false" collective="false" defaultSelectionEntryId="a6ef-b524-5efb-1cce">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2247,10 +2255,119 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e5b0-5dd1-c1c3-a0f2" name="Power Weapon" hidden="true" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="a1b5-c5b6-c131-d7d2" name="Power Axe" hidden="true" collective="false" type="upgrade">
           <profiles/>
           <rules/>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="4a6b-9d2e-a1fa-03f8" name="New InfoLink" hidden="false" targetId="d0ed-4cef-e425-1d61" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f35b-4f1c-d79c-17d2" name="New InfoLink" hidden="false" targetId="11c6-e9de-18cc-249e" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bb6a-3bf3-d983-0431" name="Power Lance" hidden="true" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c380-00a7-3122-b989" name="New InfoLink" hidden="false" targetId="093a-e25a-14aa-c3a8" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="3d7a-5819-2810-369e" name="New InfoLink" hidden="false" targetId="7d23-1d42-e204-a346" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f416-050e-b780-c0fa" name="Power Maul" hidden="true" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="22b0-6a4c-f22f-7829" name="New InfoLink" hidden="false" targetId="fd52-e5b5-915b-f74f" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fce0-865e-29cd-9691" name="New InfoLink" hidden="false" targetId="d4bc-4e4e-1420-3763" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1be0-67ab-16e9-b9fb" name="Power Sword" hidden="true" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5623-8321-071f-fc2a" hidden="false" targetId="7494-878a-4d69-3415" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <repeats/>
@@ -2261,20 +2378,11 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c3d8-38e0-bddc-4da7" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="367d-9aba-2d98-af97" hidden="false" targetId="c744-c488-d6ff-e4c7" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-          </entryLinks>
+          <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="15.0"/>
           </costs>
@@ -2299,7 +2407,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6f8e-74ce-d967-0033" name="Pistols" hidden="false" collective="false" defaultSelectionEntryId="13a1-0ef7-de1f-5537">
+    <selectionEntryGroup id="6f8e-74ce-d967-0033" name=" Pistols" hidden="false" collective="false" defaultSelectionEntryId="13a1-0ef7-de1f-5537">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2385,120 +2493,6 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <constraints/>
         </entryLink>
       </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="c744-c488-d6ff-e4c7" name="Power Weapon" hidden="false" collective="false" defaultSelectionEntryId="d923-d384-aed6-52a0">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="d923-d384-aed6-52a0" name="Power Sword" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="c0ff-9f8e-410f-8026" hidden="false" targetId="7494-878a-4d69-3415" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ae66-c4df-d5fc-7b73" name="Power Axe" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="1161-3acb-85a0-376b" name="New InfoLink" hidden="false" targetId="d0ed-4cef-e425-1d61" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="a954-56d1-3365-f2eb" name="New InfoLink" hidden="false" targetId="11c6-e9de-18cc-249e" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b6cd-87b7-8811-5034" name="Power Lance" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="33af-0c79-f046-ed0f" name="New InfoLink" hidden="false" targetId="093a-e25a-14aa-c3a8" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="6b57-ee5f-b297-dd6a" name="New InfoLink" hidden="false" targetId="7d23-1d42-e204-a346" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="360e-ee17-aeee-1458" name="Power Maul" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="6251-beac-1d38-12ca" name="New InfoLink" hidden="false" targetId="fd52-e5b5-915b-f74f" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="9c61-8e61-2ca1-dc86" name="New InfoLink" hidden="false" targetId="d4bc-4e4e-1420-3763" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
     </selectionEntryGroup>
     <selectionEntryGroup id="8dff-4ac4-3cad-ade0" name="Skyweaver Cannon" hidden="false" collective="false" defaultSelectionEntryId="c3b0-e487-7177-4ec5">
       <profiles/>
@@ -2587,22 +2581,15 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <repeats/>
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cd4-3615-399d-d5ec" type="instanceOf"/>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="86ec-ef8c-0b05-b8bf" type="instanceOf"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bef7-eedf-4f0c-8956" type="atLeast"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9216-861e-e33e-2264" type="atLeast"/>
+          </conditions>
+          <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6168-0dbe-806a-d1c4" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2cc2-1ecd-1d05-c977" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2cc2-1ecd-1d05-c977" type="min"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -2622,6 +2609,41 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <constraints/>
         </entryLink>
         <entryLink id="8f67-e76e-1f9e-8166" name="" hidden="false" targetId="e67e-f35c-c21a-01b7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9216-861e-e33e-2264" name="Path of the Harlequin" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a111-a68e-ab6a-9af1" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="de70-e041-f935-fcda" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ec51-2784-cd0a-5e59" name="" hidden="false" targetId="e59c-250c-dc1d-c798" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="197f-a865-23d0-16fe" name="" hidden="false" targetId="5a3b-b104-e7f0-af65" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="0669-5aab-e227-e643" name="" hidden="false" targetId="1424-156b-e714-4164" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
