@@ -1,169 +1,231 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="008d-4e01-9c43-a867" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="18" battleScribeVersion="1.15" name="Adeptus Arbites: HoR" books="Kill Team List: Adeptus Arbites v1.1" authorName="William Vestman Malmi" authorContact="" authorUrl="https://github.com/williamwm" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <entries/>
+<catalogue id="008d-4e01-9c43-a867" name="Adeptus Arbites: HoR" book="Kill Team List: Adeptus Arbites v1.1" revision="2" battleScribeVersion="2.00" authorName="William Vestman Malmi" authorContact="" authorUrl="https://github.com/williamwm" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
   <rules/>
-  <links/>
-  <sharedEntries>
-    <entry id="08bf-f179-5f20-3313" name="Arbites Grenade Launcher" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <forceEntries>
+    <forceEntry id="14c4-3a9f-af6e-cf60" name="Adeptus Arbites Kill Team" hidden="false">
       <profiles/>
-      <links>
-        <link id="2cbd-2e48-3e03-5f2b" targetId="029d-0fc5-3a09-1168" linkType="profile">
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryEntries>
+        <categoryEntry id="5dad-64a0-06b7-eabb" name="Team Leader" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="39ed-a5ca-1e4f-459b" targetId="5228-90b7-c5e3-af5b" linkType="profile">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d0cb-f34f-6a7b-7bad" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="0b50-71ac-96a8-c032" type="max"/>
+          </constraints>
+        </categoryEntry>
+        <categoryEntry id="b283-8a08-b5ca-475a" name="Core" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="aad0-8395-4165-7c5a" targetId="402f-91c2-e9e1-a93c" linkType="profile">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1bd7-6ea0-5ec3-1be9" type="min"/>
+            <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="0d76-7179-5f09-7835" type="max"/>
+          </constraints>
+        </categoryEntry>
+        <categoryEntry id="4746-adc2-2fe6-672e" name="Special" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-        <link id="47d7-9fbc-b6ea-1d3c" targetId="68ae-c579-68e6-1c4e" linkType="profile">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="1bbc-deaa-46a0-f165" type="max"/>
+          </constraints>
+        </categoryEntry>
+      </categoryEntries>
+      <forceEntries/>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries/>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="08bf-f179-5f20-3313" name="Arbites Grenade Launcher" book="Kill Team List: Adeptus Arbites" page="1" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="2cbd-2e48-3e03-5f2b" hidden="false" targetId="029d-0fc5-3a09-1168" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
           <modifiers/>
-        </link>
-      </links>
-    </entry>
-  </sharedEntries>
-  <sharedEntryGroups/>
+        </infoLink>
+        <infoLink id="39ed-a5ca-1e4f-459b" hidden="false" targetId="5228-90b7-c5e3-af5b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="aad0-8395-4165-7c5a" hidden="false" targetId="402f-91c2-e9e1-a93c" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="47d7-9fbc-b6ea-1d3c" hidden="false" targetId="68ae-c579-68e6-1c4e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups/>
   <sharedRules>
-    <rule id="a76f-f3bc-b8f2-abb4" name="Blind" hidden="false" book="40k BRB" page="159">
+    <rule id="fcac-f6f2-0799-c414" name="Homing" book="Kill Team List: Adeptus Arbites" page="1" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-    </rule>
-    <rule id="c80f-6ba2-8caa-c527" name="Concussive" hidden="false" book="40k BRB" page="163">
-      <modifiers/>
-    </rule>
-    <rule id="0f20-efe3-28be-8a61" name="Feel No Pain" hidden="false" book="40k BRB" page="164">
-      <modifiers/>
-    </rule>
-    <rule id="c274-bfd0-f90b-0e12" name="Flamer" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
-      <description>Uses the flamer rules in the core Kill Team rules, page 5.</description>
-      <modifiers/>
-    </rule>
-    <rule id="e6d2-79c1-a77a-962f" name="Gets Hot" hidden="false" book="40k BRB" page="164">
-      <modifiers/>
-    </rule>
-    <rule id="fcac-f6f2-0799-c414" name="Homing" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
       <description>Does not need Line of Sight to target</description>
-      <modifiers/>
     </rule>
-    <rule id="9347-bafd-6051-4bdd" name="Infiltrate" hidden="false" book="40k BRB" page="167">
+    <rule id="226e-5c41-6768-0ff4" name="Judge, Jury, Executioner" book="Kill Team List: Adeptus Arbits" page="2" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-    </rule>
-    <rule id="c0d6-235e-995c-6681" name="Inspiring Presence" hidden="false" book="Kill Team Core Rules v3.1" page="7">
-      <description>Any friendly model within 6&quot; of this model may use its Leadership for all Leadership tests.</description>
-      <modifiers/>
-    </rule>
-    <rule id="226e-5c41-6768-0ff4" name="Judge, Jury, Executioner" hidden="false" book="Kill Team List: Adeptus Arbits" page="2">
       <description>After deployment, the Judge may name a single enemy model the ‘perpetrator’ for the duration of this game. All failed rolls of To Hit and Wound made by the Judge against the perpetrator must be re-rolled.</description>
-      <modifiers/>
     </rule>
-    <rule id="6593-2c55-60de-93bf" name="Lone Wolf" hidden="false" book="Kill Team List: Adeptus Arbites">
+    <rule id="6593-2c55-60de-93bf" name="Lone Wolf" book="Kill Team List: Adeptus Arbites" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>A Mortiurge operates better alone and is never affected by the Inspiring Presence or Voice of the Law rules.</description>
-      <modifiers/>
     </rule>
-    <rule id="7de6-7e30-ad46-10ef" name="Master-Crafted" hidden="false" book="40k BRB" page="167">
+    <rule id="3579-eb4f-cc5a-4aaf" name="Primary Target" book="Kill Team List: Adeptus Arbites" page="4" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-    </rule>
-    <rule id="daad-60d3-c454-41ce" name="Move Through Cover" hidden="false" book="40k BRB" page="168">
-      <modifiers/>
-    </rule>
-    <rule id="b033-e697-4a90-bc7d" name="Non-Flammable" hidden="false" book="Kill Team Core Rules" page="7">
-      <description>The model passes all Initiative tests caused by the Flamer rule, and may never gain a Burning counter for any reason.</description>
-      <modifiers/>
-    </rule>
-    <rule id="cf1c-7144-3fb9-cfec" name="Pinning" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="3579-eb4f-cc5a-4aaf" name="Primary Target" hidden="false" book="Kill Team List: Adeptus Arbites" page="4">
       <description>At the beginning of every game choose one enemy model in the opponent’s team. Any Arbites Mortiurges in your team gain the Preferred Enemy special rule against that model.</description>
-      <modifiers/>
     </rule>
-    <rule id="3f41-2146-3680-711f" name="Ricochet" hidden="false" book="Kill Team List: Adeptus Arbites" page="5">
+    <rule id="3f41-2146-3680-711f" name="Ricochet" book="Kill Team List: Adeptus Arbites" page="5" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>If the Ricochet Bolt hits its target but doesn’t Wound, immediately roll a D6. On a 4+ choose one enemy model within 6” to be automatically hit – roll to Wound against that model as normal. This can happen only once.</description>
-      <modifiers/>
     </rule>
-    <rule id="d027-8af3-5779-dc39" name="Riot Tactics" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
+    <rule id="d027-8af3-5779-dc39" name="Riot Tactics" book="Kill Team List: Adeptus Arbites" page="1" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>When charged, a model with the Riot Tactics special rule may take a Leadership Test. If this test is successful, charging models lose their bonus attacks from charging the model with Riot Tactics.</description>
-      <modifiers/>
     </rule>
-    <rule id="c9e1-7d79-fe96-9d87" name="Scout" hidden="false" book="40k BRB" page="171">
+    <rule id="b1e3-e15f-315b-df06" name="Shield Wall" book="Kill Team List: Adeptus Arbites" page="4" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-    </rule>
-    <rule id="b1e3-e15f-315b-df06" name="Shield Wall" hidden="false" book="Kill Team List: Adeptus Arbites" page="4">
       <description>If a model with a Suppression Shield is in base contact with another friendly model with a Suppression Shield they form a ‘shield wall’. Any enemy models that successfully charge a model that is part of a ‘shield wall’ counts its Initiative as being 1, exactly as if the charging model had moved through terrain (which means some models may ignore this rule – e.g. assault/frag grenades, etc.).</description>
-      <modifiers/>
     </rule>
-    <rule id="05ce-169c-f744-29cd" name="Smoke" hidden="false" book="Kill Team List: Adeptus Arbites" page="5">
+    <rule id="05ce-169c-f744-29cd" name="Smoke" book="Kill Team List: Adeptus Arbites" page="5" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
       <description>Any model that is hit by this weapon gains a 5+ cover save until the start of their next turn. You may target friendly models with this weapon.</description>
-      <modifiers/>
     </rule>
-    <rule id="00f9-920e-419f-6cc4" name="Strikedown" hidden="false" book="40k BRB" page="172">
+    <rule id="a38a-78cf-aefb-bc8c" name="Voice of the Law" book="Kill Team List: Adeptus Arbites" page="2" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
-    </rule>
-    <rule id="cb5d-5a88-5807-b36b" name="Stubborn" hidden="false" book="40k BRB" page="172">
-      <modifiers/>
-    </rule>
-    <rule id="a38a-78cf-aefb-bc8c" name="Voice of the Law" hidden="false" book="Kill Team List: Adeptus Arbites" page="2">
       <description>Any friendly model within the Inspiring Presence radius of the Judge gains the Stubborn special rule.</description>
-      <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="f36d-580f-f306-998f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Combat Shotgun" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
-      </characteristics>
+    <profile id="f36d-580f-f306-998f" name="Combat Shotgun" book="Kill Team List: Adeptus Arbites" page="1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
+      </characteristics>
     </profile>
-    <profile id="140b-b15a-095f-42ee" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Shock Maul" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Concussive"/>
-      </characteristics>
+    <profile id="140b-b15a-095f-42ee" name="Shock Maul" book="Kill Team List: Adeptus Arbites" page="1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Concussive"/>
+      </characteristics>
     </profile>
-    <profile id="029d-0fc5-3a09-1168" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arbites Grenade Launcher (Frag Grenade)" hidden="false" book="Kill Team List: Adeptus Arbites">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast"/>
-      </characteristics>
+    <profile id="029d-0fc5-3a09-1168" name="Arbites Grenade Launcher (Frag Grenade)" book="Kill Team List: Adeptus Arbites" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="3"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="6"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast"/>
+      </characteristics>
     </profile>
-    <profile id="5228-90b7-c5e3-af5b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arbites Grenade Launcher (Krak Grenade)" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value=""/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
-      </characteristics>
+    <profile id="5228-90b7-c5e3-af5b" name="Arbites Grenade Launcher (Krak Grenade)" book="Kill Team List: Adeptus Arbites" page="1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value=""/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1"/>
+      </characteristics>
     </profile>
-    <profile id="402f-91c2-e9e1-a93c" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arbites Grenade Launcher (Gas Grenade)" hidden="false" book="Kill Team List: Adeptus Arbites" page="1">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value=""/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value=""/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast, Poison (4+)"/>
-      </characteristics>
+    <profile id="402f-91c2-e9e1-a93c" name="Arbites Grenade Launcher (Gas Grenade)" book="Kill Team List: Adeptus Arbites" page="1" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value=""/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value=""/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast, Poison (4+)"/>
+      </characteristics>
     </profile>
-    <profile id="68ae-c579-68e6-1c4e" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Arbites Grenade Launcher (Stun Grenade)" hidden="false" book="Kill Team List: Adeptus Arbites">
-      <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value=""/>
-        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blind"/>
-      </characteristics>
+    <profile id="68ae-c579-68e6-1c4e" name="Arbites Grenade Launcher (Stun Grenade)" book="Kill Team List: Adeptus Arbites" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value=""/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blind"/>
+      </characteristics>
     </profile>
   </sharedProfiles>
 </catalogue>
