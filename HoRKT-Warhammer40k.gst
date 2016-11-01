@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" revision="21" battleScribeVersion="2.00" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" revision="22" battleScribeVersion="2.00" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -184,7 +184,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="010f-68cf-1eab-d3f3" name="Boltgun" hidden="false" collective="false" type="upgrade">
@@ -597,7 +597,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee96-fe0a-b137-020a" name="Camo Cloak" hidden="false" collective="false" type="upgrade">
@@ -665,7 +665,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="0.0"/>
+        <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b489-e0c0-13f1-4a01" name="Power Armor" hidden="false" collective="false" type="upgrade">
