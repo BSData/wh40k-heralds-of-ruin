@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9166-92b5-ddb8-5be4" name="Eldar: HoR" book="Kill Team: Eldar v7.5.7a" revision="28" battleScribeVersion="2.00" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9166-92b5-ddb8-5be4" name="Eldar: HoR" book="Kill Team: Eldar v7.5.7a" revision="29" battleScribeVersion="2.00" authorName="azdiscord" authorContact="azdiscord@yandex.ru" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3621,7 +3621,7 @@
       <modifiers>
         <modifier type="increment" field="maxInForce" value="1.0">
           <repeats>
-            <repeat field="selections" scope="category" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="963f-8d70-583a-87b1" repeats="1"/>
+            <repeat field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="963f-8d70-583a-87b1" repeats="1"/>
           </repeats>
           <conditions/>
           <conditionGroups/>
@@ -6418,7 +6418,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="points" value="15.0">
+            <modifier type="increment" field="points" value="15">
               <repeats>
                 <repeat field="selections" scope="af71-31a8-1699-fc5f" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b4cb-c748-0284-561d" repeats="1"/>
               </repeats>
@@ -7026,10 +7026,10 @@
         </infoLink>
       </infoLinks>
       <modifiers>
-        <modifier type="set" field="maxInForce" value="-1.0">
+        <modifier type="set" field="maxInForce" value="-1">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af71-31a8-1699-fc5f" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af71-31a8-1699-fc5f" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -7196,9 +7196,9 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="increment" field="maxInForce" value="1.0">
+                <modifier type="increment" field="maxInForce" value="1">
                   <repeats>
-                    <repeat field="selections" scope="category" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="963f-8d70-583a-87b1" repeats="1"/>
+                    <repeat field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="963f-8d70-583a-87b1" repeats="1"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -7210,7 +7210,7 @@
               </constraints>
               <selectionEntries/>
               <selectionEntryGroups>
-                <selectionEntryGroup id="8111-4e7d-938b-1417" name="Heavy Weapon2" hidden="false" collective="false" defaultSelectionEntryId="353e-1be2-3914-dcbc">
+                <selectionEntryGroup id="8111-4e7d-938b-1417" name="May be equipped with one of:" hidden="false" collective="false" defaultSelectionEntryId="353e-1be2-3914-dcbc">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
