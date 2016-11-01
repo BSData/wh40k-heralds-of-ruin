@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" revision="20" battleScribeVersion="2.00" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" revision="21" battleScribeVersion="2.00" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -115,7 +115,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1613-ba16-ec57-b158" name="Bolt Pistol" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -139,7 +141,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3843-58ca-6f81-9757" name="Frag Grenade" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -179,7 +183,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="010f-68cf-1eab-d3f3" name="Boltgun" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -197,7 +203,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="181e-42d6-a884-a5ca" name="Combi-Flamer" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -233,7 +241,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4207-0364-0286-08df" name="Combi-Melta" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -269,7 +279,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="815f-6138-c263-9b4b" name="Combi-Plasma" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -305,7 +317,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="43a9-eb82-8508-22c6" name="Power Axe" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -336,7 +350,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fa75-bbf7-6105-debd" name="Power Lance" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -369,7 +385,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="26a2-8df8-d1ee-ba4b" name="Power Maul" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -400,7 +418,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8d7d-94b8-5ca4-7e5e" name="Power Sword" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -424,7 +444,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2baa-b75f-4a07-b9fa" name="Plasma Pistol" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -455,7 +477,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4298-415f-6a31-8c54" name="Hand Flamer" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -479,7 +503,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="38ed-df0d-8ebd-5d2e" name="Power Fist" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -516,7 +542,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bf3c-892d-c280-db54" name="Krak Grenade" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -550,8 +578,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Unless used in assaults against vehicles, gun emplacements or Monstrous Creatures, krak
-grenades have no effect."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Unless used in assaults against vehicles, gun emplacements or Monstrous Creatures, krak grenades have no effect."/>
           </characteristics>
         </profile>
       </profiles>
@@ -569,7 +596,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ee96-fe0a-b137-020a" name="Camo Cloak" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -590,7 +619,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b85c-998f-edf8-142d" name="Melta Bomb" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -633,7 +664,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b489-e0c0-13f1-4a01" name="Power Armor" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -654,7 +687,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ff9b-5525-1eb4-ac49" name="Heavy Stubber" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -678,7 +713,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a97c-239e-d5cf-477f" name="Flamer" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -702,7 +739,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="15d8-d4ab-0f48-7c68" name="Meltagun" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -726,7 +765,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6205-33f0-ae12-e2b0" name="Plasma Gun" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -750,7 +791,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="57c1-6ed0-3098-9619" name="Close Combat Weapon" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -774,7 +817,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f446-bf98-f8a7-328b" name="Multi-laser" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -798,7 +843,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0b49-8122-0d82-7dcd" name="Heavy Flamer" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -829,7 +876,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e359-f773-52b8-4287" name="Autocannon" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -853,7 +902,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="cf29-8197-2f34-1e78" name="Missile Launcher" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -914,7 +965,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1ba0-e993-8f82-a0a0" name="Lascannon" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -938,7 +991,9 @@ grenades have no effect."/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2fc9-9569-797b-a31f" name="Searchlight" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -948,8 +1003,7 @@ grenades have no effect."/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Searchlights are used when the Night Fighting rules are in effect. If a vehicle has a searchlight, it can, after firing all of its weapons, choose to illuminate its target with the searchlight. If it does so, it also illuminates itself. You may find it helpful to place coins, or other suitable counters, next to the units as reminders, and next to a vehicle to show it has used its searchlights this turn.
-Illumination lasts until the end of the following turn. Illuminated units gain no benefit from the Night Fighting rule."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Searchlights are used when the Night Fighting rules are in effect. If a vehicle has a searchlight, it can, after firing all of its weapons, choose to illuminate its target with the searchlight. If it does so, it also illuminates itself. You may find it helpful to place coins, or other suitable counters, next to the units as reminders, and next to a vehicle to show it has used its searchlights this turn. Illumination lasts until the end of the following turn. Illuminated units gain no benefit from the Night Fighting rule."/>
           </characteristics>
         </profile>
       </profiles>
@@ -960,7 +1014,9 @@ Illumination lasts until the end of the following turn. Illuminated units gain n
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="578a-019b-fdcf-1aa5" name="Smoke Launchers" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -970,9 +1026,7 @@ Illumination lasts until the end of the following turn. Illuminated units gain n
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per game, instead of shooting or moving Flat Out (or Running in the case of Walkers), a vehicle with smoke launchers can trigger them. Place some cotton wool or some other appropriate counter next to the vehicle to show it is obscured. The vehicle may not fire any of its weapons in the same turn as it used smoke launchers, but counts as obscured in the next enemy Shooting phase, receiving a 5+ cover save.
-After the enemyâ€™s Shooting phase, the smoke disperses with no further effect. Note that a
-vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stunned result or it does not have any shooting weapons."/>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Once per game, instead of shooting or moving Flat Out (or Running in the case of Walkers), a vehicle with smoke launchers can trigger them. Place some cotton wool or some other appropriate counter next to the vehicle to show it is obscured. The vehicle may not fire any of its weapons in the same turn as it used smoke launchers, but counts as obscured in the next enemy Shooting phase, receiving a 5+ cover save. After the enemyâ€™s Shooting phase, the smoke disperses with no further effect. Note that a vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stunned result or it does not have any shooting weapons."/>
           </characteristics>
         </profile>
       </profiles>
@@ -983,7 +1037,9 @@ vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stun
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6f34-073b-ea65-e1c8" name="Sniper Rifle" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1014,7 +1070,9 @@ vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stun
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f290-6edb-ee95-44ed" name="Extra Armour" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1035,7 +1093,9 @@ vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stun
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4b84-ed37-b5c9-9efe" name="Dozer Blade" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1056,7 +1116,9 @@ vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stun
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bb59-f1bb-d2f1-24e4" name="Hunter-Killer Missile" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1089,7 +1151,9 @@ vehicle may still use smoke launchers even if has suffered a Crew Shaken or Stun
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups/>
@@ -1684,6 +1748,16 @@ same time as all other similarly named weapons in that unit. For example, the â€
       <modifiers/>
       <description>A model with this special rule, or that is firing a weapon with this special rule, fires using its normal Ballistic Skill when shooting at Flyers, Flying Monstrous Creatures and Skimmers, but it can only fire Snap Shots against other targets.</description>
     </rule>
+    <rule id="8663-1104-c040-20c6" name="Poisoned" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a model has the Poisoned special rule, or is attacking with a Melee weapon that has the
+Poisoned special rule, it always wounds on a fixed number (generally shown in brackets), unless a lower result would be required, when attacking in close combat. In addition, if the Strength of the wielder (or the Poisoned weapon) is higher than the Toughness of the victim, the wielder must re-roll failed rolls To Wound in close combat.
+Similarly, if a model makes a shooting attack with a weapon that has the Poisoned special rule, it always wounds on a fixed number (generally shown in brackets), unless a lower result would be required. If no number is shown in brackets, the rule is Poisoned (4+).
+Unless otherwise stated, Poisoned weapons are treated as having a Strength of 1. The Poisoned special rule has no effect against vehicles.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="13ee-5199-b4f3-747f" name="Boltgun" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -1740,9 +1814,7 @@ same time as all other similarly named weapons in that unit. For example, the â€
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All Grenades are One Use Only. If a model uses any profile or rule on the Grenade, it counts as having been used.
-
-Models attacking with a Grenade in the Assault phase may only ever make one attack, regardless of the number of Attacks on its profile"/>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All Grenades are One Use Only. If a model uses any profile or rule on the Grenade, it counts as having been used.  Models attacking with a Grenade in the Assault phase may only ever make one attack, regardless of the number of Attacks on its profile"/>
       </characteristics>
     </profile>
   </sharedProfiles>
