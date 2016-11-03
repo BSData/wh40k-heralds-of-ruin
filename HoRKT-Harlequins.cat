@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d992-2889-35da-b302" name="Harlequins: HoR" book="Killteam: Harlequins v4.4" revision="2" battleScribeVersion="2.00" authorName="DreadPirateLynx" authorContact="" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d992-2889-35da-b302" name="Harlequins: HoR" book="Killteam: Harlequins v4.4" revision="3" battleScribeVersion="2.00" authorName="DreadPirateLynx" authorContact="" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="503d-c41f-5a54-39c3" name="Rising Crescendo" hidden="false">
@@ -177,21 +177,7 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="4b57-87fe-cdbc-2c55" hidden="false" targetId="d063-e433-39c1-05a8" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
         <entryLink id="6f53-a1aa-219f-5e8a" hidden="false" targetId="540d-45f1-613d-38ae" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="3e33-0064-f375-6b1e" hidden="false" targetId="716b-4cc6-d00a-ea58" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -218,6 +204,22 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </entryLink>
+        <entryLink id="ef58-88cd-797e-0626" name="" hidden="false" targetId="9d1d-bce3-d053-297b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="cf6e-688b-cdf3-cd79" name="" hidden="false" targetId="bab9-0b3e-f4a4-ea3a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="762a-94cb-5b07-c163" type="min"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -247,38 +249,6 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d063-e433-39c1-05a8" name="Haywire Grenade" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="36e7-eb9e-ebd4-974a" hidden="false" targetId="3e85-00d3-497f-4bab" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="1027-2d54-d336-8444" hidden="false" targetId="7e4d-6ee3-5cde-5d06" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9084-6caf-8cd2-e8c8" name="" hidden="false" targetId="276c-8078-b846-c348" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="2.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="f99c-c305-252f-c690" name="Holo-suit" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
@@ -300,40 +270,6 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="716b-4cc6-d00a-ea58" name="Plasma Grenade" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="9b6e-33e7-1143-0e1f" hidden="false" targetId="90bc-9f17-2f6c-bd99" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d3d6-0dd9-c804-7c86" hidden="false" targetId="f9ff-f9ce-3b75-9eff" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="d1e6-43d2-8c49-e2af" hidden="false" targetId="b47e-f071-aa99-6819" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d60c-daea-70ae-c6a2" name="Player" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -411,19 +347,21 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="e29b-dd61-a12a-38bd" hidden="false" targetId="716b-4cc6-d00a-ea58" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
         <entryLink id="d144-fffa-18c2-3c6e" name="" hidden="false" targetId="bef7-eedf-4f0c-8956" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+        </entryLink>
+        <entryLink id="1192-d5f9-bae1-777e" name="" hidden="false" targetId="bab9-0b3e-f4a4-ea3a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bdec-7a05-0ead-bd7b" type="min"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -598,14 +536,14 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="a555-9b3d-12a0-1b22" hidden="false" targetId="d063-e433-39c1-05a8" type="selectionEntry">
+        <entryLink id="7a07-2df8-7c2d-d18f" name="" hidden="false" targetId="bef7-eedf-4f0c-8956" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="7a07-2df8-7c2d-d18f" name="" hidden="false" targetId="bef7-eedf-4f0c-8956" type="selectionEntryGroup">
+        <entryLink id="62ba-d43c-5c37-41db" name="" hidden="false" targetId="9d1d-bce3-d053-297b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -741,13 +679,6 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="5c05-d8b0-9656-2ab2" hidden="false" targetId="d063-e433-39c1-05a8" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
         <entryLink id="80c7-28c0-d88a-772b" hidden="false" targetId="fa0f-5d75-67e3-fdb1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -769,13 +700,6 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="0de9-0f62-165d-544c" hidden="false" targetId="716b-4cc6-d00a-ea58" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
         <entryLink id="e4b2-0de2-d515-cf64" name="New EntryLink" hidden="false" targetId="7672-16c4-89a3-f69c" type="selectionEntryGroup">
           <profiles/>
           <rules/>
@@ -791,6 +715,22 @@ Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit,
           <constraints/>
         </entryLink>
         <entryLink id="d6e4-d5e3-7fe9-8298" name="" hidden="false" targetId="9216-861e-e33e-2264" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="ab59-291b-b8f9-6848" name="" hidden="false" targetId="bab9-0b3e-f4a4-ea3a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c54f-905b-97f9-90c1" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="939e-0fc3-1fc4-af5c" name="" hidden="false" targetId="9d1d-bce3-d053-297b" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>

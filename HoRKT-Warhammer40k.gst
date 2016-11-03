@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" revision="22" battleScribeVersion="2.00" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c138ada2-95db-4a25-7d44-b8c80b632d36" name="Warhammer 40,000: Heralds of Ruin Kill Team expansion" revision="23" battleScribeVersion="2.00" authorName="BSData organisation" authorContact="@BSData" authorUrl="https://github.com/BSData/" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -171,7 +171,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="24ef-568b-f658-fab8" name="New InfoLink" hidden="false" targetId="183e-3e64-cb84-7096" type="profile">
+        <infoLink id="f271-509c-90f6-5f4a" name="" hidden="false" targetId="313f-fcae-7ed7-0bfb" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -584,7 +584,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="996d-22c1-96c7-0992" name="New InfoLink" hidden="false" targetId="183e-3e64-cb84-7096" type="profile">
+        <infoLink id="a36d-8c12-288c-bd4d" name="" hidden="false" targetId="313f-fcae-7ed7-0bfb" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -652,7 +652,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="aa25-caf6-0fd2-4e5a" name="New InfoLink" hidden="false" targetId="183e-3e64-cb84-7096" type="profile">
+        <infoLink id="1e82-96a1-f415-1c0b" name="" hidden="false" targetId="313f-fcae-7ed7-0bfb" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1153,6 +1153,111 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bab9-0b3e-f4a4-ea3a" name="Plasma Grenade" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles>
+        <profile id="cee9-4c17-89ed-8f92" name="Plasma grenade" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Models equipped with plasma grenades don’t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative step in the ensuing combat."/>
+          </characteristics>
+        </profile>
+        <profile id="0033-ae61-a136-afca" name="Plasma grenade" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
+          </characteristics>
+        </profile>
+        <profile id="bd8b-74c7-8873-3325" name="Plasma grenade" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d596-5127-3bd1-0421" name="New InfoLink" hidden="false" targetId="313f-fcae-7ed7-0bfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d1d-bce3-d053-297b" name="Haywire Grenade" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles>
+        <profile id="0297-274e-5be8-7d4c" name="Haywire grenade (melee)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="2"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Haywire"/>
+          </characteristics>
+        </profile>
+        <profile id="457a-54ea-a362-082d" name="Haywire grenade (ranged)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="2"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Haywire"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7f0d-e278-c7ad-296d" name="New InfoLink" hidden="false" targetId="313f-fcae-7ed7-0bfb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="465d-ea49-4c89-4873" name="New InfoLink" hidden="false" targetId="276c-8078-b846-c348" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1758,6 +1863,13 @@ Poisoned special rule, it always wounds on a fixed number (generally shown in br
 Similarly, if a model makes a shooting attack with a weapon that has the Poisoned special rule, it always wounds on a fixed number (generally shown in brackets), unless a lower result would be required. If no number is shown in brackets, the rule is Poisoned (4+).
 Unless otherwise stated, Poisoned weapons are treated as having a Strength of 1. The Poisoned special rule has no effect against vehicles.</description>
     </rule>
+    <rule id="313f-fcae-7ed7-0bfb" name="Grenade" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>All Grenades are One Use Only. If a model uses any profile or rule on the Grenade, it counts as having been used.  Models attacking with a Grenade in the Assault phase may only ever make one attack, regardless of the number of Attacks on its profile</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="13ee-5199-b4f3-747f" name="Boltgun" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
@@ -1806,15 +1918,6 @@ Unless otherwise stated, Poisoned weapons are treated as having a Strength of 1.
         <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
         <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire, Gets Hot"/>
-      </characteristics>
-    </profile>
-    <profile id="183e-3e64-cb84-7096" name="Grenade" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All Grenades are One Use Only. If a model uses any profile or rule on the Grenade, it counts as having been used.  Models attacking with a Grenade in the Assault phase may only ever make one attack, regardless of the number of Attacks on its profile"/>
       </characteristics>
     </profile>
   </sharedProfiles>
