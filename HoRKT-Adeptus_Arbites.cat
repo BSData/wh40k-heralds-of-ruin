@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="008d-4e01-9c43-a867" name="Adeptus Arbites: HoR" book="Kill Team List: Adeptus Arbites v1.1" revision="3" battleScribeVersion="2.00" authorName="William Vestman Malmi" authorContact="" authorUrl="https://github.com/williamwm" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="008d-4e01-9c43-a867" name="Adeptus Arbites: HoR" book="Kill Team List: Adeptus Arbites v7.1.8" revision="4" battleScribeVersion="2.00" authorName="William Vestman Malmi" authorContact="" authorUrl="https://github.com/williamwm" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1743,7 +1743,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2011,7 +2013,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="8d68-c678-f908-0b34" name="" hidden="false" targetId="183e-3e64-cb84-7096" type="profile">
+            <infoLink id="8d68-c678-f908-0b34" name="" hidden="false" targetId="313f-fcae-7ed7-0bfb" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2050,7 +2052,7 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="9ae3-51be-ee17-c848" name="" hidden="false" targetId="183e-3e64-cb84-7096" type="profile">
+            <infoLink id="9ae3-51be-ee17-c848" name="" hidden="false" targetId="313f-fcae-7ed7-0bfb" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
