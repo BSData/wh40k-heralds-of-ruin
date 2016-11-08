@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="be8f-1301-f0d1-004c" name="Tyranids: HoR" book="Kill Team: Tyranids v2.1" revision="13" battleScribeVersion="2.00" authorName="beckian" authorContact="beckiantrash@gmail.com" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="be8f-1301-f0d1-004c" name="Tyranids: HoR" book="Kill Team: Tyranids v2.1" revision="17" battleScribeVersion="2.00" authorName="beckian" authorContact="beckiantrash@gmail.com" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -90,21 +90,7 @@
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="76cc-d29e-dacf-781c" hidden="false" targetId="d516-ef74-c9bf-397f" type="selectionEntry" categoryEntryId="f6aa-8554-e7e5-d1ad">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </entryLink>
     <entryLink id="1c94-493f-750e-3751" hidden="false" targetId="93c1-bdda-1cc8-05fd" type="selectionEntry" categoryEntryId="9e0a-2e77-a8f0-321e">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </entryLink>
-    <entryLink id="fddc-e10e-4848-6ad6" hidden="false" targetId="c342-0ee0-5699-bf6b" type="selectionEntry" categoryEntryId="9e0a-2e77-a8f0-321e">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -161,26 +147,18 @@
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ab7-2a22-6c72-d53b" type="equalTo"/>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ab7-2a22-6c72-d53b" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>
       <constraints/>
     </entryLink>
-    <entryLink id="836b-ba59-7bb1-cf6b" hidden="false" targetId="c342-0ee0-5699-bf6b" type="selectionEntry" categoryEntryId="f6aa-8554-e7e5-d1ad">
+    <entryLink id="836b-ba59-7bb1-cf6b" hidden="false" targetId="c342-0ee0-5699-bf6b" type="selectionEntry" categoryEntryId="9e0a-2e77-a8f0-321e">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ab7-2a22-6c72-d53b" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
     </entryLink>
     <entryLink id="d815-d9c9-4b28-35b9" hidden="false" targetId="0d4f-e058-4c3c-9ab2" type="selectionEntry" categoryEntryId="f6aa-8554-e7e5-d1ad">
@@ -198,6 +176,43 @@
       <constraints/>
     </entryLink>
     <entryLink id="3ecc-12b7-d45c-7b75" hidden="false" targetId="b59d-6dd4-a7c5-18e4" type="selectionEntry" categoryEntryId="9e0a-2e77-a8f0-321e">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="361b-7d90-a09e-3599" hidden="false" targetId="c342-0ee0-5699-bf6b" type="selectionEntry" categoryEntryId="f6aa-8554-e7e5-d1ad">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1ab7-2a22-6c72-d53b" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+    </entryLink>
+    <entryLink id="647a-5bb7-cd07-625f" hidden="false" targetId="9bd5-0303-8827-520d" type="selectionEntry" categoryEntryId="f6aa-8554-e7e5-d1ad">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f26b-fde7-52db-e15a" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints/>
+    </entryLink>
+    <entryLink id="c2b0-2a36-1207-2ab4" name="New EntryLink" hidden="false" targetId="d516-ef74-c9bf-397f" type="selectionEntry" categoryEntryId="f6aa-8554-e7e5-d1ad">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -272,7 +287,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="90f3-ba3c-8b77-b652" name="Biovore" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="90f3-ba3c-8b77-b652" name="Biovore" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="9367-b67d-c599-a9fa" name="Biovore" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -377,7 +392,7 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="046f-5264-e6d8-89ed" name="Broodlord" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="046f-5264-e6d8-89ed" name="Broodlord" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="b2d0-d790-0112-7c80" name="Broodlord" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -866,7 +881,7 @@
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0d4f-e058-4c3c-9ab2" name="Genestealer" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="0d4f-e058-4c3c-9ab2" name="Genestealer" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="0d44-bd44-d63d-dc61" name="Genestealer" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -1036,7 +1051,7 @@
         <cost name="pts" costTypeId="points" value="3.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c843-b1cc-4cbc-992b" name="Hive Guard" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c843-b1cc-4cbc-992b" name="Hive Guard" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="beaa-110c-f227-c5be" name="Hive Guard" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -1403,7 +1418,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3028-ea07-e189-e9cc" name="Lictor" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="3028-ea07-e189-e9cc" name="Lictor" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="f367-88cb-54ef-efd5" name="Lictor" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -1581,7 +1596,7 @@
         <cost name="pts" costTypeId="points" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9af5-0dd3-fff2-7f6f" name="Neurothrope" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="9af5-0dd3-fff2-7f6f" name="Neurothrope" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="ce8e-4240-23fd-51c1" name="Neurothrope" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -1829,7 +1844,7 @@ If both warp blast mode are chosen the Neurothrope become ML0 </description>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6cdc-bc59-fb82-1468" name="Pyrovore" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="6cdc-bc59-fb82-1468" name="Pyrovore" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="a855-bdd2-83af-ba1c" name="Pyrovore" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -1947,7 +1962,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9bd5-0303-8827-520d" name="Ravener" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="9bd5-0303-8827-520d" name="Ravener" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="6b0e-1f29-aeae-de93" name="Ravener" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -2435,7 +2450,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c342-0ee0-5699-bf6b" name="Shrike" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="c342-0ee0-5699-bf6b" name="Shrike" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="5201-4832-7336-5d16" name="Shrike" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -3005,7 +3020,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b59d-6dd4-a7c5-18e4" name="Tyrant Guard" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="b59d-6dd4-a7c5-18e4" name="Tyrant Guard" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="1229-5824-2ae8-d73c" name="Tyrant Guard" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -3203,7 +3218,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad61-0506-fc24-917c" name="Venomthrope" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="ad61-0506-fc24-917c" name="Venomthrope" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="7f74-2fed-a7f5-4bae" name="Venomthrope" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -3358,7 +3373,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93c1-bdda-1cc8-05fd" name="Warrior" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="93c1-bdda-1cc8-05fd" name="Warrior" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="b06a-db2e-a6bb-11ef" name="Warrior" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -3608,7 +3623,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1ab7-2a22-6c72-d53b" name="Warrior Alpha" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="1ab7-2a22-6c72-d53b" name="Warrior Alpha" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="7e06-2aaa-18ac-c78e" name="Warrior Alpha" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -3835,14 +3850,14 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="59b5-ea75-e6a3-7c5e" hidden="false" targetId="9590-9ad4-6290-e6cf" type="selectionEntryGroup">
+        <entryLink id="b56e-02be-ec99-c210" hidden="false" targetId="e7f8-1e6f-6159-4433" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="b56e-02be-ec99-c210" hidden="false" targetId="e7f8-1e6f-6159-4433" type="selectionEntryGroup">
+        <entryLink id="1ded-171f-590f-1581" name="New EntryLink" hidden="false" targetId="e859-77c8-f18c-99a9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3854,7 +3869,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="48b4-a062-93b5-d86a" name="Zoanthrope" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="48b4-a062-93b5-d86a" name="Zoanthrope" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="8051-9373-22c5-ce86" name="Zoanthrope" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -3934,7 +3949,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="points" value="10.0">
+                <modifier type="set" field="points" value="10">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -3999,16 +4014,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-      </constraints>
+      <constraints/>
       <selectionEntries>
         <selectionEntry id="545f-634b-a8d5-8105" name="Thornback" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
@@ -4035,7 +4041,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="37f3-75b1-8a38-b2a6" name="Hardened Carapace" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="37f3-75b1-8a38-b2a6" name="Hardened Carapace" hidden="true" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="afbd-cfa8-990b-068b" name="Hardened Carapace" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
               <profiles/>
@@ -4049,25 +4055,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="046f-5264-e6d8-89ed" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="48b4-a062-93b5-d86a" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c342-0ee0-5699-bf6b" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93c1-bdda-1cc8-05fd" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9af5-0dd3-fff2-7f6f" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ab7-2a22-6c72-d53b" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
@@ -4161,7 +4149,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="99b0-9499-70ac-4c55" name="Hardened Carapace" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="99b0-9499-70ac-4c55" name="Hardened Carapace" hidden="true" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="9f76-5ef5-0bbc-0ca8" name="Hardened Carapace" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
               <profiles/>
@@ -4176,15 +4164,15 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="set" field="hidden" value="false">
               <repeats/>
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ab7-2a22-6c72-d53b" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="046f-5264-e6d8-89ed" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93c1-bdda-1cc8-05fd" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="48b4-a062-93b5-d86a" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c342-0ee0-5699-bf6b" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9af5-0dd3-fff2-7f6f" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -4234,7 +4222,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
             <cost name="pts" costTypeId="points" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="8223-26d4-6ba8-9fa2" name="Hardened Carapace" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="8223-26d4-6ba8-9fa2" name="Hardened Carapace" hidden="true" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="f464-39bb-40c8-979c" name="Hardened Carapace" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
               <profiles/>
@@ -4249,15 +4237,15 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="set" field="hidden" value="false">
               <repeats/>
               <conditions/>
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c342-0ee0-5699-bf6b" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9af5-0dd3-fff2-7f6f" type="equalTo"/>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="48b4-a062-93b5-d86a" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="046f-5264-e6d8-89ed" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1ab7-2a22-6c72-d53b" type="instanceOf"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="93c1-bdda-1cc8-05fd" type="instanceOf"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -4284,16 +4272,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-      </constraints>
+      <constraints/>
       <selectionEntries>
         <selectionEntry id="03b3-b7d9-9b15-c8a1" name="Forced Evolution" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
@@ -4382,16 +4361,7 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-      </constraints>
+      <constraints/>
       <selectionEntries>
         <selectionEntry id="634f-ad16-fbe1-66cd" name="Capillary Synapse" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
@@ -4540,258 +4510,12 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9590-9ad4-6290-e6cf" name="Tyranids Warrior Alpha Armoury" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="91eb-3a88-4088-9b43" name="Colossal Growth" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="5065-c751-f007-8a6d" name="Colossal Growth" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Warrior Alpha has grown to a massive size and its immense bulk is able to take a punishing amount of damage. The model gains +1 to it Toughness, is immune to Strikedown and gains the Hammer of Wrath special rule, but reduces its Initiative by 1."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7aec-0be6-d6c7-ae97" name="Burrower" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="5adb-2061-83b7-5ad3" name="Burrower" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Warrior Alpha has the ability to burrow deep into the ground. The model gains the Deep Strike and Burrowing (see page 1) special rules. This may not be combined with the Shrike Wings item below."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="afdb-06b9-dfb2-17b4" hidden="false" targetId="fe26-76a9-2b19-7bfd" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="ef2e-141c-8bf5-4d6e" hidden="false" targetId="258b-44dd-90f5-5940" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="9590-9ad4-6290-e6cf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29cf-4f47-c0a3-3fc5" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="29cf-4f47-c0a3-3fc5" name="Shrike Wings" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="5b60-07e9-95b1-f061" name="Shrike Wings" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Leathery wings sprout from the back of this organism. The Warrior Alpha changes its unit type to Jump Infantry. This may not be combined with the Burrower item above."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="maxSelections" value="0.0">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="9590-9ad4-6290-e6cf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7aec-0be6-d6c7-ae97" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c326-f177-2d33-1350" name="Bio-Feedback" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="5387-0a94-759c-4c7d" name="Bio-Feedback" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The death of a nearby Warrior briefly makes the Warrior Alpha enraged. If a friendly Warrior or Shrike model is killed within 6” of the Warrior Alpha it immediately gains the Rage special rule until the end of its next turn."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="1586-5b16-3d1b-9c4c" hidden="false" targetId="8408-2500-936f-5910" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="10.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="7f25-e90f-f2d5-675e" name="Distended Pincers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="fa58-110c-0d95-c995" name="Distended Pincers" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Replaces one weapon of your choice. Some Tyranids grow engorged scything talons, allowing it to crush their prey, as well as slice."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="4172-ce53-8038-438c" hidden="false" targetId="8162-4ea8-797a-feb0" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8c5e-be93-78ce-8468" name="Osseoblades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="c345-c620-54ec-db0a" name="Osseoblades" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Replaces one weapon of your choice. This pair of boneswords diminishes to monomolecular sharpness at each razor edge."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks>
-            <infoLink id="ee70-3a39-cc3b-b875" hidden="false" targetId="8d99-02b7-ca4f-1788" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-            <infoLink id="48d9-2f79-9554-1738" hidden="false" targetId="ea0d-5e7e-7f67-b727" type="rule">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
-          </infoLinks>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="be3f-c692-dceb-5e64" name="New Entry Group" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-    </selectionEntryGroup>
     <selectionEntryGroup id="28e3-2d5e-b421-33f6" name="Tyranids Zoanthrope Armoury" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
-        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
-        <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
-        <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
-      </constraints>
+      <constraints/>
       <selectionEntries>
         <selectionEntry id="994a-5295-c989-ba91" name="Psychic Surge" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
@@ -4820,6 +4544,221 @@ Strength 3 AP- hit for each model (excluding Pyrovores) within D6&quot; of the s
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e859-77c8-f18c-99a9" name="Tyranids Warrior Alpha Armoury" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="1c1b-2e23-ddd3-1216" name="Osseoblades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="1588-80c1-0369-5c5e" name="Osseoblades" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Replaces one weapon of your choice. This pair of boneswords diminishes to monomolecular sharpness at each razor edge."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="fb4f-6332-af67-63af" hidden="false" targetId="8d99-02b7-ca4f-1788" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="8ad3-699c-644e-e35d" hidden="false" targetId="ea0d-5e7e-7f67-b727" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e3ff-7e58-1f2e-c182" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ec85-d5fa-af02-08c3" name="Distended Pincers" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="0289-35eb-f09c-bf98" name="Distended Pincers" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Replaces one weapon of your choice. Some Tyranids grow engorged scything talons, allowing it to crush their prey, as well as slice."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0180-c621-839f-5a60" hidden="false" targetId="8162-4ea8-797a-feb0" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b60b-597c-b02a-422a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0dd9-c308-880c-4793" name="Bio-Feedback" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="72ed-b7ce-a711-90a0" name="Bio-Feedback" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The death of a nearby Warrior briefly makes the Warrior Alpha enraged. If a friendly Warrior or Shrike model is killed within 6” of the Warrior Alpha it immediately gains the Rage special rule until the end of its next turn."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="36b1-60d9-4f32-af51" hidden="false" targetId="8408-2500-936f-5910" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dce0-0e2f-54b1-b62e" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a10f-1588-665e-c53e" name="Colossal Growth" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="2794-6569-9d2e-3648" name="Colossal Growth" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Warrior Alpha has grown to a massive size and its immense bulk is able to take a punishing amount of damage. The model gains +1 to it Toughness, is immune to Strikedown and gains the Hammer of Wrath special rule, but reduces its Initiative by 1."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dc1f-8269-ee64-1fd0" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a4fe-6421-88d9-7d5d" name="Burrower or Wings" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5e64-85d6-71f3-fb1f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="65f2-86c0-5a65-03d6" name="Shrike Wings" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles>
+                <profile id="16c2-9230-a476-b3b0" name="Shrike Wings" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Leathery wings sprout from the back of this organism. The Warrior Alpha changes its unit type to Jump Infantry. This may not be combined with the Burrower item above."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e5b9-56ff-6009-f747" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f26b-fde7-52db-e15a" name="Burrower" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles>
+                <profile id="4165-ecf4-892b-0f89" name="Burrower" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Warrior Alpha has the ability to burrow deep into the ground. The model gains the Deep Strike and Burrowing (see page 1) special rules. This may not be combined with the Shrike Wings item below."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="db53-5cf0-e550-1623" hidden="false" targetId="fe26-76a9-2b19-7bfd" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="f853-c21b-e9e2-43c7" hidden="false" targetId="258b-44dd-90f5-5940" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d786-3ae8-ea22-a4bd" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
