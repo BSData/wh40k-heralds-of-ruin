@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3b34-1d18-16d8-faa5" name="Chaos Space Marines: HoR" book="Kill Team List: Chaos Space Marines v3.0" revision="11" battleScribeVersion="2.00" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3b34-1d18-16d8-faa5" name="Chaos Space Marines: HoR" book="Kill Team List: Chaos Space Marines v3.0" revision="12" battleScribeVersion="2.00" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -9699,7 +9699,7 @@ Nominate one piece of terrain in the enemy deployment zone (that is not a purcha
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="33a4-0292-58b7-6152" name="Posessed" book="Kill Team List: Chaos Space Marines v3.0" page="7" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
