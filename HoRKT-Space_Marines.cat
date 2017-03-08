@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2659-6725-4287-c661" name="Space Marines: HoR" book="Kill Team List: Space Marines v3.2" revision="8" battleScribeVersion="2.00" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2659-6725-4287-c661" name="Space Marines: HoR" book="Kill Team List: Space Marines v8.1" revision="8" battleScribeVersion="2.00" authorName="azdiscord" authorContact="@BSData" authorUrl="http://github.com/azdiscord" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="4" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -269,16 +269,9 @@
       <modifiers/>
       <constraints/>
     </entryLink>
-    <entryLink id="9a32-b892-9b20-6d08" name="New EntryLink" hidden="false" targetId="ce75-7981-2849-97cb" type="selectionEntry" categoryEntryId="8e35-f2bd-0b70-6bc0">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="a954-97de-8b49-0258" name="Apothecary" book="Kill Team List: Dark Angels v3.0" page="7" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+    <selectionEntry id="a954-97de-8b49-0258" name="Apothecary" book="Kill Team List: Space Marines v8.1" page="7" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="cd31-d9e2-3c87-ee44" name="Apothecary" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -517,7 +510,7 @@
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9c1-b87b-3844-7685" name="Assault Marine" book="Kill Team List: Dark Angels v3.0" page="5" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="c9c1-b87b-3844-7685" name="Assault Marine" book="Kill Team List: Space Marines v8.1" page="5" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
         <profile id="ba3e-0a58-221f-da1d" name="Assault Marine" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -912,7 +905,7 @@
         <cost name="pts" costTypeId="points" value="12.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3cc1-99fd-9a12-c1ac" name="Back Banner" book="Kill Team List: Dark Angels v3.0" page="1" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3cc1-99fd-9a12-c1ac" name="Back Banner" book="Kill Team List: Space Marines v8.1" page="1" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -978,7 +971,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f578-cca6-a2fc-9a90" name="Camo Cloak" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="f578-cca6-a2fc-9a90" name="Camo Cloak" book="Codex: Space Marines" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -1853,14 +1846,14 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Librarians may not be included in Detachments of Black Templars.</description>
+          <description>Lexicanums and Codiciers may never be included in a Black Templars Kill Team.</description>
         </rule>
         <rule id="1f73-1aa6-d218-4c0d" name="Righteous Zeal" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If a Black Templars unit suffers one or more casualties in the Shooting phase or as a result of Overwatch, all models in that unit gain the Counter-attack and Rage special rules until the end of the turn.</description>
+          <description>Whenever a Black Templar model is taken out as casualty in the Shooting phase or as a result of Overwatch, all friendly Black Templars models in 12” gain the Counter-attack and Rage special rules until the end of turn.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1883,14 +1876,16 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Imperial Fists models can re-roll all To Hit rolls of 1 made with bolt pistols, boltguns, storm bolters, heavy bolters and combi-weapons that are firing as boltguns. This rule also applies to models firing hellfire, kraken, vengeance or dragonfire rounds.</description>
+          <description>Imperial Fists models can re-roll all To Hit rolls of 1 made with bolt pistols, boltguns, storm bolters, heavy bolters and combi-weapons that are firing as boltguns. This rule also applies to models firing Special Issue Ammunitions.
+Scouts and Scout Bikers do not benefit from this rule.</description>
         </rule>
         <rule id="3bf6-cdbc-016a-8491" name="Siege Masters" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Imperial Fists models can re-roll armour penetration rolls against buildings that do not result in a glancing hit or penetrating hit, and add 1 to the result when rolling on the Building Damage table. In addition, Imperial Fists Devastator Squads and Centurion Devastator Squads have the Tank Hunters special rule.</description>
+          <description>Imperial Fists models can re-roll armour penetration rolls against buildings, and add 1 to the result when rolling on the Building Damage table. They also reroll failed To Wound rolls against Weapon Emplacements.
+In addition, Imperial Fists Centurion Devastators and Space Marines Devastators have the Tank Hunters special rule.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1913,7 +1908,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Non-vehicle Iron Hands models have the Feel No Pain (6+) special rule. If they have the Feel No Pain rule from another source (a narthecium, for example), they instead add 1 to the result of any Feel No Pain rolls.</description>
+          <description>Non-vehicle Iron Hands models have the Feel No Pain (6+) special rule. If they have the Feel No Pain rule from another source (a narthecium, for example), they instead they instead reroll failed Feel no Pain rolls of 1 and 2.</description>
         </rule>
         <rule id="fdcb-a590-b4b0-8dc3" name="Machine Empathy" hidden="false">
           <profiles/>
@@ -1950,7 +1945,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Non-vehicle Raven Guard models that do not begin the game in a Transport vehicle have the Shrouded special rule until the start of the second game turn. When rolling to see whether the Night Fighting mission special rule is in effect during game turn 1, you may add 1 to the result if your army contains at least one Raven Guard unit.</description>
+          <description>Non-vehicle Raven Guard models that do not begin the game in a Transport vehicle have the Stealth  special rule until the start of the second game turn. When rolling to see whether the Night Fighting mission special rule is in effect during game turn 1, you may add 1 to the result if your army contains at least one Raven Guard unit.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -1980,7 +1975,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Salamanders models have the Feel No Pain (4+) special rule against Wounds caused by flamer weapons (as defined in Warhammer 40,000: The Rules). Furthermore, when using flamer weapons, Salamanders models can re-roll failed To Wound rolls and armour penetration rolls that do not result in glancing or penetrating hits.</description>
+          <description>Salamanders models have the Feel No Pain (4+) special rule against Wounds caused by flamer weapons (as defined in Warhammer 40,000: The Rules). Furthermore, when using flamer weapons, Salamanders models can re-roll failed To Wound rolls and armour penetration rolls that do not result in glancing or penetrating hits.
+Salamanders Leaders can exchange their Bolt Pistol with a Hand Flamer for 10 pts.
+Salamanders Tactical Marines can take a Heavy Flamer instead of a Heavy Weapon for 10 pts.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2003,7 +2000,10 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If your army contains any Ultramarines units, you can choose to enact the Devastator Doctrine, Assault Doctrine and Tactical Doctrine (see Combat Doctrines) once each per game. When one of these Combat Doctrines is enacted, all Ultramarines models in your army are affected.</description>
+          <description>If your army contains any Ultramarines units, you can choose to enact the Devastator Doctrine, Assault Doctrine and Tactical Doctrine (see Combat Doctrines) once each per game. When one of these Combat Doctrines is enacted, all Ultramarines models in your army are affected.
+
+With regards to the Ultramarines doctrine rules, assume all Tactical Marines, Assault Marines, Bike Marines etc. are in the relevant ‘squads’.
+Remember Tactical Marines with Heavy weapons counts as Devastators.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2033,7 +2033,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>White Scars models have the Hit &amp; Run special rule. A unit composed entirely of White Scars models can re-roll the dice when determining Run moves.</description>
+          <description>White Scars models have the Hit and Run special rule. Furthermore, they add 1” to their Run move.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -2070,7 +2070,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="91a7-a294-d355-d189" name="Combat Shield" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="91a7-a294-d355-d189" name="Combat Shield" book="Wh40k: Codex - Space Marines" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2431,7 +2431,7 @@
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="984c-4d29-09ea-9147" name="Digital weapons" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="984c-4d29-09ea-9147" name="Digital weapons" book="Wh40k: Codex - Space Marines" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="8e18-7b37-f43f-e411" name="Digital weapons" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
           <profiles/>
@@ -2456,19 +2456,19 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b3e1-9aa4-7161-ce7d" name="Drop Pod" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="b3e1-9aa4-7161-ce7d" name="Drop Pod" book="Wh40k: Codex - Space Marines" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
-        <profile id="00e5-0d72-878f-4afc" name="Drop Pod" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764">
+        <profile id="00e5-0d72-878f-4afc" name="Drop Pod" book="Kill Team Rules: Transports" hidden="false" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Unit Type" characteristicTypeId="760f-2ac8-56cc-9509" value="Vehicle (Tank, Fast, Transport)"/>
+            <characteristic name="Unit Type" characteristicTypeId="760f-2ac8-56cc-9509" value="Vehicle (Open-topped, Transport)"/>
             <characteristic name="BS" characteristicTypeId="b81e-503e-7d2e-1bd2" value="4"/>
-            <characteristic name="F" characteristicTypeId="e4a8-9f80-a7bb-4937" value="12"/>
-            <characteristic name="S" characteristicTypeId="fc46-97a8-00ac-1f0b" value="12"/>
-            <characteristic name="R" characteristicTypeId="1306-1865-0155-ed8c" value="12"/>
+            <characteristic name="F" characteristicTypeId="e4a8-9f80-a7bb-4937" value="11"/>
+            <characteristic name="S" characteristicTypeId="fc46-97a8-00ac-1f0b" value="11"/>
+            <characteristic name="R" characteristicTypeId="1306-1865-0155-ed8c" value="11"/>
             <characteristic name="HP" characteristicTypeId="0053-bc31-16c0-31f6" value="3"/>
             <characteristic name="Transport Capacity" characteristicTypeId="b90d-8d9b-4979-4fe9" value="Ten models or one Dreadnought of any type. Once a Drop Pod lands, all passengers must disembark and no models can embark for the rest of the game."/>
             <characteristic name="Access Points" characteristicTypeId="64d4-b230-3c57-4d86" value="-"/>
@@ -2477,21 +2477,21 @@
         </profile>
       </profiles>
       <rules>
-        <rule id="7655-f11b-4cf6-1184" name="Drop Pod Assault" book="Wh40k: Cobex - Dark Angels 2013" hidden="false">
+        <rule id="7655-f11b-4cf6-1184" name="Drop Pod Assault" book="Wh40k: Codex - Space Marines" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>Drop Pods and units embarked upon them must be held in Deep Strike Reserves. At the beginning of your first turn, half your Drop Pods (rounding up) automatically arrive from Reserve. The arrival of remaining Drop Pods is rolled for normally.</description>
         </rule>
-        <rule id="206b-21a3-11e3-5f29" name="Immobile" book="Wh40k: Cobex - Dark Angels 2013" hidden="false">
+        <rule id="206b-21a3-11e3-5f29" name="Immobile" book="Wh40k: Codex - Space Marines" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <description>A Drop Pod cannot move once it has entered play, and counts in all respects as a vehicle that has suffered an Immobilised result that cannot be repaired in any way. This does not cause it to lose a Hull Point.</description>
         </rule>
-        <rule id="3810-f42e-8949-8742" name="Inertial Guidance System" book="Wh40k: Cobex - Dark Angels 2013" hidden="false">
+        <rule id="3810-f42e-8949-8742" name="Inertial Guidance System" book="Wh40k: Codex - Space Marines" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2789,38 +2789,6 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="29ab-7056-7c8d-a50d" name="Infravisor" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="ef87-4300-ccdd-f048" name="Infravisor" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A model with an infravisor has the Night Vision special rule. However, a unit that contains one or more models with an infravisor counts as Initiative 1 when taking Blind tests."/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks>
-        <infoLink id="710a-edba-2d50-a664" hidden="false" targetId="0fdc-6559-9654-cbf4" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="5.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="1287-79a6-cbaf-4e30" name="Initiate" book="Kill Team List: Dark Angels v3.0" page="4" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
         <profile id="0fc9-3c4f-77fe-0f5d" name="Initiate" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
@@ -2925,7 +2893,7 @@
               <modifiers>
                 <modifier type="increment" field="maxInForce" value="1.0">
                   <repeats>
-                    <repeat field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" repeats="1"/>
+                    <repeat field="selections" scope="roster" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a916-f599-3517-4e0f" repeats="1" roundUp="false"/>
                   </repeats>
                   <conditions/>
                   <conditionGroups/>
@@ -3102,7 +3070,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c415-93c7-13d3-9265" name="Jump Pack (Sergeant)" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3138,7 +3106,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2cf8-2289-975b-9778" name="Krak grenade" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3304,7 +3272,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
+            <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="354e-66c1-27a5-7603" name="Psychic hood" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3535,7 +3503,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="33.0"/>
+        <cost name="pts" costTypeId="points" value="43.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8406-d319-2afe-cf05" name="Lightning claw" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -3838,35 +3806,6 @@
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="391c-cedb-ce4d-acb2" name="Plasma Blaster" book="Kill Team List: Dark Angels v3.0" page="8" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles>
-        <profile id="c011-f574-d9df-bed0" name="Plasma Blaster" book="Kill Team List: Dark Angels v3.0" page="8" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
-            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
-            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2, Gets Hot"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="points" value="20.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="d82e-98b5-40eb-7cf3" name="Plasma pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
@@ -3886,7 +3825,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="15.0"/>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="640c-ea94-cb38-884a" name="Power Armour" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -4093,7 +4032,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a7bb-a51a-6892-f63a" name="Razorback" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="a7bb-a51a-6892-f63a" name="Razorback" book="Wh40k: Codex - Space Marines" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
         <profile id="83cc-51c0-5ba7-e5e6" name="Razorback" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764">
           <profiles/>
@@ -4304,7 +4243,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8d3-487c-afee-25d7" name="Rhino" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="f8d3-487c-afee-25d7" name="Rhino" book="Wh40k: Codex - Space Marines" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
         <profile id="4dc6-5705-79e6-cd15" name="Rhino" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764">
           <profiles/>
@@ -4715,7 +4654,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0449-c1b9-e70a-ea22" name="Scout Biker" book="Kill Team List: Dark Angels v3.0" page="5" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="0449-c1b9-e70a-ea22" name="Scout Biker" book="Wh40k: Codex - Space Marines" page="5" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="067b-2648-9006-ac60" name="Scout Biker" book="Kill Team List: Blood Angels v3.0" page="1" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -5005,7 +4944,7 @@
         <cost name="pts" costTypeId="points" value="16.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="53b6-2e6e-0f5a-e24d" name="Scout Sergeant" book="Kill Team List: Dark Angels v3.0" page="4" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="53b6-2e6e-0f5a-e24d" name="Scout Sergeant" book="Wh40k: Codex - Space Marines" page="4" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="1d5b-e294-8615-a165" name="Scout Sergeant" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -5155,13 +5094,6 @@
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="eb6b-7ce3-4490-dabe" hidden="false" targetId="391c-cedb-ce4d-acb2" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
             <entryLink id="f57d-0ffb-0731-6ae7" hidden="false" targetId="f92d-f8c4-74b2-ab9b" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -5204,13 +5136,6 @@
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="e34a-e842-ddb4-45eb" hidden="false" targetId="391c-cedb-ce4d-acb2" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
             <entryLink id="b326-db7a-4834-284c" hidden="false" targetId="f92d-f8c4-74b2-ab9b" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -5230,13 +5155,6 @@
           <constraints/>
         </entryLink>
         <entryLink id="0a2e-3218-60ec-42ee" hidden="false" targetId="8b54-bbbc-4e54-a9f8" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="f1be-7c65-7fbf-4436" hidden="false" targetId="29ab-7056-7c8d-a50d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5354,7 +5272,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5147-092d-40ba-64a0" name="Sergeant" book="Kill Team List: Dark Angels v3.0" page="1" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="5147-092d-40ba-64a0" name="Sergeant" book="Wh40k: Codex - Space Marines" page="1" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
         <profile id="3945-6b64-f6f1-702b" name="Sergeant" book="Kill Team List: Blood Angels v3.0" page="1" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -5457,13 +5375,6 @@
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="6d54-12f5-9023-b14f" hidden="false" targetId="391c-cedb-ce4d-acb2" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
             <entryLink id="f84d-e56f-c450-62cc" hidden="false" targetId="eda9-9e15-20f4-d1f9" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -5483,6 +5394,21 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="a5e9-6b5d-f9af-dbde" name="Relic Blade" hidden="false" targetId="1a7f-2cdd-0ec4-9f19" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4cb3-2909-86e9-ffc4" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -5507,13 +5433,6 @@
               <constraints/>
             </entryLink>
             <entryLink id="72f0-7d53-e13e-ff38" hidden="false" targetId="349a-278c-e26d-b8c1" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="b8aa-4419-ab08-57d6" hidden="false" targetId="391c-cedb-ce4d-acb2" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5546,6 +5465,21 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0a3f-12ca-da3a-1609" name="Relic Blade" hidden="false" targetId="1a7f-2cdd-0ec4-9f19" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4cb3-2909-86e9-ffc4" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -5808,7 +5742,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1662-af64-9825-d30f" name="Space Marine Bike (Sergeant)" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -5868,7 +5802,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="20.0"/>
+        <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6973-908d-a959-58fd" name="Space Marine Bike with Astartes GL" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -6296,7 +6230,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e4c6-72bf-7d00-d591" name="Sternguard Veteran" book="Kill Team List: Space Marines v3.2" page="6" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="e4c6-72bf-7d00-d591" name="Sternguard Veteran" book="Kill Team List: Space Marines v8.1" page="6" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
         <profile id="40fa-76c1-f940-77ca" name="Veteran" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -6550,7 +6484,7 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed02-2271-0dcb-8189" name="Storm Shield" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="ed02-2271-0dcb-8189" name="Storm Shield" book="Wh40k: Codex - Space Marines" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -6577,7 +6511,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="points" value="10.0"/>
+        <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5a9c-fe2a-4d93-a86c" name="Sword Brother" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
@@ -6663,13 +6597,6 @@
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="b1d2-b743-d64c-6541" hidden="false" targetId="391c-cedb-ce4d-acb2" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
             <entryLink id="5fd1-117a-2073-4f93" hidden="false" targetId="eda9-9e15-20f4-d1f9" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -6713,13 +6640,6 @@
               <constraints/>
             </entryLink>
             <entryLink id="f325-0283-ee53-29bf" hidden="false" targetId="ad37-7f7f-20c0-9e90" type="selectionEntryGroup">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-            <entryLink id="8350-0d3c-a111-5fad" hidden="false" targetId="391c-cedb-ce4d-acb2" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6826,7 +6746,7 @@
         <cost name="pts" costTypeId="points" value="22.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a916-f599-3517-4e0f" name="Tactical Marine" book="Kill Team List: Dark Angels v3.0" page="4" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="a916-f599-3517-4e0f" name="Tactical Marine" book="Kill Team List: Space Marines v8.1" page="4" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
         <profile id="0f9e-27c9-416f-68ca" name="Tactical Marine" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -7103,9 +7023,9 @@
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8950-7301-8550-ab37" name="Techmarine" book="Kill Team List: Blood Angels v3.0" page="7" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+    <selectionEntry id="8950-7301-8550-ab37" name="Techmarine" book="Kill Team List: Space Marines v8.1" page="7" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
       <profiles>
-        <profile id="1a82-f6e9-8ce2-1415" name="Techmarine" book="Kill Team List: Blood Angels v3.0" page="7" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+        <profile id="1a82-f6e9-8ce2-1415" name="Techmarine" book="Kill Team List: Space Marines v8.1" page="7" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7133,8 +7053,8 @@
             <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
             <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
             <characteristic name="I" characteristicTypeId="450ea86d-cd46-31df-5555-0b11959d473b" value="4"/>
-            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="1"/>
-            <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="8"/>
+            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
+            <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
             <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="2+"/>
           </characteristics>
         </profile>
@@ -7479,7 +7399,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="17db-6d30-1fed-875a" hidden="false" targetId="7449-554e-8dfc-7423" type="selectionEntry">
+        <entryLink id="17db-6d30-1fed-875a" name="" hidden="false" targetId="7449-554e-8dfc-7423" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7558,7 +7478,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7667-5092-0aca-e9a3" name="Terminator" book="Kill Team List: Dark Angels v3.0" page="6" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+    <selectionEntry id="7667-5092-0aca-e9a3" name="Terminator" book="Kill Team List: Space Marines v8.1" page="6" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="9699-64b4-31b7-fc8c" name=" Terminator" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -7873,7 +7793,7 @@
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7410-ada4-f559-f7c9" name="Terminator Sergeant" book="Kill Team List: Space Marines v3.2" page="1" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
+    <selectionEntry id="7410-ada4-f559-f7c9" name="Terminator Sergeant" book="Kill Team List: Space Marines v8.1" page="1" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
       <profiles>
         <profile id="1d00-f887-516d-b0cf" name="Terminator Sergeant" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -8032,13 +7952,6 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="978b-4169-698b-bde3" hidden="false" targetId="391c-cedb-ce4d-acb2" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
             <entryLink id="6e7e-af24-9467-871b" hidden="false" targetId="c1cc-f0df-5114-867f" type="selectionEntry">
               <profiles/>
               <rules/>
@@ -8046,7 +7959,7 @@
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="6d3c-e2cf-e672-7ace" hidden="false" targetId="2317-133b-f635-4214" type="selectionEntry">
+            <entryLink id="6d3c-e2cf-e672-7ace" name="" hidden="false" targetId="2317-133b-f635-4214" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -8136,7 +8049,7 @@
         <cost name="pts" costTypeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b4c8-fefc-5688-4207" name="Thunder hammer" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="b4c8-fefc-5688-4207" name="Thunder Hammer" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -8430,7 +8343,7 @@
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0723-ca8f-b8f5-f660" name="Warden" book="Kill Team List: Dark Angels v3.0" page="4" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="0723-ca8f-b8f5-f660" name="Warden" book="Kill Team List: Space Marines v8.1" page="4" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="8b8f-d864-ca61-52d6" name="Warden" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
@@ -8565,7 +8478,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
+            <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7231-f7e3-3c7b-679d" name="Rosarius" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -8587,7 +8500,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="25.0"/>
+            <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -8707,7 +8620,7 @@
           </modifiers>
           <constraints/>
         </entryLink>
-        <entryLink id="7eb0-fb99-6e6f-be39" hidden="false" targetId="78f0-7e74-4a79-4fe1" type="selectionEntry">
+        <entryLink id="7eb0-fb99-6e6f-be39" name="" hidden="false" targetId="78f0-7e74-4a79-4fe1" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8806,61 +8719,27 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="43.0"/>
+        <cost name="pts" costTypeId="points" value="33.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0504-ebf9-b7a1-1192" name="Warden in Terminator Armour" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="0504-ebf9-b7a1-1192" name="Chaplain in Terminator Armour" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
       <profiles>
         <profile id="d75f-3206-f773-55c7" name="Chaplain" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="0504-ebf9-b7a1-1192" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8889-9735-6be5-6d7a" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <characteristics>
             <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
             <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="5"/>
             <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
             <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
             <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-            <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
+            <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
             <characteristic name="I" characteristicTypeId="450ea86d-cd46-31df-5555-0b11959d473b" value="4"/>
             <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
             <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
             <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="2+"/>
-          </characteristics>
-        </profile>
-        <profile id="81bb-9087-313b-8036" name="Warden" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="0504-ebf9-b7a1-1192" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8889-9735-6be5-6d7a" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
-            <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="4"/>
-            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-            <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
-            <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-            <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
-            <characteristic name="I" characteristicTypeId="450ea86d-cd46-31df-5555-0b11959d473b" value="4"/>
-            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-            <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
-            <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="23+"/>
           </characteristics>
         </profile>
       </profiles>
@@ -8890,21 +8769,6 @@
       <modifiers/>
       <constraints/>
       <selectionEntries>
-        <selectionEntry id="8889-9735-6be5-6d7a" name="Upgrade to Chaplain" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="20.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="dc86-8683-53a7-c696" name="Rosarius" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles/>
           <rules/>
@@ -8995,7 +8859,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="points" value="6.0">
+                <modifier type="set" field="points" value="5">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -9104,205 +8968,6 @@
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ce75-7981-2849-97cb" name="Damned Legionnaire" book="Kill Team List: Space Marines v8.0" page="11" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="72a4-e822-5e7c-1934" name="Damned Legionnaire" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry"/>
-            <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="4"/>
-            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
-            <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
-            <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
-            <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="1"/>
-            <characteristic name="I" characteristicTypeId="450ea86d-cd46-31df-5555-0b11959d473b" value="4"/>
-            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
-            <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
-            <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="08c4-2769-1a43-c55f" name="Unyielding Specters" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>The Legion of the Damned have a 3+ invulnerable save.</description>
-        </rule>
-        <rule id="6fd3-7c46-d6ac-24bd" name="Aid Unlooked For" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>The Legion of the Damned cannot be joined by Independent  haracters. They always start the game in Deep Strike Reserve. When they arrive by Deep Strike, you can choose to re-roll both the 2D6 and the scatter dice.</description>
-        </rule>
-        <rule id="44f3-caf6-5937-a52c" name="Flaming Projectiles" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>Ranged attacks made by the Legion of the Damned have the Ignores Cover special rule.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="6d74-520f-e11f-aed7" name="Fear" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="fca0-9d1a-762e-277b" name="Fearless" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="3b42-9941-2804-17c0" name="Slow and Purposeful" hidden="false" targetId="bf97-1e19-225f-592d" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="010a-9cd0-0943-7659" name="Non-learning" hidden="false" targetId="f55a-7ab8-c801-3811" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b3e-aa8f-deeb-e13c" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="7240-7854-cf0f-d21e" name="First Weapon" hidden="false" collective="false" defaultSelectionEntryId="d7fa-ade7-d2e7-16e6">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="dadb-ecaf-e151-754f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6851-ceac-d64e-e67f" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="d7fa-ade7-d2e7-16e6" hidden="false" targetId="4a97-30b9-513e-deff" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="92fd-4c5f-19eb-7066" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="6c0c-0485-ebed-438d">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e96c-85e4-47b2-3ff6" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef44-9883-40f4-388a" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="5bb9-430e-9d5a-b5a2" name="Special or Heavy Weapon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8dae-517f-749e-1945" type="max"/>
-                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="20a6-2dd3-a6b2-08c4" type="max"/>
-              </constraints>
-              <selectionEntries/>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="fb94-04fb-5d86-4e09" name="Special or Heavy Weapon" hidden="false" collective="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d995-c58e-d718-ece2" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="533f-5672-c991-3d21" type="max"/>
-                  </constraints>
-                  <selectionEntries/>
-                  <selectionEntryGroups/>
-                  <entryLinks>
-                    <entryLink id="f122-a998-8694-073b" hidden="false" targetId="e5fe-f2a9-cd5d-83b0" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                    </entryLink>
-                    <entryLink id="cc5c-f02e-97f9-324e" hidden="false" targetId="bccc-d4a8-9530-aede" type="selectionEntry">
-                      <profiles/>
-                      <rules/>
-                      <infoLinks/>
-                      <modifiers/>
-                      <constraints/>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks/>
-              <costs>
-                <cost name="pts" costTypeId="points" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="6c0c-0485-ebed-438d" hidden="false" targetId="f322-8c02-ab77-48fe" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="5ff0-5703-25e8-bc14" name="New EntryLink" hidden="false" targetId="78ab-6578-03bd-1588" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="a195-4525-957b-4a99" name="New EntryLink" hidden="false" targetId="2cf8-2289-975b-9778" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="0f9d-0484-9b36-cdd5" name="New EntryLink" hidden="false" targetId="b42a-77e5-3aad-1fb0" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="8598-7f01-59b1-e24d" name="New EntryLink" hidden="false" targetId="640c-ea94-cb38-884a" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" costTypeId="points" value="23.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -10029,31 +9694,6 @@
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry id="c496-71d5-80e8-cdf9" name="Laurel of Endurance" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="b776-fc96-e2d4-7275" name="Laurel of Endurance" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Apothecary has shown great fortitude in order to protect his brothers. The Apothecary has the Feel No Pain (3+) special rule. Note that this does not increase the Feel No Pain rule conferred from his Narthecium."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="c648-8860-3ab1-08d4" name="Purification Vials" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="37fa-8cf8-7760-99aa" name="Purification Vials" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -10173,7 +9813,7 @@
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4535-af04-656a-d6a9" name="Smoke Grenades" book="Kill Team List: Blood Angels v3.0" page="9" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="4535-af04-656a-d6a9" name="Smoke Grenades" book="Kill Team List: Space Marines" page="9" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="db02-0100-dfcd-7fc6" name="Smoke Grenades" book="Kill Team List: Blood Angels v3.0" page="9" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
               <profiles/>
@@ -10516,7 +10156,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
+            <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="81bb-e264-8df0-0413" name="Marksman&apos;s Honour" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -10956,33 +10596,7 @@
         <constraint field="points" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="minPoints" type="min"/>
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
-      <selectionEntries>
-        <selectionEntry id="7c4d-1621-5cba-1e65" name="Blades of Reason" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-          <profiles>
-            <profile id="0ae8-bd13-cb24-d8b0" name="Blades of Reason" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Ancient knife-shaped devices, these interrogator blades are etched with a complex set of neural wires which are designed to cause intense pain. The model gains an extra Attack that always strikes at Initiative 1, this extra attack must roll to hit as normal but always wounds on a 2+ with AP-, and never uses any special rules from weapons or its wielder."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="points" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
@@ -11442,7 +11056,7 @@
             <cost name="pts" costTypeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="77e1-d9ed-691a-2e36" name="Cataphractii Armour" book="Kill Team List: Blood Angels v3.0" page="8" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="77e1-d9ed-691a-2e36" name="Cataphractii Armour" book="Kill Team List: Space Marines v8.1" page="8" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="ccaa-889c-b22e-06d6" name="Cataphractii Armour" book="Kill Team List: Blood Angels v3.0" page="8" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
               <profiles/>
@@ -11486,7 +11100,7 @@
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3040-2f42-9051-4922" name="Tartaros Pattern Armour" book="Kill Team List: Blood Angels v3.0" page="9" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+        <selectionEntry id="3040-2f42-9051-4922" name="Tartaros Pattern Armour" book="Kill Team List: Space Marines v8.1" page="9" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
           <profiles>
             <profile id="43a9-9962-c418-5483" name="Tartaros Pattern Armour" book="Kill Team List: Blood Angels v3.0" page="9" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
               <profiles/>
@@ -11536,7 +11150,7 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="bc65-e6f2-6841-e3f9" name="Battle Liturgies" book="Kill Team List: Blood Angels v3.0" page="2" hidden="false">
+    <rule id="bc65-e6f2-6841-e3f9" name="Battle Liturgies" book="" page="2" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11549,35 +11163,12 @@
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="2bc4-4630-b8ec-346e" name="Deathwing Assault" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Units composed entirely composed of models with this rule and wearing Terminator Armour can choose to make a Deathwing Assault.
-Immediatly after determining Warlord Traits, tell your opponent which units are making a Deathwing Assault, and make a secret note on weather it happens during turn 1 or turn 2. All units chosen arrive then with no need to roll for deep strike reserves.</description>
-    </rule>
     <rule id="1d81-603b-611d-8009" name="Decimator Protocols" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description>Centurions can fire up to two weapons in each Shooting phase. These weapons must still fire at the same target.</description>
-    </rule>
-    <rule id="7ba7-aaf2-9ae5-1c3a" name="Fortress of Shields" book="Kill Team List: Dark Angels v3.0" page="1" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Models with the Fortress of Shields rule only need to be in base contact with one other model with the same special rule to gain the +1 Toughness.</description>
-    </rule>
-    <rule id="6ed0-37aa-e9d7-f739" name="Grim Resolve" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>A model with the Grim Resolve special rule has the Stubborn special rule.
-In addition, a unit containing at least one model with the Grim Resolve special rule can never choose to automatically fail a Morale check.</description>
     </rule>
     <rule id="d727-7ce7-4f34-c536" name="Heroic Intervention" hidden="false">
       <profiles/>
@@ -11591,14 +11182,6 @@ In addition, a unit containing at least one model with the Grim Resolve special 
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="265b-b154-4b26-4c64" name="Inner Circle" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Fearless: never fail Pinning, Fear, Regroup, or Morale checks, and cannot Go To Ground (BRB 2014 p163)
-and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hit and To Wound rolls, in both close combat and shooting (BRB 2014 p169)</description>
-    </rule>
     <rule id="753e-d0ea-a186-aaf9" name="Psyker (Mastery Level1)" book="Kill Team List: Blood Angels v3.0" page="4" hidden="false">
       <profiles/>
       <rules/>
@@ -11606,23 +11189,9 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
       <modifiers/>
       <description>At the start of the battle the model generates a single Primaris Power from the either the Biomancy, Divination, Pyromancy or Sanguinary discipline.</description>
     </rule>
-    <rule id="899a-5999-527c-6e37" name="Vengeful Strike" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>When a model with this rule arrives from Deep Strike, it treats all ranged weapons as having Twin Linked until end of turn.</description>
-    </rule>
-    <rule id="869a-e21b-c551-4223" name="You Cannot Hide" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Gain a precision strike on a 6 in close combat</description>
-    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="5347-7d4e-5922-c86a" name="Artificer Armour" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="5347-7d4e-5922-c86a" name="Artificer Armour" book="Wh40k: Cobex - Space Marines v8.1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11643,25 +11212,13 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4, Rending"/>
       </characteristics>
     </profile>
-    <profile id="3657-fd5e-0b06-ae3c" name="Auspex" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="3657-fd5e-0b06-ae3c" name="Auspex" book="Wh40k: Cobex - Space Marines v8.1" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A model with an auspex can use it in place of making a shooting attack. If he does so, target an enemy unit within 12&quot; (this does not count as choosing a target for his unit to shoot at). A unit that is targeted by one or more auspexes has its cover saves reduced by 1 until the end of the phase."/>
-      </characteristics>
-    </profile>
-    <profile id="18b9-c44f-d9d2-6435" name="Blade of Caliban" book="Codex: Dark Angels 6th" page="62" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Unwieldly"/>
       </characteristics>
     </profile>
     <profile id="587c-0a8a-1be4-c8bf" name="Bolt Pistol" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -11688,7 +11245,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire"/>
       </characteristics>
     </profile>
-    <profile id="fecb-2a43-3101-9128" name="Camo Cloak" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="fecb-2a43-3101-9128" name="Camo Cloak" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11745,7 +11302,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee"/>
       </characteristics>
     </profile>
-    <profile id="c4e6-66d7-99fe-f606" name="Combat Shield" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="c4e6-66d7-99fe-f606" name="Combat Shield" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11763,18 +11320,6 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A model armed with a combi-weapon can choose to fire either the main boltgun, or the secondary weapon. You cannot fire both in the same turn. Each combi-weapon has only one secondary weapon. The main and secondary weapons of a combi-weapon fire at the same time as all other similarly named weapons in that unit. For example, the ‘boltgun’ part of a combi-weapon fires at the same time as all other boltguns in the unit."/>
       </characteristics>
     </profile>
-    <profile id="59b8-bdff-994d-baf5" name="Corvus talon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+1"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Rending"/>
-      </characteristics>
-    </profile>
     <profile id="fb9b-7237-79cf-ba84" name="Crozius Arcanum" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
@@ -11787,7 +11332,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Concussive"/>
       </characteristics>
     </profile>
-    <profile id="0a2f-0bbb-9a3e-2cb4" name="Cyclone Missile Launcher" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="0a2f-0bbb-9a3e-2cb4" name="Cyclone Missile Launcher" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11818,18 +11363,6 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="x2"/>
         <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Armourbane, Two-handed"/>
-      </characteristics>
-    </profile>
-    <profile id="455b-0663-ab7c-a776" name="Flail of the Unforgiven" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Bane of the Traitor, Concussive"/>
       </characteristics>
     </profile>
     <profile id="ceb5-df62-15e6-5a81" name="Flakk missile" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
@@ -11904,7 +11437,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast"/>
       </characteristics>
     </profile>
-    <profile id="4391-53d1-2764-4faf" name="Frag grenade (Astartes Grenade Launcher)" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="4391-53d1-2764-4faf" name="Frag grenade (Astartes Grenade Launcher)" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11937,7 +11470,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Blast"/>
       </characteristics>
     </profile>
-    <profile id="a8f7-e291-fa2c-67a9" name="Frag missile (Cyclone Missile Launcher)" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="a8f7-e291-fa2c-67a9" name="Frag missile (Cyclone Missile Launcher)" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11949,7 +11482,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2, Blast"/>
       </characteristics>
     </profile>
-    <profile id="51f9-f7b9-e9ad-d77d" name="Grav-amp" book="Codex Adeptus Astartes" page="194" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="51f9-f7b9-e9ad-d77d" name="Grav-amp" book="Wh40k: Codex - Space Marines" page="194" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11958,7 +11491,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="When rolling to wound with a grav-weapon, or to determine the effect on a vehicle, the bearer may re-roll the result."/>
       </characteristics>
     </profile>
-    <profile id="97e0-688b-ad26-39f7" name="Grav-cannon" book="Warhammer 40,00: The Rules" page="177" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="97e0-688b-ad26-39f7" name="Grav-cannon" book="Wh40k: Codex - Space Marines" page="177" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11970,7 +11503,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Salvo 3/5, Concussive, Graviton"/>
       </characteristics>
     </profile>
-    <profile id="4452-ebca-f370-2726" name="Grav-gun" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="4452-ebca-f370-2726" name="Grav-gun" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -11982,7 +11515,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Salvo 2/3, Concussive, Graviton"/>
       </characteristics>
     </profile>
-    <profile id="cc3e-746b-a676-532b" name="Grav-pistol" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="cc3e-746b-a676-532b" name="Grav-pistol" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12042,7 +11575,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire, Poisoned (2+)"/>
       </characteristics>
     </profile>
-    <profile id="4549-eb74-9a1e-0899" name="Hurricane Bolter" book="Codex Adeptus Astartes" page="192" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="4549-eb74-9a1e-0899" name="Hurricane Bolter" book="Wh40k: Codex - Space Marines" page="192" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12054,7 +11587,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire 3, Twin Linked"/>
       </characteristics>
     </profile>
-    <profile id="32c6-dbdf-7e60-83eb" name="Ironclad Assault Launchers" book="Codex Adeptus Astartes" page="197" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="32c6-dbdf-7e60-83eb" name="Ironclad Assault Launchers" book="Wh40k: Codex - Space Marines" page="197" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12084,7 +11617,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1"/>
       </characteristics>
     </profile>
-    <profile id="fdfa-8d32-f239-0239" name="Krak grenade (Astartes Grenade Launcher)" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="fdfa-8d32-f239-0239" name="Krak grenade (Astartes Grenade Launcher)" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12120,7 +11653,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
       </characteristics>
     </profile>
-    <profile id="f1a2-096b-f844-b045" name="Krak missile (Cyclone Missile Launcher)" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="f1a2-096b-f844-b045" name="Krak missile (Cyclone Missile Launcher)" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12132,7 +11665,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2"/>
       </characteristics>
     </profile>
-    <profile id="af1d-9d46-c176-7bf0" name="Kraken bolte" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="af1d-9d46-c176-7bf0" name="Kraken bolts" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12187,30 +11720,6 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Friendly units do not scatter when arriving from Deep Strike Reserve, so long as the first model is placed within 6&quot; of a model with a locator beacon. For this to work, the bearer must have been on the battlefield at the start of the turn."/>
-      </characteristics>
-    </profile>
-    <profile id="3f71-5507-cd5f-bb67" name="Mace of Absolution (Normal)" page="0" hidden="true" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Bane of the Traitor, Concussive"/>
-      </characteristics>
-    </profile>
-    <profile id="55d3-25c7-214c-00eb" name="Mace of Absolution (Smite Mode)" page="0" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Bane of the Traitor, Concussive, One Use Only"/>
       </characteristics>
     </profile>
     <profile id="d194-4df3-84ed-8d5c" name="Melta Bomb" book="Wh40k: The Rules" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -12291,15 +11800,6 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Narthecium (Rule Amendment): The Apothecary and all friendly models within 6” of the Apothecary gain the Feel No Pain special rule."/>
       </characteristics>
     </profile>
-    <profile id="246f-5222-be43-f7ac" name="Overcharged engines" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="A vehicle with overcharged engines gains the Fast unit type."/>
-      </characteristics>
-    </profile>
     <profile id="eaff-e185-54c2-dc05" name="Plasma Cannon" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
@@ -12346,27 +11846,6 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
         <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol, Gets Hot"/>
-      </characteristics>
-    </profile>
-    <profile id="8f5b-fc4b-9070-c937" name="Plasma Talon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&apos;&apos;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire, Gets Hot, Twin Linked"/>
-      </characteristics>
-    </profile>
-    <profile id="a0f6-2a72-6c7a-0153" name="Porta-rack" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If the bearer kills an enemy character in close combat, he gains Preferred Enemy (current enemy) and Fear. In addition any enemy Teleport Homers and Locator Beacons can be used as if they were your own."/>
       </characteristics>
     </profile>
     <profile id="0c085a96-e82a-570d-20d6-6d2a71011307" name="Power Armour" book="Warhammer 40k rulebook" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
@@ -12447,55 +11926,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Each Time a unit (or model) is targeted by an enemy psychic power and is within 12&quot; of a friendly model with a Psychic Hood, the wearer may attempt to Deny the Witch as if he were in the unit.  Does not extend beyond an embarked vehicle or building."/>
       </characteristics>
     </profile>
-    <profile id="de37-b8a9-7862-e162" name="Ravenwing Grenade Launcher (Frag)" book="Codex: Dark Angels 6th" page="61" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="3"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="6"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire, Blast"/>
-      </characteristics>
-    </profile>
-    <profile id="4a22-a8da-454f-f416" name="Ravenwing Grenade Launcher (Krak)" book="Codex: Dark Angels 6th" page="61" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire"/>
-      </characteristics>
-    </profile>
-    <profile id="7da7-6d41-3f8a-a8fd" name="Ravenwing Grenade Launcher (Rad)" book="Codex: Dark Angels 6th" page="61" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="3"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast, Rad Charge: hit units get -1 T"/>
-      </characteristics>
-    </profile>
-    <profile id="bbf3-855f-f093-f262" name="Ravenwing Grenade Launcher (Stasis)" book="Codex: Dark Angels 6th" page="61" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <characteristics>
-        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
-        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="-"/>
-        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
-        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast, Stasis Anomaly: hit units -1 WS and Initiative"/>
-      </characteristics>
-    </profile>
-    <profile id="01d0-279f-23b9-bbee" name="Relic Blade" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+    <profile id="01d0-279f-23b9-bbee" name="Relic Blade" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12507,7 +11938,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Two-handed"/>
       </characteristics>
     </profile>
-    <profile id="9ffb-d7b7-bc2d-4526" name="Rosarius" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="9ffb-d7b7-bc2d-4526" name="Rosarius" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12525,7 +11956,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Scout armour confers a 4+ Armour Save."/>
       </characteristics>
     </profile>
-    <profile id="4912-2c4c-7a83-fe84" name="Searrchlight" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="4912-2c4c-7a83-fe84" name="Searchlight" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12600,7 +12031,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Changes unit type to Bike, and gives +1 to Toughness. Has built-in Twin Linked Bolter."/>
       </characteristics>
     </profile>
-    <profile id="e05f-9be4-0d07-a9c7" name="Special issue ammunition" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="e05f-9be4-0d07-a9c7" name="Special issue ammunition" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -12621,7 +12052,7 @@ and Preferred Enemy (Chaos Space Marines): Re-roll failed results of 1 for To Hi
         <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2"/>
       </characteristics>
     </profile>
-    <profile id="908c-2188-d00f-d577" name="Storm Shield" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+    <profile id="908c-2188-d00f-d577" name="Storm Shield" book="Wh40k: Codex - Space Marines" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
       <profiles/>
       <rules/>
       <infoLinks/>
