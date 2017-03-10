@@ -181,7 +181,15 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fbca-2bbf-7fd7-0429" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
     </entryLink>
     <entryLink id="8123-fb63-4e45-9e22" hidden="false" targetId="8950-7301-8550-ab37" type="selectionEntry" categoryEntryId="8e35-f2bd-0b70-6bc0">
@@ -5695,6 +5703,27 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           </modifiers>
           <constraints/>
         </entryLink>
+        <entryLink id="8924-b677-73e7-0a18" name="Narthecium" hidden="false" targetId="fbca-2bbf-7fd7-0429" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2122-55c4-34af-4651" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e783-d935-58b8-b423" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="12.0"/>
@@ -6650,14 +6679,14 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="6353-d42c-ab83-4213" hidden="false" targetId="8b57-84bf-18a6-e810" type="selectionEntryGroup">
+            <entryLink id="6353-d42c-ab83-4213" hidden="false" targetId="349a-278c-e26d-b8c1" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="1781-8f21-c46c-d8b7" hidden="false" targetId="ad37-7f7f-20c0-9e90" type="selectionEntryGroup">
+            <entryLink id="1781-8f21-c46c-d8b7" hidden="false" targetId="5f78-a282-1774-6feb" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6706,14 +6735,14 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="3630-5350-999b-8a8f" hidden="false" targetId="8b57-84bf-18a6-e810" type="selectionEntryGroup">
+            <entryLink id="3630-5350-999b-8a8f" hidden="false" targetId="349a-278c-e26d-b8c1" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="f325-0283-ee53-29bf" hidden="false" targetId="ad37-7f7f-20c0-9e90" type="selectionEntryGroup">
+            <entryLink id="f325-0283-ee53-29bf" hidden="false" targetId="5f78-a282-1774-6feb" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -6879,6 +6908,36 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c519-a253-4b30-69b0" name="Additional Chainsword" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b79c-4143-663a-19da" name="Chainsword" hidden="false" targetId="8345-6f0f-2cad-eff9" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62bb-08e4-f886-9039" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ce3-568a-777b-85eb" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7071,7 +7130,23 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <entryLinks/>
+          <entryLinks>
+            <entryLink id="2cd0-4c02-af4b-7a9c" name="New EntryLink" hidden="false" targetId="a392-e56f-8a66-b527" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="62bb-08e4-f886-9039" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -9249,13 +9324,403 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="91e6-19e4-e1e1-c597" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="946d-38c1-3004-000f" type="min"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="946d-38c1-3004-000f" type="min"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7e2-3068-d534-0b33" name="Chapter Tactics: Imperial Fists (Sentinels of Terra)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="bc7d-0ac1-8281-f8cf" name="Close Ranged Bolter Drill" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models with this rule re-roll all failed To Hit rolls made with bolt pistols, boltguns, storm bolters, heavy bolters, or combi-weapons that are firing as boltguns when firing at a target up to half the weapon’s maximum range away. This rule also applies to models firing hellfire, kraken, vengeance or dragonfire rounds. 
+Scouts and Scout Bikers do not benefit from this rule.</description>
+        </rule>
+        <rule id="5eda-7da5-1f0e-e79b" name="Siege Masters" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Imperial Fists models can re-roll armour penetration rolls against buildings, and add 1 to the result when rolling on the Building Damage table. They also reroll failed To Wound rolls against Weapon Emplacements.
+In addition, Imperial Fists Centurion Devastators and Space Marines Devastators have the Tank Hunters special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7d29-3758-bd2c-cfd9" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9068-9d3a-26d0-fbc6" name="Chapter Tactics: Red Scorpions " hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="55f5-84a5-ff4d-36dd" name="Purity Above All" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Purity Above All: the Veteran Sergeant may be made a member of the Chapter’s Apothecarion and upgraded to carry a Narthecium for 10 pts. This does not otherwise
+alter their wargear, additional options or profile, and should always be appropriately represented on the model. If the Sergeant is equipped with a Narthecium the team
+cannot include an Apothecary. </description>
+        </rule>
+        <rule id="cb67-b753-4458-5beb" name="Fortitude and Contempt" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models with Chapter Tactics (Red Scorpions) may re-roll all failed Pinning tests, but cannot voluntarily Go to Ground and cannot be equipped with camo cloaks.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2024-0ee3-e4d1-99d0" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72cf-3079-b5ab-e646" name="Chapter Tactics: Mantis Warriors" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="5c18-c6c7-9dd5-bd36" name="Children of Prophecy" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A force that has the Chapter Tactics (Mantis Warriors) may re-roll failed attempts to Seize the Initiative where this is a factor in the mission being played. In addition, any Mantis Warriors Librarians may generate one random Psychic power from the Divination discipline
+instead of picking the Primaris Power and it cannot be swapped for the Primaris or somehow re-rolled. This does not grant the Primaris Power for Psychic Focus.</description>
+        </rule>
+        <rule id="7cb3-e8ab-0b57-39bd" name="Shadow Killers" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Infantry models in this detachment gain the Move Through Cover and Hammer of Wrath special rules. In addition, on any turn in which they declare a charge from within a terrain feature that grants a cover save (not including any terrain piece purchased as a Fortification choice), they gain the Furious Charge special rule.
+Note that units which contain models with any variant of the Bulky special rule do not benefit from this special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9250-0b54-4e4b-74c6" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62bb-08e4-f886-9039" name="Chapter Tactics: Carcharodons" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="cbae-e0ae-5436-0999" name="Reavers of the Outer Darkness" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All models with Chapter Tactics (Carcharodons) gain the Fear special rule. In addition, any Tactical Marines with the Reavers of the Outer Darkness Chapter Tactic special rule may exchange a boltgun they are already equipped with for a close combat weapon (e.g. chainsword/combat blade) for free or be equipped with an additional close combat weapon for +1 point per model.</description>
+        </rule>
+        <rule id="08b4-62d0-a9de-23a5" name="Blood Hunger" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A model with Chapter Tactics (Carcharodons) gain the Rage special rule after it has either
+destroyed an enemy infantry unit (of any type) in an assault or forced one to Fall Back. Place a suitable marker on any model that gains the Rage special rule due to
+Chapter Tactics (Carcharodons) to indicate this has occurred. When one of these marked models makes a Consolidation move, it must move towards the nearest enemy that it is capable of damaging in an assault.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a26-17fc-7bf4-f8e2" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfb7-6e76-3d5c-2855" name="Chapter Tactics: Blood Ravens" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="e9d5-b06f-d546-df4b" name="...Guard it well" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Blood Ravens models within 3” of an objective can re-roll failed Pinning, Morale and Counter-Charge tests.</description>
+        </rule>
+        <rule id="3e56-14a3-8fee-1e61" name="Knowledge is power..." hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Leaders can cast the following Psychic Power in addition to others they might have (this
+power does not substitute the choice of a Primaris power for a Librarian)
+
+Latent Power (Warp Charge 1):
+The caster can re-roll To Hit rolls of 1.
+
+Unless the Leader already has the Psyker special rule, it does not generate additional Warp Charges and he suffers Perils of the Warp on any double.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="01a5-8a32-cd43-99a2" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2db8-cb10-ce81-1bd1" name="Chapter Tactics: Raptors" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="95ef-fe75-bead-47df" name="Legendary Marksmen" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any unit with this special rule that does not move in the Movement phase of their turn may choose to gain the Rending special rule when firing in the Shooting phase of that turn with boltguns, combi-weapons fired as boltguns or bolt pistols.
+When using this rule, all boltguns, combi-weapons used as boltguns and bolt pistols fired are counted as being Heavy 1 weapons instead of Rapid Fire or Pistol type weapons for that turn.</description>
+        </rule>
+        <rule id="b048-65ac-9482-bdc1" name="Strike from the Shadows" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Non-vehicle Raven Guard models that do not begin the game in a Transport vehicle have the Stealth  special rule until the start of the second game turn. When rolling to see whether the Night Fighting mission special rule is in effect during game turn 1, you may add 1 to the result if your army contains at least one Raven Guard unit.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="52c7-71f6-1f77-cb97" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4573-efbb-bf2d-1a0c" name="Chapter Tactics: Executioners" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="9fbc-c038-6cc5-9254" name="Bitter Mettle" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All models with Chapter Tactics (Executioners) ignore all negative modifiers to their Leadership values, regardless of their cause.</description>
+        </rule>
+        <rule id="07bf-82c5-6340-db3d" name="Headhunters" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All character models with this special rule inflict Instant Death on a To Wound roll of 6 in a Challenge – roll saves against these attacks separately. The character with the highest WS (if two or more characters are tied, then the controlling player must select one) in any assault with this special rule must always issue a challenge in an assault if possible.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f8b8-70d4-1c1a-e106" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e0b-07a5-246c-ba8a" name="Chapter Tactics: Red Hunters" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="8ce0-94c2-d4f1-cde7" name="Mnemonic Redaction Protocols" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All models with Chapter Tactics (Red Hunters) have the Adamantium Will special rule. In addition, once per game at the beginning of any one player turn, the controlling player may declare that every model with Chapter Tactics (Red Hunters) will have one of the following special rules, chosen by the controlling player, until the beginning of their next turn:
+• Counter-attack
+• Monster Hunter
+• Preferred Enemy (Infantry)
+• Hatred
+• Furious Charge
+• Interceptor</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a167-b2fd-473f-20f6" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e2dc-5ef0-2add-ef77" name="Chapter Tactics: Star Phantoms" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="6df4-34e8-c128-dd90" name="Orbital Wave Attack" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any model in the detachment arriving via Deep Strike may re-roll any Reserve roll of 1 if its controlling player wishes. </description>
+        </rule>
+        <rule id="1ad8-99f2-b557-f453" name="Hail of Destruction" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per game, the player may declare the use of this ability and its effects last from the start of the controlling player’s Shooting phase until the start of their next Shooting phase. During this period, all units in the detachment with Chapter Tactics (Star Phantoms) count their Rapid Fire, Assault, Salvo and Heavy Weapons as being twin-linked.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e44d-e753-dcb7-a9fe" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d6a-f6aa-8001-197e" name="Chapter Tactics: Minotaurs" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="9d01-cacd-4127-2095" name="Trample and Crush" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models with Chapter Tactics (Minotaurs) gain the Crusader special rule. In addition, they add +1 to any roll to determine charge distances while in an enemy deployment zone.</description>
+        </rule>
+        <rule id="439f-3e9c-6fea-44a3" name="Unrelenting Assault" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models with Chapter Tactics (Minotaurs) do not suffer Panic tests from shooting attacks and may re-roll failed Pinning tests.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d526-49d4-a5c9-0661" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a80e-b937-6cb9-2f98" name="Chapter Tactics: Fire Hawks" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="0ba9-807f-50aa-1aaa" name="On Wings of Fire" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All Flamer, Hand Flamer and Heavy Flamer attacks made by models with Chapter Tactics (Fire Hawks) gain +1 Strength on the turn in which the unit enters play using the Deep Strike special rule (including models exiting from Drop Pods). Hammer of Wrath attacks made by jump pack-equipped models with Chapter Tactics (Fire Hawks) also gain +1 Strength.
+In addition, the following is added to the Ranged Weapons option list for Space Marines using Chapter Tactics (Fire Hawks):
+Ranged Weapons
+--Hand Flamer..........................................................+5 points</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="76b3-3ebb-9f6a-91e0" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f462-efdc-8b67-4c4e" name="Chapter Tactics: Astral Claws" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="3c1f-d33d-c508-55b4" name="Reckless Courage" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any model with Chapter Tactics (Astral Claws) has the Stubborn special rule and may never choose to automatically fail a Morale check.</description>
+        </rule>
+        <rule id="4f07-1d0b-a0de-a1da" name="Rapid Attack and Encirclement" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Models with this special rule with the unit type Bike gain the Skilled Rider special rule. Vehicles in the same detachment that are Fast Skimmers gain the Scout special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="120e-7aaf-cb77-d36f" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbca-2bbf-7fd7-0429" name="Narthecium (Veteran Sergeant)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="99d0-9a1c-13db-27d2" hidden="false" targetId="96d0-8911-1b20-6fe3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -9267,7 +9732,7 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="minSelections" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
         <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInForce" type="min"/>
         <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="maxInForce" type="max"/>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="minInRoster" type="min"/>
@@ -9276,7 +9741,91 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
         <constraint field="points" scope="parent" value="-1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxPoints" type="max"/>
       </constraints>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="af0a-83d1-1450-78c0" name="Forgeworld" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c742-9100-5ee9-492c" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c9e1-28ec-29d5-1c44" name="New EntryLink" hidden="false" targetId="f462-efdc-8b67-4c4e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="3b55-d685-07f4-fea8" name="New EntryLink" hidden="false" targetId="62bb-08e4-f886-9039" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9aba-01de-be54-af8a" name="New EntryLink" hidden="false" targetId="4573-efbb-bf2d-1a0c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="066b-f850-e5fb-d8f3" name="New EntryLink" hidden="false" targetId="a80e-b937-6cb9-2f98" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="a4c1-db9c-7550-f1f1" name="New EntryLink" hidden="false" targetId="72cf-3079-b5ab-e646" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="d8e4-2f8c-ddb9-fd63" name="New EntryLink" hidden="false" targetId="3d6a-f6aa-8001-197e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="647c-e907-64b9-8b05" name="New EntryLink" hidden="false" targetId="2db8-cb10-ce81-1bd1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0b69-f157-cc51-2271" name="New EntryLink" hidden="false" targetId="4e0b-07a5-246c-ba8a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="2122-55c4-34af-4651" name="New EntryLink" hidden="false" targetId="9068-9d3a-26d0-fbc6" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="2d59-10d0-d37f-8da3" name="New EntryLink" hidden="false" targetId="e2dc-5ef0-2add-ef77" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="052b-5ccb-85e1-2f3e" hidden="false" targetId="4e7d-047a-915d-3260" type="selectionEntry">
           <profiles/>
@@ -9321,6 +9870,20 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <constraints/>
         </entryLink>
         <entryLink id="c4d7-7fb6-3276-0593" hidden="false" targetId="9ee8-5b50-f246-f803" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="939d-a012-d81e-a88d" name="Sentinels of Terra" hidden="false" targetId="c7e2-3068-d534-0b33" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="a04f-6c19-8753-44e6" name="Chapter Tactics: Blood Ravens" hidden="false" targetId="bfb7-6e76-3d5c-2855" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9873,6 +10436,21 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
             <modifier type="set" field="points" value="5.0">
               <repeats/>
               <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+        </entryLink>
+        <entryLink id="828b-241c-1658-97ee" name="New EntryLink" hidden="false" targetId="afdb-3d3e-35a2-21e9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a80e-b937-6cb9-2f98" type="equalTo"/>
+              </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
