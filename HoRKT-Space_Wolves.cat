@@ -5943,7 +5943,9 @@
               <constraints/>
             </entryLink>
           </entryLinks>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -6075,7 +6077,9 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5876-e36e-d983-b425" name="Wolf Guard" hidden="false" collective="false" categoryEntryId="026f-6d5a-e4ad-e67b" type="model">
       <profiles>
@@ -8659,6 +8663,150 @@
         <cost name="pts" costTypeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="aa70-0d2b-e9e1-a497" name="Long Fang" hidden="false" collective="false" categoryEntryId="026f-6d5a-e4ad-e67b" type="model">
+      <profiles>
+        <profile id="3aac-b280-91fb-c4e7" name="Long Fang" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
+            <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="4"/>
+            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="4"/>
+            <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
+            <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
+            <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="1"/>
+            <characteristic name="I" characteristicTypeId="450ea86d-cd46-31df-5555-0b11959d473b" value="4"/>
+            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
+            <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="79a6-ca73-563f-f7be" name="New InfoLink" hidden="false" targetId="8b84-1851-9042-05e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4817-a2d3-85a4-7156" name="New InfoLink" hidden="false" targetId="8460-7bb6-2191-f2ea" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="53f9-ddbe-a435-22f8" name="New InfoLink" hidden="false" targetId="d8f0-051e-fd21-660a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="increment" field="eb4a-21da-d923-84e8" value="1">
+          <repeats>
+            <repeat field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ca86-7860-6124-a53f" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb4a-21da-d923-84e8" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="33f6-699c-1c3e-c6c3" name="Weapon Primary" hidden="false" collective="false" defaultSelectionEntryId="a86f-1f35-0999-6088">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd7-91a7-e332-eb7d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb45-1a59-d9dc-5471" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a86f-1f35-0999-6088" name="New EntryLink" hidden="false" targetId="871f-f30e-4ca5-6c77" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="5a6d-5df1-6a42-7196" name="New EntryLink" hidden="false" targetId="e792-bba3-b567-e9ce" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e405-7847-b2c2-5b76" name="Weapon Secondary" hidden="false" collective="false" defaultSelectionEntryId="5343-37d4-ae8c-787c">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f3f-5575-de4b-e894" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e8a-ecd4-961f-e07b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="d43b-c68a-a78d-2e6a" name="New EntryLink" hidden="false" targetId="e792-bba3-b567-e9ce" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="5343-37d4-ae8c-787c" name="New EntryLink" hidden="false" targetId="56ff-456e-f5c3-6887" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="4df1-cf5c-f102-1fa5" name="New EntryLink" hidden="false" targetId="6a28-8078-b73b-256d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b8c-eb92-58bd-1270" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ea8a-2111-0e7b-ed5d" name="New EntryLink" hidden="false" targetId="66fa-9dae-f9e5-505a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aea-3ef0-93d0-66f6" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="aeab-d81f-1381-6a40" name="New EntryLink" hidden="false" targetId="f2c7-6d40-c37b-eed7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="13.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -8697,7 +8845,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="c6af-53e9-f61b-3e0c" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="1122-1c64-8476-f290" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -8737,7 +8900,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e099-a2ce-18a0-d3b5" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="aef7-b3a8-eafd-58f9" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -8777,7 +8955,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e01b-83ba-fdb9-813e" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="97d8-ce93-64a5-4201" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -8812,7 +9005,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="aa8f-b37a-742e-b7a2" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="35b8-6e3c-ade3-76d0" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -8840,7 +9048,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="9d6f-4a28-5ee7-2eaa" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="ec53-46d1-d645-ed28" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
@@ -8875,7 +9098,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="a7e0-15d7-bf9d-569d" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
@@ -8903,7 +9134,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="3372-6ce4-217e-78fa" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
@@ -8938,7 +9177,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="dd0d-9285-148c-dba7" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
@@ -8975,7 +9222,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="15ff-a1ac-38be-76b5" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
@@ -9016,7 +9271,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="d12d-44cc-6acd-e3f7" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
@@ -9044,7 +9307,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="834c-3829-4e17-5d3f" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
@@ -9079,7 +9350,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="becf-726f-5975-406e" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
@@ -9120,7 +9399,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="a6b5-ae92-a319-c646" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
@@ -9167,7 +9454,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="2904-d8cb-0e7d-54ac" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="30.0"/>
       </costs>
@@ -9208,7 +9503,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="028e-23cc-109b-c1d5" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -9280,7 +9583,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e167-ccf6-f4ea-d254" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
@@ -9308,7 +9619,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="6616-5b83-b8d0-a641" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="170c-b7e9-3431-437a" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="5.0"/>
       </costs>
@@ -9336,7 +9662,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="0e67-5469-af7c-f76b" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="791f-491c-69fc-53c9" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
@@ -9364,7 +9705,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="e17b-3b2a-802f-d0eb" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="dcef-3c7a-79ae-38ce" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -9542,7 +9898,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="128b-e423-802f-398a" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3c6f-b927-a032-094a" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -9570,7 +9941,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="c94a-eefd-4c68-0d1f" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="2c4a-dbdd-e9ca-7380" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -9598,7 +9984,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="eb23-be12-92ae-bc42" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -9626,7 +10020,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="1886-4278-1e3e-afef" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
@@ -9694,7 +10096,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="d7f4-91ee-c252-db6e" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -9735,7 +10145,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="b0e6-0efb-0a5e-93f5" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
@@ -9763,7 +10181,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="278d-2f74-12ad-bcd1" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
@@ -10066,7 +10492,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="91ed-ec29-b8fd-921f" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="2def-7103-a0e6-6a66" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
@@ -10149,7 +10590,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="c8af-fc72-fab4-e96d" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="8.0"/>
       </costs>
@@ -10190,7 +10639,15 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="4464-04e5-96db-93eb" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="12.0"/>
       </costs>
@@ -10227,7 +10684,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="b6b5-e536-9b38-1d33" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="8436-5c4b-f325-dad0" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="2.0"/>
       </costs>
@@ -10262,7 +10734,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="d3f5-acb8-4c09-b5e4" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="9a3e-443a-32d9-4bfe" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="1.0"/>
       </costs>
@@ -10290,8 +10777,25 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
-      <costs/>
+      <entryLinks>
+        <entryLink id="433e-97a0-da1a-8257" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="ccbc-67da-d7e4-dc3b" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d227-625d-c2bb-0efb" name="Heavy Bolter" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -10316,7 +10820,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="81b1-9317-8bb6-a8b7" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="42e7-772b-3494-96e0" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -10357,7 +10876,15 @@
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="0652-72c7-5a96-0430" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="10.0"/>
       </costs>
@@ -10406,7 +10933,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="7c5b-28c7-deee-dea8" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="cf03-29df-8a58-4e69" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="250.0"/>
       </costs>
@@ -10441,12 +10983,27 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="113b-dc0a-0a27-4506" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e214-76c5-f204-6153" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b21b-f409-541f-8be6" name="Assautl cannon" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b21b-f409-541f-8be6" name="Assault cannon" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="61a2-a714-5531-642e" name="Assault Cannon" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
           <profiles/>
@@ -10469,7 +11026,22 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="8553-6684-c70e-2779" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="d376-4ffb-5b80-7598" name="New EntryLink" hidden="false" targetId="825a-c112-e825-52c7" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
       </costs>
@@ -10543,8 +11115,122 @@
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="ac91-8579-eccf-0705" name="New EntryLink" hidden="false" targetId="7bf2-8dea-52f1-f343" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7bf2-8dea-52f1-f343" name="Master-Crafted" hidden="true" collective="false" type="upgrade">
+      <profiles>
+        <profile id="8ef3-4dc2-398d-040e" name="Master-crafted" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Weapon gain Master-crafted special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="401e-4347-5060-dff2" name="New InfoLink" hidden="false" targetId="5b8d-9de9-4c61-f1b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3763-bb58-802d-556e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3763-bb58-802d-556e" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a3-4c3d-eb68-ecd7" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="825a-c112-e825-52c7" name="Overcharged" hidden="true" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0fa6-59b0-ec1a-bc60" name="Overcharged" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Choose a single ranged weapon the model has to be overcharged. This gains +1 Strength and the Gets Hot rule. Plasma weapons may be overcharged but will Get Hot on a To Hit roll of a 1 or 2 instead of just a 1."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0eb2-fcab-7eb4-2578" name="New InfoLink" hidden="false" targetId="aca3-414b-650e-9371" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3763-bb58-802d-556e" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3763-bb58-802d-556e" type="instanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d8b-36e6-3b12-aa25" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
