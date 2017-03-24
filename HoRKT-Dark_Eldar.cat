@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="951d-cf35-bfa6-a36d" name="Dark Eldar" revision="2" battleScribeVersion="2.00" authorName="3Deimos" authorContact="d.voronyansky@gmail.com" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="951d-cf35-bfa6-a36d" name="Dark Eldar" revision="4" battleScribeVersion="2.00" authorName="3Deimos" authorContact="d.voronyansky@gmail.com" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -192,8 +192,8 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="706a-9fb9-bb1a-0010" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="889f-212a-eb24-fd26" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="706a-9fb9-bb1a-0010" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="889f-212a-eb24-fd26" type="max"/>
           </constraints>
           <selectionEntries/>
           <selectionEntryGroups>
@@ -218,8 +218,8 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be9e-11ee-1ebb-3ad0" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dac-0f61-d7c0-087d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="be9e-11ee-1ebb-3ad0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0dac-0f61-d7c0-087d" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="4f38-f07a-70bb-fd9a" name="Axe of Agony" hidden="false" collective="false" type="upgrade">
@@ -327,8 +327,8 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fac-1a24-21d6-e60a" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffec-e2c7-b76c-c05c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fac-1a24-21d6-e60a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ffec-e2c7-b76c-c05c" type="min"/>
               </constraints>
               <selectionEntries>
                 <selectionEntry id="7630-a974-1f93-49fa" name="Huskblade" hidden="false" collective="false" type="upgrade">
@@ -2476,7 +2476,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2aa9-1129-a561-ead1" name="Melee" hidden="false" collective="false">
+        <selectionEntryGroup id="2aa9-1129-a561-ead1" name="Melee" hidden="false" collective="false" defaultSelectionEntryId="d37a-3a5f-02f8-fbb4">
           <profiles/>
           <rules/>
           <infoLinks/>
