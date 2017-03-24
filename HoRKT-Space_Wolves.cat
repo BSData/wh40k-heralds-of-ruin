@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8d02-768c-2c8f-d462" name="Space Wolves" revision="1" battleScribeVersion="2.00" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8d02-768c-2c8f-d462" name="Space Wolves" revision="2" battleScribeVersion="2.00" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -8807,6 +8807,500 @@
         <cost name="pts" costTypeId="points" value="13.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="359c-eaaf-514e-4e7a" name="Rhino" hidden="false" collective="false" categoryEntryId="2cf5-304e-1b31-50e5" type="model">
+      <profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Unit Type" characteristicTypeId="760f-2ac8-56cc-9509" value="Vehicle (Tank, Fast, Transport)"/>
+            <characteristic name="BS" characteristicTypeId="b81e-503e-7d2e-1bd2" value="4"/>
+            <characteristic name="F" characteristicTypeId="e4a8-9f80-a7bb-4937" value="11"/>
+            <characteristic name="S" characteristicTypeId="fc46-97a8-00ac-1f0b" value="11"/>
+            <characteristic name="R" characteristicTypeId="1306-1865-0155-ed8c" value="10"/>
+            <characteristic name="HP" characteristicTypeId="0053-bc31-16c0-31f6" value="3"/>
+            <characteristic name="Transport Capacity" characteristicTypeId="b90d-8d9b-4979-4fe9" value="Ten models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
+            <characteristic name="Access Points" characteristicTypeId="64d4-b230-3c57-4d86" value="The Rhino has one Access Point on each side of the hull and one at the rear."/>
+            <characteristic name="Fire Points" characteristicTypeId="28d5-39e2-1cd7-3fb4" value="Two models can fire from the Rhino’s top hatch."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cfd7-a645-6051-d1d5" name="Repair" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a Rhino is Immobilised, then in subsequent turns, it may attempt to repair itself instead of shooting. To make the attempt, roll a D6 in the Shooting phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that a successful Repair does not restore a Hull Point.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3d7-1bfd-2fc9-010d" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="6f95-3f38-9cb6-6eaa" name="New EntryLink" hidden="false" targetId="b610-6345-f55d-86a4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="0.0">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+        </entryLink>
+        <entryLink id="0ed2-7a94-87eb-0c99" name="New EntryLink" hidden="false" targetId="2fc9-9569-797b-a31f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78c7-01f3-e330-a5de" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4aa7-c469-8cd0-335b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="db82-6f67-767e-3c80" name="New EntryLink" hidden="false" targetId="578a-019b-fdcf-1aa5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a96-1507-5ba5-0988" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a39-c9a9-4934-d14d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9987-8904-aecf-c33d" name="New EntryLink" hidden="false" targetId="05a6-31aa-4a1c-504a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="206f-8551-81f0-7cce" name="Razorback" hidden="false" collective="false" categoryEntryId="2cf5-304e-1b31-50e5" type="model">
+      <profiles>
+        <profile id="8e46-1708-e26a-2fd0" name="Razorback" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Unit Type" characteristicTypeId="760f-2ac8-56cc-9509" value="Vehicle (Tank, Fast, Transport)"/>
+            <characteristic name="BS" characteristicTypeId="b81e-503e-7d2e-1bd2" value="4"/>
+            <characteristic name="F" characteristicTypeId="e4a8-9f80-a7bb-4937" value="11"/>
+            <characteristic name="S" characteristicTypeId="fc46-97a8-00ac-1f0b" value="11"/>
+            <characteristic name="R" characteristicTypeId="1306-1865-0155-ed8c" value="10"/>
+            <characteristic name="HP" characteristicTypeId="0053-bc31-16c0-31f6" value="3"/>
+            <characteristic name="Transport Capacity" characteristicTypeId="b90d-8d9b-4979-4fe9" value="Six models. It cannot carry models with the Bulky, Very Bulky or Extremely Bulky special rules."/>
+            <characteristic name="Access Points" characteristicTypeId="64d4-b230-3c57-4d86" value="The Razorback has one Access Point on each side of the hull and one at the rear."/>
+            <characteristic name="Fire Points" characteristicTypeId="28d5-39e2-1cd7-3fb4" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a35-beae-5a6f-8d0c" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9048-2ee5-4e91-f1cd" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="2b9d-5a5c-5c44-5421">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d570-752a-e8b0-de9e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aab6-e3a2-1905-6a50" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="b600-4702-44b6-23ae" name="Lascannon and twin-linked plasma gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles>
+                <profile id="307b-c4ed-df61-4659" name="Twin-linked Plasma Gun" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="7"/>
+                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Rapid Fire, Gets Hot, Twin-linked"/>
+                  </characteristics>
+                </profile>
+                <profile id="159e-904c-c40d-4d52" name="Lascannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="9"/>
+                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b4f8-1fc4-4486-568d" name="New InfoLink" hidden="false" targetId="aca3-414b-650e-9371" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="6fd9-38a8-5b52-dadc" name="New InfoLink" hidden="false" targetId="ff77-10e3-19db-2114" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d1e-973b-945b-3ab6" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f6e0-6454-e59f-93a3" name="Twin-linked asault cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles>
+                <profile id="b5cb-b22c-4cf1-f1c9" name="Twin-linked Assault Cannon" book="Wh40k: The Rules" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
+                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
+                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 4, Rending, Twin-linked"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ad19-b405-436f-9829" name="New InfoLink" hidden="false" targetId="ff77-10e3-19db-2114" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5595-81ee-22bf-7138" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2b9d-5a5c-5c44-5421" name="Twin-linked heavy bolter" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles>
+                <profile id="3c10-ee48-c4ad-b66e" name="Twin-linked Heavy Bolter" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36"/>
+                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
+                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
+                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 3, Twin-linked"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c421-12d0-40a2-20a3" name="New InfoLink" hidden="false" targetId="ff77-10e3-19db-2114" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b94-21d2-4f75-56ac" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="10b6-f9f2-d5be-3249" name="Twin-linked heavy Flamer" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles>
+                <profile id="178e-cfde-d8cc-dbe5" name="Twin-linked Heavy Flamer" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Template"/>
+                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
+                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
+                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Twin-linked"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="e2a2-13fb-9089-d893" hidden="false" targetId="d33a-f347-4961-4044" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="ab89-fc9d-b79d-76fc" name="New InfoLink" hidden="false" targetId="ff77-10e3-19db-2114" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ec12-01df-71fe-0d66" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a045-e833-ea33-8b55" name="Twin-linked lascannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles>
+                <profile id="49a9-1ba5-07b3-e429" name="Twin-linked Lascannon" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="48&quot;"/>
+                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="9"/>
+                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Twin-linked"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0466-173b-2e50-fb8f" name="New InfoLink" hidden="false" targetId="ff77-10e3-19db-2114" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="38b4-b99a-5ead-68a9" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1ab9-8a9a-fc09-c78b" name="New EntryLink" hidden="false" targetId="2fc9-9569-797b-a31f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e814-5925-e7ba-0bb8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afa1-343a-9c6c-cd0e" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8748-fa6e-6787-7632" name="New EntryLink" hidden="false" targetId="578a-019b-fdcf-1aa5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9606-6bbd-1d96-a1db" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8537-16ff-a44d-546a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8b7c-8d16-4cbc-29fb" name="New EntryLink" hidden="false" targetId="05a6-31aa-4a1c-504a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="55.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="17fc-a887-bbd1-c981" name="Drop Pod" hidden="false" collective="false" categoryEntryId="2cf5-304e-1b31-50e5" type="model">
+      <profiles>
+        <profile id="1e9b-9767-dece-aa7a" name="Drop Pod" book="Kill Team Rules: Transports" hidden="false" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Unit Type" characteristicTypeId="760f-2ac8-56cc-9509" value="Vehicle (Open-topped, Transport)"/>
+            <characteristic name="BS" characteristicTypeId="b81e-503e-7d2e-1bd2" value="4"/>
+            <characteristic name="F" characteristicTypeId="e4a8-9f80-a7bb-4937" value="11"/>
+            <characteristic name="S" characteristicTypeId="fc46-97a8-00ac-1f0b" value="11"/>
+            <characteristic name="R" characteristicTypeId="1306-1865-0155-ed8c" value="11"/>
+            <characteristic name="HP" characteristicTypeId="0053-bc31-16c0-31f6" value="3"/>
+            <characteristic name="Transport Capacity" characteristicTypeId="b90d-8d9b-4979-4fe9" value="Ten models or one Dreadnought of any type. Once a Drop Pod lands, all passengers must disembark and no models can embark for the rest of the game."/>
+            <characteristic name="Access Points" characteristicTypeId="64d4-b230-3c57-4d86" value="-"/>
+            <characteristic name="Fire Points" characteristicTypeId="28d5-39e2-1cd7-3fb4" value="-"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8039-27b1-c1df-7f3e" name="Drop Pod Assault" book="Wh40k: Codex - Space Marines" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Drop Pods and units embarked upon them must be held in Deep Strike Reserves. At the beginning of your first turn, half your Drop Pods (rounding up) automatically arrive from Reserve. The arrival of remaining Drop Pods is rolled for normally.</description>
+        </rule>
+        <rule id="eafe-3e40-fc74-b217" name="Immobile" book="Wh40k: Codex - Space Marines" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A Drop Pod cannot move once it has entered play, and counts in all respects as a vehicle that has suffered an Immobilised result that cannot be repaired in any way. This does not cause it to lose a Hull Point.</description>
+        </rule>
+        <rule id="6167-c5e6-2f6b-bfd3" name="Inertial Guidance System" book="Wh40k: Codex - Space Marines" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If a Drop Pod scatters on top of impassable terrain or another model (friend or foe), reduce the scatter distance by the minimum required in order to avoid the obstacle. If a Drop Pod scatters off the edge of the board, it suffers a Deep Strike Mishap.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d64d-baa1-6a94-c91f" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="63db-84be-1905-a9a7" name="Locator Beacon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="c612-ef0b-461b-a0fd" name="Locator Beacon" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Friendly units do not scatter when arriving from Deep Strike Reserve, so long as the first model is placed within 6&quot; of a model with a locator beacon. For this to work, the bearer must have been on the battlefield at the start of the turn."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e6cc-5a29-81c9-6887" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c4c8-2fbc-077f-38fc" name="Weapon" hidden="false" collective="false" defaultSelectionEntryId="ceaa-27d8-4ca7-5197">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="631f-d31d-b337-aa1c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3476-f457-5762-1c35" name="Deathwind Launcher" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles>
+                <profile id="f1be-f2f1-1fdc-9015" name="Deathwind Launcher" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+                    <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
+                    <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+                    <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Large Blast"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b10d-225f-1330-db16" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="ceaa-27d8-4ca7-5197" name="New EntryLink" hidden="false" targetId="b610-6345-f55d-86a4" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fbe-170a-03a1-52f3" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="35.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -12677,6 +13171,88 @@
           <constraints/>
         </entryLink>
         <entryLink id="f0a8-5f32-cf1b-deba" name="New EntryLink" hidden="false" targetId="4a37-1a02-2486-bc9f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="05a6-31aa-4a1c-504a" name="Space Marines Vehicle Equipment" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="8495-018f-66f7-1e49" name="Dozer Blade" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="dcbb-5d4e-8d5c-5844" name="Dozer blade" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Vehicles equipped with dozer blades treat their front armour as one higher than normal when ramming. Furthermore the vehicle can re-roll failed Dangerous Terrain tests."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4b5-a4e9-c380-af2a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b03-ceea-23f2-7ecd" name="Extra Armor" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8a88-bbc0-39a8-7285" name="Extra Armor" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Vehicles equipped with extra armour count Crew Stunned results from the Vehicle Damage table as Crew Shaken results instead."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3768-0e28-8bbf-85a8" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0609-ad78-e3c9-95ac" name="New EntryLink" hidden="false" targetId="bb59-f1bb-d2f1-24e4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4f0-0de0-76af-7ad8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="679f-9579-2587-6439" name="New EntryLink" hidden="false" targetId="b610-6345-f55d-86a4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
