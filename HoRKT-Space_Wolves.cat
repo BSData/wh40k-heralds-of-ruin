@@ -8809,6 +8809,8 @@
     </selectionEntry>
     <selectionEntry id="359c-eaaf-514e-4e7a" name="Rhino" hidden="false" collective="false" categoryEntryId="2cf5-304e-1b31-50e5" type="model">
       <profiles>
+        <profile id="acbe-6fb9-650d-e5a3" name="Rhino" book="Wh40k: Cobex - Dark Angels 2013" hidden="false" profileTypeId="d30e79be-d614-7268-12d9-2b021f048764">
+          <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
