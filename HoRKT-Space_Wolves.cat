@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8d02-768c-2c8f-d462" name="Space Wolves" revision="4" battleScribeVersion="2.00" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8d02-768c-2c8f-d462" name="Space Wolves" revision="5" battleScribeVersion="2.00" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -735,6 +735,36 @@
                 </modifier>
               </modifiers>
               <constraints/>
+            </entryLink>
+            <entryLink id="0a6e-ab19-af94-f1dd" name="New EntryLink" hidden="false" targetId="2d55-cf3c-8c41-313a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56e8-03ed-2336-4816" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d047-b268-853f-a6dc" name="New EntryLink" hidden="false" targetId="2a16-fb36-93bc-557d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="15">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aa0-a8d1-f818-8982" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -6612,6 +6642,36 @@
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="3eb6-a65d-ed2d-d537" name="New EntryLink" hidden="false" targetId="2d55-cf3c-8c41-313a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8a4-fdda-c9f1-dec4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="32ec-741b-789b-f138" name="New EntryLink" hidden="false" targetId="2a16-fb36-93bc-557d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="15">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2fe-caa0-b662-bb9c" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8a12-1e93-32ad-7dba" name="Terminator Weapon 2" hidden="false" collective="false" defaultSelectionEntryId="3544-c7a2-d7e7-78b8">
@@ -8229,6 +8289,36 @@
                 </modifier>
               </modifiers>
               <constraints/>
+            </entryLink>
+            <entryLink id="ed5e-9628-2e44-33c5" name="New EntryLink" hidden="false" targetId="2d55-cf3c-8c41-313a" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="10">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f0b-017e-f137-b9f9" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3e85-49d6-b5b4-907b" name="New EntryLink" hidden="false" targetId="2a16-fb36-93bc-557d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="points" value="15">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9109-42e5-838a-b9f9" type="max"/>
+              </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -11397,7 +11487,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="250.0"/>
+        <cost name="pts" costTypeId="points" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2cfc-eed0-da45-fb5e" name="Heavy Flamer" hidden="false" collective="false" type="upgrade">
@@ -11946,6 +12036,36 @@
             </modifier>
           </modifiers>
           <constraints/>
+        </entryLink>
+        <entryLink id="1245-618b-fec9-e918" name="New EntryLink" hidden="false" targetId="2d55-cf3c-8c41-313a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3ca-c5c4-17b9-b97e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="305f-7c62-d980-671d" name="New EntryLink" hidden="false" targetId="2a16-fb36-93bc-557d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="points" value="15">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caaa-7c29-49e3-ced1" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
