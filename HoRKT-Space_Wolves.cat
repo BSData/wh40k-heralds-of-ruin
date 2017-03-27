@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8d02-768c-2c8f-d462" name="Space Wolves" revision="3" battleScribeVersion="2.00" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8d02-768c-2c8f-d462" name="Space Wolves" revision="4" battleScribeVersion="2.00" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="23" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3635,26 +3635,7 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="b794-7a89-592c-04be" name="New EntryLink" hidden="false" targetId="6a28-8078-b73b-256d" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f3-8fe4-0e3e-10d8" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="410e-9f10-352c-4279" name="New EntryLink" hidden="false" targetId="66fa-9dae-f9e5-505a" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c575-d8c8-af15-c767" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="85.0"/>
       </costs>
