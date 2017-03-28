@@ -13483,7 +13483,7 @@ model – otherwise the chance to make the second action is forfeit.</descriptio
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d18-2660-e1a0-e95e" type="max"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d18-2660-e1a0-e95e" type="max"/>
       </constraints>
       <selectionEntries>
         <selectionEntry id="8f6a-6d5c-ca45-c3c9" name="Splinter Pistol" hidden="false" collective="false" type="upgrade">

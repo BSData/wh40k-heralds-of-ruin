@@ -1,0 +1,2324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9636-2584-1ec6-9ee9" name="Officio Assassinorum: HoR" book="Kill Team List: Officio Assassinorum v8.0.1.1" revision="2002" battleScribeVersion="2.00" authorName="Krimdar" authorContact="krimdar@web.de" authorUrl="https://wyrdstoneforge.wordpress.com" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <forceEntries>
+    <forceEntry id="50e3-09d1-f15f-f535" name="Officio Assassinorum Kill Team" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryEntries>
+        <categoryEntry id="96c0-2e24-0f92-3ef2" name="Special" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="true" id="07a4-7c5e-2284-0f03" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0e7-6168-41a0-f078" type="min"/>
+          </constraints>
+        </categoryEntry>
+      </categoryEntries>
+      <forceEntries/>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries/>
+  <entryLinks>
+    <entryLink id="3ba5-32da-e4e0-e0e7" name="New EntryLink" hidden="false" targetId="efdf-2982-cf48-8c9a" type="selectionEntry" categoryEntryId="96c0-2e24-0f92-3ef2">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="0071-8479-a67a-3738" name="New EntryLink" hidden="false" targetId="1624-1663-9079-a1c0" type="selectionEntry" categoryEntryId="96c0-2e24-0f92-3ef2">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="d214-3337-ea19-7550" name="New EntryLink" hidden="false" targetId="43ab-81c2-c607-86d1" type="selectionEntry" categoryEntryId="96c0-2e24-0f92-3ef2">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="70fe-9fd7-ca3b-3cd0" name="New EntryLink" hidden="false" targetId="d880-6ca5-7521-bda2" type="selectionEntry" categoryEntryId="96c0-2e24-0f92-3ef2">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="23da-0730-294f-820e" name="New EntryLink" hidden="false" targetId="2469-7d8b-5a4e-21e9" type="selectionEntry" categoryEntryId="96c0-2e24-0f92-3ef2">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+    <entryLink id="cf54-71b9-47d7-f7fe" name="New EntryLink" hidden="false" targetId="9326-bc94-9c32-2ec9" type="selectionEntry" categoryEntryId="96c0-2e24-0f92-3ef2">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="efdf-2982-cf48-8c9a" name="Eversor Assassin" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ada2-bbb4-790a-3606" name="New InfoLink" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b071-eda2-e835-6efa" name="New InfoLink" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="40e2-fefa-0cf0-62c1" name="New InfoLink" hidden="false" targetId="6a0a-40f2-5e8c-0e21" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c1b-8b68-b0e2-6652" name="New InfoLink" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1291-2d48-c6a9-ade9" name="New InfoLink" hidden="false" targetId="031a-6e9c-d389-eb44" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5ba8-f4cd-047b-ac5f" name="New InfoLink" hidden="false" targetId="cb44-4b87-3579-0ab4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7cc6-2e71-8e95-578b" name="New InfoLink" hidden="false" targetId="0c0a-7084-d673-aa5e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="e2e3-7c02-694c-4f1d" name="New EntryLink" hidden="false" targetId="7dc1-0a9e-e21d-e5e7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e08a-69be-7620-fdc9" name="New EntryLink" hidden="false" targetId="0267-5d8e-cd4e-0fa1" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e22c-cf92-33a7-e341" name="New EntryLink" hidden="false" targetId="cee7-2bed-0afa-2457" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5bf7-7217-35af-ba1a" name="New EntryLink" hidden="false" targetId="9501-81f0-9aad-5587" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4873-edca-3e5e-79ee" name="New EntryLink" hidden="false" targetId="c3cc-0da5-9178-8cb8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="79d0-60b6-70b7-caff" name="New EntryLink" hidden="false" targetId="4e51-08e1-6a5a-c828" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="43ab-81c2-c607-86d1" name="Culexus Assassin" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c8f5-7d8b-a00b-994b" name="New InfoLink" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="306c-5c31-8928-63a6" name="New InfoLink" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7564-d34a-6597-8690" name="New InfoLink" hidden="false" targetId="6a0a-40f2-5e8c-0e21" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cdc1-baef-5805-ec06" name="New InfoLink" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c07-870c-e99c-3e57" name="New InfoLink" hidden="false" targetId="bf13-9636-87e4-2fc5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c6ff-2da4-c927-df48" name="New InfoLink" hidden="false" targetId="23b8-b2c6-8a2b-d834" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d57d-8650-6e6a-f249" name="New EntryLink" hidden="false" targetId="7dc1-0a9e-e21d-e5e7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="8a96-6f16-a7d5-291f" name="New EntryLink" hidden="false" targetId="0267-5d8e-cd4e-0fa1" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="15ce-82bd-99c5-7758" name="New EntryLink" hidden="false" targetId="cee7-2bed-0afa-2457" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5b5c-dc81-4a43-a460" name="New EntryLink" hidden="false" targetId="9501-81f0-9aad-5587" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="89c7-e598-6f14-9d3e" name="New EntryLink" hidden="false" targetId="c3cc-0da5-9178-8cb8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="c752-e00a-295a-c602" name="New EntryLink" hidden="false" targetId="238f-eae7-c0f2-274a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9326-bc94-9c32-2ec9" name="Vindicare Assassin" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3774-a43a-d73b-a530" name="New InfoLink" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0809-7c8b-14e7-cd3e" name="New InfoLink" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e7aa-4652-2ea6-8728" name="New InfoLink" hidden="false" targetId="6a0a-40f2-5e8c-0e21" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a624-46e1-1d3f-ce6b" name="New InfoLink" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9fd5-e39d-3088-d7b4" name="New InfoLink" hidden="false" targetId="448c-077c-7933-c30f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d1ea-e8a8-e9d7-4330" name="New InfoLink" hidden="false" targetId="b20e-353a-90c7-ba27" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7977-df7f-9856-29ea" name="New EntryLink" hidden="false" targetId="7dc1-0a9e-e21d-e5e7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="abc4-77f3-54d6-ccd3" name="New EntryLink" hidden="false" targetId="0267-5d8e-cd4e-0fa1" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e93b-424e-7b25-74db" name="New EntryLink" hidden="false" targetId="cee7-2bed-0afa-2457" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5ab7-9cee-3ded-d0d1" name="New EntryLink" hidden="false" targetId="9501-81f0-9aad-5587" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="65e9-da8a-69c3-766b" name="New EntryLink" hidden="false" targetId="c3cc-0da5-9178-8cb8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3c27-ab4f-31bb-06c2" name="New EntryLink" hidden="false" targetId="dd4f-3589-cf94-4a8f" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="90.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d880-6ca5-7521-bda2" name="Vanus Assassin" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="7ed4-0c7b-c261-a08b" name="New InfoLink" hidden="false" targetId="e575-1e7a-8fe5-7b29" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="ee48-de92-dcee-53c8" name="New InfoLink" hidden="false" targetId="b42c-10d6-096c-3345" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7760-caa9-3f45-99ac" name="New EntryLink" hidden="false" targetId="3542-e092-83fd-d8e7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2469-7d8b-5a4e-21e9" name="Venenum Assassin" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="20d1-1c28-0003-e4ea" name="New InfoLink" hidden="false" targetId="e575-1e7a-8fe5-7b29" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8f60-b502-035f-7775" name="New InfoLink" hidden="false" targetId="2594-5bd9-5514-eddc" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c96b-b367-de60-6847" name="New EntryLink" hidden="false" targetId="f948-0c6b-596b-588d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1624-1663-9079-a1c0" name="Callidus Assassin" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="41dd-729c-e2c8-9953" name="New InfoLink" hidden="false" targetId="2c44-c969-2f11-2ac4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9ffd-ce5c-f650-8ac5" name="New InfoLink" hidden="false" targetId="1a6b-15b4-049d-fc47" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a344-f22c-1130-0f71" name="New InfoLink" hidden="false" targetId="76f4-899b-9b7b-aa2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="37ca-e359-e097-0b94" name="New InfoLink" hidden="false" targetId="6a0a-40f2-5e8c-0e21" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="45d7-ec3e-e8b1-7737" name="New InfoLink" hidden="false" targetId="5c11-33b1-b86a-45c7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="65f9-a01e-f4df-8a4c" name="New InfoLink" hidden="false" targetId="2e86-97ef-20ba-d606" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5875-d335-b82c-7a8e" name="New InfoLink" hidden="false" targetId="8d69-b6ce-d7e8-4006" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fb70-6cc2-193c-f67c" name="New InfoLink" hidden="false" targetId="b2a0-ab41-6417-2c49" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="2214-1ba9-5f9b-5d77" name="New EntryLink" hidden="false" targetId="7dc1-0a9e-e21d-e5e7" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="3ba6-87f4-b25d-1034" name="New EntryLink" hidden="false" targetId="7a91-5b21-1dc3-81d5" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4bc7-93db-09e9-c927" name="New EntryLink" hidden="false" targetId="0267-5d8e-cd4e-0fa1" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="cda4-323f-a3e2-9eb8" name="New EntryLink" hidden="false" targetId="cee7-2bed-0afa-2457" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="2675-8920-2589-0017" name="New EntryLink" hidden="false" targetId="9501-81f0-9aad-5587" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="697e-933b-4579-ffac" name="New EntryLink" hidden="false" targetId="c3cc-0da5-9178-8cb8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="197c-df14-7db6-147c" name="New EntryLink" hidden="false" targetId="f21d-04ba-8f7b-a210" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="90.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="7a91-5b21-1dc3-81d5" name="Callidus Armoury" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="bd63-faa2-92fa-f010" name="Polymorphine Nox" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="990f-822a-fce8-7f4a" name="New InfoLink" hidden="false" targetId="0b8a-1a8e-0026-2247" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c4-c26f-afe2-e8ce" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ed18-ab9b-c6ed-bc07" name="Neural Shredder" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="837e-8065-b48e-75a8" name="New InfoLink" hidden="false" targetId="f162-4f91-47bd-6158" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="86f0-07ea-df21-a5de" name="New InfoLink" hidden="false" targetId="a241-a30d-b2b2-8665" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e92c-fad3-4cd7-1532" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b38f-94e8-2cb1-9659" name="Poison Blades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d265-5488-f275-939c" name="New InfoLink" hidden="false" targetId="e5d4-f9ee-1c35-8bdf" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="4b25-77e0-1db3-e37d" name="New InfoLink" hidden="false" targetId="69ca-17db-1694-3b84" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7ff9-733a-1988-b5e6" name="New InfoLink" hidden="false" targetId="8663-1104-c040-20c6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a35c-9afa-4694-f3b8" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="71eb-991d-68fb-dfb0" name="C&apos;tan Phase Sword" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="da3a-df5a-d42c-845e" name="New InfoLink" hidden="false" targetId="38e4-81e3-054c-1110" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6074-b0fd-9f24-fe32" name="New InfoLink" hidden="false" targetId="30a7-7b3f-ac5c-d6b1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2315-6f00-f2f3-b2df" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4e51-08e1-6a5a-c828" name="Eversor Armoury" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="c973-491a-651d-1120" name="Power Sword" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75b1-a7c5-3065-d327" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae63-ad5e-4916-3a63" name="Executioner Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a01a-4460-5255-4019" name="New InfoLink" hidden="false" targetId="e712-8d01-de5f-5fe4" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="dcfe-d8c2-6447-2136" name="New InfoLink" hidden="false" targetId="b4b3-8b82-4947-8dcd" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="0ef2-d1cd-c62d-7858" name="New InfoLink" hidden="false" targetId="8663-1104-c040-20c6" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad2d-5fe8-98a3-421a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ddef-4119-176c-2618" name="Neuro-Gauntlet" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6836-c0dd-ed90-f97d" name="New InfoLink" hidden="false" targetId="5bdb-5dba-f1d0-397e" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="f38a-d512-30a9-d164" name="New InfoLink" hidden="false" targetId="b9c4-1bb1-d19d-cad8" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="356a-85fc-42e6-1be5" name="New InfoLink" hidden="false" targetId="1bcb-69f1-017e-85a1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77a7-9ae2-02bd-2a12" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="998e-c2bc-e59f-1366" name="Sentinel Array" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9c27-1987-46d1-24eb" name="New InfoLink" hidden="false" targetId="6c4d-a862-e1a0-a4c5" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="732c-7f25-3942-329b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="26bb-51a0-9783-7de2" name="Spikes of the Zealot" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1490-5e0d-81c1-c5e1" name="New InfoLink" hidden="false" targetId="9166-7f10-bfdf-d8c4" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="737d-8c64-c8d9-9a73" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3542-e092-83fd-d8e7" name="Vanus Armoury" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="0021-dad3-e3f3-6044" name="Know Thine Enemy" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="150a-9c2f-873e-3216" name="New InfoLink" hidden="false" targetId="a1d7-8ce9-9b42-769d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0a8-9fa4-cbea-1aed" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4c97-9ded-0b72-0ba3" name="Sow Paranoia" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4f88-d2bb-4251-74fc" name="New InfoLink" hidden="false" targetId="31e6-3629-4c13-e6e9" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="2367-5485-765d-e3fe" name="New InfoLink" hidden="false" targetId="06ea-3afc-3002-9221" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4233-dd1d-48fe-049b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f948-0c6b-596b-588d" name="Venenum Armoury" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="6295-7c24-0c66-a4c3" name="Segnis Mors Poison" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a0ab-2df5-9a26-c203" name="New InfoLink" hidden="false" targetId="4b95-bf4b-d1bd-96c4" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd92-ffc3-d6d8-0c82" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1846-b1c3-45ae-eb97" name="Mancus Poison" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="fae1-5423-1b1f-2203" name="New InfoLink" hidden="false" targetId="b381-b0dd-29e6-de94" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ac5-ae06-2b0e-133f" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="70.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="0267-5d8e-cd4e-0fa1" name="Grenades" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="6fea-8c84-b09c-580b" name="Frag Grenade" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d424-cc29-29d3-8ab8" name="Krak Grenade" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c3cc-0da5-9178-8cb8" name="Special Issue Wargear" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="f3af-4dfb-b9e9-7933" name="Encrypted Long-range Vox" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2595-d183-8f9b-18c8" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e005-7c22-6fb8-608f" name="Grav-Pack" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a303-05a6-4bb0-545e" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dd4f-3589-cf94-4a8f" name="Vindicare Armoury" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="be6a-46fb-09e1-2d6b" name="Exitus Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="09fa-b488-d9a4-2c20" name="New InfoLink" hidden="false" targetId="30e0-914d-cffa-237b" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="88b5-413a-3564-39b4" name="New InfoLink" hidden="false" targetId="9c9b-fbdd-5419-b98f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d304-10f7-932c-d7bc" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ae9a-4eb7-232e-aeba" name="Exitus Ammo (Shield-breaker)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="c21f-19a4-6149-3f77" name="New InfoLink" hidden="false" targetId="1aa8-ee40-66a0-825f" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22c1-bd88-7619-1eaf" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b3a8-8aca-8587-6fdb" name="Exitus Ammo (Hellfire)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3b32-2bf5-291d-345f" name="New InfoLink" hidden="false" targetId="6b1a-ee0a-f6a7-6415" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a0-241b-fbed-688f" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1a17-55a5-6c97-8a66" name="Exitus Ammo (Turbo-Penetrator)" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="0a02-3d95-ee40-2a24" name="New InfoLink" hidden="false" targetId="857c-a888-6f70-7df3" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a26-a658-4118-c8b7" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="54e8-41c1-02dd-7f52" name="Blind Grenades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f242-8955-b945-af3c" name="Spy Mask" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="b83d-c9b1-98b6-8485" name="New InfoLink" hidden="false" targetId="b8dc-9b5e-b941-fb96" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1666-8ed9-01e0-2abe" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0340-1eda-fed0-b3ce" name="Anima Venator" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="69dc-0bda-6c19-6736" name="New InfoLink" hidden="false" targetId="aa8a-1efa-b28e-4813" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47a3-8933-4b1c-4747" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4e11-5e88-5f7d-62d4" name="Exitus Gemina Rifle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="dd1d-7a35-7182-187a" name="New InfoLink" hidden="false" targetId="a2e2-8008-8986-97af" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="7892-1067-aa1e-dd46" name="New InfoLink" hidden="false" targetId="1674-8507-ae04-3045" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="085e-df61-e3b6-0824" name="New InfoLink" hidden="false" targetId="9c9b-fbdd-5419-b98f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="479a-57a3-a17d-bf68" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="238f-eae7-c0f2-274a" name="Culexus Armoury" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries>
+        <selectionEntry id="2d88-057d-254a-2d40" name="Animus Perditor" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="79e2-4c60-fd8e-3c6d" name="New InfoLink" hidden="false" targetId="ce51-d2f2-fbf9-d6eb" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="0a15-7f5e-3abb-48ec" name="New InfoLink" hidden="false" targetId="5d01-7bd1-df80-c4b9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="5dd0-e789-5103-3e5a" name="New InfoLink" hidden="false" targetId="a102-86a4-5dd7-87f1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a7-3a17-4ab8-1d1f" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9a66-53e9-978d-1618" name="Etherium" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9054-df24-012c-b04b" name="New InfoLink" hidden="false" targetId="766a-4dea-50b9-784f" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f79-54f5-da33-0bd4" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="40.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0f6d-6234-c997-969b" name="Psyk-Out Grenades" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8adf-9c09-108d-6b58" name="New InfoLink" hidden="false" targetId="0893-034d-35fd-dcf6" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a635-6650-3650-9c61" name="New InfoLink" hidden="false" targetId="32c0-52d4-2db4-1848" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="d465-387e-18b7-383e" name="New InfoLink" hidden="false" targetId="9b2b-5f70-72d4-0b89" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e7d5-9498-3d9a-1e98" name="Animus Speculum" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="a029-a1ca-ba3e-bc99" name="New InfoLink" hidden="false" targetId="a102-86a4-5dd7-87f1" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6288-e57d-bbc3-33f5" name="New InfoLink" hidden="false" targetId="a41c-8fb2-bf6e-76c8" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b348-8e4f-1ab1-f347" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="cee7-2bed-0afa-2457" name="Melee Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fb1-2b2a-c9c1-806c" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="401d-82b8-1475-63c5" name="Power Axe" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3f6-860a-7c2b-a59e" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="36f7-e8a7-4771-a002" name="Plasma Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90c0-e811-fd7a-ac47" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6474-6fa4-5022-bd5b" name="Power Fist" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fa8-ca6e-cc4f-2b6c" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="25.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e10a-bf5b-02fc-9eb9" name="Power Lance" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b39-3103-0e70-0645" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9f17-eda4-c46b-77ab" name="Power Sword" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51be-8c5d-f837-0706" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="080f-6c19-a40f-2daf" name="Laspistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d478-f57c-f990-4c25" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5585-95b2-59bc-9356" name="Close Combat Weapon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcfd-da61-4836-0c0b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="728d-217d-1fad-2c54" name="Power Maul" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1d5-50bb-c069-1b1e" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9bea-0cc2-638b-9ab5" name="Melta Bomb" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b66c-42a2-1d11-f406" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9501-81f0-9aad-5587" name="Secondary Weapons" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a96-ea18-5e6c-5092" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="49b6-025b-9e2a-2092" name="Grav Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3311-1374-c45b-5e89" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="61b3-4669-9f73-ee96" name="Plasma Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4450-c01b-5947-f250" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="09df-a9d7-188a-da16" name="Inferno Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d97c-5e24-8f9d-f9d0" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="59c8-e0b5-f063-4c2d" name="Hot-shot Laspistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dde5-d906-ca49-bb88" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d179-22de-3b66-ad8e" name="Bolt Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70cb-bd0c-2914-069a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="917a-1f87-4c88-fff3" name="Laspistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4296-64a4-3e32-20c1" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9374-f001-1c6d-5100" name="Lasgun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ea6-76d1-5003-4044" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="7.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="cd13-431c-8148-63b9" name="Hot-shot Lasgun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bee-e43e-5374-5036" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f21d-04ba-8f7b-a210" name="Xenos Armoury" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dea-feba-3c8a-7595" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="7de2-d78d-c02a-642a" name="Tachyon Arrow" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6c2-3d12-9bfd-4c17" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c76d-d10c-283f-df5b" name="Mindphase Gauntlet" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a99-bb9b-c1f9-19be" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2726-0a09-1f9e-9b03" name="Shrieker Cannon" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b5a-8fe6-c758-4883" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9fca-c090-3574-1dc6" name="Shuriken Pistol" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2386-945c-effc-4d9c" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0fe8-f9e9-33ec-a1c9" name="Warscythe" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="add6-66ca-d21c-c64d" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ac42-cde0-42b7-02e4" name="Harlequin&apos;s Kiss" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56b0-f325-8f97-fa36" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="66cf-c6b8-ed28-c60c" name="Haywire Grenade" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bc4-09f3-37b8-2383" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f133-0b6a-ede3-0d4e" name="Fusion Gun" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd52-3036-18f6-d58c" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fc50-3c62-992a-8d76" name="Rail Rifle" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e543-63eb-de52-ea09" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7dc1-0a9e-e21d-e5e7" name="Assassin Rank" hidden="false" collective="false" defaultSelectionEntryId="c066-6af8-6e25-7dcc">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="050f-f713-98cb-b206" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="314a-dade-235a-0ef4" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c066-6af8-6e25-7dcc" name="Assassin" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6f09-dcbe-f938-3620" name="New InfoLink" hidden="false" targetId="94f0-d5aa-d571-2438" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0233-95c2-f4ec-1b08" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3fff-cba5-0ffd-ef45" name="Grand Master" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d08b-7599-cfba-58e1" name="New InfoLink" hidden="false" targetId="18be-c0b2-0c77-2228" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93e7-bfe8-da06-664b" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="40.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="2594-5bd9-5514-eddc" name="The Ensured Deaths" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If your Execution Force includes a Venenum Assassin during a mission, on a Wound roll of 6, other Assassins automatically Wound regardless of Toughness and gain the Instant Death special rule.</description>
+    </rule>
+    <rule id="b42c-10d6-096c-3345" name="Seed Mistrust" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If your Execution Force includes a Vanus Assassin during a mission, enemy models suffer a -2 penalty to their Leadership. Further, your enemy receives a -1 penalty to their Reserve rolls, and enemy models may not Outflank.</description>
+    </rule>
+    <rule id="06ea-3afc-3002-9221" name="Paranoid" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>While this model is within 12” of any friendly model to which it also has line of sight, it must pass a Leadership test each time it attempts to move, manifest a psychic power, shoot, Run or declare a charge – if the test is failed, the action is forfeit and the model can do nothing else that phase as it watches for betrayal. A model that fails this test when attempting to fire Overwatch does not fire any shots, but acts normally in the ensuing Fight sub-phase. A model that fails this test on a 12 and is equipped with a ranged weapon makes a shooting attack, with a weapon chosen by the Assassin player against the closest friendly model, then Falls Back. A model that does not have any ranged weapons
+simply Falls Back.</description>
+    </rule>
+    <rule id="e575-1e7a-8fe5-7b29" name="The Venenum and Vanus Temples" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The Assassins of the Venenum and Vanus temples rarely take the field and fight in open battle, yet their presence is felt by the enemies of Man just the same. A Team of Assassins may include Assassins from these temples, however they are not represented by models on the field during a mission, as these Assassins work in utmost secrecy.
+These Assassins count towards your 6 Assassins limit when building your team, and towards the maximum of 6 allowed during a mission. Should all other Assassins be slain during a mission, the Venenum and/or Vanus assassins count as casualties as well – it is assumed that the only reason the enemy was able to kill the revealed assassins was because they discovered the plot of the Officio Assassinorum before it could come to fruition. If all other Assassins in your Team are slain, the Venenum and Vanus Assassins are lost as well, and your Team counts as being completely destroyed – the
+Venenum and Vanus Assassins have returned to Terra to report your failure.</description>
+    </rule>
+    <rule id="5b5b-a42d-af02-912c" name="Rapid Retargeting" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If the Vindicare uses the Suppressing Fire special rules, there is no limit to the distance between primary and secondary targets, but otherwise follows all the usual rules for shooting and Suppressing Fire.</description>
+    </rule>
+    <rule id="7e5a-7b18-d02f-85a6" name="Headhunter" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Models slain by a Vindicare using the Abyssus profile automatically suffer the Out of Action result on the optional Injury table. During campaigns, models that are slain by attacks with this special rule suffer a -3 penalty to their rolls on the Core or Special Injury table. This includes the extra tables for the Grievously Injured and Beaten Up results.</description>
+    </rule>
+    <rule id="448c-077c-7933-c30f" name="Deadshot" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Enemies cannot take Look Out, Sir! tests against Wounds made by the Vindicare Assassin. Further, all shots made by the Vindicare Assassin are Precision Shots.</description>
+    </rule>
+    <rule id="6a0a-40f2-5e8c-0e21" name="Independent Operatives" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Assassins always pass Rout tests. Teams of Assassins may only take the Comms Relay, Medical
+Facilities, and Recon Satellite upgrades for their Base. Assassins cannot achieve the Considerate
+Commander or Always Outnumbered Achievements.</description>
+    </rule>
+    <rule id="2e86-97ef-20ba-d606" name="Lightning Reflexes" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A model with this special rule has a 4+ Invulnerable save. In addition, it does not suffer the Initiative
+penalty for charging enemies through difficult terrain, and may Jump, Climb, Diving Charge, and
+Climbing Charge without taking the Initiative test.</description>
+    </rule>
+    <rule id="af71-bc53-9070-ebe7" name="Operation Assassinate" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Assassins gain additional RP and Renown based on models that suffer a Dead! result on the Special
+Injury Table after being removed as a casualty by an Assassin. Every Team Leader killed by an
+Assassin grants +2 RP and +1 Renown – this is in addition to the Assassin achievement. Every Special
+grants +1RP. Core models do not grant bonus RP.</description>
+    </rule>
+    <rule id="ebff-1a29-58b7-6891" name="Execution Armoury" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When purchasing Wargear upgrades from the Officio Assassinorum Armoury during a Campaign,
+these upgrades are not “locked” to one Assassin but instead are added to a pool of gear shared
+between all Assassins in your Team. For example: Abigail purchases a plasma pistol for her Eversor
+Assassin for the first Mission in a Campaign. During the second mission, she can give that plasma pistol
+to her Callidus Assassin if she does not want to field the Eversor, or wants to give the Eversor a different loadout during that mission.
+Wargear purchased from the Xenos Armoury cannot be shared, as these are limited to the Callidus Assassin only.</description>
+    </rule>
+    <rule id="b2a0-ab41-6417-2c49" name="Unerring Strikes" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>During the Assault Phase, enemies cannot take Look Out, Sir! tests against the Callidus Assassin’s close combat attacks.</description>
+    </rule>
+    <rule id="23b8-b2c6-8a2b-d834" name="Psychic Abomination" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Psykers, friend or foe, within 12&quot; of a Culexus Assassin have -3 Leadership, do not generate any Warp Charge (i.e. they do not add dice to their owning player’s Warp Charge Pool in the Psychic phase) and only harness Warp Charge points on a 6. A Culexus Assassin can never be targeted or affected by psychic powers – other units in the Culexus Assassin’s vicinity that are hit by beam or nova powers, or by Witchfire powers that use templates, are hit/affected normally. Any blessing or malediction psychic powers affecting a unit immediately cease to be in effect if the unit moves within 12&quot; of a Culexus Assassin or vice versa.
+Non-Psyker models have -1 Leadership instead.</description>
+    </rule>
+    <rule id="5d01-7bd1-df80-c4b9" name="Soul Perdition" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The Animus Speculum dampens or amplifies a Culexus’ Pariah gene; the Animus Perditor drives it like a nail into the souls of those around him. All models, friend or foe, suffer -1 Leadership while within 12” of the Culexus Assassin, cumulative with that of Psychic Abomination. Enemy units not locked in combat that end their Movement Phase within 6” of the Culexus Assassin must take a Leadership Test. On a success, their nerve holds, but is shaken – the affected unit must Go to Ground. On a failure, the affected unit must Go to Ground, then the Assassin player rolls 3D6 and subtracts the unfortunate unit’s leadership. The unit then suffers that many Wounds. Armour and Cover saves cannot be taken
+against these Wounds.</description>
+    </rule>
+    <rule id="031a-6e9c-d389-eb44" name="Fast Shot" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Whenever the Eversor Assassin fires a Pistol-type weapon, he does so 4 times. In the case of the Executioner Pistol, these shots may be any combination of Bolt or Needle Pistol shots. The Eversor Assassin may shoot at different targets using the Suppressing Fire rule as listed in the Heralds of Ruin Kill Team rules, except the distance allowance between the primary and secondary targets is increased to 6”. If an Eversor kills its primary target, it may charge at a different target within 3” of the primary target.</description>
+    </rule>
+    <rule id="a0f1-ac13-cc02-3b13" name="No Escape" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Enemy characters suffer a -2 penalty to their Look Out, Sir tests against any Wounds inflicted by a model with this special rule.</description>
+    </rule>
+    <rule id="9c9b-fbdd-5419-b98f" name="Exitus Ammo" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each time a Vindicare Assassin fires a weapon with this special rule, he may choose one of the special types of ammunition he has bought (if any) and apply the chosen ammunition’s rules to that shot.</description>
+    </rule>
+    <rule id="a241-a30d-b2b2-8665" name="Neural Shock" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Hits caused by this weapon always wound on a 4+. This special rule has no effects on vehicles or buildings.</description>
+    </rule>
+    <rule id="30a7-7b3f-ac5c-d6b1" name="Phasing Hits" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Each successful To Wound roll of a 6 made by a phase sword results in a Phasing Wound. Invulnerable saves cannot be taken against Phasing Wounds.</description>
+    </rule>
+    <rule id="a102-86a4-5dd7-87f1" name="Absorbed Warp Charge" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When firing an animus speculum, first add up the combined mastery levels of all Psyker units,
+friend or foe, that are within 12&quot; of the Culexus Assassin (though Psyker units that are embarked within buildings or Transports do not count), and pick up that many dice. You can then add up to 3 more dice to this hand by removing them from your own Warp Charge pool. The total number of dice in your hand is the number of shots the animus speculum now fires.</description>
+    </rule>
+    <rule id="32c0-52d4-2db4-1848" name="Psi-shock" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If a unit containing at least one model with the Psyker, Brotherhood of Psykers/Sorcerers or Psychic Pilot
+special rules is hit by a weapon with the Psi-shock special rule, one randomly determined Psyker model in that unit suffers Perils of the Warp in addition to any other damage.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="4b95-bf4b-d1bd-96c4" name="Segnis Mors Poison" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="After deployment, 3 models of your choice in your opponent’s Kill Team must take a Toughness test or suffer 1 Wound with no saves of any kind allowed. If this reduces the model to 0 Wounds, then they are removed from the battlefield as casualties, disregarding the Injury table. Enemy models removed as casualties this way suffer a -1 penalty to their rolls on their respective Injury Charts, including the extra tables for the Grievously Injured and Beaten Up results."/>
+      </characteristics>
+    </profile>
+    <profile id="b381-b0dd-29e6-de94" name="Mancus Poison" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All enemy models reduce their Strength, Toughness, Initiative, and Attacks by 1 (to a minimum of 1). Enemy Infantry models reduce the distance they can move by 1”, including Run, Charge, Pile In, Consolidate,and Fall Back moves."/>
+      </characteristics>
+    </profile>
+    <profile id="a1d7-8ce9-9b42-769d" name="Know Thine Enemy" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Assassins may reroll Wound and Armor Penetration rolls of 1."/>
+      </characteristics>
+    </profile>
+    <profile id="31e6-3629-4c13-e6e9" name="Sow Paranoia" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Before deployment, select 3 enemy models. Those models have the Paranoid special rule."/>
+      </characteristics>
+    </profile>
+    <profile id="1674-8507-ae04-3045" name="Exitus Gemina (Gehenna)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="X"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 2, Exitus Ammo, Rappid Retargeting, Sniper"/>
+      </characteristics>
+    </profile>
+    <profile id="a2e2-8008-8986-97af" name="Exitus Gemina (Abyssus)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="X"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Exitus Ammo, Headhunter, Sniper"/>
+      </characteristics>
+    </profile>
+    <profile id="aa8a-1efa-b28e-4813" name="Anima Venator" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Vindicare has the Ignores Cover special rule and may target enemies that are Hidden. Further, as long as the Vindicare did not move during his own movement phase, the Vindicare may create a Killzone. At the beginning of the opposing player’s turn, nominate and mark a point on the battlefield within the Vindicare’s line of sight. Whenever an enemy model comes even partially within 6” of this point, whether at the start, end, or middle of any kind of movement, the Vindicare may make a shooting attack against that model. Every shot made after the first reduces the Vindicare’s Ballistic Skill by 3, to a minimum of 1, until the end of the opponent’s turn. The Vindicare then returns to full Ballistic Skill at the beginning of your turn."/>
+      </characteristics>
+    </profile>
+    <profile id="30e0-914d-cffa-237b" name="Exitus Pistol" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="X"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol, Sniper, Exitus Ammo"/>
+      </characteristics>
+    </profile>
+    <profile id="6b1a-ee0a-f6a7-6415" name="Exitus Ammo (Hellfire)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Shots from a hellfire round always wound on a 2+."/>
+      </characteristics>
+    </profile>
+    <profile id="1aa8-ee40-66a0-825f" name="Exitus Ammo (Shield-breaker)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Invulnerable saves cannot be taken against Wounds, glancing hits, or penetrating hits from a shield-breaker round."/>
+      </characteristics>
+    </profile>
+    <profile id="857c-a888-6f70-7df3" name="Exitus Ammo (Turbo-Penetrator)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Against vehicles, shots from a turbo-penetrator round count as Strength 10. Against all other targets, shots from a turbo-penetrator round inflict D3 Wounds, rather than just 1."/>
+      </characteristics>
+    </profile>
+    <profile id="b8dc-9b5e-b941-fb96" name="Spy Mask" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="All successful To Hit rolls made by a Vindicare Assassin, excluding Snap Shots, have the Ignores Cover special rule."/>
+      </characteristics>
+    </profile>
+    <profile id="8548-255c-f4a6-cd9c" name="Polymorphine" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="When a Callidus Assassin is deployed using her Infiltrate special rule, she can be set up anywhere on the table that is more than 1&quot; from any enemy unit, whether deployed enemy units can draw a line of sight to her or not. If a Callidus Assassin starts the game in Reserves, she can choose to move on from the enemy board edge when she arrives. In either case, during the first game turn, or during the game turn in which the Callidus Assassin arrives from Reserves, enemy units can only fire Snap Shots when targeting her. In addition, the Callidus Assassin may charge the turn she enters the battlefield, even if she deployed via the Infiltrate special rule or arrived from Reserves."/>
+      </characteristics>
+    </profile>
+    <profile id="0b8a-1a8e-0026-2247" name="Polymorphine Nox" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Polymorphine Nox is a Polymorphine with the following additional rules: A Callidus Assassin equipped with the Polymorphine Nox may instead make a Nox Infiltration rather than deploy by normal Polymorphine rules. Instead of Infiltrating or deploying the Callidus Assassin, set her aside and secretly mark a single Core or Special Infantry model in your opponent’s list. Write down the defining characteristics of the model to prevent confusion and keep this hidden from your opponent. At the beginning of any of your Movement Phases, you may remove that model from the board and replace it with the Callidus Assassin. The enemy model enters the opponent’s Ongoing Reserves and automatically arrives in their following Movement Phase. The Callidus Assassin may charge after performing a Nox Infiltration. If the targeted model is part of a Squad, the Callidus Assassin is immediately locked in combat with the unlucky model’s Squad, and thus does not receive any charge bonuses. If the affected model was locked in combat, and after replacement, there is still a combat ongoing, (e.g. the model was in a combat which involved two of your opponent’s models and one of yours), then the Callidus Assassin immediately joins that combat, without gaining any charge bonuses. If the Callidus Assassin replaces a model not locked in combat, but is in base contact with an enemy model, move her by the shortest distance possible so that she is 1” away from enemy models, as if she ducked around a corner before removing her disguise. Note that you automatically lose if a full game turn passes while you have no models on the board – any disguised Callidus Assassins do not count!"/>
+      </characteristics>
+    </profile>
+    <profile id="ce51-d2f2-fbf9-d6eb" name="Animus Perditor" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault X, Absorbed Warp Charge, Soul Perdition"/>
+      </characteristics>
+    </profile>
+    <profile id="a1fc-6c7b-3c6a-adf6" name="Frenzon" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Eversor Assassin moves in a whirlwind of violence, aiming to strike down the entire enemy force in a single furious rush of destruction. An Eversor Assassin rolls 3D6 for its charge range instead of 2D6. In addition, he receives 3 bonus Attacks in a turn in which he charged, rather than just 1. After counter-charges are made, measure 2D6” from the Eversor Assassin. All enemies within that many inches are also in the combat and must Pile In as normal during their Initiative Steps. If, after End of Combat Pile Ins, no models are in base contact with the Eversor, the combat ends as per the Rulebook."/>
+      </characteristics>
+    </profile>
+    <profile id="2715-032f-2fae-c8e0" name="Terminus Gland" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="If an Eversor Assassin is ever reduced to zero Wounds, before removing the model as a casualty, each nearby model within 6” (friend or foe) suffers a Strength 5 AP- hit. After resolving any additional damage, remove the Eversor Assassin from play as a casualty."/>
+      </characteristics>
+    </profile>
+    <profile id="9166-7f10-bfdf-d8c4" name="Spikes of the Zealot" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Installed into his skull helm, this device interfaces with the lobo-chips already implanted into his skull, and have an effect akin to the Butcher’s Nails implanted in the traitor primarch Angron. Combined with the chemicals running in his veins and the Assassin’s already-blind devotion to the Emperor, the Spikes of the Zealot drive the Eversor Assassin’s insane rage to impossible levels as they burst through ceramite walls, screeching incoherently. The Eversor Assassin gains the Preferred Enemy special rule. In addition, Eversor Assassin may charge through impassable terrain even at models he cannot see, but must make a Strength check for every 1” or fraction thereof of impassable terrain that he passes through. Should he fail any, however, the charge fails, even should the rolled charge range be found to be sufficient to travel around the impassable terrain."/>
+      </characteristics>
+    </profile>
+    <profile id="94f0-d5aa-d571-2438" name="Assassin" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
+        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="8"/>
+        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="8"/>
+        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
+        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
+        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
+        <characteristic name="I" characteristicTypeId="450ea86d-cd46-31df-5555-0b11959d473b" value="7"/>
+        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="4"/>
+        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
+        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="4++"/>
+      </characteristics>
+    </profile>
+    <profile id="18be-c0b2-0c77-2228" name="Grand Master" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" profileTypeName="Unit">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry (Character)"/>
+        <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="10"/>
+        <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="10"/>
+        <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
+        <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
+        <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="3"/>
+        <characteristic name="I" characteristicTypeId="450ea86d-cd46-31df-5555-0b11959d473b" value="9"/>
+        <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="6"/>
+        <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="10"/>
+        <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="3++"/>
+      </characteristics>
+    </profile>
+    <profile id="cd5a-955e-4e13-7792" name="Exitus Rifle" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="72&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="X"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Heavy 1, Sniper, Exitus Ammo"/>
+      </characteristics>
+    </profile>
+    <profile id="f162-4f91-47bd-6158" name="Neural Shredder" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="Template"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="1"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol, Neural Shock"/>
+      </characteristics>
+    </profile>
+    <profile id="38e4-81e3-054c-1110" name="Phase Sword" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Phasing Hits"/>
+      </characteristics>
+    </profile>
+    <profile id="e5d4-f9ee-1c35-8bdf" name="Poison Blades" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Poisoned (3+), Rending"/>
+      </characteristics>
+    </profile>
+    <profile id="b4b3-8b82-4947-8dcd" name="Executioner Pistol (Needle)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="1"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol, Poisoned"/>
+      </characteristics>
+    </profile>
+    <profile id="e712-8d01-de5f-5fe4" name="Executioner Pistol (Bolt)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="4"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Pistol"/>
+      </characteristics>
+    </profile>
+    <profile id="5bdb-5dba-f1d0-397e" name="Neuro-Gauntlet" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Fleshbane, Shred"/>
+      </characteristics>
+    </profile>
+    <profile id="6c4d-a862-e1a0-a4c5" name="Sentinel Array" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="An Eversor Assassin fires Overwatch using his full Ballistic Skill."/>
+      </characteristics>
+    </profile>
+    <profile id="a41c-8fb2-bf6e-76c8" name="Animus Speculum" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="18&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault X, Absorbed Warp Charge"/>
+      </characteristics>
+    </profile>
+    <profile id="766a-4dea-50b9-784f" name="Etherium" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Whenever enemy units target a Culexus Assassin with shooting or close combat attacks, the shots/attacks are always resolved as if the attacking unit had Ballistic Skill and Weapon Skill 1 (no bonuses or modifiers can be applied to increase the attacking unit’s Weapon Skill or Ballistic Skill when resolving these shots/attacks)."/>
+      </characteristics>
+    </profile>
+    <profile id="0893-034d-35fd-dcf6" name="Psyk-Out Grenades (Assault)" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Models with the Psyker, Brotherhood of Psykers/Sorcerers or Psychic Pilot special rules that are charging a unit equipped with psyk-out grenades do not gain bonus Attacks from charging. However, if the charged unit was already locked in combat from a previous turn, or has gone to ground, these grenades have no effect and the attackers gain bonus Attacks as normal."/>
+      </characteristics>
+    </profile>
+    <profile id="9b2b-5f70-72d4-0b89" name="Psyk-Out Grenades (Shooting)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="8&quot;"/>
+        <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="2"/>
+        <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+        <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blast, Psi-shock"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
