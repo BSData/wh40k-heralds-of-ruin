@@ -1726,7 +1726,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="45.0"/>
+        <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1112-dbb9-42a0-29da" name="Chainfist" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2484,6 +2484,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <constraints/>
         </entryLink>
         <entryLink id="8c9e-f324-8d52-2282" hidden="false" targetId="193b-7b38-035d-18c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4f40-4e10-91a5-d6b8" name="Jump Pack" hidden="false" targetId="8c15-e15a-7e37-8e8d" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
