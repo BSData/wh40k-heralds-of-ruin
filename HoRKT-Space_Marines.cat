@@ -2438,6 +2438,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="7465-94d3-b502-df7e" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f1d7-05fe-c724-e697" name="Shield" hidden="false" collective="false" defaultSelectionEntryId="f2dc-8ee6-494a-c6f4">
@@ -3556,6 +3563,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <constraints/>
             </entryLink>
             <entryLink id="72ad-3f4d-2fb5-aa38" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="5029-4856-eae3-4c9b" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5287,6 +5301,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="bbd2-08f2-2ddf-9a12" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="238f-852c-a1d7-4a1d" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="5138-7e83-916a-e93c">
@@ -5352,6 +5373,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <constraints/>
             </entryLink>
             <entryLink id="64e3-ca57-14a5-99a7" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9c41-1650-ad9d-cdfe" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -5685,6 +5713,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="4d34-3b31-f50c-be91" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b666-76aa-36b2-c269" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="e20a-5df2-e0a2-7a1e">
@@ -5798,6 +5833,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="07c6-0938-7f68-ca0d" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -7687,6 +7729,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="0082-7355-f01c-80b1" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ba92-c219-1c39-8bf7" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="eb7c-3833-e1b9-1177">
@@ -7716,6 +7765,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <constraints/>
             </entryLink>
             <entryLink id="2c17-a031-83d7-2fcd" hidden="false" targetId="5f78-a282-1774-6feb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="b0f3-2767-29cd-3963" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -9259,6 +9315,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="3647-a427-1c6d-0637" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -10535,6 +10598,13 @@ Ranged Weapons
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="02e7-bd66-7c4f-c161" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="94bd-1afb-066b-ecaf" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="029b-7e4a-1d96-1679">
@@ -10620,6 +10690,13 @@ Ranged Weapons
               <constraints/>
             </entryLink>
             <entryLink id="b7a0-7699-13fd-6ca9" name="New EntryLink" hidden="false" targetId="fc21-5169-7e63-b8fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="4311-00f8-307b-a09f" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10938,6 +11015,13 @@ towards Assault Marines count for weapon availability.</description>
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="dc8a-1088-1eff-8c27" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b690-a3d2-56aa-b1ed" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="fe6e-f329-e679-1df1">
@@ -11035,6 +11119,13 @@ towards Assault Marines count for weapon availability.</description>
               <constraints/>
             </entryLink>
             <entryLink id="44f9-eb27-e3cb-b365" name="New EntryLink" hidden="false" targetId="fc21-5169-7e63-b8fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="3ead-6d74-ce07-5cfe" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11333,6 +11424,13 @@ towards Assault Marines count for weapon availability.</description>
               <constraints/>
             </entryLink>
             <entryLink id="2d49-0f63-181a-0bc2" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="def0-f713-e6f1-bbbf" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -11672,6 +11770,13 @@ towards Assault Marines count for weapon availability.</description>
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="0a19-09ce-6d40-d3f4" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="1ba2-ac89-88d7-ade1" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="c854-a15c-52b5-0be9">
@@ -11701,6 +11806,13 @@ towards Assault Marines count for weapon availability.</description>
               <constraints/>
             </entryLink>
             <entryLink id="f5b7-fdcf-9501-3370" hidden="false" targetId="5f78-a282-1774-6feb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0bb7-8821-1b37-cf81" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -12118,6 +12230,57 @@ This weapon can also be used in the Shooting Phase with its ranged profile.</des
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a539-676c-87cd-e066" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="703f-7116-f13d-eb78" name="Axe of Isstvaan" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3823-d034-6a75-49d8" name="Axe of Isstvaan" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Unwieldy, Master-crafted, Calculated Strike"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6694-4dca-dcc4-59b1" name="Calculated Strike" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A To wound roll of a 6 has the Instant Death special rule.</description>
+        </rule>
+        <rule id="d04c-4187-a97d-f2d3" name="Axe of Isstvaan" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The bearer and every friendly model within 6&quot; of it have the Hatred(Slaanesh) Special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="518a-9225-bfcc-a6f3" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e33f-28c5-c5ff-17ca" type="max"/>
       </constraints>
       <selectionEntries/>
       <selectionEntryGroups/>
