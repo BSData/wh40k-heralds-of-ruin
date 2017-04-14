@@ -328,6 +328,27 @@
       <modifiers/>
       <constraints/>
     </entryLink>
+    <entryLink id="81f0-ea50-bbef-f527" hidden="false" targetId="28b4-7133-46f3-c1ed" type="selectionEntry" categoryEntryId="fc44-f871-09e5-b5f3">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f369-e60e-3730-8090" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8123-fb63-4e45-9e22" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="a954-97de-8b49-0258" name="Apothecary" book="Kill Team List: Space Marines v8.1" page="7" hidden="false" collective="false" categoryEntryId="(No Category)" type="model">
@@ -438,6 +459,13 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="28f5-54cb-8a85-b54b" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0314-1838-4756-294b" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="9081-cbb0-c3fe-11bc">
@@ -453,6 +481,13 @@
           <selectionEntryGroups/>
           <entryLinks>
             <entryLink id="9081-cbb0-c3fe-11bc" hidden="false" targetId="a392-e56f-8a66-b527" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="8f71-77b3-3df7-50b4" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1726,7 +1761,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="points" value="45.0"/>
+        <cost name="pts" costTypeId="points" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1112-dbb9-42a0-29da" name="Chainfist" book="Wh40k: The Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
@@ -2389,6 +2424,27 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="ebdc-a1c3-bd31-8c11" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="e920-53ad-337b-92be" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="7465-94d3-b502-df7e" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f1d7-05fe-c724-e697" name="Shield" hidden="false" collective="false" defaultSelectionEntryId="f2dc-8ee6-494a-c6f4">
@@ -2477,6 +2533,20 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <constraints/>
         </entryLink>
         <entryLink id="8c9e-f324-8d52-2282" hidden="false" targetId="193b-7b38-035d-18c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4f40-4e10-91a5-d6b8" name="Jump Pack" hidden="false" targetId="8c15-e15a-7e37-8e8d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5dd5-3a27-b7aa-dcc8" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3492,6 +3562,27 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="5c96-a3ca-14c9-35ac" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="72ad-3f4d-2fb5-aa38" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="5029-4856-eae3-4c9b" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -3597,6 +3688,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <constraints/>
         </entryLink>
         <entryLink id="0e1b-e6b6-e884-bdbc" hidden="false" targetId="193b-7b38-035d-18c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4f41-c351-30ce-9e26" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5203,6 +5301,27 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="510c-fc31-07d7-a92d" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="789a-4ba1-3fd8-0e1a" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="bbd2-08f2-2ddf-9a12" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="238f-852c-a1d7-4a1d" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="5138-7e83-916a-e93c">
@@ -5258,6 +5377,27 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="46cf-428f-0669-1353" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="64e3-ca57-14a5-99a7" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9c41-1650-ad9d-cdfe" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -5543,6 +5683,57 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="e0ce-3e5d-8f19-8600" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="7d12-df2f-612c-861b" name="New EntryLink" hidden="false" targetId="986b-d39d-ec21-d23c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e783-d935-58b8-b423" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="137d-a2c8-37a7-608c" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="9caa-ec99-85cb-03a4" name="New EntryLink" hidden="false" targetId="fc21-5169-7e63-b8fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e783-d935-58b8-b423" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="4d34-3b31-f50c-be91" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b666-76aa-36b2-c269" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="e20a-5df2-e0a2-7a1e">
@@ -5612,6 +5803,57 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0e97-3078-ba22-1ce4" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="b920-ffc7-f251-2ae8" name="New EntryLink" hidden="false" targetId="986b-d39d-ec21-d23c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e783-d935-58b8-b423" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="3836-288b-a6c5-e16a" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="062f-b7b1-293a-c113" name="New EntryLink" hidden="false" targetId="fc21-5169-7e63-b8fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e783-d935-58b8-b423" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="07c6-0938-7f68-ca0d" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -5779,6 +6021,28 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4434-e08c-5301-7bda" name="New EntryLink" hidden="false" targetId="108a-cd64-0848-b6f8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e783-d935-58b8-b423" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+        </entryLink>
+        <entryLink id="5199-cffa-9eec-21e0" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
         </entryLink>
       </entryLinks>
@@ -6496,6 +6760,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="622e-2add-094f-c56b" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="18f4-1d8c-3eed-6ab6" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="3977-5ccc-1041-7d51">
@@ -6587,6 +6858,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="6610-8d52-8f91-1af8" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -7472,6 +7750,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="0082-7355-f01c-80b1" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ba92-c219-1c39-8bf7" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="eb7c-3833-e1b9-1177">
@@ -7501,6 +7786,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               <constraints/>
             </entryLink>
             <entryLink id="2c17-a031-83d7-2fcd" hidden="false" targetId="5f78-a282-1774-6feb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="b0f3-2767-29cd-3963" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -7726,6 +8018,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <constraints/>
         </entryLink>
         <entryLink id="31bb-650b-d1eb-78d9" hidden="false" targetId="193b-7b38-035d-18c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="f480-70bd-f2d0-7a3a" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8597,6 +8896,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="c4a3-a0a3-ac9b-b56c" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="5b28-ad16-8329-a595" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="7c64-71a2-729a-510a">
@@ -8669,6 +8975,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
                   <conditionGroups/>
                 </modifier>
               </modifiers>
+              <constraints/>
+            </entryLink>
+            <entryLink id="fe7b-dcb1-d88b-d2ea" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
               <constraints/>
             </entryLink>
           </entryLinks>
@@ -9016,6 +9329,27 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="bb56-a91b-89e5-49c6" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="8a3e-00fd-cddd-ebb9" name="Gladius Honorifica" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="3647-a427-1c6d-0637" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -9128,6 +9462,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <constraints/>
         </entryLink>
         <entryLink id="038d-341c-909b-d6a3" hidden="false" targetId="a943-185e-a761-d059" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e3ae-eb05-cdcf-5ae8" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9915,7 +10256,7 @@ Ranged Weapons
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bed0-0b48-c1a0-9118" name="Melee Weapon" hidden="false" collective="false">
+        <selectionEntryGroup id="bed0-0b48-c1a0-9118" name="Melee Weapon" hidden="false" collective="false" defaultSelectionEntryId="8290-c4d2-8fbb-33d6">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10222,7 +10563,7 @@ Ranged Weapons
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="0cf7-85a7-e001-1a49" hidden="false" targetId="5f78-a282-1774-6feb" type="selectionEntry">
+            <entryLink id="0cf7-85a7-e001-1a49" name="" hidden="false" targetId="5f78-a282-1774-6feb" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10264,6 +10605,41 @@ Ranged Weapons
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="e20f-6e92-1a98-f6cd" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="47a7-0f06-b0f0-0b9f" name="New EntryLink" hidden="false" targetId="986b-d39d-ec21-d23c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="a0db-b235-ad2d-cd2d" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="675d-6279-70a7-d15c" name="New EntryLink" hidden="false" targetId="fc21-5169-7e63-b8fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="02e7-bd66-7c4f-c161" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="94bd-1afb-066b-ecaf" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="029b-7e4a-1d96-1679">
@@ -10292,7 +10668,7 @@ Ranged Weapons
               <modifiers/>
               <constraints/>
             </entryLink>
-            <entryLink id="029b-7e4a-1d96-1679" hidden="false" targetId="f322-8c02-ab77-48fe" type="selectionEntry">
+            <entryLink id="029b-7e4a-1d96-1679" name="" hidden="false" targetId="f322-8c02-ab77-48fe" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10314,6 +10690,48 @@ Ranged Weapons
               <constraints/>
             </entryLink>
             <entryLink id="dd39-7829-d30d-40d1" name="New EntryLink" hidden="false" targetId="262f-b565-82aa-5e72" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="d3db-eb4c-e9cc-a5de" name="The Roar of Terra" hidden="false" targetId="f280-8491-538b-1f01" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="1e2a-4543-42c3-1e4a" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="ec4e-673b-9133-5906" name="New EntryLink" hidden="false" targetId="986b-d39d-ec21-d23c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="4d0e-95a4-ace4-730b" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="b7a0-7699-13fd-6ca9" name="New EntryLink" hidden="false" targetId="fc21-5169-7e63-b8fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="4311-00f8-307b-a09f" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10435,6 +10853,13 @@ Ranged Weapons
               </conditionGroups>
             </modifier>
           </modifiers>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4690-7589-693a-0f65" name="New EntryLink" hidden="false" targetId="108a-cd64-0848-b6f8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
           <constraints/>
         </entryLink>
       </entryLinks>
@@ -10597,6 +11022,41 @@ towards Assault Marines count for weapon availability.</description>
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="0c9c-c421-1671-433f" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="deed-241c-ecc5-b821" name="New EntryLink" hidden="false" targetId="986b-d39d-ec21-d23c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="5f3e-65b9-d680-e266" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="dc5e-11d5-f1f4-50c5" name="New EntryLink" hidden="false" targetId="fc21-5169-7e63-b8fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="dc8a-1088-1eff-8c27" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b690-a3d2-56aa-b1ed" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="fe6e-f329-e679-1df1">
@@ -10666,6 +11126,41 @@ towards Assault Marines count for weapon availability.</description>
               <constraints/>
             </entryLink>
             <entryLink id="d389-005a-f4d8-46da" name="Plasma Pistol" hidden="false" targetId="d82e-98b5-40eb-7cf3" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="6071-d7c6-8111-9965" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="87ac-af50-b055-f676" name="New EntryLink" hidden="false" targetId="986b-d39d-ec21-d23c" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="574b-513d-bcd5-a0f1" name="New EntryLink" hidden="false" targetId="3a4d-9321-7807-36e0" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="44f9-eb27-e3cb-b365" name="New EntryLink" hidden="false" targetId="fc21-5169-7e63-b8fd" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="3ead-6d74-ce07-5cfe" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -10768,6 +11263,20 @@ towards Assault Marines count for weapon availability.</description>
           <constraints/>
         </entryLink>
         <entryLink id="0752-39c8-9f62-9bcc" hidden="false" targetId="193b-7b38-035d-18c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="c780-7fd1-b236-7e04" name="New EntryLink" hidden="false" targetId="108a-cd64-0848-b6f8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="35a3-fe2e-9f88-11e5" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -10956,6 +11465,20 @@ towards Assault Marines count for weapon availability.</description>
               </modifiers>
               <constraints/>
             </entryLink>
+            <entryLink id="2d49-0f63-181a-0bc2" name="The Blizzard of Inwit" hidden="false" targetId="4441-76fa-ea40-c26e" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="def0-f713-e6f1-bbbf" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -10974,7 +11497,7 @@ towards Assault Marines count for weapon availability.</description>
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="902b-86cd-0dff-8191" hidden="false" targetId="b42a-77e5-3aad-1fb0" type="selectionEntryGroup">
+        <entryLink id="902b-86cd-0dff-8191" name="" hidden="false" targetId="b42a-77e5-3aad-1fb0" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11060,7 +11583,794 @@ towards Assault Marines count for weapon availability.</description>
           <constraints/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f280-8491-538b-1f01" name="The Roar of Terra" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="7209-d61a-2f4c-8f1b" name="The Roar of Terra" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Salvo 2/4, Pinning"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7501-9f20-d7d1-08bc" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7e2-3068-d534-0b33" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0367-d7da-731a-568c" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4441-76fa-ea40-c26e" name="The Blizzard of Inwit" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="cd78-6a08-d19d-15a9" name="The Blizzard of Inwit" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="24&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="5"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="5"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 2, Rending, Shred"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7501-9f20-d7d1-08bc" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7e2-3068-d534-0b33" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28b4-7133-46f3-c1ed" name="Techmarine (Leader)" book="Kill Team List: Space Marines v8.1" page="7" hidden="false" collective="false" categoryEntryId="(No Category)" type="unit">
+      <profiles>
+        <profile id="720b-4acd-522d-12c2" name="Techmarine" book="Kill Team List: Space Marines v8.1" page="7" hidden="false" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Bike">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f0-7e74-4a79-4fe1" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="5">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f0-7e74-4a79-4fe1" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Unit Type" characteristicTypeId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" value="Infantry"/>
+            <characteristic name="WS" characteristicTypeId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" value="4"/>
+            <characteristic name="BS" characteristicTypeId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" value="5"/>
+            <characteristic name="S" characteristicTypeId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" value="4"/>
+            <characteristic name="T" characteristicTypeId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" value="4"/>
+            <characteristic name="W" characteristicTypeId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" value="2"/>
+            <characteristic name="I" characteristicTypeId="450ea86d-cd46-31df-5555-0b11959d473b" value="4"/>
+            <characteristic name="A" characteristicTypeId="5dff3e7c-e024-4030-a71d-03195ec06ea7" value="2"/>
+            <characteristic name="Ld" characteristicTypeId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" value="9"/>
+            <characteristic name="Save" characteristicTypeId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="2+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8534-48a0-ceda-6127" name="Blessing of the Omnissiah" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>In each of your Shooting phases, instead of firing his weapons, a character with this special rule may repair a single friendly vehicle that he is in base contact with or embarked upon. To do this, roll a D6. On a roll of 5+ (or 4+ if the model has a servoharness), you may either restore a Hull Point lost earlier in the battle, or repair a Weapon Destroyed or Immobilised result suffered earlier in the battle; this is effective immediately.</description>
+        </rule>
+        <rule id="4118-ca8b-21c9-b7f4" name="Bolster Defences" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>After deployment, but before Scout redeployments and Infiltrate deployments, nominate one piece of terrain in your deployment zone (this cannot be one you have purchased as part of your army). The terrain piece’s cover save is increased by one for the duration of the game (to a maximum of 3+). Note that a piece of terrain can only be bolstered once.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a631-d7c2-204d-40b9" hidden="false" targetId="8b84-1851-9042-05e3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6433-9e0d-11b4-c745" hidden="false" targetId="334c-cf1a-7cf5-5d6b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5e7f-3167-0c12-72f4" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c2e0-010a-6281-50b2" name="Photon Beam" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+          <profiles>
+            <profile id="1902-90d9-18f3-6860" name="Photon Beam" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Photon Beam is a high-powered searchlight which is able to flash in short bursts blinding the enemy. The Photon Beam is a ranged weapon that may be fired in addition to another weapon, with Photon Beam profile. *The Photon Beam causes no damage when it hits, but still causes a Blind test."/>
+              </characteristics>
+            </profile>
+            <profile id="0f5b-d183-05d6-25dd" name="Photon Beam" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="36&quot;"/>
+                <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="*"/>
+                <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="-"/>
+                <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Blind"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d53b-8e75-7979-228a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="10.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7885-c301-8689-fe28" name="First Weapon" hidden="false" collective="false" defaultSelectionEntryId="0a96-ae29-1d93-9ec3">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5915-edc0-f401-0e7c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="af8e-da2a-ef19-2aab" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0a96-ae29-1d93-9ec3" hidden="false" targetId="4a97-30b9-513e-deff" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="b684-19d3-d5fe-1cdf" hidden="false" targetId="349a-278c-e26d-b8c1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="b885-0561-d668-5129" hidden="false" targetId="5f78-a282-1774-6feb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0a19-09ce-6d40-d3f4" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1ba2-ac89-88d7-ade1" name="Second Weapon" hidden="false" collective="false" defaultSelectionEntryId="c854-a15c-52b5-0be9">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="03bf-9975-99a3-81e3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5557-b449-9538-77d4" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="c854-a15c-52b5-0be9" hidden="false" targetId="3afb-ee7b-9137-9b0d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="3d26-e7b7-e5a1-42ce" hidden="false" targetId="349a-278c-e26d-b8c1" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="f5b7-fdcf-9501-3370" hidden="false" targetId="5f78-a282-1774-6feb" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0bb7-8821-1b37-cf81" name="Axe of Isstvaan" hidden="false" targetId="703f-7116-f13d-eb78" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7beb-0352-3769-97d2" name="Servo" hidden="false" collective="false" defaultSelectionEntryId="a11a-cc64-f98f-5f05">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d93-efb3-44a6-3cc7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d617-9c7b-c491-85c6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a11a-cc64-f98f-5f05" name="Servo-arm" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="aaf8-135a-9acb-8570" hidden="false" targetId="facc-a900-d87f-665b" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cce3-f399-a82e-7751" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a61e-37db-3f2f-32e3" name="Servo-harness" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="639f-55ca-6583-feb1" name="Servo-harness" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>In the Shooting phase, the bearer can fire both harness-mounted weapons, or one harness-mounted weapon and another weapon.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9664-b560-ec6d-43e1" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="1041-0d38-6e51-49a2" name="Servo-arm" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="9a4f-7fe9-ef6f-bc24" hidden="false" targetId="facc-a900-d87f-665b" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f866-e719-f3a0-05f1" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="55a3-4cb7-64b1-e198" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3011-3d6a-90f2-4089" name="Servo-arm" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="b076-97c2-dede-dbde" hidden="false" targetId="facc-a900-d87f-665b" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2008-2d82-bacd-fa3d" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b421-d67d-4d5e-3bc4" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="086f-0a64-e678-77ba" name="Plasma Cutter" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="76d6-3fbf-cfec-e077" hidden="false" targetId="6fde-e369-5ff0-a1e1" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a965-e556-a613-0625" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aaad-ffcc-0265-d199" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c3c3-2a5c-7663-e31b" name="Flamer" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="5180-c6dd-b25d-ae86" hidden="false" targetId="fe11-7f04-819e-23ef" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="943f-9980-85ff-5409" hidden="false" targetId="d33a-f347-4961-4044" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4ae8-5f96-de3d-4474" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a39a-591a-4fb9-be22" type="max"/>
+                  </constraints>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ee20-6254-53dc-b636" hidden="false" targetId="e3d3-da4d-fab4-78ca" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4692-7875-7c65-bd5d" hidden="false" targetId="b42a-77e5-3aad-1fb0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="a5b9-293c-42ee-61cc" hidden="false" targetId="78ab-6578-03bd-1588" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="f0c3-fd85-2262-ce44" hidden="false" targetId="2cf8-2289-975b-9778" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="8f52-e06c-9db2-590b" hidden="false" targetId="78f0-7e74-4a79-4fe1" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="0db3-8397-238a-1b84" hidden="false" targetId="8b54-bbbc-4e54-a9f8" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="75c4-ecd3-30b8-d401" name="" hidden="false" targetId="7449-554e-8dfc-7423" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="6bae-841d-1c62-657d" hidden="false" targetId="984c-4d29-09ea-9147" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="187d-eb75-f0a7-7cf0" hidden="false" targetId="193b-7b38-035d-18c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="96e9-3a26-1b63-d6f1" hidden="false" targetId="1fd5-760a-a790-a05a" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="63.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="986b-d39d-ec21-d23c" name="The Mail of the Chapter" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="d212-9c72-766c-d485" name="The Mail of the Chapter" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="x2"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="1"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Unwieldy, Specialist Weapon, Crushing Force"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="793d-a0f9-1ce1-9097" name="Crushing Force" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A model that takes an Invulnerable save for wounds inflicted by this weapon have a -1 penalty.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7501-9f20-d7d1-08bc" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7e2-3068-d534-0b33" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a4d-9321-7807-36e0" name="Gladius Honorifica" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="e9df-3aaa-c585-6e10" name="Gladius Honorifica" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="User"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="4"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Rending, Versatile"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="aa47-ed7a-e6c0-a9cf" name="Versatile" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>the model can claim the +1 Attack bonus for dual wielding even if the other weapon has the Specialist Weapon rile.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f96-cf71-7c9f-083d" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3df1-6537-7338-c18a" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc21-5169-7e63-b8fd" name="Parthian&apos;s Judgement" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="49ac-65a6-531c-65b2" name="Parthian&apos;s Judgement (melee)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2/User"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3/3"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Two-handed"/>
+          </characteristics>
+        </profile>
+        <profile id="bc16-d712-1f7b-c3e6" name="Parthian&apos;s Judgement (ranged)" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="12&quot;"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="6"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="3"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Assault 1, Strikedown"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9bd6-cd6f-9208-770b" name="Parthian&apos;s Judgement" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Parthian&apos;s Judgement is a Power Lance with two melee profiles. The first is used only on a turn in which a model charges. The second is used all other times.
+This weapon can also be used in the Shooting Phase with its ranged profile.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="052b-5ccb-85e1-2f3e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b824-ad1e-d1ed-08d8" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="108a-cd64-0848-b6f8" name="Shield of the Ancestors" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="af34-7f96-f6ef-e01e" name="Shield of the Ancestors" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Shield of the Ancestors is a Storm Shield which gives the wielder a 4+ Invulnerable save, and cannot claim the bonus attack for being equipped with two melee weapons. The bearer can reroll failed Hit and Run tests, and has the Furious Charge special rule."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="052b-5ccb-85e1-2f3e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a539-676c-87cd-e066" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="703f-7116-f13d-eb78" name="Axe of Isstvaan" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="3823-d034-6a75-49d8" name="Axe of Isstvaan" hidden="false" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" profileTypeName="Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" value="-"/>
+            <characteristic name="Strength" characteristicTypeId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" value="+2"/>
+            <characteristic name="AP" characteristicTypeId="6abee736-f8d3-498e-97ac-a5c68445609f" value="2"/>
+            <characteristic name="Type" characteristicTypeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" value="Melee, Unwieldy, Master-crafted, Calculated Strike"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6694-4dca-dcc4-59b1" name="Calculated Strike" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A To wound roll of a 6 has the Instant Death special rule.</description>
+        </rule>
+        <rule id="d04c-4187-a97d-f2d3" name="Axe of Isstvaan" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The bearer and every friendly model within 6&quot; of it have the Hatred(Slaanesh) Special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="518a-9225-bfcc-a6f3" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e33f-28c5-c5ff-17ca" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ebc-ac1d-5d33-fb4f" name="Black Wings" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="635a-1dd9-653e-272b" name="Black Wings" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Black Wings are a Jump Pack with the On the Wings of Night special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2a1d-9cec-57a9-fd62" name="On the Wings of Night" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Equipped model has +1 to its cover saves.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ee8-5b50-f246-f803" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e41b-00c8-b030-265d" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -12246,6 +13556,39 @@ towards Assault Marines count for weapon availability.</description>
             <cost name="pts" costTypeId="points" value="5.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="47f6-31c7-98db-5882" name="Standard of Black Reach" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="781c-e3db-360c-04d4" name="Standard of Black Reach" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="Only one Standard may be taken in your team. The Standard of Black Reach count towards this limit. Friendly models within 12&quot; of this model may choose to reroll either fuccessful or failed Morale and Pinning tests. In addition, the Standard of Black Reach counts as a &apos;banner&apos; when working out combat results. This standard also lets your Team use an additional Doctrine of your choosing."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f96-cf71-7c9f-083d" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23c5-9f72-27f2-160a" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -12509,6 +13852,39 @@ towards Assault Marines count for weapon availability.</description>
             <cost name="pts" costTypeId="points" value="10.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="ad86-0d32-2f11-06e6" name="Hunter&apos;s Instinct" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9de4-1aea-39f0-6f15" name="Hunter&apos;s Instinct" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="At the beginning of the shooting phase, you can choose an enemy unit or model within 12&quot;. The target has its Cover save reduced by 1 until the next turn"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="052b-5ccb-85e1-2f3e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bacc-97aa-1442-a5aa" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
@@ -12634,6 +14010,45 @@ towards Assault Marines count for weapon availability.</description>
           <entryLinks/>
           <costs>
             <cost name="pts" costTypeId="points" value="15.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3d59-1440-22c1-531c" name="Icon of Rynn" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="18d2-714f-5718-9cfb" name="Icon of Rynn" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Icon of Rynn is a banner. The bearer and the models within 6&quot; have the Preferred Enemy(Orks) and the Counter-attack special rules. In addition, friendly units within 12&quot; of the bearer reroll failed Morale and Pinning checks."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7501-9f20-d7d1-08bc" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c7e2-3068-d534-0b33" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e5d-b0a1-37c8-c715" type="max"/>
+          </constraints>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
