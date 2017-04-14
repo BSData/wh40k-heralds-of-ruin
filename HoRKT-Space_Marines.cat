@@ -2546,6 +2546,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="5dd5-3a27-b7aa-dcc8" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="33.0"/>
@@ -3681,6 +3688,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <constraints/>
         </entryLink>
         <entryLink id="0e1b-e6b6-e884-bdbc" hidden="false" targetId="193b-7b38-035d-18c5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4f41-c351-30ce-9e26" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6024,6 +6038,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           </modifiers>
           <constraints/>
         </entryLink>
+        <entryLink id="5199-cffa-9eec-21e0" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="12.0"/>
@@ -8003,6 +8024,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="f480-70bd-f2d0-7a3a" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="63.0"/>
@@ -9434,6 +9462,13 @@ Remember Tactical Marines with Heavy weapons counts as Devastators.</description
           <constraints/>
         </entryLink>
         <entryLink id="038d-341c-909b-d6a3" hidden="false" targetId="a943-185e-a761-d059" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e3ae-eb05-cdcf-5ae8" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -11241,6 +11276,13 @@ towards Assault Marines count for weapon availability.</description>
           <modifiers/>
           <constraints/>
         </entryLink>
+        <entryLink id="35a3-fe2e-9f88-11e5" name="New EntryLink" hidden="false" targetId="2ebc-ac1d-5d33-fb4f" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="points" value="22.0"/>
@@ -12287,6 +12329,47 @@ This weapon can also be used in the Shooting Phase with its ranged profile.</des
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="points" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ebc-ac1d-5d33-fb4f" name="Black Wings" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="635a-1dd9-653e-272b" name="Black Wings" hidden="false" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" profileTypeName="Wargear Item">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="21befb24-fc85-4f52-a745-64b2e48f8228" value="The Black Wings are a Jump Pack with the On the Wings of Night special rule"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="2a1d-9cec-57a9-fd62" name="On the Wings of Night" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Equipped model has +1 to its cover saves.</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9ee8-5b50-f246-f803" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e41b-00c8-b030-265d" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
