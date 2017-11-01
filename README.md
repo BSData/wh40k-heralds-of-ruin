@@ -1,7 +1,7 @@
 Warhammer 40,000: Heralds of Ruin Kill Team expansion
 ================
 
-####Contents####
+#### Contents ####
 
 * [Overview][]
 * [Links][]
@@ -11,7 +11,7 @@ Warhammer 40,000: Heralds of Ruin Kill Team expansion
 [Links]: #links
 
 
-##Overview##
+## Overview ##
 
 __What's this?__
 
@@ -24,7 +24,7 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
 
-##Links##
+## Links ##
 
 * [__Original Heralds of Ruin Kill Team page__][]
 * [BattleScribe homepage][]
