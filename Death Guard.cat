@@ -501,6 +501,22 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="50bf-827b-b9b9-b018" name="Philosophy" hidden="false" targetId="59e6-d332-32dc-fe55" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4a98-890f-6ab3-9cd1" name="New CategoryLink" hidden="false" targetId="de90-ed3c-c511-45c9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="6b17-fe43-f5e7-33f2" name="Blightlord Terminator Champion" hidden="false" collective="false" type="model">
@@ -4213,6 +4229,124 @@
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="34.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="59e6-d332-32dc-fe55" name="Philosophy" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d53-a2f6-299a-a9c7" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f43b-38cd-f886-7801" name="Philosophies" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca0f-aeaf-ce1e-89b8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7c4e-5324-c51f-0108" name="Death Guard Philosophies" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce32-f8b0-0129-0d22" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="ee1e-72b4-3c2c-00e4" name="Count the Seven" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="d1d5-ee9e-2225-75fa" name="Count the Seven" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+1 Tactical Point if the number of INFANTRY models in your team is divisible by 7."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+                <selectionEntry id="da1d-d202-377e-9efb" name="1st Plague Company" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="4a13-16d8-0678-2ab5" name="1st Plague Company" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+2 Tactical Points if your team comprises of only TERMINATOR or POXWALKER models."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+                <selectionEntry id="964e-d33e-17e4-25d6" name="The Gifted" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="6da0-988a-f694-1ace" name="The Gifted" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+3 Tactical Points if, before the game starts, you declare you will only target CULTIST and POXWALKER models with tactical actions."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="4294-7955-2429-6bf0" name="Core Philosophies" hidden="false" targetId="edac-616a-5b77-37a4" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
