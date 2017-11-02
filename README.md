@@ -23,7 +23,9 @@ __Okay, nice project. Is it actually working?__ _I just want those files..._
 
 Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
 
-__Wait, where did the 7th edition files go?__: _The 7th edition game system will no longer be supported by us; all their files in their last revisions are available [here](https://github.com/BSData/wh40k-heralds-of-ruin-killteam/releases/tag/v2.2.1). Downloading .bsr file (one of the Downloads) and importing it in BattleScribe will allow you to use these no-longer-maintained datafiles._
+__Wait, where did the 7th edition files go?__
+
+The 7th edition game system will no longer be supported by us; all their files in their last revisions are available [here](https://github.com/BSData/wh40k-heralds-of-ruin-killteam/releases/tag/v2.2.1). Downloading .bsr file (one of the Downloads) and importing it in BattleScribe will allow you to use these no-longer-maintained datafiles.
 
 
 ## Links ##
