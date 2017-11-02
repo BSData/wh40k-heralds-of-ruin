@@ -211,15 +211,7 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1c71-c016-372e-733a" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="12db-3dba-5cbc-d4f6" name="New CategoryLink" hidden="false" targetId="42a3-8983-a591-a421" primary="true">
@@ -468,30 +460,6 @@
           <constraints/>
         </categoryLink>
         <categoryLink id="ed7d-a786-0c4d-0b99" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9827-a956-cadf-723b" name="Tyranid Warrior" hidden="false" targetId="5920-e1fa-000a-4a1d" type="selectionEntry">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1c71-c016-372e-733a" type="equalTo"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
-      <constraints/>
-      <categoryLinks>
-        <categoryLink id="5f53-6fa5-30af-5307" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3646,7 +3614,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="32d2-b127-888d-c7be" name="Kraken" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3668,7 +3638,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="adc2-0879-1951-bf6b" name="Leviathan" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3690,7 +3662,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1b9e-ea6c-9d26-2b56" name="Naga" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3712,7 +3686,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3953-8ff2-8344-9cd8" name="Jormungandr" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3734,7 +3710,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="56ff-be13-35b5-b349" name="Dagon" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3756,7 +3734,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8b33-5638-da78-5b6a" name="Scylla/Charybdis" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3778,7 +3758,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="daef-e3c7-4481-05b8" name="Medusa/Moloch" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3800,7 +3782,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8f4a-6c48-dd96-cf9b" name="Grendel" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3822,7 +3806,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="492c-6d9f-9b8a-4bdc" name="Ouroboros" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3844,7 +3830,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6285-2423-4442-0ee6" name="Gorgon" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3866,7 +3854,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3874,7 +3864,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1d0f-21d0-23b8-0578" name="Hive Fleet (Codex)" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -3917,7 +3909,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="45cb-e721-3050-83fe" name="Kraken" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3939,7 +3933,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="62f0-1ff9-2c16-89eb" name="Leviathan" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3961,7 +3957,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4647-ddd7-26e8-9996" name="Jormungandr" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -3983,7 +3981,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f801-6007-e655-9dc4" name="Gorgon" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -4005,7 +4005,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b737-a3f5-0e8f-f871" name="Hydra" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -4027,7 +4029,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a239-d4ea-a77e-7f4e" name="Kronos" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -4049,7 +4053,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -4057,7 +4063,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
