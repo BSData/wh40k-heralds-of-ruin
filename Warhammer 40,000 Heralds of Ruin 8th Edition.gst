@@ -955,7 +955,110 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
-  <sharedSelectionEntryGroups/>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="edac-616a-5b77-37a4" name="Philosophy" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e1d-c458-e374-2cd7" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="4bd9-57e9-9265-1852" name="One Track Mind" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="01b1-1c7a-4fa1-415c" name="One Track Mind" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+1 Tactical Point if, before the game, you choose a single Tactical Action available to you. You must tell your opponent your choice before the game begins, and you may only use that Tactical Action in the game. If you choose this Philosophy in a campaign, you may choose different Tactical Actions for each game."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="62c7-ed4d-2ddc-1b56" name="Keep Them Guessing" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b23f-0f7b-17d2-402b" name="Keep Them Guessing" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+2 Tactical Points. You may not use any Tactical Action more than once per game."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="526c-b698-3af7-36c8" name="Bloodthirsty" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="866a-3bc2-c4f1-b032" name="Bloodthirsty" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Immediately after the first casualty of the game is removed, immediately gain 1 Tactical Point if a model from your team caused the casualty, or 2 Tactical Points if your leader caused the casualty."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="99ba-47a5-8dfc-5d88" name="Raider" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5015-8964-9ed8-00de" name="Raider" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="The first time the enemy deployment zone is entered by one of your models, immediately gain 1 Tactical Point."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules/>
   <sharedProfiles>
     <profile id="1637-df49-8a83-368f" name="Combi-bolter" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapon">
