@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="1" battleScribeVersion="2.01" authorName="GenWilhelm" authorContact="" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="1" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
