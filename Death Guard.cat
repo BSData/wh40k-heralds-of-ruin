@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d87d-6592-fd60-9a00" name="Heretic Astartes: Death Guard" book="HoR Death Guard v9.3" revision="1" battleScribeVersion="2.01" authorName="GenWilhelm" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d87d-6592-fd60-9a00" name="Heretic Astartes: Death Guard" book="HoR Death Guard v9.3" revision="1" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
