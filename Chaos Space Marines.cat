@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca71-8870-507a-8093" name="Heretic Astartes: Chaos Space Marines" book="HoR Chaos Space Marines v9.3" revision="1" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca71-8870-507a-8093" name="Heretic Astartes: Chaos Space Marines" book="HoR Chaos Space Marines v9.3" revision="2" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="be24-ec0a-a776-d5f9" name="Daemonic Ritual, Amended" hidden="false">
@@ -7104,8 +7104,8 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="Melee"/>
-                <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Melee"/>
+                <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="24&quot;"/>
+                <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Assault 4"/>
                 <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="6+D3"/>
                 <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-D3"/>
                 <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="D3"/>
