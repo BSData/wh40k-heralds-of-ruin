@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7e7d-41fa-ea2b-86dc" name="Adepta Sororitas" book="HoR Adepta Sororitas v1.1" page="" revision="1" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7e7d-41fa-ea2b-86dc" name="Adepta Sororitas" book="HoR Adepta Sororitas v1.2" page="" revision="1" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="21f7-c2c4-21a9-c795" name="Acts of Faith" hidden="false">
@@ -22,15 +22,23 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
       <description>This Opus has a few issues with the way it is written. As such, this file is not RAW, but instead my interpretation of RAI. Feel free to disagree with any of the changes below:
 
 - Gave Palatine access to the Armoury.
-- Changed Celestian Superior&apos;s default Chainsword to a Boltgun.
 - Changed Seraphim Superior&apos;s options to &quot;May replace one bolt pistol with a weapon from the Pistols list. May replace the other bolt pistol with a weapon from the Melee list.&quot;.
-- Added Acts of Faith and Shield of Faith to the Imagifier.</description>
+- Added Rosarius, Tergeter, and Sarissa from v1.1.
+- Changed Widowmaker to 10pts.</description>
     </rule>
   </rules>
   <infoLinks/>
   <costTypes/>
   <profileTypes/>
-  <categoryEntries/>
+  <categoryEntries>
+    <categoryEntry id="0f6f-b9e4-f486-306b" name="Fly" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+  </categoryEntries>
   <forceEntries>
     <forceEntry id="1d61-8ac2-e1d3-70e7" name="Adepta Sororitas Kill Team" hidden="false">
       <profiles/>
@@ -120,7 +128,7 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
       <modifiers/>
       <constraints/>
       <categoryLinks>
-        <categoryLink id="c2fa-49dc-53bd-b02e" name="New CategoryLink" hidden="false" targetId="42a3-8983-a591-a421" primary="true">
+        <categoryLink id="bf0a-54e4-b6d6-4dbe" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -257,6 +265,22 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="9703-cb74-d52f-ba36" name="Philosophy" hidden="false" targetId="72c5-8455-6c93-ad2e" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e386-60b0-1df3-edd6" name="New CategoryLink" hidden="false" targetId="de90-ed3c-c511-45c9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="cb7b-b257-6993-2a59" name="Palatine" hidden="false" collective="false" type="model">
@@ -319,7 +343,15 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7df-4a1f-9c42-9eab" type="notEqualTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d7-7e64-5786-241e" type="max"/>
           </constraints>
@@ -439,6 +471,16 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5877-ba1e-1aa1-40fc" name="Trials" hidden="false" targetId="2e37-08f4-f68a-c4de" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e35f-0bcc-e0fe-0e64" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -655,7 +697,7 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="d0cd-bd29-51c4-e44d" name="Chainsword" hidden="false" targetId="554b-fc9c-86c4-63de" type="selectionEntry">
+        <entryLink id="d0cd-bd29-51c4-e44d" name="Boltgun" hidden="false" targetId="3435-b5c0-9349-c3dd" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -862,6 +904,16 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4de9-5b40-0dd1-a507" name="Trials" hidden="false" targetId="2e37-08f4-f68a-c4de" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f826-5f69-6387-336b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="11.0"/>
@@ -1023,7 +1075,15 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
       <constraints>
         <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="78ad-8964-6354-4efc" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="17f3-512e-1398-8d30" name="New CategoryLink" hidden="false" targetId="0f6f-b9e4-f486-306b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="75f3-9512-5ffd-2e3f" name="Weapons" hidden="false" collective="false" defaultSelectionEntryId="a39f-eb4c-e0f0-f17a">
@@ -1271,6 +1331,16 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a013-05e6-dff5-161f" name="Trials" hidden="false" targetId="2e37-08f4-f68a-c4de" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e46d-ad46-516a-2e00" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
@@ -1378,6 +1448,16 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ab74-e0e7-37b4-b4d0" name="Trials" hidden="false" targetId="2e37-08f4-f68a-c4de" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cfe-f3fe-fd84-24b0" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1529,6 +1609,17 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="145e-0d1d-00a9-0e4d" name="Chainsword" hidden="false" targetId="554b-fc9c-86c4-63de" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd01-9662-5e49-d9d4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5808-9648-a445-a4b0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="17.0"/>
@@ -1586,7 +1677,15 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="ec24-da85-e92b-d10d" name="New CategoryLink" hidden="false" targetId="0f6f-b9e4-f486-306b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="dc80-6553-a899-3d65" name="Weapons" hidden="false" collective="false">
@@ -1668,6 +1767,16 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           <infoLinks/>
           <modifiers/>
           <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="9f2c-ece4-1f34-d1e4" name="Trials" hidden="false" targetId="2e37-08f4-f68a-c4de" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b39-a66d-754e-8643" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
@@ -1794,6 +1903,16 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="46fc-8cce-9102-17a5" name="Trials" hidden="false" targetId="2e37-08f4-f68a-c4de" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5782-f4a5-782a-ee94" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="20.0"/>
@@ -1810,8 +1929,8 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
             <characteristic name="M" characteristicTypeId="a88e-c39f-a27a-ecea" value="6&quot;"/>
             <characteristic name="WS" characteristicTypeId="9280-ddeb-02dd-ae09" value="3+"/>
             <characteristic name="BS" characteristicTypeId="108e-f90e-ffbe-6a30" value="3+"/>
-            <characteristic name="S" characteristicTypeId="52e2-5c18-bff1-7b24" value="4"/>
-            <characteristic name="T" characteristicTypeId="3b41-1e91-2ff1-dd52" value="4"/>
+            <characteristic name="S" characteristicTypeId="52e2-5c18-bff1-7b24" value="3"/>
+            <characteristic name="T" characteristicTypeId="3b41-1e91-2ff1-dd52" value="3"/>
             <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="2"/>
             <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="2"/>
             <characteristic name="Ld" characteristicTypeId="a115-d314-3e51-f63b" value="8"/>
@@ -1903,9 +2022,227 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="ec6c-6f7b-7a99-5c9b" name="Trials" hidden="false" targetId="2e37-08f4-f68a-c4de" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a28-47cf-ccd5-9a52" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72c5-8455-6c93-ad2e" name="Philosophy" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ced3-6965-4721-2de2" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3c59-c894-132d-8a1e" name="Philosophies" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c62d-0274-1529-27a6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="4fc5-78f3-d277-9c71" name="Adepta Sororitas Philosophies" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f7-9784-f5e2-c195" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="37aa-2aec-e073-f2af" name="Asceticism" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="a8f4-9dd1-574c-ac3f" name="Asceticism" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+2 Tactical Points if no models in your team take any items from the armoury."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="19fc-663c-63e4-9919" name="Boots on the Ground" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="23a3-538b-c5d0-3fff" name="Boots on the Ground" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+1 Tactical Point if no models in your team have the FLY keyword."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9690-4fa1-b6ab-0cac" name="World on Fire" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="1646-5008-9043-9b61" name="World on Fire" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+2 Tactical Points if every model that can take a flamer has a flamer."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="2935-a029-9c96-8994" name="Core Philosophies" hidden="false" targetId="edac-616a-5b77-37a4" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="38c5-aa5a-2f3c-c672" name="Armour of St. Anais" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f898-cfe6-f983-cad3" name="Armour of St. Anais" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="This model may re-roll her armour saves and considers her invulnerable saves to be one better than normal, to a maximum of 3+."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e7df-4a1f-9c42-9eab" type="notEqualTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5dbd-4387-78b5-ee17" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7df-4a1f-9c42-9eab" name="The Azure Panopoly" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="33cc-bbff-da9e-1f8b" name="The Azure Panopoly" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="A model with this item gains a 2+ armour save, a 5+ invulnerable save, an extra wound and the Teleport Strike ability. The wearer may not have the FLY keyword, nor may she take the Armour of St. Anais."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bcee-75d8-cf76-8a92" name="Teleport Strike" hidden="false" targetId="af98-79d3-a2ab-6655" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0f6f-b9e4-f486-306b" type="instanceOf"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="38c5-aa5a-2f3c-c672" type="notEqualTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7eff-9299-d735-d30b" type="notEqualTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79bf-873c-d4d2-e2ac" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="25.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2120,40 +2457,6 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
       <constraints/>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="b4cc-da5f-b0b4-6361" name="Armour of St. Anais" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="9cfd-4a00-7bcf-921d" name="Armour of St. Anais" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="This model may re-roll her armour saves."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7021-b881-41af-a9c6" type="notInstanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3700-0d79-322f-c91e" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="15.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="f304-f919-52c4-a515" name="Rosarius" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="8b40-06ab-5941-9a90" name="Rosarius" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
@@ -2194,17 +2497,10 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="primary-category" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7021-b881-41af-a9c6" type="notInstanceOf"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0306-4a85-eb2d-4ba7" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="55de-818b-0fdd-0358" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -2214,7 +2510,7 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
             <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b729-f4a2-9cd6-68ae" name="The Lady&apos;s Curtana" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b729-f4a2-9cd6-68ae" name="Lucia&apos;s Curtana" hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="ab5e-5056-4be3-b214" name="The Lady&apos;s Curtana" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
               <profiles/>
@@ -2272,6 +2568,70 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
             <cost name="pts" costTypeId="10e4-a657-021d-956c" value="7.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="0741-f6a6-b31c-3b99" name="Widowmaker" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c594-f482-3709-beac" name="Widowmaker" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="12&quot;"/>
+                <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Assault D6"/>
+                <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="4"/>
+                <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-1"/>
+                <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
+                <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="This weapon automatically hits its target."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="432d-ff92-dc32-e653" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b646-1d1b-c1fc-9050" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f630-6978-4bf1-d552" name="Shard" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="bd8d-b7c9-918e-09d0" name="Shard" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="24&quot;"/>
+                <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Rapid Fire 2"/>
+                <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="4"/>
+                <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-1"/>
+                <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="2"/>
+                <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="This weapon never requires worse than a 3+ to hit."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07b6-5250-ac6a-1d84" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0005-74ae-f255-d182" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="6.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
@@ -2281,11 +2641,319 @@ Spirit of the Martyr: The model recovers D3 lost wounds.</description>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef1c-bfb2-4461-9657" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a79-26f1-1735-4500" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4c80-1f6f-bd5e-fe6c" name="The Azure Panopoly" hidden="false" targetId="e7df-4a1f-9c42-9eab" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a34c-1bd5-6b26-ff64" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f8c8-0dc5-f6e7-c8f5" name="Armour of St. Anais" hidden="false" targetId="38c5-aa5a-2f3c-c672" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36b6-5edc-7f40-e5ab" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2e37-08f4-f68a-c4de" name="Trials" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="359a-316e-d9e5-30b3" name="Trial of St Katerin" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="75d8-5819-3814-57b6" name="Trial of St Katerin" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Enemy models wishing to charge this model must roll their leadership + 1D6 versus this model&apos;s leadership + 1D6 and beat this model&apos;s total in order to declare this model as a charge target. If the test is failed, they may redirect their charge."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b41-1040-1091-a200" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="9.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f5e0-2a5c-e0f5-d290" name="Trial of St Godiva" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5afa-1345-6508-6a8e" name="Trial of St Godiva" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Enemy models within 1&quot; of this model suffer -1 to hit in close combat if they choose to direct their attacks against any model that is not this model. If the choice is between two or more models with this Trial, the enemy model suffers -1 to hit no matter which they choose."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49d0-b119-604c-d227" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7dd2-1f46-ee79-b4ef" name="Trial of St Philomena" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5f43-c2de-1230-7fd6" name="Trial of St Philomena" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Friendly models within 3&quot; of this model may re-roll all failed morale tests, including rout tests."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="10e4-a657-021d-956c" value="12">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7021-b881-41af-a9c6" type="instanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26a6-8584-d63c-e983" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="3.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e9d4-9657-81a3-1563" name="Trial of St Maireath" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="feeb-c058-ee70-829a" name="Trial of St Maireath" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="This model may re-roll all failed hit and wound rolls against the enemy team leader in the Fight phase. The enemy team leader can re-roll all hit and wound rolls of 1 against this model in the Fight phase."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8099-fa8a-efbb-6271" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="4.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="83cc-3a14-1ab3-b9f2" name="Trial of St Xianfei" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5793-0ffa-08db-7094" name="Trial of St Xianfei" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Roll a D6 when this model&apos;s team spends a tactical point. On a 6+, the point is refunded."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7021-b881-41af-a9c6" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48d4-2d13-ed3e-fe3f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="22f9-5dc1-d3ec-2de5" name="Trial of Vanyssa" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8074-e603-27d4-83a6" name="Trial of Vanyssa" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Enemy models gain no bonus to their armour saves from cover from any ranged attack originating from within 3&quot; of this model."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e15a-bbd2-c89c-6e18" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e2b-f3e7-854c-ee6a" name="Trial of St Ines" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="20da-b1f2-c304-c276" name="Trial of St Ines" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Flamer weapons used within 3&quot; of this model add 1 to their strength."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="712a-1b57-4d9b-0b35" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d327-9926-3c50-a144" name="Trial of St Siena" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="09a1-34f9-bbb3-c4b2" name="Trial of St Ines" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="This model may deny the witch once per enemy psychic phase. If it successfully does so, it may invoke a single act of faith on itself at the beginning of the next friendly turn. This act does not count against the number of acts invoked that turn."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eade-0397-c946-156d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9620-7941-2993-0a68" name="Trial of St Draxia" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="cc6f-ad2c-60be-b779" name="Trial of St Draxia" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Friendly models within 3&quot; of this model gain the benefits of cover in the open. This has no effect on models actually in cover."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49b7-1de8-4c5d-2905" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="12.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="13d2-7d64-556a-012e" name="Trial of St Melissia" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="86bf-93b5-875e-289b" name="Trial of St Melissia" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Each time a friendly model within 3&quot; of this model loses a wound, roll a d6. On a 6+, the wound is not lost."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f90-f125-3f89-256b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="13.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules/>

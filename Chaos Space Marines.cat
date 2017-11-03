@@ -1064,6 +1064,22 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="3d08-ef67-b24e-b681" name="Philosophy" hidden="false" targetId="18e1-9990-4c5c-7603" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5dde-2e1c-8ccf-d1cd" name="New CategoryLink" hidden="false" targetId="de90-ed3c-c511-45c9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="54b9-2a09-b961-0707" name="Mark of Khorne" hidden="false" collective="false" type="upgrade">
@@ -7772,6 +7788,132 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="18e1-9990-4c5c-7603" name="Philosophy" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e8b0-336d-bbda-1c32" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6004-3b15-8a7a-09bd" name="Philosophies" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e1-c830-c893-ff52" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="daf8-7e44-d356-c4b9" name="Chaos Space Marine Philosophies" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3756-cf43-47d4-3dff" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="443e-122b-e3a1-1dd8" name="For the Legion!" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="58e3-c6ac-6252-7b6d" name="For the Legion!" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+3 Tactical Points if you only use your own legion&apos;s Tactical Action."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7e5f-9632-0d4a-fbf6" name="Whim of the Gods" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="a0c0-5ffb-cf4a-17bc" name="Whim of the Gods" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+1 Tactical Point if you never use a Tactical Re-roll."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c03f-9fc6-af4d-ce04" name="Mind Games" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="6482-2716-f48c-a8f9" name="Mind Games" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+2 Tactical Points if you are not the first player to use a Tactical Action."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="a58e-b64b-489e-915a" name="Core Philosophies" hidden="false" targetId="edac-616a-5b77-37a4" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
