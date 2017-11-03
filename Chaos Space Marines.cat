@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca71-8870-507a-8093" name="Heretic Astartes: Chaos Space Marines" book="HoR Chaos Space Marines v9.3" revision="1" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca71-8870-507a-8093" name="Heretic Astartes: Chaos Space Marines" book="HoR Chaos Space Marines v9.3" revision="2" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="be24-ec0a-a776-d5f9" name="Daemonic Ritual, Amended" hidden="false">
@@ -179,6 +179,27 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <constraints>
         <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="49cd-22ad-9784-3c52" type="max"/>
       </constraints>
+    </categoryEntry>
+    <categoryEntry id="c6a8-a6bd-784e-e7d1" name="Biker" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="d2f9-7855-9718-98f2" name="Fly" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="355c-496f-da4e-879b" name="Fallen" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
@@ -1035,6 +1056,22 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <constraints/>
       <categoryLinks>
         <categoryLink id="82a3-2ff8-f910-ca9d" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3d08-ef67-b24e-b681" name="Philosophy" hidden="false" targetId="18e1-9990-4c5c-7603" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5dde-2e1c-8ccf-d1cd" name="New CategoryLink" hidden="false" targetId="de90-ed3c-c511-45c9" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2080,7 +2117,9 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -3592,7 +3631,15 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="3b6f-3f7b-9d3d-3f7c" name="New CategoryLink" hidden="false" targetId="355c-496f-da4e-879b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -3676,7 +3723,15 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="7443-bfa0-748b-d3e4" name="New CategoryLink" hidden="false" targetId="c6a8-a6bd-784e-e7d1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="44cd-1581-a6f1-3ded" name="Weapons" hidden="false" collective="false">
@@ -3941,7 +3996,15 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="a9d3-c4e5-f3f1-1ded" name="New CategoryLink" hidden="false" targetId="d2f9-7855-9718-98f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -4039,7 +4102,15 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="4e58-a78d-81be-beb1" name="New CategoryLink" hidden="false" targetId="d2f9-7855-9718-98f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="c8c1-c3b6-bf42-d1c3" name="Weapons" hidden="false" collective="false" defaultSelectionEntryId="a5d1-26e0-5a3f-5af9">
@@ -4576,7 +4647,15 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <constraints>
         <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="553c-3040-0606-2674" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="24dc-a6d3-c2c5-9856" name="New CategoryLink" hidden="false" targetId="c6a8-a6bd-784e-e7d1" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="d9af-d75d-0ef8-80f1" name="Secondary Weapon" hidden="false" collective="false" defaultSelectionEntryId="c124-4822-8b39-348c">
@@ -4744,7 +4823,15 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <constraints>
         <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5f74-57ea-30b9-48af" type="max"/>
       </constraints>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="bcfa-1eda-5520-6063" name="New CategoryLink" hidden="false" targetId="d2f9-7855-9718-98f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="57a3-28ec-0c54-d3ae" name="Weapons" hidden="false" collective="false" defaultSelectionEntryId="27d7-26f9-f765-c308">
@@ -4904,6 +4991,14 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
           <categoryLinks/>
         </entryLink>
         <entryLink id="9f2f-f68e-5dba-5f02" name="Mark of Chaos" hidden="false" targetId="d19e-6546-aaad-34a0" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f06b-ca10-a5a5-af4f" name="Icon of Chaos" hidden="false" targetId="cd8d-4d23-c291-3d5e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6370,7 +6465,15 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="9a07-aa01-058e-af9b" name="New CategoryLink" hidden="false" targetId="355c-496f-da4e-879b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
         <selectionEntryGroup id="74b0-7087-ecb2-80db" name="Pistol" hidden="false" collective="false" defaultSelectionEntryId="c969-1afb-d074-ccc4">
@@ -6705,7 +6808,9 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -6774,7 +6879,15 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="6ed4-7fd3-b1e5-6c13" name="New CategoryLink" hidden="false" targetId="d2f9-7855-9718-98f2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -6991,8 +7104,8 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="Melee"/>
-                <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Melee"/>
+                <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="24&quot;"/>
+                <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Assault 4"/>
                 <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="6+D3"/>
                 <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-D3"/>
                 <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="D3"/>
@@ -7011,7 +7124,9 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -7298,9 +7413,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
           </conditionGroups>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0886-5271-c13c-9935" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -7540,6 +7653,267 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="93e1-903c-dad0-498a" name="Bloodslicked Warplate" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="2c87-b1ac-69bc-248a" name="Bloodslicked Warplate" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="This model may re-roll failed armour saves against weapons with an AP of 0."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d0-60d8-7dd5-25c8" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3f20-7ff9-f82f-46ae" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54b9-2a09-b961-0707" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="daba-9f3d-64a5-eb0b" name="Ectoplasmic Armour" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="347c-5e29-f255-3e68" name="Ectoplasmic Armour" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Enemy models may not re-roll to hit for any reason when firing ranged weapons at this model."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d0-60d8-7dd5-25c8" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2bf2-9917-2f8c-1c50" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b514-6b29-050e-209d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9669-3a3c-527d-6d7d" name="Diaphanous Battleplate" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="66ac-cc62-a54d-f26f" name="Diaphanous Battleplate" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="When attacking this model with a weapon or model with a variable number of attacks, you must roll two dice and discard the highest result when determining the number of attacks."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="07d0-60d8-7dd5-25c8" type="instanceOf"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b517-d9c8-5223-ca93" type="notInstanceOf"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5adb-73f6-2907-990d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="6.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="18e1-9990-4c5c-7603" name="Philosophy" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e8b0-336d-bbda-1c32" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6004-3b15-8a7a-09bd" name="Philosophies" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e1-c830-c893-ff52" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="daf8-7e44-d356-c4b9" name="Chaos Space Marine Philosophies" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3756-cf43-47d4-3dff" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="443e-122b-e3a1-1dd8" name="For the Legion!" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="58e3-c6ac-6252-7b6d" name="For the Legion!" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+3 Tactical Points if you only use your own legion&apos;s Tactical Action."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7e5f-9632-0d4a-fbf6" name="Whim of the Gods" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="a0c0-5ffb-cf4a-17bc" name="Whim of the Gods" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+1 Tactical Point if you never use a Tactical Re-roll."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c03f-9fc6-af4d-ce04" name="Mind Games" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="6482-2716-f48c-a8f9" name="Mind Games" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="+2 Tactical Points if you are not the first player to use a Tactical Action."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="a58e-b64b-489e-915a" name="Core Philosophies" hidden="false" targetId="edac-616a-5b77-37a4" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -7969,10 +8343,108 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
             <cost name="pts" costTypeId="10e4-a657-021d-956c" value="7.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="c92e-0af3-158d-7051" name="Screaming Engines" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3c56-1db2-ebc9-6339" name="Screaming Engines" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Once per game, when this model charges, you may roll 3D6 for the charge distance and discard the lowest result."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c6a8-a6bd-784e-e7d1" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2f9-7855-9718-98f2" type="notInstanceOf"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a1b-4dbd-34ad-7768" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d560-7566-f207-28f9" name="Relic of Caliban" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1fe8-25a3-6b66-32c1" name="Relic of Caliban" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Enemy DARK ANGELS models that are able must target this model with shooting attacks, psychic powers, charges and melee attacks, choosing it as a secondary target is necessary. If this model is slain in action against a Dark Angels team, or by a DARK ANGELS model, the opposing player gains +1 Vicoty Point."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="355c-496f-da4e-879b" type="notInstanceOf"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8be5-e933-7d96-3a88" name="Suspensors" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b332-287e-1841-f187" name="Suspensors" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="This model does not suffer the to hit penalty for moving and firing a Heavy weapon, though the weapon&apos;s range is halved when doing so."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="451e-57e8-faae-e45b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="90c3-c3c7-1458-a958" name="Pox-crusted Adamantium" hidden="false" targetId="8b3c-d713-d8eb-c1a6" type="selectionEntry">
+        <entryLink id="90c3-c3c7-1458-a958" name="Bloodslicked Warplate" hidden="false" targetId="93e1-903c-dad0-498a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -8065,6 +8537,36 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2687-abf6-8754-78b9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a357-dd1c-5919-3633" name="Pox-crusted Adamantium" hidden="false" targetId="8b3c-d713-d8eb-c1a6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bac-6817-a2e6-b18e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="5f27-1ca0-2028-a1e2" name="Diaphanous Battleplate" hidden="false" targetId="9669-3a3c-527d-6d7d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b987-0c0e-505b-c822" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3bb3-df80-6173-f9c0" name="Ectoplasmic Armour" hidden="false" targetId="daba-9f3d-64a5-eb0b" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="625b-5044-78f1-0d21" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>

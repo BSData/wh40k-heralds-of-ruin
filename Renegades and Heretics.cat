@@ -494,6 +494,22 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="d094-1789-53a5-2418" name="Philosophy" hidden="false" targetId="5779-6fa3-656e-f406" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d540-076f-80b0-87a7" name="New CategoryLink" hidden="false" targetId="de90-ed3c-c511-45c9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f93f-f0ab-8202-d361" name="Renegade Commander" hidden="false" collective="false" type="model">
@@ -4265,6 +4281,45 @@
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5779-6fa3-656e-f406" name="Philosophy" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3fd3-dca8-fc97-2499" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="130e-e852-66bc-09ba" name="Philosophies" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d15f-1217-75c5-805d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="688e-2ac7-6ca4-1bf4" name="Core Philosophies" hidden="false" targetId="edac-616a-5b77-37a4" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

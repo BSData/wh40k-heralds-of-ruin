@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="1" battleScribeVersion="2.01" authorName="GenWilhelm" authorContact="" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="1" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -956,13 +956,13 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="edac-616a-5b77-37a4" name="Philosophy" hidden="false" collective="false">
+    <selectionEntryGroup id="edac-616a-5b77-37a4" name="Core Philosophies" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e1d-c458-e374-2cd7" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e1d-c458-e374-2cd7" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries>
@@ -986,7 +986,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="62c7-ed4d-2ddc-1b56" name="Keep Them Guessing" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1008,7 +1010,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="526c-b698-3af7-36c8" name="Bloodthirsty" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1030,7 +1034,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="99ba-47a5-8dfc-5d88" name="Raider" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1052,7 +1058,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>

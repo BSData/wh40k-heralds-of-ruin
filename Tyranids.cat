@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7dee-7cfd-1d82-0f45" name="Tyranids" revision="1" battleScribeVersion="2.01" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7dee-7cfd-1d82-0f45" name="Tyranids" page="" revision="1" battleScribeVersion="2.01" authorName="Taikkuus" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -46,6 +46,23 @@
       <constraints/>
       <forceEntries/>
       <categoryLinks>
+        <categoryLink id="73dd-14c8-ab3c-9e67" name="Other Options" hidden="false" targetId="de90-ed3c-c511-45c9" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="5266-121a-aa81-323f" name="Team Leader" hidden="false" targetId="7021-b881-41af-a9c6" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0922-cf30-cc4e-4bb4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9aa-38a6-4c37-4f47" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="d6c8-e7bf-a60c-d19f" name="Core" hidden="false" targetId="42a3-8983-a591-a421" primary="false">
           <profiles/>
           <rules/>
@@ -56,13 +73,6 @@
             <constraint field="selections" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea11-210d-28d2-6a9a" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="73dd-14c8-ab3c-9e67" name="Other Options" hidden="false" targetId="de90-ed3c-c511-45c9" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
         <categoryLink id="ffb3-fbac-e211-edfa" name="Special" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="false">
           <profiles/>
           <rules/>
@@ -71,16 +81,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc78-5989-902a-42dd" type="min"/>
             <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f10f-2e1d-fbed-7a88" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5266-121a-aa81-323f" name="Team Leader" hidden="false" targetId="7021-b881-41af-a9c6" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0922-cf30-cc4e-4bb4" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9aa-38a6-4c37-4f47" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="bb3f-841e-6f1c-b9e8" name="Guard Organism" hidden="false" targetId="df69-105a-4da5-b7d4" primary="false">
