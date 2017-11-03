@@ -564,6 +564,22 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="33ef-98b1-8f1f-ebd4" name="Philosophy" hidden="false" targetId="6a3a-cea6-c160-9b70" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c564-f204-cd51-886a" name="New CategoryLink" hidden="false" targetId="de90-ed3c-c511-45c9" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4a42-9fc6-e73a-b104" name="Ravener Maw-Fiend" hidden="false" collective="false" type="model">
@@ -621,7 +637,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="3d8c-b0e4-30fe-dd5a" name="New CategoryLink" hidden="false" targetId="9558-917e-6e55-4bde" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -994,7 +1018,15 @@
       </infoLinks>
       <modifiers/>
       <constraints/>
-      <categoryLinks/>
+      <categoryLinks>
+        <categoryLink id="b1b2-b816-a2ac-0963" name="New CategoryLink" hidden="false" targetId="9558-917e-6e55-4bde" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -4027,6 +4059,102 @@
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="6a3a-cea6-c160-9b70" name="Philosophy" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="632b-ec51-c908-766b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4539-31e3-c742-56bb" name="Philosophies" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b33f-169a-5655-e24a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0361-cedd-a064-9e77" name="Tyranid Philosophies" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64fd-c887-d784-1c29" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="dbe8-dd4c-ba42-f89b" name="Death from Below" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="8183-b50f-f7a6-380c" name="Death from Below" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="At the end of any of your turns in which a model with the Ravener keyword arrived on the battlefield and slew an enemy model in the same turn it arrived, gain 1 TP."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+                <selectionEntry id="2594-6a52-f9ac-a431" name="Genestealer Infestation" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="8c25-cf04-1dd5-6f0a" name="Genestealer Infestation" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="At the end of any of your turns in which a model with the Genestealer keyword slew an enemy model in the Fight phase which was at least 10” from any other enemy model, gain 1 TP."/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="6472-81f7-66c1-83b1" name="Core Philosophies" hidden="false" targetId="edac-616a-5b77-37a4" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs/>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
