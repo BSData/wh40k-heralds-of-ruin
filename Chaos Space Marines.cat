@@ -4602,7 +4602,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
     </selectionEntry>
     <selectionEntry id="9df2-fdb0-65b0-2050" name="Chaos Biker" hidden="false" collective="false" type="model">
       <profiles>
-        <profile id="c5a8-7795-1961-2f5b" name="Biker Champion" hidden="false" profileTypeId="7f6d-4653-d5ea-6b30" profileTypeName="Models">
+        <profile id="c5a8-7795-1961-2f5b" name="Chaos Biker" hidden="false" profileTypeId="7f6d-4653-d5ea-6b30" profileTypeName="Models">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4613,9 +4613,9 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
             <characteristic name="BS" characteristicTypeId="108e-f90e-ffbe-6a30" value="3+"/>
             <characteristic name="S" characteristicTypeId="52e2-5c18-bff1-7b24" value="4"/>
             <characteristic name="T" characteristicTypeId="3b41-1e91-2ff1-dd52" value="5"/>
-            <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="4"/>
-            <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="2"/>
-            <characteristic name="Ld" characteristicTypeId="a115-d314-3e51-f63b" value="8"/>
+            <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="2"/>
+            <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="1"/>
+            <characteristic name="Ld" characteristicTypeId="a115-d314-3e51-f63b" value="7"/>
             <characteristic name="Sv" characteristicTypeId="359d-e887-edd9-6f7a" value="3+"/>
           </characteristics>
         </profile>
