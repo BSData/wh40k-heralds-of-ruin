@@ -2567,7 +2567,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="41.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd53-fcf7-31ea-0a58" name="Venomthrope" hidden="false" collective="false" type="model">
