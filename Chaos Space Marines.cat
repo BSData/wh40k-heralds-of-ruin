@@ -8406,7 +8406,9 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb90-67fc-7d6d-c45b" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
