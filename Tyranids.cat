@@ -1666,7 +1666,25 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5920-e1fa-000a-4a1d" name="Tyranid Warrior" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="0828-a98c-2b24-ae8d" name="Tyranid Warrior" hidden="false" profileTypeId="7f6d-4653-d5ea-6b30" profileTypeName="Models">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="M" characteristicTypeId="a88e-c39f-a27a-ecea" value="6&quot;"/>
+            <characteristic name="WS" characteristicTypeId="9280-ddeb-02dd-ae09" value="3+"/>
+            <characteristic name="BS" characteristicTypeId="108e-f90e-ffbe-6a30" value="4+"/>
+            <characteristic name="S" characteristicTypeId="52e2-5c18-bff1-7b24" value="4"/>
+            <characteristic name="T" characteristicTypeId="3b41-1e91-2ff1-dd52" value="4"/>
+            <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="3"/>
+            <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="3"/>
+            <characteristic name="Ld" characteristicTypeId="a115-d314-3e51-f63b" value="9"/>
+            <characteristic name="Sv" characteristicTypeId="359d-e887-edd9-6f7a" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="f23e-1ad4-9495-fcf1" name="Synapse" hidden="false" targetId="bd9b-8ace-167f-e261" type="profile">
