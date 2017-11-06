@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7dee-7cfd-1d82-0f45" name="Tyranids" page="" revision="1" battleScribeVersion="2.01" authorName="Taikkuus" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7dee-7cfd-1d82-0f45" name="Tyranids" page="" revision="2" battleScribeVersion="2.01" authorName="Taikkuus" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -616,7 +616,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value=" If 4 or more of the Ravener Maw-Fiend’s scything talons attacks hit, it may attempt to swallow a victim whole instead of rolling to wound. Roll a D6. If the result is equal to or higher than the highest Wounds characteristic (not remaining wounds!) of enemy models within 1”, one of them is instantly slain."/>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value=" If 4 or more of the Ravener Maw-Fiend&apos;s scything talons attacks hit, it may attempt to swallow a victim whole instead of rolling to wound. Roll a D6. If the result is equal to or higher than the highest Wounds characteristic (not remaining wounds!) of enemy models within 1&quot;, one of them is instantly slain."/>
           </characteristics>
         </profile>
       </profiles>
@@ -1278,7 +1278,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="You can re-roll Wound rolls of 1 when this model Fights if there are 9 or more friendly hormagaunts within 3”."/>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="You can re-roll Wound rolls of 1 when this model Fights if there are 9 or more friendly hormagaunts within 3&quot;."/>
           </characteristics>
         </profile>
         <profile id="5ecb-23a1-674c-60b7" name="Hormagaunt" hidden="false" profileTypeId="7f6d-4653-d5ea-6b30" profileTypeName="Models">
@@ -3627,7 +3627,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Add 1” to the Movement of all friendly units and extend your Deployment Zone by 3”. No BEHEMOTH model may ever end its turn further from the nearest enemy model than it started."/>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Add 1&quot; to the Movement of all friendly units and extend your Deployment Zone by 3&quot;. No BEHEMOTH model may ever end its turn further from the nearest enemy model than it started."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3699,7 +3699,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Add 1” to the Movement characteristic of all NAGA units when the enemy team contains any Aeldari units. In addition, add 1 to friendly psychic tests if the enemy team contains any Aeldari units. Tests to Deny are made against the improved result."/>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Add 1&quot; to the Movement characteristic of all NAGA units when the enemy team contains any Aeldari units. In addition, add 1 to friendly psychic tests if the enemy team contains any Aeldari units. Tests to Deny are made against the improved result."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3843,7 +3843,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Models that can FLY gain +2” to their Movement. At least half the models on your team must have the FLY keyword."/>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Models that can FLY gain +2&quot; to their Movement. At least half the models on your team must have the FLY keyword."/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4156,7 +4156,7 @@
                       <infoLinks/>
                       <modifiers/>
                       <characteristics>
-                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="At the end of any of your turns in which a model with the Genestealer keyword slew an enemy model in the Fight phase which was at least 10” from any other enemy model, gain 1 TP."/>
+                        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="At the end of any of your turns in which a model with the Genestealer keyword slew an enemy model in the Fight phase which was at least 10&quot; from any other enemy model, gain 1 TP."/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4246,7 +4246,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Once per game, you may place a suitable model or marker in contact with your Team Leader’s base. It then acts as a friendly synapse creature for the rest of the game. It cannot move or be affected by either team in any way."/>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Once per game, you may place a suitable model or marker in contact with your Team Leader&apos;s base. It then acts as a friendly synapse creature for the rest of the game. It cannot move or be affected by either team in any way."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4314,7 +4314,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Shooting attacks against this model from more than 1” away must subtract 1 from their rolls to Hit."/>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Shooting attacks against this model from more than 1&quot; away must subtract 1 from their rolls to Hit."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4348,7 +4348,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="This model increases its Inspiring Presence by 3”."/>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="This model increases its Inspiring Presence by 3&quot;."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4382,7 +4382,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Instead of shooting in the Shooting phase, the model may use its Bowel-Shaking Roar to reveal all Hiding enemy models within 12” of it."/>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Instead of shooting in the Shooting phase, the model may use its Bowel-Shaking Roar to reveal all Hiding enemy models within 12&quot; of it."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4416,7 +4416,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Each time a friendly model that shares all its keywords with the Leader dies within 6” of this model, this model gains +1 Attacks until the end of the game. These extra attacks are cumulative to a maximum of 3 additional Attacks."/>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Each time a friendly model that shares all its keywords with the Leader dies within 6&quot; of this model, this model gains +1 Attacks until the end of the game. These extra attacks are cumulative to a maximum of 3 additional Attacks."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4450,7 +4450,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Choose one of the model’s ranged weapons. Improve its range by 6”, and its Strength and AP values by 1 each."/>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Choose one of the model&apos;s ranged weapons. Improve its range by 6&quot;, and its Strength and AP values by 1 each."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4524,7 +4524,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="When this model makes a successful charge, roll a D6 immediately before it Fights. On a 6, a single enemy model within 1” suffers a mortal wound."/>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="When this model makes a successful charge, roll a D6 immediately before it Fights. On a 6, a single enemy model within 1&quot; suffers a mortal wound."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4550,7 +4550,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Improve one of the model’s ranged weapons’ AP by -D3 at the beginning of the game."/>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Improve one of the model&apos;s ranged weapons&apos; AP by -D3 at the beginning of the game."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4662,7 +4662,7 @@
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="The model’s save is worsened by 1, but its Move is increased by 2” and it may reroll charge distances."/>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="The model&apos;s save is worsened by 1, but its Move is increased by 2&quot; and it may reroll charge distances."/>
               </characteristics>
             </profile>
           </profiles>
@@ -4909,7 +4909,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="A Genestealer has 4 attacks instead of 3 if there are 4 or more other friendly Genestealers within 3”."/>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="A Genestealer has 4 attacks instead of 3 if there are 4 or more other friendly Genestealers within 3&quot;."/>
       </characteristics>
     </profile>
     <profile id="5ff0-80f4-8c90-056e" name="Lightning Reflexes" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
