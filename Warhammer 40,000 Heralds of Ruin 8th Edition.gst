@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="1" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="2" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -954,6 +954,33 @@
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="12.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="fee2-45f4-4fee-37de" name="Plasma Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5393-fabd-c13a-76aa" name="Plasma Cannon (Standard)" hidden="false" targetId="1f9e-bb07-ee1e-d7da" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0052-ff20-41d5-a82c" name="Plasma Cannon (Supercharge)" hidden="false" targetId="4ede-62b1-40fb-36a1" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="21.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="edac-616a-5b77-37a4" name="Core Philosophies" hidden="false" collective="false">
@@ -1648,6 +1675,34 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="This model has a 5+ invulnerable save."/>
+      </characteristics>
+    </profile>
+    <profile id="1f9e-bb07-ee1e-d7da" name="Plasma Cannon (Standard)" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Heavy D3"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="7"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-3"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="4ede-62b1-40fb-36a1" name="Plasma Cannon (Supercharge)" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Heavy D3"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="8"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-3"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="2"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shot have been resolved."/>
       </characteristics>
     </profile>
   </sharedProfiles>
