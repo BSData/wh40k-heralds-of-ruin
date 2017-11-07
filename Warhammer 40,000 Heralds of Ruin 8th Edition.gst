@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="2" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="3" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -981,6 +981,352 @@
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="21.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="aad1-2e64-835a-f29a" name="Grav-gun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b613-f375-b174-6eb4" name="Grav-gun" hidden="false" targetId="bf9e-fcc2-c926-4740" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c823-c5fa-24d0-a4c8" name="Grav-pistol" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="de84-250c-edf2-0166" name="Grav-pistol" hidden="false" targetId="d796-6ed4-9bb1-9ce9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d553-4ac6-680a-0c12" name="Grav-cannon and Grav-amp" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="67b9-2a31-603e-e1f1" name="Grav-cannon and Grav-amp" hidden="false" targetId="ff5a-e53b-a7da-12bb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="28.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7b81-ae8c-ed1f-fc9c" name="Combi-grav" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="1ee9-b57b-6249-268d" name="Grav-gun" hidden="false" targetId="bf9e-fcc2-c926-4740" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7b6d-a05b-0376-a004" name="Boltgun" hidden="false" targetId="4d4a-751e-7229-7a3b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbe0-750c-5945-8344" name="Thunder Hammer" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ed70-647a-e33b-e567" name="Thunder Hammer" hidden="false" targetId="74e2-ba93-fafa-70c2" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a91e-d945-bba0-6a3c" name="Storm Shield" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="903c-3389-379b-f2e2" name="Storm Shield" hidden="false" targetId="84ce-e3f4-92e8-536b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="581f-00f2-2fa7-b090" name="Assault Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="985c-b18b-70cb-8a7d" name="Assault Cannon" hidden="false" targetId="1038-84ef-5513-742d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e770-b780-1717-ea36" name="Cyclone Missile Launcher" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="06a9-5b5f-6124-247b" name="Cyclone Missile Launcher (Frag)" hidden="false" targetId="2d35-eaa6-4e9f-3a37" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1012-e2f0-bc62-5f70" name="Cyclone Missile Launcher (Krak)" hidden="false" targetId="3ec8-fe07-45b3-b8e7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a9c2-004d-7b1b-fa20" name="Combat Shield" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9874-9b8e-0d66-cf2c" name="Combat Shield" hidden="false" targetId="72ce-eb52-1e52-40bb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="4.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b0ae-f9a7-59e2-c725" name="Melta Bombs" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="175d-9f68-a73a-ecf2" name="Melta Bomb" hidden="false" targetId="b3ed-1172-3399-9c5e" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1a4-85f3-f39e-bc54" name="Eviscerator" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8a46-8656-f080-df90" name="Eviscerator" hidden="false" targetId="dab2-d09f-42f7-380a" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="beae-6b19-7d88-cdab" name="Special Issue Boltgun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5315-7de5-b0da-57e3" name="Special Issue Boltgun" hidden="false" targetId="4c8b-c403-3845-c968" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3437-4d62-0754-887a" name="Relic Blade" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6a9a-13c3-238c-401f" name="Relic Blade" hidden="false" targetId="fe3e-db6b-63af-a3c0" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e30f-fa17-e5b3-5a10" name="Astartes Shotgun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="fb84-8c2b-4d8d-bab5" name="Astartes Shotgun" hidden="false" targetId="23af-bce5-65f3-33ef" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="ec03-ef24-7140-72ac" name="Camo Cloak" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="99c3-26b4-51cb-ffa8" name="Camo Cloak" hidden="false" targetId="220e-544a-cb38-d6b5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dcfa-e660-b5f7-07e0" name="Master-crafted Boltgun" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="738b-6cac-ccf3-d6d1" name="Master-crafted Boltgun" hidden="false" targetId="bd78-c6a3-cc87-6044" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="3.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="edac-616a-5b77-37a4" name="Core Philosophies" hidden="false" collective="false">
@@ -1703,6 +2049,242 @@
         <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-3"/>
         <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="2"/>
         <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="On a hit roll of 1, the bearer is slain after all of this weapon&apos;s shot have been resolved."/>
+      </characteristics>
+    </profile>
+    <profile id="7d5c-a08a-41df-c1bf" name="And They Shall Know No Fear" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="You can re-roll failed Morale tests for this model."/>
+      </characteristics>
+    </profile>
+    <profile id="bf9e-fcc2-c926-4740" name="Grav-gun" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="18&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Rapid Fire 1"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="5"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-3"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="If the target has a Save characteristic of 3+ or better, this weapon has a Damage characteristic of D3."/>
+      </characteristics>
+    </profile>
+    <profile id="d796-6ed4-9bb1-9ce9" name="Grav-pistol" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Pistol 1"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="5"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-3"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="If the target has a Save characteristic of 3+ or better, this weapon has a Damage characteristic of D3."/>
+      </characteristics>
+    </profile>
+    <profile id="ff5a-e53b-a7da-12bb" name="Grav-cannon and Grav-amp" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Heavy 4"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="5"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-3"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="If the target has a Save characteristic of 3+ or better, this weapon has a Damage characteristic of D3."/>
+      </characteristics>
+    </profile>
+    <profile id="74e2-ba93-fafa-70c2" name="Thunder Hammer" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Melee"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="x2"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-3"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="3"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
+      </characteristics>
+    </profile>
+    <profile id="84ce-e3f4-92e8-536b" name="Storm Shield" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="A model with a storm shield has a 3+ invulnerable save."/>
+      </characteristics>
+    </profile>
+    <profile id="2d35-eaa6-4e9f-3a37" name="Cyclone Missile Launcher (Frag)" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Heavy 2D3"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="4"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="0"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="3ec8-fe07-45b3-b8e7" name="Cyclone Missile Launcher (Krak)" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="36&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Heavy 2"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="8"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-2"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="D6"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="1038-84ef-5513-742d" name="Assault Cannon" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Heavy 6"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="6"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-1"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="72ce-eb52-1e52-40bb" name="Combat Shield" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="A model with a combat shield has a 5+ invulnerable save."/>
+      </characteristics>
+    </profile>
+    <profile id="b3ed-1172-3399-9c5e" name="Melta Bomb" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="4&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Greande 1"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="8"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-4"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="D6"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="dab2-d09f-42f7-380a" name="Eviscerator" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Melee"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="x2"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-4"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="D3"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="When attacking with this weapon, you must subtract 1 from the hit roll."/>
+      </characteristics>
+    </profile>
+    <profile id="4c8b-c403-3845-c968" name="Special Issue Boltgun" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="30&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Rapid Fire 1"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="4"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-2"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="daed-102a-929f-a1e3" name="Jump Pack Assault" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="During deployment you can set this model up high in the sky instead of placing it on the battlefield. At the end of any of your Movement phases this model can assault from above - set it up anywhere that is more than 9&quot; away from any enemy models."/>
+      </characteristics>
+    </profile>
+    <profile id="fe3e-db6b-63af-a3c0" name="Relic Blade" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="Melee"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Melee"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="+2"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-3"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="D3"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="23af-bce5-65f3-33ef" name="Astartes Shotgun" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="12&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Assault 2"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="4"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="0"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="If the target is within half range, add 1 to this weapon&apos;s Strength."/>
+      </characteristics>
+    </profile>
+    <profile id="220e-544a-cb38-d6b5" name="Camo Cloak" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="A model with a camo cloak adds 2 to its saving throws when it receives the benefit of cover, instead of 1."/>
+      </characteristics>
+    </profile>
+    <profile id="e0fc-dd34-475c-b8b6" name="Psychic Hood" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="You can add 1 to Deny the Witch tests you make for this model against enemy PSYKERS within 12&quot;."/>
+      </characteristics>
+    </profile>
+    <profile id="bd78-c6a3-cc87-6044" name="Master-crafted Boltgun" hidden="false" profileTypeId="41a1-fffe-3692-5c78" profileTypeName="Weapons">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="27c5-71cf-70fa-8719" value="24&quot;"/>
+        <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Rapid Fire 1"/>
+        <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="4"/>
+        <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-1"/>
+        <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="2"/>
+        <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="-"/>
       </characteristics>
     </profile>
   </sharedProfiles>
