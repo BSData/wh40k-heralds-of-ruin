@@ -1283,7 +1283,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ec03-ef24-7140-72ac" name="Camo Cloak" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -2285,6 +2287,15 @@
         <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="-1"/>
         <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="2"/>
         <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="99c8-e80f-b23e-e19c" name="Narthecium" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="At the end of any of your Movement phases, the Apothecary can attempt to heal or revive a single model. Select a friendly &lt;CHAPTER&gt; INFANTRY or BIKER model within 3&quot; of the Apothecary that died this turn. On a 4+ a single slain model is returned with 1 wound remaining. If the Apothecary fails to revive a model it can do nothing else for the remainder of the turn (shoot, charge, fight, etc.) while recovering the gene-seed of the fallen warrior. A model can only be the target of the Narthecium ability once in each turn. You can instead choose a wounded model: it immediately regains D3 lost wounds."/>
       </characteristics>
     </profile>
   </sharedProfiles>
