@@ -596,15 +596,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f393-092a-719d-3d1c" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="d715-0646-c5cd-4ef1" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -620,15 +612,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e633-860f-3287-c8e2" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="6c14-d712-8d93-61a3" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -668,15 +652,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708a-a74b-392c-473f" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="b04e-5b9c-40ed-aa10" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -740,15 +716,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3ccd-ad6d-38df-d24d" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="636d-b19a-496c-353a" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -788,15 +756,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="da48-be48-6082-1f76" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="ea61-8c26-d0d8-477c" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -812,15 +772,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="80d7-942b-70e6-9752" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="5e42-bb8f-4f45-842d" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -884,15 +836,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8aed-b7f6-80e9-71e8" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="a858-f539-e20d-295e" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -948,15 +892,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2687-6139-b213-c698" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="6da0-b50d-1156-38bd" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -1012,15 +948,7 @@ Place the summoned daemon within 12&quot; of your Leader and at least 9&quot; fr
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f7a8-552b-4be9-a920" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="a822-f24b-276e-affe" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">

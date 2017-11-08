@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d87d-6592-fd60-9a00" name="Heretic Astartes: Death Guard" book="HoR Death Guard v9.3" revision="1" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d87d-6592-fd60-9a00" name="Heretic Astartes: Death Guard" book="HoR Death Guard v9.3" revision="2" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -241,15 +241,7 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2f11-54c1-404f-269e" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="1466-c30c-2b0d-6bd5" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -433,15 +425,7 @@
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <repeats/>
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b17-fe43-f5e7-33f2" type="atLeast"/>
-          </conditions>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints/>
       <categoryLinks>
         <categoryLink id="382c-8fa5-97bb-d7e8" name="New CategoryLink" hidden="false" targetId="209c-e3d9-e6fd-dd60" primary="true">
@@ -2217,16 +2201,7 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="ed2f-1908-e084-fdf1" name="Armoury" hidden="false" targetId="b9f8-9d77-c476-d33c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="4.0"/>
       </costs>
@@ -2515,14 +2490,6 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="7906-1e57-5ab5-2c91" name="Armoury" hidden="false" targetId="b9f8-9d77-c476-d33c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="19.0"/>
@@ -2784,16 +2751,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="0b9d-cfa0-b372-e769" name="Armoury" hidden="false" targetId="b9f8-9d77-c476-d33c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="6.0"/>
       </costs>
@@ -2886,16 +2844,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="b855-346b-e1d8-d1c1" name="Armoury" hidden="false" targetId="b9f8-9d77-c476-d33c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="7.0"/>
       </costs>
@@ -3004,16 +2953,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="4439-2fc5-283a-d1bc" name="Armoury" hidden="false" targetId="b9f8-9d77-c476-d33c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="7.0"/>
       </costs>
@@ -3962,16 +3902,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="7393-9e9c-1180-2e2d" name="Armoury" hidden="false" targetId="b9f8-9d77-c476-d33c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="33.0"/>
       </costs>
@@ -4103,16 +4034,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="4b4b-ad84-49fb-fee4" name="Armoury" hidden="false" targetId="b9f8-9d77-c476-d33c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
-      </entryLinks>
+      <entryLinks/>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="38.0"/>
       </costs>
@@ -4217,14 +4139,6 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="07ad-5040-bdef-2728" name="Armoury" hidden="false" targetId="b9f8-9d77-c476-d33c" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" costTypeId="10e4-a657-021d-956c" value="34.0"/>
@@ -4282,7 +4196,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="da1d-d202-377e-9efb" name="1st Plague Company" hidden="false" collective="false" type="upgrade">
                   <profiles>
@@ -4304,7 +4220,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="964e-d33e-17e4-25d6" name="The Gifted" hidden="false" collective="false" type="upgrade">
                   <profiles>
@@ -4326,7 +4244,9 @@
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -4346,7 +4266,9 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
