@@ -1922,7 +1922,7 @@
             <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Melee"/>
             <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="User"/>
             <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="0"/>
-            <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value=""/>
+            <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
             <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value=""/>
           </characteristics>
         </profile>
@@ -3061,7 +3061,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="All models within 3&quot; of the Primary Target are automatically Secondary Targets. When the weapon hits the target, roll a D6 to see how much damage is inflicted; on a 1, the spore mine inflicts no damage, on a 2-5 it inflicts 1 mortal wound, on a 6 it inflicts D3 mortal wounds. Owner of target chooses how to allocate multiple wounds, followiong usual restrictions.  Each time a spore mine launcher misses its target, set up a single Spore Mine model anywhere within 6&quot; of the target model and more than 3&quot; from any enemy model (if the model cannot be placed it is destroyed). This then follows the rules for a Spore Mine that is part of your army, but it can&apos;t move or charge during the turn it is set up."/>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="All models within 3&quot; of the Primary Target are automatically Secondary Targets. When the weapon hits the target, roll a D6 to see how much damage is inflicted; on a 1, the spore mine inflicts no damage, on a 2-5 it inflicts 1 mortal wound, on a 6 it inflicts D3 mortal wounds. Owner of target chooses how to allocate multiple wounds, followiong usual restrictions.  Each time a spore mine launcher misses its target, set up a single Spore Mine model anywhere within 6&quot; of the target model and more than 3&quot; from any enemy model (if the model cannot be placed it is destroyed). This then follows the rules for a Spore Mine that is part of your army, but it can&apos;t move or charge during the turn it is set up. This weapon can target models that are not visible to the firer, but it cannot be used to fire Overwatch."/>
           </characteristics>
         </profile>
       </profiles>
@@ -4882,7 +4882,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191"/>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="&lt;Hive Fleet&gt; models automatically pass Morale tests if they are within 12&quot; of any friendly &lt;Hive Fleet&gt; models with this ability."/>
       </characteristics>
     </profile>
     <profile id="f392-f069-1014-07ed" name="Death from Below" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
