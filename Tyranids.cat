@@ -1922,7 +1922,7 @@
             <characteristic name="Type" characteristicTypeId="f28e-aa5b-39b5-83bd" value="Melee"/>
             <characteristic name="S" characteristicTypeId="6cf2-1188-518e-bd0a" value="User"/>
             <characteristic name="AP" characteristicTypeId="53b9-fa95-ba02-ba11" value="0"/>
-            <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value=""/>
+            <characteristic name="D" characteristicTypeId="1f67-d868-aea6-63e9" value="1"/>
             <characteristic name="Abilities" characteristicTypeId="933e-2a2d-32be-60c9" value=""/>
           </characteristics>
         </profile>
