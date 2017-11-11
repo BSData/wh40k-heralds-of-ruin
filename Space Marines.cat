@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6f60-4b0d-7f8b-fc82" name="Space Marines" book="HoR: Space Marines v9.6" revision="2" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6f60-4b0d-7f8b-fc82" name="Space Marines" book="HoR: Space Marines v9.6" revision="3" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -6732,7 +6732,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -10992,7 +10994,7 @@
             <characteristic name="BS" characteristicTypeId="108e-f90e-ffbe-6a30" value="3+"/>
             <characteristic name="S" characteristicTypeId="52e2-5c18-bff1-7b24" value="4"/>
             <characteristic name="T" characteristicTypeId="3b41-1e91-2ff1-dd52" value="4"/>
-            <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="1"/>
+            <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="4"/>
             <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="2"/>
             <characteristic name="Ld" characteristicTypeId="a115-d314-3e51-f63b" value="8"/>
             <characteristic name="Sv" characteristicTypeId="359d-e887-edd9-6f7a" value="3+"/>
@@ -11060,9 +11062,17 @@
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4234-82b5-8592-2eeb" name="Armoury" hidden="false" targetId="fb86-75fb-5191-5b84" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="13.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="28.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a92f-cdbf-0233-96e8" name="Initiate" hidden="false" collective="false" type="model">
@@ -11206,15 +11216,7 @@
               <infoLinks/>
               <modifiers/>
               <constraints/>
-              <categoryLinks>
-                <categoryLink id="23c6-578a-0954-6217" name="New CategoryLink" hidden="false" targetId="c72c-1a17-86de-79c5" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
+              <categoryLinks/>
             </entryLink>
             <entryLink id="03c6-f8e0-7ff2-956c" name="Lightning Claw" hidden="false" targetId="c075-b864-d092-0152" type="selectionEntry">
               <profiles/>
@@ -11581,7 +11583,9 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -11640,7 +11644,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="14ac-4899-2954-0b68" name="Hand Flamer" hidden="false" collective="false" type="upgrade">
