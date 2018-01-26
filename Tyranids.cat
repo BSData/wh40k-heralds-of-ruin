@@ -1848,7 +1848,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="M" characteristicTypeId="a88e-c39f-a27a-ecea" value="5&quot;"/>
+            <characteristic name="M" characteristicTypeId="a88e-c39f-a27a-ecea" value="6&quot;"/>
             <characteristic name="WS" characteristicTypeId="9280-ddeb-02dd-ae09" value="5+"/>
             <characteristic name="BS" characteristicTypeId="108e-f90e-ffbe-6a30" value="5+"/>
             <characteristic name="S" characteristicTypeId="52e2-5c18-bff1-7b24" value="3"/>
