@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7dee-7cfd-1d82-0f45" name="Tyranids" page="" revision="3" battleScribeVersion="2.01" authorName="Taikkuus" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7dee-7cfd-1d82-0f45" name="Tyranids" page="" revision="4" battleScribeVersion="2.01" authorName="Taikkuus" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -841,7 +841,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0531-bc98-8158-557e" name="Adrenal Glands" hidden="false" collective="false" type="upgrade">
@@ -888,7 +888,7 @@
       <rules/>
       <infoLinks/>
       <modifiers>
-        <modifier type="set" field="10e4-a657-021d-956c" value="3">
+        <modifier type="set" field="10e4-a657-021d-956c" value="1">
           <repeats/>
           <conditions/>
           <conditionGroups>
@@ -937,9 +937,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="1.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="0050-3c1b-4814-748d" name="Toxin Sacs" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1517,7 +1515,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="4.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d4ae-7c2e-291e-4638" name="Lash Whip and Bonesword" hidden="false" collective="false" type="upgrade">
@@ -1575,7 +1573,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="15.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c2f8-7570-f62d-aaf8" name="Venom Cannon" hidden="false" collective="false" type="upgrade">
@@ -1604,7 +1602,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="9.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a262-b2dc-5735-0b18" name="Spike Rifle" hidden="false" collective="false" type="upgrade">
@@ -1965,7 +1963,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3d28-6e70-091b-3c44" name="Termagant" hidden="false" collective="false" type="upgrade">
@@ -2370,7 +2368,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aa9e-76e5-a0b3-3df7" name="Impaler Cannon" hidden="false" collective="false" type="upgrade">
@@ -2517,19 +2515,16 @@
             <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Your opponent must subtract 1 from their hit roll for attacks that target this model. In addition, add 2 instead of 1 to saving throws for this model when it is in cover."/>
           </characteristics>
         </profile>
-        <profile id="bf74-b94a-db2e-afca" name="Hidden Hunter" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="During deployment, you can set up a Lictor in hiding instead of placing it on the battlefield. At the end of any of your movement phases, the Lictor can spring from its hiding place - set it up anywhere on the battlefield that is more than 9&quot; from any enemy models. You can re-roll the Lictor&apos;s Charge distance in the turn in which it uses this ability to arrive on the battlefield."/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="cacb-d8b1-7753-9533" name="Instinctive Behavior" hidden="false" targetId="edfc-3222-e6a8-5371" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9a86-64fb-6132-9834" name="Hidden Hunter" hidden="false" targetId="778c-55c4-90b0-a9d1" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2659,7 +2654,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="25.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3a63-a006-6708-ba37" name="Toxic Lashes" hidden="false" collective="false" type="upgrade">
@@ -2730,9 +2725,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="15.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="1663-04f1-b1e4-825b" name="Acid Maw" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -2759,9 +2752,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="4.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="e743-aaf4-fe73-93b6" name="Pyrovore" hidden="false" collective="false" type="model">
       <profiles>
@@ -2848,7 +2839,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="23.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bdb9-f7e1-8f07-82a2" name="Tyranid Shrike" hidden="false" collective="false" type="model">
@@ -3101,7 +3092,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="24.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="36.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1110-9765-c5e7-c5bb" name="Spore Mine Launcher" hidden="false" collective="false" type="upgrade">
@@ -3129,9 +3120,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="12.0"/>
-      </costs>
+      <costs/>
     </selectionEntry>
     <selectionEntry id="2cc4-48f8-4d27-090b" name="Neurothrope" hidden="false" collective="false" type="model">
       <profiles>
@@ -3146,7 +3135,7 @@
             <characteristic name="BS" characteristicTypeId="108e-f90e-ffbe-6a30" value="3+"/>
             <characteristic name="S" characteristicTypeId="52e2-5c18-bff1-7b24" value="4"/>
             <characteristic name="T" characteristicTypeId="3b41-1e91-2ff1-dd52" value="4"/>
-            <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="3"/>
+            <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="5"/>
             <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="1"/>
             <characteristic name="Ld" characteristicTypeId="a115-d314-3e51-f63b" value="9"/>
             <characteristic name="Sv" characteristicTypeId="359d-e887-edd9-6f7a" value="5+/3++"/>
@@ -3170,7 +3159,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="When the Neurothrope slays an enemy model with the Smite psychic power, it and up to one Zoanthrope within 3&quot; regain a wound lost earlier in the battle."/>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Each time a Neurothrope slays a model using the Smite psychic power, you can heal a wound on a friendly &lt;Hive Fleet&gt; Zoanthrope within 6&quot;."/>
           </characteristics>
         </profile>
         <profile id="660a-4941-e527-6fb7" name="Psychic Dominance" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
@@ -3231,7 +3220,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="40.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fdf6-a36d-7665-4f11" name="Zoanthrope" hidden="false" collective="false" type="upgrade">
@@ -3263,6 +3252,15 @@
             <characteristic name="Deny" characteristicTypeId="e9f9-b601-8a05-70c9" value="1"/>
             <characteristic name="Powers Known" characteristicTypeId="bb67-ea5d-9065-4930" value="Smite OR 1 Hive Mind"/>
             <characteristic name="Special" characteristicTypeId="df12-e886-0194-e58a"/>
+          </characteristics>
+        </profile>
+        <profile id="d69e-8828-9663-33a6" name="Warp Blast" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="When this unit manifests the Smite psychic power, it affects the closest visible enemy unit within 24&quot;, iinstead of within 18&quot;. A Zoanthrope casting Smite causes an additional D3 mortal wounds if there are 3 or more friendly Zoanthropes units within 3”."/>
           </characteristics>
         </profile>
       </profiles>
@@ -3533,13 +3531,19 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="During deployment, you can set up the Lictor Stalker on the trail of an enemy Character instead of placing it on the battlefield. When the Lictor Stalker arrives on the battlefield, you may set it up within 6&quot; of an enemy Character, but more than 1&quot; away from any enemy model."/>
+            <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Instead of setting up according to the Hidden Hunters rule, you can set the Lictor Stalker up on the trail of an enemy Character. When the Lictor Stalker arrives on the battlefield, you may set it up within 6” of the enemy character, but more than 1” from any enemy model."/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="2734-655f-07cf-291a" name="Shadow in the Warp" hidden="false" targetId="9d18-4d60-a748-1ef5" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9efe-6fce-f3b9-81d3" name="Hidden Hunter" hidden="false" targetId="778c-55c4-90b0-a9d1" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4651,7 +4655,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d62c-7a6c-c017-85f4" name="Hollow Exoskeleton" hidden="false" collective="false" type="upgrade">
@@ -4946,6 +4950,15 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Your opponent must subtract 1 from hit rolls for ranged weapons that target &lt;Hive Fleet&gt; Infantry units within 3&quot; of any friendly &lt;Hive Fleet&gt; models with this rule."/>
+      </characteristics>
+    </profile>
+    <profile id="778c-55c4-90b0-a9d1" name="Hidden Hunter" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="During deployment, you can set up a Lictor in hiding instead of placing it on the battlefield. At the end of any of your movement phases, the Lictor can spring from its hiding place - set it up anywhere on the battlefield that is more than 9&quot; from any enemy models. You can re-roll the Lictor&apos;s Charge distance in the turn in which it uses this ability to arrive on the battlefield."/>
       </characteristics>
     </profile>
   </sharedProfiles>
