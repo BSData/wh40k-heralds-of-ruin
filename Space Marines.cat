@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6f60-4b0d-7f8b-fc82" name="Space Marines" book="HoR: Space Marines v9.6" revision="3" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="6f60-4b0d-7f8b-fc82" name="Space Marines" book="HoR: Space Marines v9.6" revision="4" battleScribeVersion="2.01" authorName="GenWilhelm" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" gameSystemId="627d-3dba-ad3d-ffdd" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2090,7 +2090,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="28.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="31.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7577-4be0-b4c7-c933" name="Vanguard Veteran Sergeant" hidden="false" collective="false" type="model">
@@ -3012,7 +3012,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="41.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="245e-102a-6c6c-7627" name="Teleport Homer" hidden="false" collective="false" type="upgrade">
@@ -3200,7 +3200,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="40.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="44.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4bd6-3bd5-bb9b-b37b" name="Tartaros Terminator Sergeant" hidden="false" collective="false" type="model">
@@ -4112,7 +4112,7 @@
             <characteristic name="S" characteristicTypeId="52e2-5c18-bff1-7b24" value="4"/>
             <characteristic name="T" characteristicTypeId="3b41-1e91-2ff1-dd52" value="4"/>
             <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="4"/>
-            <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="3"/>
+            <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="2"/>
             <characteristic name="Ld" characteristicTypeId="a115-d314-3e51-f63b" value="8"/>
             <characteristic name="Sv" characteristicTypeId="359d-e887-edd9-6f7a" value="3+"/>
           </characteristics>
@@ -4407,7 +4407,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="63.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c2b-1dcd-72ff-97a3" name="Primaris Lexicanum" hidden="false" collective="false" type="model">
@@ -5639,7 +5639,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="14.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="433c-27c7-cd0f-8a49" name="Flamestorm Gauntlets" hidden="false" collective="false" type="upgrade">
@@ -6143,7 +6143,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="30.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9238-ed9e-d545-9f49" name="2x Plasma Exterminator" hidden="false" collective="false" type="upgrade">
@@ -6186,7 +6186,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="56.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="34.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06e3-f4ca-38f3-1e7e" name="Hellblaster Sergeant" hidden="false" collective="false" type="model">
@@ -6335,7 +6335,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="28.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="20f8-7baa-7295-cc64" name="Plasma Incinerator" hidden="false" collective="false" type="upgrade">
@@ -6421,7 +6421,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="16.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="17.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5843-fa0c-5515-c31a" name="Heavy Plasma Incinerator" hidden="false" collective="false" type="upgrade">
@@ -6476,7 +6476,296 @@
         <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a78-2b88-f819-03dc" type="max"/>
       </constraints>
       <categoryLinks/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="5924-0b41-7c8c-6d63" name="Red Hunters" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a77f-3436-73d4-2a66" name="Mnemonic Redaction Protocols" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="At the beginning of the game, roll a D6 and consult the following table.  All RED HUNTERS units gain the listed ability for the duration of the game. 1: Affected units may fire rapid fire weapons after advancing. 2: When affected units are charged, they fight with +1 attacks in the subsequent Fight phase. 3: Affected models advance 6” rather than 3”. 4: Affected models improve their strength by 1 in any turn in which they successfully charge. 5: Affected models may re-roll failed hit rolls when firing Overwatch. 6: Mind Wiped; no special ability."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0965-4da3-d6c3-9a36" name="Novamarines" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5922-aa23-44a9-5afb" name="Xeno Hunters" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Units with this Chapter Tactic can re-roll failed wound rolls of 1 when attacking a models that do not have the IMPERIUM or CHAOS keyword. If another source already grants them the ability to re-roll wound rolls of 1, they can re-roll failed hit rolls of 1 as well."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5065-c135-18a3-9715" name="Fire Hawks" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9660-bf2a-1601-dae3" name="Shock and Awe" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="FIRE HAWKS kill teams add Hand Flamer to the Pistols list. Furthermore, when a FIRE HAWKS unit with the FLY keyword successfully charges, roll a d6.  On a 5+, one of the enemy models that was charged suffers a Mortal Wound."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e274-eeb4-5060-7b62" name="Star Phantoms" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c431-ec4d-a1ea-b2dd" name="Lords of Ruin" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="You can declare that you will use this Chapter Tactic once per battle, during the Shooting Phase. Until the end of that shooting phase, all friendly units with this Chapter Tactic re-roll failed hit rolls of 1. In addition, STAR PHANTOMS units hit on 5+ when firing overwatch. When rolling for reserves, STAR PHANTOMS kill teams may modify their rolls by + 1 or -1. "/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="460c-3ebd-a542-1e90" name="Astral Claws" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5261-2a0d-e152-086b" name="Rapid Attack and Encirclement" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Enemy units that targets with a shooting attack a model with this Chapter Tactic that advanced in their last movement phase suffer a -1 penalty to their hit rolls. Furthermore, ignore Leadership penalties from all sources for Team Leaders with this Chapter Tactic."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="026f-a6ac-49f4-574a" name="Minotaurs" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="6470-a39b-50f5-41df" name="Brazen Fratricide" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="MINOTAURS units add +1” to their advance and charge rolls. Furthermore, when attacking any model with the Astartes keyword in the Fight phase, on a hit roll of 6, a MINOTAURS unit may make an extra attack with the same weapon.  These bonus attacks cannot generate further bonus attacks. "/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7e96-d0da-7772-280a" name="Black Dragons" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b331-a4c3-dc67-6ad0" name="Curse of the Dragon" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="BLACK DRAGONS units that do not have close combat weapons (i.e. chainswords, power weapons, etc) treat any attack that rolls a 6 to wound as being AP -2 in the Fight phase. If a model has a melee weapon, it gains +1 Strength in any turn in which they charge."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="646a-bc3e-6a89-17ca" name="Sons of Medusa" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="268a-08af-89ac-9118" name="Strength of the Machine" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="SONS OF MEDUSA kill teams may take a Tech-Adept as a team leader. Furthermore, all SONS OF MEDUSA units gain a 6+ invulnerable save. Finally, any SONS OF MEDUSA unit with the ability to repair vehicles, may use it on friendly models with this Chapter Tactic to restore wounds lost earlier in the battle, even if it’s not a VEHICLE."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b47e-f797-1ef6-898a" name="Storm Wardens" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="95b2-3532-ff97-2db9" name="Unparalleled Duelists" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Any model with this Chapter Tactic that can take a power sword may take a relic blade instead (paying the cost of a relic blade rather than a power sword). Furthermore, if a model with this Chapter Tactic is in a close combat that involves only itself and a single enemy model, that enemy model must re-roll successful save rolls against that model’s attacks."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3cdb-4579-1380-d08a" name="Soul Drinkers" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c692-ab93-555c-0c1f" name="Cold and Fast" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="SOUL DRINKERS units that roll a 6 to hit with a boltgun, special issue boltgun, master-crafted boltgun, bolt rifle, bolt carbine or the bolter component (and only the bolter component) of a combi-weapon that is firing at less than half range may make an extra attack with that weapon. These bonus attacks do not, themselves, generate bonus attacks. Furthermore, SOUL DRINKERS units consolidate up to 4” and can move in any direction, rather than toward the nearest enemy unit."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3399-07ca-ba90-d26b" name="Iron Snakes" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7732-9d1f-360e-298e" name="The Strong are Strongest Alone" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="TACTICAL SQUAD, ASSAULT SQUAD and INTERCESSORS unit with this Chapter Tactic add +1 to their hit rolls in the first round of each close combat if there are more enemy units than friendly units involved in that close combat. Furthermore, APOTHECARY models with this Chapter Tactic add +1 to the roll when trying to revive a model."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4c3a-4a9e-5b2f-4395" name="Blood Ravens" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f648-beea-46f5-b5d2" name="Knowledge is Power" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="When a BLOOD RAVENS opponent spends a tactical point, roll a d6.  On a 1-4, nothing happens.  On a 5, the BLOOD RAVENS kill team gains a tactical point.  On a 6, the BLOOD RAVENS kill team gains a tactical point and the stratagem the opponent was trying to use fails unless that opponent spends another Tactical Point. Furthermore, PSYKERS with this Chapter Tactic add +1 to the roll when attempting to manifest psychic powers. "/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="91cc-e75d-2cf5-1867" name="Chapters" hidden="false" collective="false">
           <profiles/>
@@ -6724,6 +7013,222 @@
             </selectionEntry>
             <selectionEntry id="6d33-33e0-268a-7aeb" name="Blood Angels" hidden="false" collective="false" type="upgrade">
               <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e913-264c-2883-b57d" name="Red Scorpions" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6e66-ac6b-5010-ee1d" name="Purity Above All" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Any Tactical Sergeant, Sternguard Sergeant or Primaris Intercessor Sergeant may carry a Narthecium for 15 points. If a Narthecium is taken this way, you cannot take an Apothecary."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6e85-2767-c107-b544" name="Howling Griffons" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="30fa-bb52-4ca9-e180" name="Hold To Your Oaths!" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="HOWLING GRIFFONS may re-roll 1’s to hit in the Fight phase if there are more enemy models than friendly models engaged in that close combat. Furthermore, the range of all aura abilities is increased by 3”."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="654e-6d6b-5d16-d95f" name="Exorcists" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="5269-e5f0-6963-5638" name="Armour of Contempt" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="EXORCISTS units that are chosen as targets of psychic powers may attempt to deny one psychic power per Psychic Phase, but they must subtract 1 from the roll. Additionally, LIBRARIAN models may re-roll the dice to deny the witch. Furthermore, each time a model with this Chapter Tactic suffers a Mortal Wound from a psychic power roll a D6. On a 5+ the Mortal Wound is ignored."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bcb4-ad5f-84d9-98fa" name="Carcharodons" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="ae46-833c-2f03-7f53" name="Reavers of Outer Darkness" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Any Tactical Marine or Intercessor may exchange their bolter or bolt rifle with a chainsword or warknife. Any Tactical Marine or Intercessor may, in addition to their other wargear, purchase a chainsword for 1 point or a Chainaxe for 2 pts. Furthermore, enemy models within 1” of a model with this Chapter Tactic subtract 1 from their leadership."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2883-85fc-ec0c-a8a1" name="Fire Angels" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="e032-c676-f253-2944" name="No Mercy From the Edge of the Blade" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Models with this Chapter Tactic gain a 6+ Invulnerable save. In addition, any FIRE ANGELS model carrying a Chainsword may upgrade it to a Power Sword for 3 points. "/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="507c-6c6b-f09a-39f2" name="Raptors" book="" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8693-588e-ca8d-c43b" name="Legendary Marksmen" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="In the Shooting phase, a RAPTORS unit may choose to treat its bolter, bolt rifle, special issue boltgun or bolt pistol as heavy 1 (decide before firing). If it does so, on a wound roll of 6, treat that hit  as though it had an AP of -3. Furthermore, RAPTORS units add 2 to their armour saves for being in cover, rather than +1, for the first game turn only. "/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4c40-fc7d-c50d-72dc" name="Mantis Warriors" book="" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="0d43-c518-2bd0-0dc6" name="The Path Foreseen" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="Infantry models without the FLY or TERMINATOR keywords with this Chapter Tactics ignore the negative effects of terrain (such as slower movement, penalties etc). Furthermore, when a MANTIS WARRIORS model successfully makes a Charge from, any terrain that would grant it a cover bonus, it gains +1 attack until the end of that turn."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ae08-b7c4-ac78-6872" name="Marines Errant" book="" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f308-aaa3-7dfa-82c2" name="Void Warriors" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="All models with this Chapter Tactic may re-roll failed armour saves against weapons that have a random number of shots.  In addition, the Frag Grenades of models with this Chapter Tactics are Strength 4."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="10e4-a657-021d-956c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b7d-9ac4-afcc-e557" name="Executioners" book="" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6c71-c8b1-ccf9-8968" name="Head-Takers" hidden="false" profileTypeId="ddee-43ab-3ac0-5b0c" profileTypeName="Abilities">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Description" characteristicTypeId="3218-8585-9459-9191" value="If a model with this Chapter tactics roll a 6+ to wound in the Fight phase, the Damage characteristic for that hit is increased by 1.  Furthermore, models with this Chapter Tactics ignore penalties to their Leadership and their To Hit rolls for melee attacks that are caused by enemy abilites and/or psychic powers."/>
+                  </characteristics>
+                </profile>
+              </profiles>
               <rules/>
               <infoLinks/>
               <modifiers/>
@@ -8086,7 +8591,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="31.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="25.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b74c-5f14-4d5d-2726" name="Attack Bike" hidden="false" collective="false" type="model">
@@ -8208,7 +8713,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="45.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7a2-fbed-aa64-2392" name="Scout Biker" hidden="false" collective="false" type="model">
@@ -9203,7 +9708,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="25.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="21.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dc26-6c98-de79-a1b6" name="Terminator" hidden="false" collective="false" type="model">
@@ -9531,7 +10036,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="31.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="26.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a904-04d0-17fe-5aba" name="Cataphractii Terminator" hidden="false" collective="false" type="model">
@@ -10286,8 +10791,8 @@
             <characteristic name="BS" characteristicTypeId="108e-f90e-ffbe-6a30" value="3+"/>
             <characteristic name="S" characteristicTypeId="52e2-5c18-bff1-7b24" value="4"/>
             <characteristic name="T" characteristicTypeId="3b41-1e91-2ff1-dd52" value="4"/>
-            <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="4"/>
-            <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="3"/>
+            <characteristic name="W" characteristicTypeId="e151-59d5-deba-976f" value="2"/>
+            <characteristic name="A" characteristicTypeId="8275-58d9-518a-65f3" value="2"/>
             <characteristic name="Ld" characteristicTypeId="a115-d314-3e51-f63b" value="8"/>
             <characteristic name="Sv" characteristicTypeId="359d-e887-edd9-6f7a" value="3+"/>
           </characteristics>
@@ -10481,7 +10986,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="55.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6c81-e4f6-0f57-57bf" name="Primaris Apothecary" hidden="false" collective="false" type="model">
@@ -10700,7 +11205,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="18.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="09c1-aa50-b025-54f9" name="Auxiliary Grenade Launcher" hidden="false" collective="false" type="upgrade">
@@ -11665,7 +12170,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="555c-8139-58a5-457f" name="Inferno Pistol" hidden="false" collective="false" type="upgrade">
