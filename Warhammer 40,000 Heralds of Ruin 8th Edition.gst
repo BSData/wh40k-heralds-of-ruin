@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="3" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="627d-3dba-ad3d-ffdd" name="Warhammer 40,000: Heralds of Ruin 8th Edition" book="HoR Kill Team Rules v5.0" page="" revision="4" battleScribeVersion="2.01" authorName="BSData Organisation" authorContact="@BSData" authorUrl="https://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin-killteam" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -139,7 +139,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="11.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b136-87f0-e449-d9ca" name="Combi-plasma" hidden="false" collective="false" type="upgrade">
@@ -178,7 +178,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="15.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4258-39b6-dc1e-7a7c" name="Combi-melta" hidden="false" collective="false" type="upgrade">
@@ -211,7 +211,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="19.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3435-b5c0-9349-c3dd" name="Boltgun" hidden="false" collective="false" type="upgrade">
@@ -280,7 +280,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="13.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7a1-8e79-57d2-ae09" name="Plasma Pistol" hidden="false" collective="false" type="upgrade">
@@ -307,7 +307,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="7.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7c8c-3442-d5a9-f670" name="Power Fist" hidden="false" collective="false" type="upgrade">
@@ -328,7 +328,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="12.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3ec9-2104-f259-b303" name="Krak Grenades" hidden="false" collective="false" type="upgrade">
@@ -454,7 +454,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="9.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c860-525c-247b-f967" name="Heavy Stubber" hidden="false" collective="false" type="upgrade">
@@ -496,7 +496,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="17.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="554b-fc9c-86c4-63de" name="Chainsword" hidden="false" collective="false" type="upgrade">
@@ -559,7 +559,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="17.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="14.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4f7-7d21-2d4d-ea5e" name="Heavy Bolter" hidden="false" collective="false" type="upgrade">
@@ -664,7 +664,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="27.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="71e6-5360-ef73-4b0d" name="Laspistol" hidden="false" collective="false" type="upgrade">
@@ -754,7 +754,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="25.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7b16-75fb-65d6-4810" name="Autocannon" hidden="false" collective="false" type="upgrade">
@@ -796,7 +796,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="4.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee2e-5fe6-d487-bad3" name="Hunter-killer Missile" hidden="false" collective="false" type="upgrade">
@@ -867,7 +867,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="22.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ea1-4963-1f1e-68e5" name="Force Sword" hidden="false" collective="false" type="upgrade">
@@ -888,7 +888,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="12.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3a8-43fc-c007-b006" name="Force Stave" hidden="false" collective="false" type="upgrade">
@@ -909,7 +909,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="14.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="8.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c5d5-69d8-e58c-7a4e" name="Force Axe" hidden="false" collective="false" type="upgrade">
@@ -930,7 +930,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="16.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0acf-c7e1-7dbb-4f68" name="2x Lightning Claw" hidden="false" collective="false" type="upgrade">
@@ -978,7 +978,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="21.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="16.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="aad1-2e64-835a-f29a" name="Grav-gun" hidden="false" collective="false" type="upgrade">
@@ -999,7 +999,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="15.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c823-c5fa-24d0-a4c8" name="Grav-pistol" hidden="false" collective="false" type="upgrade">
@@ -1068,7 +1068,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="17.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fbe0-750c-5945-8344" name="Thunder Hammer" hidden="false" collective="false" type="upgrade">
@@ -1110,7 +1110,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="5.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="581f-00f2-2fa7-b090" name="Assault Cannon" hidden="false" collective="false" type="upgrade">
@@ -1131,7 +1131,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="21.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e770-b780-1717-ea36" name="Cyclone Missile Launcher" hidden="false" collective="false" type="upgrade">
@@ -1158,7 +1158,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="50.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="38.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9c2-004d-7b1b-fa20" name="Combat Shield" hidden="false" collective="false" type="upgrade">
@@ -1221,7 +1221,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="22.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="beae-6b19-7d88-cdab" name="Special Issue Boltgun" hidden="false" collective="false" type="upgrade">
@@ -1263,7 +1263,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="21.0"/>
+        <cost name="pts" costTypeId="10e4-a657-021d-956c" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e30f-fa17-e5b3-5a10" name="Astartes Shotgun" hidden="false" collective="false" type="upgrade">
